@@ -70,4 +70,4 @@ fi
 git apply --index --3way "$PATCH_FILE"
 
 echo "OK: patch applied and staged."
-git diff --cached --stat
+git --no-pager diff --cached --stat
