@@ -43,9 +43,23 @@ if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
 fi
 
 # Read patch from stdin.
+if [ -t 0 ]; then
+  echo "ERROR: no patch provided on stdin (pipe a .patch into devkit/patch.sh)" >&2
+  echo >&2
+  usage >&2
+  exit 2
+fi
+
 PATCH_FILE="$(mktemp)"
 trap 'rm -f "$PATCH_FILE"' EXIT
-cat > "$PATCH_FILE"
+
+# Prime stdin: fail fast on empty non-tty stdin (e.g. </dev/null), while preserving full stream.
+if ! IFS= read -r -n 1 first_char; then
+  echo "ERROR: empty patch input" >&2
+  exit 2
+fi
+printf %s "$first_char" > "$PATCH_FILE"
+cat >> "$PATCH_FILE"
 
 if [ ! -s "$PATCH_FILE" ]; then
   echo "ERROR: empty patch input" >&2
