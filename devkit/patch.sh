@@ -2,9 +2,34 @@
 set -euo pipefail
 
 # DevKit patch helper.
+#
 # Usage:
 #   cat change.patch | devkit/patch.sh
-# Applies patch via git in a reproducible way and stages the result (canonical diff).
+#
+# Reads a unified diff from stdin, applies it via git in a reproducible way,
+# and stages the result (canonical diff).
+
+usage() {
+  cat <<'USAGE'
+DevKit patch helper.
+
+Usage:
+  cat change.patch | devkit/patch.sh
+
+Reads a unified diff from stdin, applies it via git in a reproducible way,
+and stages the result.
+
+Options:
+  -h, --help   Show this help and exit.
+USAGE
+}
+
+case "${1:-}" in
+  -h|--help)
+    usage
+    exit 0
+    ;;
+esac
 
 if ! command -v git >/dev/null 2>&1; then
   echo "ERROR: git not found in PATH" >&2
