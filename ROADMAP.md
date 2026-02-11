@@ -66,3 +66,9 @@ Governance focus:
 - pager исключён из workflow
 - добавлен альтернативный input: --file <path>
 - DevKit patcher готов к CI / Codex / агентному исполнению
+
+## Phase 4.C — Cross-repo Governance Rules [DONE]
+- Зафиксированы межрепозиторные governance-правила синхронизации DevKit governance-артефактов (scope IN/OUT/DERIVED).
+- Определены роли: DevKit (SoT), LAM (derivation/integration), downstream (adoption).
+- Описан policy-level workflow proposal → canonical acceptance (DevKit) → distribution → adoption.
+- Добавлена модель versioning/traceability; semantic governance tag обязателен (policy-only, без enforcement).

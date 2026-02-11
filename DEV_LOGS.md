@@ -60,3 +60,8 @@ DevKit patcher UX hardening.
 Итог:
 - devkit/patch.sh стал предсказуемым, неинтерактивным, CI/Codex-ready
 - философия инструмента сохранена
+
+## 2026-02-11 — Phase 4.C завершена
+- Добавлен PHASE_4C_CROSS_REPO_GOVERNANCE_CONTRACT.md (межрепозиторные governance-правила: scope, роли, update/acceptance workflow).
+- Добавлена модель governance versioning & traceability; semantic governance tag обязателен (policy-only).
+- Подтверждено: policy-only, derivation-only, non-runtime, без enforcement/automation.
