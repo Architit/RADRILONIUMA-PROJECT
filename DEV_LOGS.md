@@ -4,6 +4,11 @@
 - Documented `devkit/patch.sh` as the canonical patcher for the RADRILONIUMA DevKit.
 
 ## 2026-02-10 — Phase 3.0.C завершена
+
+## 2026-02-11 — Phase 3.1.C.1 завершена
+- Введён TASK_SPEC.md как каноничный декларативный контракт Task Spec.
+- Зафиксировано разделение ответственности: DevKit (формат/контракт) vs LAM/Taskarid (Source of Truth).
+- Реализация строго contracts-first, observability-first, derivation-only.
 DevKit patcher UX hardening.
 
 Закрытые дефекты:

@@ -9,6 +9,11 @@ Governance focus:
 - Changes to this governance require explicit review and consensus.
 
 ## Phase 3.0.C — DevKit patcher UX hardening [DONE]
+
+## Phase 3.1.C.1 — Task Spec Contract (core) [DONE]
+- Добавлен TASK_SPEC.md как декларативный контракт Task Spec.
+- Контракт определяет формат и связь: Task → Patch → devkit/patch.sh.
+- Без runtime-логики, execution-path влияния, шаблонов или wiring.
 - CLI usage / --help зафиксирован как контракт
 - fail-fast при отсутствии stdin
 - pager исключён из workflow
