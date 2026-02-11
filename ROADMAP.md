@@ -11,6 +11,12 @@ Governance focus:
 ## Phase 3.0.C — DevKit patcher UX hardening [DONE]
 
 ## Phase 3.1.C.1 — Task Spec Contract (core) [DONE]
+
+## Phase 3.2 — Ecosystem Structural Layer
+- Repo-native integration containers (no runtime).
+- 3-level naming model (True name / Public nickname / System ID).
+- Git subtree strategy for ecosystem distribution.
+- Strict separation from Task Spec Layer.
 - Добавлен TASK_SPEC.md как декларативный контракт Task Spec.
 - Контракт определяет формат и связь: Task → Patch → devkit/patch.sh.
 - Без runtime-логики, execution-path влияния, шаблонов или wiring.
