@@ -25,6 +25,11 @@ Governance focus:
 ## Phase 3.2 — Ecosystem Structural Layer
 
 ## Phase 3.2.A — Structural Definition [DONE]
+
+## Phase 3.2.B — Naming Model [DONE]
+- Введён NAMING_MODEL.md как формальный контракт 3-уровневой модели имён.
+- Зафиксированы обязательные уровни: True-name / Public nickname / System ID.
+- Добавлены канонические референсы (Loarachspoiszat, Tendshpoisat).
 - Введён ECOSYSTEM_STRUCTURE.md как не-runtime контракт экосистемной структуры.
 - Зафиксированы структурные контейнеры (Loarachspoiszat / Tendshpoisat).
 - Зафиксирована 3-уровневая модель имён и subtree-стратегия (intent-only).

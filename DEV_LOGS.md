@@ -12,6 +12,11 @@
 ## 2026-02-11 — Phase 3.1.C.3 завершена
 
 ## 2026-02-11 — Phase 3.2.A завершена
+
+## 2026-02-11 — Phase 3.2.B завершена
+- Добавлен NAMING_MODEL.md как контракт Naming Model.
+- Зафиксирована 3-уровневая идентификация как системное правило.
+- Подтверждено: non-runtime, derivation-only.
 - Добавлен ECOSYSTEM_STRUCTURE.md как контракт Ecosystem Structural Layer.
 - Подтверждено: repo-native, non-runtime, derivation-only.
 - Чётко разведены слои DevKit / LAM / экосистемные контейнеры.
