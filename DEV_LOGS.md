@@ -65,5 +65,11 @@ DevKit patcher UX hardening.
 - Добавлен PHASE_4C_CROSS_REPO_GOVERNANCE_CONTRACT.md (межрепозиторные governance-правила: scope, роли, update/acceptance workflow).
 - Добавлена модель governance versioning & traceability; semantic governance tag обязателен (policy-only).
 - Подтверждено: policy-only, derivation-only, non-runtime, без enforcement/automation.
+
+## 2026-02-11 — Phase 5.A объявлена (ROADMAP updated)
+- Добавлена Phase 5.A в ROADMAP (definition-only).
+- Определены пункты: rollout analysis / tagging waves / dashboard format.
+- Policy-only, observability-first, derivation-only.
+
 2026-02-11 07:54 UTC — Governance: clarified ssn rstrt semantics — active chat => Phase 1 (EXPORT) only; new chat => Phase 2 (IMPORT)
 2026-02-11 08:09 UTC — Governance: unified restart semantics — in active chat, (ssn|cld) rstrt => Phase 1 (EXPORT) only; new chat: ssn => IMPORT, cld => IMPORT + env sync

@@ -76,3 +76,11 @@ Governance focus:
 - Определены роли: DevKit (SoT), LAM (derivation/integration), downstream (adoption).
 - Описан policy-level workflow proposal → canonical acceptance (DevKit) → distribution → adoption.
 - Добавлена модель versioning/traceability; semantic governance tag обязателен (policy-only, без enforcement).
+
+## Phase 5 — Rollout & Ecosystem Observability Layer
+
+## Phase 5.A — Repo Rollout Analysis [PLANNED]
+- DevKit подтверждён как Source of Truth (SoT).
+- Определена стратегия governance tagging waves (SoT → LAM → downstream).
+- Зафиксирован формат Ecosystem Status Dashboard.
+- Policy-only, observability-first, derivation-only.
