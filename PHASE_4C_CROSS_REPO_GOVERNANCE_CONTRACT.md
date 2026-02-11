@@ -79,3 +79,66 @@ These may vary between repositories.
 ---
 
 End of Phase 4.C — Step 4.C.1 Contract.
+
+---
+
+## 3. Roles & Update / Acceptance Workflow
+
+### 3.1 Roles
+
+#### DevKit — Governance Authority
+- Canonical source of truth
+- Accepts and publishes governance changes
+- Owns contract evolution
+- Defines governance version history
+
+#### LAM — Integration & Derivation Layer
+- Consumes governance from DevKit
+- Maintains derivation discipline
+- Proposes changes via DevKit
+- Does not redefine canonical contracts
+
+#### Downstream Repositories — Adoption Layer
+- Adopt governance artifacts
+- May extend locally without breaking contracts
+- Do not override canonical governance
+
+---
+
+### 3.2 Change Origination
+
+Governance changes may originate from:
+- DevKit (primary path)
+- LAM or downstream repositories (proposal-only)
+
+All governance changes converge in DevKit.
+
+---
+
+### 3.3 Update Flow (Policy-Level)
+
+Step A — Proposal  
+- Governance proposal explicitly identified.
+
+Step B — Canonical Acceptance  
+- Change accepted in DevKit.
+- Contract updated.
+- Governance version recorded.
+
+Step C — Distribution  
+- Updated governance becomes available to consumers.
+- Distribution mechanism is not enforced.
+
+Step D — Adoption  
+- LAM / downstream adopt changes.
+- Local extensions allowed if contracts remain intact.
+
+---
+
+### 3.4 Explicit Non-Goals
+
+This workflow does NOT define:
+- Mandatory update timelines
+- Enforcement mechanisms
+- Automated propagation
+- Conflict resolution policy
