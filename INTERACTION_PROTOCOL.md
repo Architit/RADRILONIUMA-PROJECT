@@ -98,6 +98,22 @@ cld rstrt
 
 ---
 
+## Governance Review Stage (mandatory)
+
+После завершения фаз в ROADMAP следующий шаг разработки ОБЯЗАТЕЛЕН
+и не является execution-фазой.
+
+Governance Review Stage включает:
+- обзор ROADMAP и DEV_LOGS
+- картографирование фаз, этапов и зависимостей
+- обновление и синхронизацию протоколов
+- обзор тестов, окружений и состояния репозиториев
+- сводное состояние всей экосистемы
+
+Запрещено начинать новую execution-фазу
+до завершения Governance Review Stage.
+
+---
 ## Governance Rules
 
 ### Завершение фаз
@@ -167,4 +183,3 @@ DEV_LOGS
 ### Phase Close Invariant
 - Перед закрытием фазы рабочее дерево ДОЛЖНО быть clean.
 - Dirty working tree блокирует governance close.
-

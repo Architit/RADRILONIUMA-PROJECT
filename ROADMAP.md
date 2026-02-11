@@ -84,3 +84,9 @@ Governance focus:
 - Определена стратегия governance tagging waves (SoT → LAM → downstream).
 - Зафиксирован формат Ecosystem Status Dashboard.
 - Policy-only, observability-first, derivation-only.
+
+
+---
+**Current Development Stage:**
+Governance Review & Ecosystem Cartography
+(Phase 5 planning — review, mapping, synchronization; no execution)
