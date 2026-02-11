@@ -6,6 +6,11 @@
 ## 2026-02-10 — Phase 3.0.C завершена
 
 ## 2026-02-11 — Phase 3.1.C.1 завершена
+
+## 2026-02-11 — Phase 3.1.C.2 завершена
+- Введены декларативные шаблоны Task Spec (template + example).
+- Подтверждён принцип: DevKit = формат/контракт, LAM = Source of Truth.
+- Реализация строго contracts-first и observability-first.
 - Введён TASK_SPEC.md как каноничный декларативный контракт Task Spec.
 - Зафиксировано разделение ответственности: DevKit (формат/контракт) vs LAM/Taskarid (Source of Truth).
 - Реализация строго contracts-first, observability-first, derivation-only.

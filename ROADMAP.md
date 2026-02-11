@@ -12,6 +12,11 @@ Governance focus:
 
 ## Phase 3.1.C.1 — Task Spec Contract (core) [DONE]
 
+## Phase 3.1.C.2 — Task Spec Templates [DONE]
+- Добавлены декларативные YAML: task_spec_template.yaml и task_spec_example.yaml.
+- Без runtime-логики, без execution-path влияния.
+- Предназначено для Codex/agent исполнения.
+
 ## Phase 3.2 — Ecosystem Structural Layer
 - Repo-native integration containers (no runtime).
 - 3-level naming model (True name / Public nickname / System ID).
