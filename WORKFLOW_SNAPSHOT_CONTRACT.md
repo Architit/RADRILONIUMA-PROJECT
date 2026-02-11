@@ -15,7 +15,9 @@ This is a declarative contract. No automation is introduced.
 
 ## 1. Purpose
 
-`WORKFLOW_SNAPSHOT.md` is the **single canonical snapshot artifact** for:
+`WORKFLOW_SNAPSHOT_STATE.md` is the **single canonical snapshot artifact** (state).
+
+`WORKFLOW_SNAPSHOT_CONTRACT.md` defines this contract (rules and required fields) for:
 - exporting the current work context at the end of a chat/session,
 - importing that context in a new chat using `ssn rstrt`.
 
@@ -28,12 +30,12 @@ This prevents “context loss” and removes reliance on chat history.
 `ssn rstrt` MUST be treated as a two-phase operation:
 
 ### A) Snapshot Export (in the current chat, before leaving)
-- update `WORKFLOW_SNAPSHOT.md`
+- update `WORKFLOW_SNAPSHOT_STATE.md`
 - ensure repository is clean or explicitly describe local state
 - ensure governance is up to date
 
 ### B) Snapshot Import (in the new chat)
-- read `WORKFLOW_SNAPSHOT.md`
+- read `WORKFLOW_SNAPSHOT_STATE.md`
 - run read-only context sync:
   - `pwd`
   - `git status -sb`
@@ -76,7 +78,7 @@ A snapshot MUST contain:
 ## 4. Template (recommended)
 
 ```text
-# WORKFLOW SNAPSHOT
+# WORKFLOW SNAPSHOT (STATE)
 
 ## Identity
 repo: <name>
@@ -102,7 +104,9 @@ constraints:
 
 ## Notes
 - ...
-5. Non-goals
+```
+
+## 5. Non-goals
 
 This contract MUST NOT:
 
