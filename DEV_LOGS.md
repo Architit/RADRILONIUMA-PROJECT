@@ -20,6 +20,11 @@
 ## 2026-02-11 — Interaction Protocol update
 
 ## 2026-02-11 — Phase 4.A завершена
+
+## 2026-02-11 — Phase 4.B завершена
+- Добавлен WORKFLOW_SNAPSHOT.md как контракт Workflow Snapshot (Export/Import).
+- Зафиксировано правило двухфазного ssn rstrt: Export → Import.
+- Snapshot объявлен репо-каноничным источником контекста разработки.
 - Добавлен DEVKIT_SUBTREE_DISTRIBUTION.md как контракт синхронизации DevKit через subtree.
 - Определён список нормативных артефактов.
 - Исполнение subtree вынесено за пределы данной фазы.

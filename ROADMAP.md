@@ -7,6 +7,11 @@ Governance focus:
 ## Phase 4 — Governance Synchronization Layer (Subtree-based)
 
 ## Phase 4.A — DevKit Subtree Distribution [DONE]
+
+## Phase 4.B — Workflow Snapshot (Export/Import) [DONE]
+- Введён WORKFLOW_SNAPSHOT.md как контракт восстановления рабочего контекста.
+- ssn rstrt формализован как двухфазный процесс: snapshot export → import.
+- Исключена зависимость от истории чата.
 - Введён DEVKIT_SUBTREE_DISTRIBUTION.md как контракт политики subtree.
 - Зафиксированы нормативные артефакты DevKit.
 - Подтверждено: policy-only, non-runtime, derivation-only.
