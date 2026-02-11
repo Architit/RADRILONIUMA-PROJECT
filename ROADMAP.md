@@ -17,6 +17,8 @@ Governance focus:
 - Подтверждено: policy-only, non-runtime, derivation-only.
 
 ## Interaction Protocol — Restart Signals
+- Unified: in ACTIVE chat, both `ssn rstrt` and `cld rstrt` trigger **Phase 1 (EXPORT) only**. New chat: `ssn rstrt` = Phase 2 (IMPORT), `cld rstrt` = Phase 2 (IMPORT) + environment sync.
+
 - Clarified: `ssn rstrt` in active chat = Phase 1 (EXPORT) only (snapshot refresh). In a new chat = Phase 2 (IMPORT).
 
 - Добавлены каноничные сигналы: ssn rstrt и cld rstrt.

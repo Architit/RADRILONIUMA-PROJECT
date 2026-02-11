@@ -61,9 +61,10 @@ Context Sync
 ## Cold Restart / Recovery
 
 ### Session Restart (ssn rstrt)
-**Clarification — `ssn rstrt` semantics (deterministic):**
-- **New chat:** `ssn rstrt` starts **Phase 2 (IMPORT)** (Phase 1 EXPORT is assumed completed in the previous session).
-- **Active chat:** `ssn rstrt` triggers **Phase 1 (EXPORT) only** (snapshot refresh). **IMPORT is forbidden** because context is not lost.
+**Clarification — restart semantics (deterministic):**
+- **ACTIVE chat:** both `ssn rstrt` and `cld rstrt` trigger **Phase 1 (EXPORT) only** (snapshot refresh). **IMPORT is forbidden** because context is not lost.
+- **NEW chat:** `ssn rstrt` starts **Phase 2 (IMPORT)** (Phase 1 EXPORT is assumed completed in the previous session).
+- **NEW chat:** `cld rstrt` starts **Phase 2 (IMPORT)** plus **environment sync / minimal recovery**.
 
 Используется при новом чате без сброса среды.
 
