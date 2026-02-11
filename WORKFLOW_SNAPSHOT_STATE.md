@@ -3,7 +3,7 @@
 ## Identity
 repo: RADRILONIUMA-PROJECT
 branch: main
-timestamp: 2026-02-11T04:33:32Z
+timestamp: 2026-02-11T04:35:25Z
 
 ## Current pointer
 phase: Phase 4.C — Cross-repo Governance Rules (next)
@@ -26,6 +26,7 @@ constraints:
 - Phase 4.B — Workflow Snapshot Export/Import [DONE]
 
 ## Recent commits
+cb5c0f9 ssn rstrt: align snapshot state to required fields
 4c0e7a5 hotfix: split workflow snapshot contract vs state
 0c63bfb governance: close Phase 4.B (Workflow Snapshot export/import)
 e05febd Phase 4.B: add Workflow Snapshot contract (export/import model)
@@ -37,7 +38,6 @@ a02ff1c Phase 3.2.C: add Git Subtree Strategy contract (policy-only)
 b38505d governance: mark Phase 3.2.B DONE (Naming Model)
 7d02a4c Phase 3.2.B: add Naming Model contract (3-level identity)
 20e5eda governance: mark Phase 3.2.A DONE (Structural Definition)
-9a7d4f3 Phase 3.2.A: add Ecosystem Structural Definition (non-runtime contract)
 
 ## Git status
 ## main...origin/main
