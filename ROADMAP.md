@@ -4,6 +4,13 @@ This repository is the central DevKit for the RADRILONIUMA ecosystem.
 
 Governance focus:
 
+## Phase 4 — Governance Synchronization Layer (Subtree-based)
+
+## Phase 4.A — DevKit Subtree Distribution [DONE]
+- Введён DEVKIT_SUBTREE_DISTRIBUTION.md как контракт политики subtree.
+- Зафиксированы нормативные артефакты DevKit.
+- Подтверждено: policy-only, non-runtime, derivation-only.
+
 ## Interaction Protocol — Restart Signals
 - Добавлены каноничные сигналы: ssn rstrt и cld rstrt.
 - Формально разведены Session Restart и Cold Restart.
