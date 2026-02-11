@@ -9,7 +9,7 @@ Governance focus:
 ## Phase 4.A — DevKit Subtree Distribution [DONE]
 
 ## Phase 4.B — Workflow Snapshot (Export/Import) [DONE]
-- Введён WORKFLOW_SNAPSHOT.md как контракт восстановления рабочего контекста.
+- Workflow Snapshot: canonical split architecture (CONTRACT/STATE). `WORKFLOW_SNAPSHOT.md` is deprecated.
 - ssn rstrt формализован как двухфазный процесс: snapshot export → import.
 - Исключена зависимость от истории чата.
 - Введён DEVKIT_SUBTREE_DISTRIBUTION.md как контракт политики subtree.

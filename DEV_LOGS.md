@@ -22,7 +22,7 @@
 ## 2026-02-11 — Phase 4.A завершена
 
 ## 2026-02-11 — Phase 4.B завершена
-- Добавлен WORKFLOW_SNAPSHOT.md как контракт Workflow Snapshot (Export/Import).
+- Phase 4.B: snapshot concept introduced (initially as WORKFLOW_SNAPSHOT.md). Superseded by split CONTRACT/STATE architecture in Phase 4.C.
 - Зафиксировано правило двухфазного ssn rstrt: Export → Import.
 - Snapshot объявлен репо-каноничным источником контекста разработки.
 - Добавлен DEVKIT_SUBTREE_DISTRIBUTION.md как контракт синхронизации DevKit через subtree.
