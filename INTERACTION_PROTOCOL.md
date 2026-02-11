@@ -60,6 +60,32 @@ Context Sync
 
 ## Cold Restart / Recovery
 
+### Session Restart (ssn rstrt)
+Используется при новом чате без сброса среды.
+
+Сигнал пользователя:
+ssn rstrt
+
+Действия ассистента:
+- переобъявить текущую Phase
+- выполнить read-only Context Sync (pwd, git status -sb)
+- проверить governance
+- продолжить обычные циклы
+
+Никакого environment recovery.
+
+### Cold Restart (cld rstrt)
+Используется после перезагрузки машины/WSL/терминала.
+
+Сигнал пользователя:
+cld rstrt
+
+Действия ассистента:
+- переобъявить текущую Phase
+- выполнить Context + Environment Sync (pwd, git status -sb)
+- при необходимости минимальные recovery-действия
+- продолжить обычные циклы
+
 После перезапуска / нового чата работа продолжается
 ТОЛЬКО после сигнала пользователя:
 

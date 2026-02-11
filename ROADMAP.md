@@ -3,6 +3,10 @@
 This repository is the central DevKit for the RADRILONIUMA ecosystem.
 
 Governance focus:
+
+## Interaction Protocol — Restart Signals
+- Добавлены каноничные сигналы: ssn rstrt и cld rstrt.
+- Формально разведены Session Restart и Cold Restart.
 - The DevKit is mandatory for all ecosystem development and integration work.
 - The canonical patcher is `devkit/patch.sh`.
 - Tooling and processes must comply with these mandates.

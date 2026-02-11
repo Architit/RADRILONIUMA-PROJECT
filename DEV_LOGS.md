@@ -16,6 +16,10 @@
 ## 2026-02-11 — Phase 3.2.B завершена
 
 ## 2026-02-11 — Phase 3.2.C завершена
+
+## 2026-02-11 — Interaction Protocol update
+- Введены сигналы восстановления: ssn rstrt (Session Restart) и cld rstrt (Cold Restart).
+- Формально разведены логический рестарт чата и восстановление среды.
 - Добавлен SUBTREE_STRATEGY.md как контракт стратегии распространения экосистемных контейнеров.
 - Подтверждено: repo-native, derivation-only, non-runtime.
 - Исполнение subtree вынесено за пределы DevKit.
