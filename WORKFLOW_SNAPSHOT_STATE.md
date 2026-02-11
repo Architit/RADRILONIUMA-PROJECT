@@ -3,7 +3,7 @@
 ## Identity
 repo: RADRILONIUMA-PROJECT
 branch: main
-timestamp: 2026-02-11T04:35:25Z
+timestamp: 2026-02-11T04:38:59Z
 
 ## Current pointer
 phase: Phase 4.C — Cross-repo Governance Rules (next)
@@ -26,6 +26,7 @@ constraints:
 - Phase 4.B — Workflow Snapshot Export/Import [DONE]
 
 ## Recent commits
+417262b ssn rstrt: refresh snapshot state after governance
 cb5c0f9 ssn rstrt: align snapshot state to required fields
 4c0e7a5 hotfix: split workflow snapshot contract vs state
 0c63bfb governance: close Phase 4.B (Workflow Snapshot export/import)
@@ -37,11 +38,9 @@ f882e51 Phase 4.A: add DevKit Subtree Distribution contract (policy-only)
 a02ff1c Phase 3.2.C: add Git Subtree Strategy contract (policy-only)
 b38505d governance: mark Phase 3.2.B DONE (Naming Model)
 7d02a4c Phase 3.2.B: add Naming Model contract (3-level identity)
-20e5eda governance: mark Phase 3.2.A DONE (Structural Definition)
 
 ## Git status
 ## main...origin/main
- M WORKFLOW_SNAPSHOT_STATE.md
 
 ## References (normative docs)
 - INTERACTION_PROTOCOL.md
@@ -50,3 +49,4 @@ b38505d governance: mark Phase 3.2.B DONE (Naming Model)
 
 ## Notes
 - ssn rstrt is two-phase: Export writes WORKFLOW_SNAPSHOT_STATE.md, Import reads it.
+- Git status/log captured before snapshot write (expected).
