@@ -27,6 +27,11 @@ Governance focus:
 ## Phase 3.2.A — Structural Definition [DONE]
 
 ## Phase 3.2.B — Naming Model [DONE]
+
+## Phase 3.2.C — Subtree Strategy [DONE]
+- Введён SUBTREE_STRATEGY.md как контракт-level политика git subtree.
+- Зафиксированы правила импорта, обновления и локальных адаптаций.
+- Реализация отсутствует: policy-only, non-runtime.
 - Введён NAMING_MODEL.md как формальный контракт 3-уровневой модели имён.
 - Зафиксированы обязательные уровни: True-name / Public nickname / System ID.
 - Добавлены канонические референсы (Loarachspoiszat, Tendshpoisat).
