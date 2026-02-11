@@ -126,3 +126,40 @@ DEV_LOGS
 
 ## Статус
 Каноничный протокол взаимодействия RADRILONIUMA DevKit.
+
+---
+
+## Governance Extensions (Phase 4.C)
+
+В Phase 4.C введены следующие каноничные расширения протокола:
+
+### Workflow Snapshot Architecture
+- Каноничная split-архитектура snapshot:
+  - WORKFLOW_SNAPSHOT_CONTRACT.md — контракт
+  - WORKFLOW_SNAPSHOT_STATE.md — состояние
+- Contract и State разделены и обновляются независимо.
+- WORKFLOW_SNAPSHOT.md более не используется.
+
+### Session Restart (ssn rstrt) уточнение
+- При старте НОВОГО чата с сигналом `ssn rstrt`:
+  - ассистент автоматически начинает с Phase 2 (IMPORT),
+  - Phase 1 (EXPORT) считается выполненной в предыдущей сессии.
+
+### Governance Versioning
+- Все governance-изменения ОБЯЗАНЫ:
+  - фиксироваться commit’ом
+  - иметь semantic governance tag (mandatory)
+- DevKit является единственным version authority.
+
+### Minimum Traceability Guarantee
+Гарантируется минимальная трассируемость через:
+- Git history
+- Governance tags
+- Subtree commit linkage
+
+Дополнительные метаданные не требуются.
+
+### Phase Close Invariant
+- Перед закрытием фазы рабочее дерево ДОЛЖНО быть clean.
+- Dirty working tree блокирует governance close.
+
