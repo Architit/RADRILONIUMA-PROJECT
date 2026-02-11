@@ -13,6 +13,11 @@ Governance focus:
 ## Phase 3.1.C.1 — Task Spec Contract (core) [DONE]
 
 ## Phase 3.1.C.2 — Task Spec Templates [DONE]
+
+## Phase 3.1.C.3 — Minimal Documentation Wiring [DONE]
+- README обновлён для отражения Task Spec Layer.
+- Указаны артефакты: TASK_SPEC.md и YAML templates.
+- Без runtime-логики и без execution-path влияния.
 - Добавлены декларативные YAML: task_spec_template.yaml и task_spec_example.yaml.
 - Без runtime-логики, без execution-path влияния.
 - Предназначено для Codex/agent исполнения.
