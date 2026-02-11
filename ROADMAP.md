@@ -23,6 +23,11 @@ Governance focus:
 - Предназначено для Codex/agent исполнения.
 
 ## Phase 3.2 — Ecosystem Structural Layer
+
+## Phase 3.2.A — Structural Definition [DONE]
+- Введён ECOSYSTEM_STRUCTURE.md как не-runtime контракт экосистемной структуры.
+- Зафиксированы структурные контейнеры (Loarachspoiszat / Tendshpoisat).
+- Зафиксирована 3-уровневая модель имён и subtree-стратегия (intent-only).
 - Repo-native integration containers (no runtime).
 - 3-level naming model (True name / Public nickname / System ID).
 - Git subtree strategy for ecosystem distribution.

@@ -10,6 +10,11 @@
 ## 2026-02-11 — Phase 3.1.C.2 завершена
 
 ## 2026-02-11 — Phase 3.1.C.3 завершена
+
+## 2026-02-11 — Phase 3.2.A завершена
+- Добавлен ECOSYSTEM_STRUCTURE.md как контракт Ecosystem Structural Layer.
+- Подтверждено: repo-native, non-runtime, derivation-only.
+- Чётко разведены слои DevKit / LAM / экосистемные контейнеры.
 - README приведён в соответствие с Task Spec Layer.
 - Зафиксирована связка: Task → Patch → devkit/patch.sh.
 - Подтверждено отсутствие runtime-изменений.
