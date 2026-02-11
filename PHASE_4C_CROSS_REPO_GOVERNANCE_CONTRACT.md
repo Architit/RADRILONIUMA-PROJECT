@@ -142,3 +142,69 @@ This workflow does NOT define:
 - Enforcement mechanisms
 - Automated propagation
 - Conflict resolution policy
+
+---
+
+## 4. Governance Versioning & Traceability
+
+### 4.1 Canonical Version Authority
+
+- Governance version is defined in DevKit only.
+- DevKit is the single version authority.
+- Every governance update MUST produce:
+  - A Git commit
+  - A semantic governance tag (mandatory)
+
+Tag format recommendation:
+- governance-vX.Y (policy-level evolution)
+
+---
+
+### 4.2 Version Representation (Mandatory Model)
+
+Governance version MUST be represented by:
+
+- Git commit hash (immutable reference)
+- Semantic governance tag (mandatory)
+
+Release notes are optional.
+
+---
+
+### 4.3 Downstream Traceability
+
+Each consumer repository:
+
+- Derives governance state via subtree commit.
+- Can determine governance version by:
+  - subtree commit hash
+  - upstream governance tag reference.
+
+Downstream repositories:
+- Do NOT redefine governance version.
+- Only reference canonical DevKit version.
+
+---
+
+### 4.4 Minimum Traceability Guarantee
+
+The system guarantees minimum traceability through:
+
+- Immutable Git history.
+- Explicit governance tags.
+- Subtree commit linkage.
+- Commit messages referencing governance updates.
+
+No additional metadata layers required.
+
+---
+
+### 4.5 Explicit Non-Goals
+
+This model does NOT introduce:
+
+- Automated version validation
+- Cross-repo enforcement
+- CI checks
+- Mandatory sync intervals
+- Automated propagation mechanisms
