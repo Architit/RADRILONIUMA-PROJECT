@@ -3,7 +3,7 @@
 ## Identity
 repo: RADRILONIUMA-PROJECT
 branch: main
-timestamp: 2026-02-12T03:51:02.987651Z
+timestamp: 2026-02-12T04:03:40.158845Z
 
 ## Current pointer
 phase: Governance Review & Ecosystem Cartography Stage — ACTIVE
@@ -32,6 +32,7 @@ constraints:
 - Phase 4.B — Workflow Snapshot Export/Import [DONE]
 - Phase 4.C — Cross-repo Governance Rules [DONE]
 ## Recent commits
+79cfb89 ssn rstrt(EXPORT): refresh workflow snapshot state and regenerate NEW_CHAT_INIT_MESSAGE
 e16e72c governance(ssn-rstrt): extend Phase 1 EXPORT with New Chat Init block (deterministic first-message contract)
 bc5ab05 gov(asr): activate AASR strict mode ESS local clone verification & ref sanitization
 eead528 gov(asr): add ESS SSN RSTRT presence audit (DevKit SoT baseline, analysis-only)
@@ -43,12 +44,10 @@ eead528 gov(asr): add ESS SSN RSTRT presence audit (DevKit SoT baseline, analysi
 6a1ad4a governance: add mandatory Governance Review Stage and mark Phase 5 planning stage
 143c5a8 governance: add Phase 5 rollout/observability to roadmap (planned)
 6306571 governance: add repo rollout analysis contract
-02feb53 governance: unify restart semantics — active chat (ssn|cld) => EXPORT only; new chat ssn => IMPORT; cld => IMPORT+env sync
 
 ## Git status
-## main...origin/main [ahead 4]
+## main...origin/main [ahead 5]
 
-## main...origin/main
 
 ## References (normative docs)
 - INTERACTION_PROTOCOL.md
