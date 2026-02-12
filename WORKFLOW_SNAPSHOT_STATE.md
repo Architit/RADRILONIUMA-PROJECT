@@ -3,10 +3,13 @@
 ## Identity
 repo: RADRILONIUMA-PROJECT
 branch: main
-timestamp: 2026-02-12T19:06:35Z
+timestamp: 2026-02-12T19:37:44Z
 
 ## Current pointer
 phase: Phase 5.B — Ecosystem Coverage Expansion — HOLD
+protocol_scale: 0
+protocol_scale_reason: Governance/synchronization stage active; execution transition forbidden.
+protocol_semantic_en: neutral
 goal:
 - Align governance structure across DEV_LOGS/ROADMAP/INTERACTION_PROTOCOL with DEV_MAP baseline
 - Keep Phase 5 planning in observability-only mode (no execution rollout)
@@ -34,6 +37,7 @@ constraints:
 - Phase 4.C — Cross-repo Governance Rules [DONE]
 
 ## Recent commits
+- f662c18 governance(dev-map): integrate protocol M0-M5 baseline and phase-5b sync
 - 49a341c governance(protocol): add Governance Review stage hardening and clean-close invariant
 - 8e4cab5 governance(protocol): define Phase 1 EXPORT procedure (contract-bound) for restarts
 - 60a5d36 governance(dev-map): add EXPORT completion contract verification (Section G)
@@ -45,30 +49,38 @@ constraints:
 - e16e72c governance(ssn-rstrt): extend Phase 1 EXPORT with New Chat Init block (deterministic first-message contract)
 - bc5ab05 gov(asr): activate AASR strict mode ESS local clone verification & ref sanitization
 - eead528 gov(asr): add ESS SSN RSTRT presence audit (DevKit SoT baseline, analysis-only)
-- 31f026b gov(asr): add Phase 5.A Rollout Analysis Conclusion ASR and update INDEX (analysis-only, no execution)
 
 ## Git status
-## main...origin/main
- M DEV_LOGS.md
- M DEV_MAP.md
- M INTERACTION_PROTOCOL.md
- M ROADMAP.md
+## main...origin/main [ahead 1]
+M  DEV_MAP.md
+M  WORKFLOW_SNAPSHOT_CONTRACT.md
+M  WORKFLOW_SNAPSHOT_STATE.md
 
 ## References (normative docs)
 - INTERACTION_PROTOCOL.md
 - ROADMAP.md
 - DEV_LOGS.md
 - DEV_MAP.md
+- WORKFLOW_SNAPSHOT_CONTRACT.md
 - PHASE_4C_CROSS_REPO_GOVERNANCE_CONTRACT.md
 - REPO_ROLLOUT_ANALYSIS_CONTRACT.md
 - gov/asr/INDEX.md
 
 ## Notes
 - Governance Review Stage remains active; execution-phase transitions are still blocked.
-- Protocol baseline from DEV_MAP is integrated; second-pass tightening remains pending.
-- Handoff gate status: BLOCKED (working tree is dirty; governance commit + push not yet completed).
+- DEV_MAP hotfix H is staged: protocol phase scale (`+1`/`0`/`-1`) introduced into map.
+- WORKFLOW snapshot contract hotfix is staged: `protocol_scale` is now mandatory.
+- Protocol scale semantic dictionary (7 languages):
+  - ru: положительный / нейтральный / отрицательный
+  - en: positive / neutral / negative
+  - zh: 正向 / 中性 / 负向
+  - ar: إيجابي / محايد / سلبي
+  - af: positief / neutraal / negatief
+  - ja: ポジティブ / ニュートラル / ネガティブ
+  - es: positivo / neutro / negativo
+- Handoff gate status: BLOCKED (dirty working tree and push pending).
 - ESS matrix (facts-only):
-  - RADRILONIUMA-PROJECT: PENDING (local governance edits in progress).
+  - RADRILONIUMA-PROJECT: PENDING (ahead 1; push not completed).
   - LAM: BLOCKED (missing WORKFLOW_SNAPSHOT_* and SYSTEM_STATE_* artifacts).
   - Roaudter-agent: BLOCKED (governance artifact gap persists).
 
@@ -81,10 +93,12 @@ Repository: RADRILONIUMA-PROJECT
 Branch: main
 Phase: Phase 5.B — Ecosystem Coverage Expansion — HOLD
 Stage: Governance Review & Ecosystem Cartography
+Protocol scale: 0
+Protocol semantic (en): neutral
 Constraints:
 - contracts-first
 - observability-first
 - derivation-only
 
-If NEW chat and governance handoff gate is satisfied (commit+push confirmed): Proceed with Phase 2 (IMPORT).
-If handoff gate is not satisfied: return to active chat and complete Phase 1 (EXPORT-only) closure first.
+If NEW chat and governance handoff gate is satisfied (clean tree + push confirmed): Proceed with Phase 2 (IMPORT).
+If handoff gate is not satisfied: return to active chat and complete governance handoff first.

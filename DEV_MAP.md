@@ -2,7 +2,7 @@
 
 ## Execution Status (2026-02-12)
 - Status: IN PROGRESS (baseline integrated into `INTERACTION_PROTOCOL.md`)
-- Integrated blocks: A, B, C, D, E, F, G (contract-level baseline)
+- Integrated blocks: A, B, C, D, E, F, G, H (contract-level baseline)
 - Next pass: tighten examples, add repo-specific verification checklists (still policy-only)
 
 ## Scope
@@ -114,3 +114,38 @@ G4. Verification must be read-only and derivation-only.
 
 Deliverable:
 Explicit contract-bound definition of EXPORT completion in restart protocols.
+
+---
+
+## H) Protocol Phase Scale (1 / 0 / -1)
+
+Purpose:
+Add deterministic tri-phase intent marker to development protocol mapping.
+
+Definition:
+- `+1` — execution-forward phase (allowed only when all gates are green)
+- `0` — governance/synchronization phase (planning/review/sync; execution transition forbidden)
+- `-1` — recovery/conflict phase (alignment mismatch or restart ambiguity; execution blocked)
+
+Rules:
+- H1. Enter `0` during Governance Review Stage and protocol synchronization.
+- H2. Enter `-1` on snapshot/roadmap/protocol mismatch or unresolved restart conflict.
+- H3. Transition to `+1` only after phase-alignment and handoff gates are satisfied.
+- H4. Policy-only marker; no automation, no runtime enforcement.
+
+Semantic interpretation:
+- `+1` = positive
+- `0` = neutral
+- `-1` = negative
+
+7-language semantic labels:
+- Russian (ru): `+1` положительный, `0` нейтральный, `-1` отрицательный
+- English (en): `+1` positive, `0` neutral, `-1` negative
+- Chinese (zh): `+1` 正向, `0` 中性, `-1` 负向
+- Arabic (ar): `+1` إيجابي, `0` محايد, `-1` سلبي
+- Afrikaans (af): `+1` positief, `0` neutraal, `-1` negatief
+- Japanese (ja): `+1` ポジティブ, `0` ニュートラル, `-1` ネガティブ
+- Spanish (es): `+1` positivo, `0` neutro, `-1` negativo
+
+Deliverable:
+Compact and deterministic phase-intent encoding for protocol map and snapshot handoff.

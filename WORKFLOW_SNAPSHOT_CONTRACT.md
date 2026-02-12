@@ -58,8 +58,22 @@ A snapshot MUST contain:
 
 ### Current work pointer
 - Current Phase / subphase
+- Protocol phase scale (`+1` / `0` / `-1`)
+- Protocol phase semantic label (positive / neutral / negative)
 - Current goal (1–3 bullets)
 - Active constraints (hard)
+
+Protocol phase semantic dictionary (canonical):
+- `+1` = positive
+- `0` = neutral
+- `-1` = negative
+- ru: положительный / нейтральный / отрицательный
+- en: positive / neutral / negative
+- zh: 正向 / 中性 / 负向
+- ar: إيجابي / محايد / سلبي
+- af: positief / neutraal / negatief
+- ja: ポジティブ / ニュートラル / ネガティブ
+- es: positivo / neutro / negativo
 
 ### Completion ledger
 - Completed phases (bullet list)
@@ -93,6 +107,8 @@ timestamp: <iso-8601>
 
 ## Current pointer
 phase: <Phase X.Y.Z>
+protocol_scale: <+1|0|-1>
+protocol_semantic_en: <positive|neutral|negative>
 goal:
 - ...
 constraints:
@@ -126,4 +142,3 @@ introduce CI enforcement,
 introduce runtime hooks,
 
 modify execution paths.
-
