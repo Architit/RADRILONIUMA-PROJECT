@@ -104,3 +104,8 @@ DevKit patcher UX hardening.
 - Added ASR record for adoption queue and wave order: SoT -> LAM -> downstream.
 - Recorded blockers: `LAM` missing snapshot/SS artifacts; `Roaudter-agent` missing full governance set and is `behind 7`.
 - Execution scope remains policy-only and facts-only (no runtime rollout action).
+
+## 2026-02-12 — Phase 5.A Wave 1 progress (LAM artifacts seeded)
+- In `LAM`, missing artifacts were created: `WORKFLOW_SNAPSHOT_CONTRACT.md`, `WORKFLOW_SNAPSHOT_STATE.md`, `SYSTEM_STATE_CONTRACT.md`, `SYSTEM_STATE.md`.
+- LAM status moved from `BLOCKED` to `PENDING` for adoption queue (artifacts exist locally but are not yet committed/pushed).
+- Next gate for Wave 1: commit/push these files in `LAM` branch `phase2/observability`.

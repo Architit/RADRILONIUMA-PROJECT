@@ -3,7 +3,7 @@
 ## Identity
 repo: RADRILONIUMA-PROJECT
 branch: main
-timestamp: 2026-02-12T20:52:58Z
+timestamp: 2026-02-12T20:59:04Z
 
 ## Current pointer
 phase: Phase 5.A — Repo Rollout Analysis — ACTIVE
@@ -37,6 +37,7 @@ constraints:
 - Phase 4.C — Cross-repo Governance Rules [DONE]
 
 ## Recent commits
+- 2f84415 gov(asr): define phase-5a adoption queue and rollout wave order
 - 41b77d6 governance(phase5a): activate execution and add rollout kickoff ASR
 - 146dac2 ssn rstrt(EXPORT): refresh workflow/system state after import verification
 - e8a82fb governance(hotfix): add protocol scale semantics (+1/0/-1) with 7-language mapping
@@ -48,15 +49,13 @@ constraints:
 - 729e930 ssn rstrt(EXPORT): refresh SYSTEM_STATE timestamp (facts-only)
 - 5b5a721 ssn rstrt(EXPORT): refresh WORKFLOW_SNAPSHOT_STATE for Phase 5.B HOLD (ecosystem matrix + init)
 - 6fc399e ssn rstrt(EXPORT): post-commit refresh of WORKFLOW_SNAPSHOT_STATE (self-consistent)
-- 79cfb89 ssn rstrt(EXPORT): refresh workflow snapshot state and regenerate NEW_CHAT_INIT_MESSAGE
-- e16e72c governance(ssn-rstrt): extend Phase 1 EXPORT with New Chat Init block (deterministic first-message contract)
 
 ## Git status
 ## main...origin/main
  M DEV_LOGS.md
  M WORKFLOW_SNAPSHOT_STATE.md
  M gov/asr/INDEX.md
-?? gov/asr/sessions/2026-02-12__ASR__phase5a-adoption-queue-wave-order.md
+?? gov/asr/sessions/2026-02-12__ASR__phase5a-wave1-lam-artifacts-seeded.md
 
 ## References (normative docs)
 - INTERACTION_PROTOCOL.md
@@ -72,6 +71,7 @@ constraints:
 - Phase 5.A execution is active in policy layer (`+1`) after governance decision.
 - Rollout analysis kickoff ASR added: `gov/asr/sessions/2026-02-12__ASR__phase5a-execution-kickoff.md`.
 - Adoption queue and wave-order ASR added: `gov/asr/sessions/2026-02-12__ASR__phase5a-adoption-queue-wave-order.md`.
+- Wave 1 progress ASR added: `gov/asr/sessions/2026-02-12__ASR__phase5a-wave1-lam-artifacts-seeded.md`.
 - WORKFLOW snapshot contract requirement (`protocol_scale`) is satisfied.
 - Protocol scale semantic dictionary (7 languages):
   - ru: положительный / нейтральный / отрицательный
@@ -84,7 +84,7 @@ constraints:
 - Handoff gate status: BLOCKED (active local edits for Phase 5.A are not committed yet).
 - ESS matrix (facts-only):
   - RADRILONIUMA-PROJECT: DONE (required governance artifacts present; repo synced before local Phase 5.A edits).
-  - LAM: BLOCKED (missing WORKFLOW_SNAPSHOT_* and SYSTEM_STATE_* artifacts).
+  - LAM: PENDING (WORKFLOW_SNAPSHOT_* and SYSTEM_STATE_* created locally; commit/push pending).
   - Roaudter-agent: BLOCKED (governance artifact set missing in checked scope).
 
 ## New Chat Init
