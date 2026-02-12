@@ -78,3 +78,8 @@ DevKit patcher UX hardening.
 - Introduced SYSTEM_STATE_CONTRACT.md (policy-only, observability-first).
 - Added SYSTEM_STATE.md (derived facts) as SS-layer snapshot for cold restarts.
 - Clarified: cld rstrt EXPORT/IMPORT includes SS capture/verification in addition to WORKFLOW snapshot.
+
+## 2026-02-12 — Interaction Protocol governance hardening
+- Added mandatory Governance Review Stage before any new execution phase.
+- Fixed required governance update order for protocol changes: `DEV_LOGS.md` -> `ROADMAP.md` -> `INTERACTION_PROTOCOL.md`.
+- Added phase close invariant: clean working tree is mandatory for governance close.

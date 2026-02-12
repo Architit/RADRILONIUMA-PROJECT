@@ -33,6 +33,11 @@ Governance focus:
 - Tooling and processes must comply with these mandates.
 - Changes to this governance require explicit review and consensus.
 
+## Interaction Protocol — Governance Hardening [DONE]
+- Added mandatory Governance Review Stage before starting any new execution phase.
+- Fixed mandatory protocol governance update order: `DEV_LOGS.md` -> `ROADMAP.md` -> `INTERACTION_PROTOCOL.md`.
+- Added phase close invariant: clean working tree is required before governance close.
+
 ## Phase 3.0.C — DevKit patcher UX hardening [DONE]
 
 ## Phase 3.1.C.1 — Task Spec Contract (core) [DONE]
