@@ -3,7 +3,7 @@
 ## Identity
 repo: RADRILONIUMA-PROJECT
 branch: main
-timestamp: 2026-02-11T23:42:23Z
+timestamp: 2026-02-12T03:51:02.987651Z
 
 ## Current pointer
 phase: Governance Review & Ecosystem Cartography Stage — ACTIVE
@@ -31,8 +31,14 @@ constraints:
 - Phase 4.A — DevKit Subtree Distribution [DONE]
 - Phase 4.B — Workflow Snapshot Export/Import [DONE]
 - Phase 4.C — Cross-repo Governance Rules [DONE]
-
-## Recent commits (top)
+## Recent commits
+e16e72c governance(ssn-rstrt): extend Phase 1 EXPORT with New Chat Init block (deterministic first-message contract)
+bc5ab05 gov(asr): activate AASR strict mode ESS local clone verification & ref sanitization
+eead528 gov(asr): add ESS SSN RSTRT presence audit (DevKit SoT baseline, analysis-only)
+31f026b gov(asr): add Phase 5.A Rollout Analysis Conclusion ASR and update INDEX (analysis-only, no execution)
+3e854b0 cld rstrt: export system state snapshot (SS)
+5b84ebf hotfix: add SS-level snapshot contract for cld rstrt
+5d519b2 ssn rstrt: export workflow snapshot state (Phase 5 planning + Governance Review stage active)
 9b56b53 governance: add ASR node (architectural session record) as subtree path
 6a1ad4a governance: add mandatory Governance Review Stage and mark Phase 5 planning stage
 143c5a8 governance: add Phase 5 rollout/observability to roadmap (planned)
@@ -40,6 +46,8 @@ constraints:
 02feb53 governance: unify restart semantics — active chat (ssn|cld) => EXPORT only; new chat ssn => IMPORT; cld => IMPORT+env sync
 
 ## Git status
+## main...origin/main [ahead 4]
+
 ## main...origin/main
 
 ## References (normative docs)
