@@ -89,21 +89,22 @@ Governance focus:
 
 ## Phase 5 — Rollout & Ecosystem Observability Layer
 
-## Phase 5.A — Repo Rollout Analysis [ACTIVE]
+## Phase 5.A — Repo Rollout Analysis [DONE]
 - DevKit подтверждён как Source of Truth (SoT).
 - Определена стратегия governance tagging waves (SoT → LAM → downstream).
 - Зафиксирован формат Ecosystem Status Dashboard.
 - Policy-only, observability-first, derivation-only.
 - Execution gate opened by governance decision on 2026-02-12.
 - Active objective: produce facts-only rollout matrix with DoD/dependencies per repo.
+- Completion: SoT/LAM/Roaudter adoption waves verified and synced (2026-02-12).
 
-## Phase 5.B — Ecosystem Coverage Expansion [HOLD]
+## Phase 5.B — Ecosystem Coverage Expansion [ACTIVE]
 - Цель: закрыть матрицу покрытия governance-артефактов по репозиториям (SoT/LAM/downstream).
 - Верификация: только facts-only ESS/ASR наблюдаемость, без rollout execution.
 - Prerequisite: завершить Governance Review Stage и синхронизацию протокольной структуры (DEV_MAP baseline).
-- Статус HOLD до явного governance-решения на переход к execution.
+- Execution activated: clone remaining ecosystem repositories from origin into local workspace and verify sync status.
 
 ---
 **Current Development Stage:**
-Phase 5.A Execution — Repo Rollout Analysis
-(facts-only execution in policy layer; no runtime rollout)
+Phase 5.B Execution — Ecosystem Coverage Expansion
+(facts-only coverage expansion in policy layer; no runtime rollout)
