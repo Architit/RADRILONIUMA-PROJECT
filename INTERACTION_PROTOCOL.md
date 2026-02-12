@@ -91,6 +91,12 @@ cld rstrt
 - при необходимости минимальные recovery-действия
 - продолжить обычные циклы
 
+SS-layer (System State) for cld rstrt (mandatory):
+- CONTRACT: SYSTEM_STATE_CONTRACT.md
+- STATE: SYSTEM_STATE.md (facts-only, derived)
+- Phase 1 (EXPORT) must refresh SYSTEM_STATE.md alongside WORKFLOW_SNAPSHOT_STATE.md
+- Phase 2 (IMPORT) must verify SYSTEM_STATE.md and perform environment sync / minimal recovery based on facts only
+
 После перезапуска / нового чата работа продолжается
 ТОЛЬКО после сигнала пользователя:
 
@@ -153,6 +159,11 @@ DEV_LOGS
 ## Governance Extensions (Phase 4.C)
 
 В Phase 4.C введены следующие каноничные расширения протокола:
+
+### System State Snapshot (SS)
+- SYSTEM_STATE_CONTRACT.md — contract (policy-only)
+- SYSTEM_STATE.md — derived system/environment facts (observability-only)
+- Used by cld rstrt export/import to preserve/restore environment context
 
 ### Workflow Snapshot Architecture
 - Каноничная split-архитектура snapshot:

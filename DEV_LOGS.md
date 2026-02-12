@@ -73,3 +73,8 @@ DevKit patcher UX hardening.
 
 2026-02-11 07:54 UTC — Governance: clarified ssn rstrt semantics — active chat => Phase 1 (EXPORT) only; new chat => Phase 2 (IMPORT)
 2026-02-11 08:09 UTC — Governance: unified restart semantics — in active chat, (ssn|cld) rstrt => Phase 1 (EXPORT) only; new chat: ssn => IMPORT, cld => IMPORT + env sync
+
+## 2026-02-12 — Hotfix: System State snapshot (SS) for cld rstrt
+- Introduced SYSTEM_STATE_CONTRACT.md (policy-only, observability-first).
+- Added SYSTEM_STATE.md (derived facts) as SS-layer snapshot for cold restarts.
+- Clarified: cld rstrt EXPORT/IMPORT includes SS capture/verification in addition to WORKFLOW snapshot.
