@@ -55,3 +55,20 @@ constraints:
 - Phase 4.C is closed; Phase 5 is declared as planning-only (no execution started).
 - Governance Review Stage is mandatory before starting any new execution-phase.
 - Architectural context for Phase 5 planning and protocol layering is preserved in ASR (gov/asr).
+
+## New Chat Init
+
+### NEW_CHAT_INIT_MESSAGE
+ssn rstrt
+
+Repository: RADRILONIUMA-PROJECT
+Branch: main
+Phase: Governance Review & Ecosystem Cartography Stage — ACTIVE
+Stage: Governance Review & Ecosystem Cartography
+Constraints:
+- contracts-first
+- observability-first
+- derivation-only
+
+Proceed with Phase 2 (IMPORT).
+

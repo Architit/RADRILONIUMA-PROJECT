@@ -33,6 +33,7 @@ This prevents “context loss” and removes reliance on chat history.
 - update `WORKFLOW_SNAPSHOT_STATE.md`
 - ensure repository is clean or explicitly describe local state
 - ensure governance is up to date
+- generate `NEW_CHAT_INIT_MESSAGE` (verbatim first message for a new chat `ssn rstrt` Phase 2 IMPORT)
 
 ### B) Snapshot Import (in the new chat)
 - read `WORKFLOW_SNAPSHOT_STATE.md`
@@ -73,6 +74,11 @@ A snapshot MUST contain:
 - ROADMAP.md
 - DEV_LOGS.md
 
+### New Chat Init (mandatory)
+- `NEW_CHAT_INIT_MESSAGE` (verbatim first message to paste as the first message in a new chat)
+- MUST be deterministic and derived only from snapshot facts (no interpretation)
+- MUST start with the signal line: `ssn rstrt`
+
 ---
 
 ## 4. Template (recommended)
@@ -104,6 +110,9 @@ constraints:
 
 ## Notes
 - ...
+
+## New Chat Init
+<paste `NEW_CHAT_INIT_MESSAGE` verbatim as the first message in a new chat>
 ```
 
 ## 5. Non-goals
