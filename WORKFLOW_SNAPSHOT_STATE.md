@@ -3,7 +3,7 @@
 ## Identity
 repo: RADRILONIUMA-PROJECT
 branch: main
-timestamp: 2026-02-12T20:43:01Z
+timestamp: 2026-02-12T20:52:58Z
 
 ## Current pointer
 phase: Phase 5.A — Repo Rollout Analysis — ACTIVE
@@ -37,6 +37,7 @@ constraints:
 - Phase 4.C — Cross-repo Governance Rules [DONE]
 
 ## Recent commits
+- 41b77d6 governance(phase5a): activate execution and add rollout kickoff ASR
 - 146dac2 ssn rstrt(EXPORT): refresh workflow/system state after import verification
 - e8a82fb governance(hotfix): add protocol scale semantics (+1/0/-1) with 7-language mapping
 - f662c18 governance(dev-map): integrate protocol M0-M5 baseline and phase-5b sync
@@ -49,16 +50,13 @@ constraints:
 - 6fc399e ssn rstrt(EXPORT): post-commit refresh of WORKFLOW_SNAPSHOT_STATE (self-consistent)
 - 79cfb89 ssn rstrt(EXPORT): refresh workflow snapshot state and regenerate NEW_CHAT_INIT_MESSAGE
 - e16e72c governance(ssn-rstrt): extend Phase 1 EXPORT with New Chat Init block (deterministic first-message contract)
-- bc5ab05 gov(asr): activate AASR strict mode ESS local clone verification & ref sanitization
 
 ## Git status
 ## main...origin/main
  M DEV_LOGS.md
- M ROADMAP.md
- M SYSTEM_STATE.md
  M WORKFLOW_SNAPSHOT_STATE.md
  M gov/asr/INDEX.md
-?? gov/asr/sessions/2026-02-12__ASR__phase5a-execution-kickoff.md
+?? gov/asr/sessions/2026-02-12__ASR__phase5a-adoption-queue-wave-order.md
 
 ## References (normative docs)
 - INTERACTION_PROTOCOL.md
@@ -73,6 +71,7 @@ constraints:
 ## Notes
 - Phase 5.A execution is active in policy layer (`+1`) after governance decision.
 - Rollout analysis kickoff ASR added: `gov/asr/sessions/2026-02-12__ASR__phase5a-execution-kickoff.md`.
+- Adoption queue and wave-order ASR added: `gov/asr/sessions/2026-02-12__ASR__phase5a-adoption-queue-wave-order.md`.
 - WORKFLOW snapshot contract requirement (`protocol_scale`) is satisfied.
 - Protocol scale semantic dictionary (7 languages):
   - ru: положительный / нейтральный / отрицательный

@@ -99,3 +99,8 @@ DevKit patcher UX hardening.
   - `RADRILONIUMA-PROJECT`: governance artifacts present.
   - `LAM`: snapshot/SS artifacts missing.
   - `Roaudter-agent`: governance artifact set missing.
+
+## 2026-02-12 — Phase 5.A rollout queue defined
+- Added ASR record for adoption queue and wave order: SoT -> LAM -> downstream.
+- Recorded blockers: `LAM` missing snapshot/SS artifacts; `Roaudter-agent` missing full governance set and is `behind 7`.
+- Execution scope remains policy-only and facts-only (no runtime rollout action).
