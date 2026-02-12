@@ -1,14 +1,14 @@
 # SYSTEM STATE (SS)
 
 ## Identity
-timestamp: 2026-02-12T06:22:33Z
+timestamp: 2026-02-12T20:20:35Z
 host: TRIANIUMACORE
 substrate: WSL2
 
 ## Software / Tooling
 os: Ubuntu 24.04.3 LTS (noble)
 kernel: Linux 6.6.87.2-microsoft-standard-WSL2
-shell: (facts only)  # not captured in this export
+shell: GNU bash, version 5.2.21(1)-release
 git: 2.43.0
 python: 3.12.3
 
@@ -19,4 +19,4 @@ repo_paths:
 devkit_patcher: devkit/patch.sh (present, mode -rwxr-xr-x, size 2454 bytes, mtime 2026-02-10 22:34)
 
 ## Notes (facts only)
-- SS facts captured from cld rstrt export (read-only).
+- SS facts refreshed in aligned export window (read-only, derivation-only).

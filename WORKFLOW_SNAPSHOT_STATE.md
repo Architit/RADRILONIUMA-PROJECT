@@ -3,7 +3,7 @@
 ## Identity
 repo: RADRILONIUMA-PROJECT
 branch: main
-timestamp: 2026-02-12T19:37:44Z
+timestamp: 2026-02-12T20:20:35Z
 
 ## Current pointer
 phase: Phase 5.B — Ecosystem Coverage Expansion — HOLD
@@ -37,6 +37,7 @@ constraints:
 - Phase 4.C — Cross-repo Governance Rules [DONE]
 
 ## Recent commits
+- e8a82fb governance(hotfix): add protocol scale semantics (+1/0/-1) with 7-language mapping
 - f662c18 governance(dev-map): integrate protocol M0-M5 baseline and phase-5b sync
 - 49a341c governance(protocol): add Governance Review stage hardening and clean-close invariant
 - 8e4cab5 governance(protocol): define Phase 1 EXPORT procedure (contract-bound) for restarts
@@ -48,13 +49,11 @@ constraints:
 - 79cfb89 ssn rstrt(EXPORT): refresh workflow snapshot state and regenerate NEW_CHAT_INIT_MESSAGE
 - e16e72c governance(ssn-rstrt): extend Phase 1 EXPORT with New Chat Init block (deterministic first-message contract)
 - bc5ab05 gov(asr): activate AASR strict mode ESS local clone verification & ref sanitization
-- eead528 gov(asr): add ESS SSN RSTRT presence audit (DevKit SoT baseline, analysis-only)
 
 ## Git status
-## main...origin/main [ahead 1]
-M  DEV_MAP.md
-M  WORKFLOW_SNAPSHOT_CONTRACT.md
-M  WORKFLOW_SNAPSHOT_STATE.md
+## main...origin/main
+ M SYSTEM_STATE.md
+ M WORKFLOW_SNAPSHOT_STATE.md
 
 ## References (normative docs)
 - INTERACTION_PROTOCOL.md
@@ -78,9 +77,9 @@ M  WORKFLOW_SNAPSHOT_STATE.md
   - af: positief / neutraal / negatief
   - ja: ポジティブ / ニュートラル / ネガティブ
   - es: positivo / neutro / negativo
-- Handoff gate status: BLOCKED (dirty working tree and push pending).
+- Handoff gate status: BLOCKED (export updates are local and uncommitted in working tree).
 - ESS matrix (facts-only):
-  - RADRILONIUMA-PROJECT: PENDING (ahead 1; push not completed).
+  - RADRILONIUMA-PROJECT: PENDING (export updates prepared locally; commit/push not completed).
   - LAM: BLOCKED (missing WORKFLOW_SNAPSHOT_* and SYSTEM_STATE_* artifacts).
   - Roaudter-agent: BLOCKED (governance artifact gap persists).
 
@@ -100,5 +99,5 @@ Constraints:
 - observability-first
 - derivation-only
 
-If NEW chat and governance handoff gate is satisfied (clean tree + push confirmed): Proceed with Phase 2 (IMPORT).
+If NEW chat and governance handoff gate is satisfied: Proceed with Phase 2 (IMPORT).
 If handoff gate is not satisfied: return to active chat and complete governance handoff first.
