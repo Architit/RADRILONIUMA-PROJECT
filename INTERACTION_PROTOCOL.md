@@ -60,6 +60,42 @@ Context Sync
 
 ## Cold Restart / Recovery
 
+### Phase 1 (EXPORT) — Canonical Export Procedure (contract-bound)
+
+Назначение:
+- Зафиксировать свежий derived snapshot ТЕКУЩЕГО контекста сессии.
+- Completion EXPORT определяется контрактно: contract↔state семантическая согласованность (не наличие файлов).
+
+Артефакты (обязательные в Phase 1 EXPORT):
+- WORKFLOW_SNAPSHOT_STATE.md  (per WORKFLOW_SNAPSHOT_CONTRACT.md)
+- SYSTEM_STATE.md            (per SYSTEM_STATE_CONTRACT.md)
+
+Жёсткие правила:
+- derivation-only (facts-only state)
+- NO runtime logic / NO execution-path impact
+- EXPORT обязан обновлять timestamp и сессионно-релевантные факты
+- EXPORT не должен фиксировать неверную семантику рестарта в NEW_CHAT_INIT_MESSAGE
+
+Минимум полей для refresh:
+1) WORKFLOW_SNAPSHOT_STATE.md
+   - Identity.timestamp (UTC now)
+   - repo, branch
+   - phase pointer (Phase X.Y + status)
+   - Git status: точный вывод `git status -sb` на момент EXPORT
+   - Recent commits window (короткий derived список)
+   - NEW_CHAT_INIT_MESSAGE (семантика обязана быть корректной):
+       - ACTIVE chat: Proceed with Phase 1 (EXPORT-only). IMPORT forbidden.
+       - NEW chat:    Proceed with Phase 2 (IMPORT).
+2) SYSTEM_STATE.md
+   - Identity.timestamp (UTC now)
+   - host/substrate/os/kernel/shell/git/python (facts-only)
+   - workspace_root и repo_paths (facts-only)
+
+Критерии завершения EXPORT (mandatory):
+- оба state-файла обновлены в одном EXPORT-окне (timestamps refreshed)
+- WORKFLOW_SNAPSHOT_STATE Git status соответствует текущему репо на момент EXPORT
+- NEW_CHAT_INIT_MESSAGE согласован с ACTIVE vs NEW chat семантикой
+
 ### Session Restart (ssn rstrt)
 **Clarification — restart semantics (deterministic):**
 - **ACTIVE chat:** both `ssn rstrt` and `cld rstrt` trigger **Phase 1 (EXPORT) only** (snapshot refresh). **IMPORT is forbidden** because context is not lost.
@@ -74,7 +110,7 @@ ssn rstrt
 Действия ассистента:
 - переобъявить текущую Phase
 - выполнить read-only Context Sync (pwd, git status -sb)
-- проверить governance
+- выполнить Phase 1 (EXPORT) по Canonical Export Procedure (contract-bound)
 - продолжить обычные циклы
 
 Никакого environment recovery.
