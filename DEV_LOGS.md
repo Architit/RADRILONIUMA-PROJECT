@@ -114,3 +114,8 @@ DevKit patcher UX hardening.
 - Verified `LAM` commit/push: `b13217c governance(snapshot): add workflow/system state baseline artifacts`.
 - LAM adoption queue status moved to `DONE` (required snapshot/SS + governance docs present and synced).
 - Remaining ecosystem blocker: `Roaudter-agent` is `master...origin/master [behind 7]` and lacks required governance artifacts.
+
+## 2026-02-12 — Phase 5.A Wave 2 progress (Roaudter-agent)
+- Verified local commit in `Roaudter-agent`: `c02f6f0 governance(snapshot): add workflow/system state baseline artifacts`.
+- Required snapshot/SS artifacts now exist in `Roaudter-agent`; status moved from `BLOCKED` to `PENDING`.
+- Wave 2 close is blocked by network/DNS (`Could not resolve host: github.com`), leaving branch `ahead 1, behind 7`.

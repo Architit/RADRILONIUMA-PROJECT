@@ -3,7 +3,7 @@
 ## Identity
 repo: RADRILONIUMA-PROJECT
 branch: main
-timestamp: 2026-02-12T21:03:21Z
+timestamp: 2026-02-12T21:09:30Z
 
 ## Current pointer
 phase: Phase 5.A — Repo Rollout Analysis — ACTIVE
@@ -37,6 +37,7 @@ constraints:
 - Phase 4.C — Cross-repo Governance Rules [DONE]
 
 ## Recent commits
+- f1e6d2c gov(asr): verify wave1 complete and mark LAM done
 - e25cde4 gov(asr): record wave1 LAM artifact seeding progress
 - 2f84415 gov(asr): define phase-5a adoption queue and rollout wave order
 - 41b77d6 governance(phase5a): activate execution and add rollout kickoff ASR
@@ -47,16 +48,13 @@ constraints:
 - 8e4cab5 governance(protocol): define Phase 1 EXPORT procedure (contract-bound) for restarts
 - 60a5d36 governance(dev-map): add EXPORT completion contract verification (Section G)
 - 9a6618e governance(dev-map): introduce DEV_MAP.md with protocol refactor program (A–F)
-- 729e930 ssn rstrt(EXPORT): refresh SYSTEM_STATE timestamp (facts-only)
-- 5b5a721 ssn rstrt(EXPORT): refresh WORKFLOW_SNAPSHOT_STATE for Phase 5.B HOLD (ecosystem matrix + init)
-- 6fc399e ssn rstrt(EXPORT): post-commit refresh of WORKFLOW_SNAPSHOT_STATE (self-consistent)
 
 ## Git status
 ## main...origin/main
  M DEV_LOGS.md
  M WORKFLOW_SNAPSHOT_STATE.md
  M gov/asr/INDEX.md
-?? gov/asr/sessions/2026-02-12__ASR__phase5a-wave1-verification-complete.md
+?? gov/asr/sessions/2026-02-12__ASR__phase5a-wave2-roaudter-progress.md
 
 ## References (normative docs)
 - INTERACTION_PROTOCOL.md
@@ -74,6 +72,7 @@ constraints:
 - Adoption queue and wave-order ASR added: `gov/asr/sessions/2026-02-12__ASR__phase5a-adoption-queue-wave-order.md`.
 - Wave 1 progress ASR added: `gov/asr/sessions/2026-02-12__ASR__phase5a-wave1-lam-artifacts-seeded.md`.
 - Wave 1 verification ASR added: `gov/asr/sessions/2026-02-12__ASR__phase5a-wave1-verification-complete.md`.
+- Wave 2 progress ASR added: `gov/asr/sessions/2026-02-12__ASR__phase5a-wave2-roaudter-progress.md`.
 - WORKFLOW snapshot contract requirement (`protocol_scale`) is satisfied.
 - Protocol scale semantic dictionary (7 languages):
   - ru: положительный / нейтральный / отрицательный
@@ -87,7 +86,7 @@ constraints:
 - ESS matrix (facts-only):
   - RADRILONIUMA-PROJECT: DONE (required governance artifacts present; repo synced before local Phase 5.A edits).
   - LAM: DONE (snapshot/SS artifacts committed and pushed at `b13217c`).
-  - Roaudter-agent: BLOCKED (governance artifact set missing in checked scope).
+  - Roaudter-agent: PENDING (snapshot/SS artifacts committed locally at `c02f6f0`; sync blocked by network/DNS).
 
 ## New Chat Init
 
