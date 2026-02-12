@@ -87,3 +87,26 @@ F4. No commit allowed without visible staged diff.
 
 Deliverable: Execution Cycle updated to remove index visibility gap.
 
+
+---
+
+## G) EXPORT Completion Verification (Contract-bound)
+
+Problem:
+Checking file existence does NOT guarantee that session context export is complete.
+
+Requirement:
+EXPORT is considered complete only if state files:
+- conform to their respective CONTRACT documents,
+- contain derived facts of the current session,
+- reflect current phase/export markers where applicable.
+
+Rules:
+G1. File presence alone is NOT a valid verification criterion.
+G2. EXPORT must validate contract ↔ state semantic consistency.
+G3. If mismatch detected → Phase 1 remains incomplete.
+G4. Verification must be read-only and derivation-only.
+
+Deliverable:
+Explicit contract-bound definition of EXPORT completion in restart protocols.
+
