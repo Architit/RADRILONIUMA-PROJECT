@@ -1,5 +1,10 @@
 # DEV_MAP — INTERACTION_PROTOCOL Refactor Program
 
+## Execution Status (2026-02-12)
+- Status: IN PROGRESS (baseline integrated into `INTERACTION_PROTOCOL.md`)
+- Integrated blocks: A, B, C, D, E, F, G (contract-level baseline)
+- Next pass: tighten examples, add repo-specific verification checklists (still policy-only)
+
 ## Scope
 Full structural refactor of INTERACTION_PROTOCOL.md:
 Modules → Modes → Phases → Stages → Steps → Command Contracts.
@@ -109,4 +114,3 @@ G4. Verification must be read-only and derivation-only.
 
 Deliverable:
 Explicit contract-bound definition of EXPORT completion in restart protocols.
-

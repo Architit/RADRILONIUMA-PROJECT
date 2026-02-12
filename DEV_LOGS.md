@@ -83,3 +83,10 @@ DevKit patcher UX hardening.
 - Added mandatory Governance Review Stage before any new execution phase.
 - Fixed required governance update order for protocol changes: `DEV_LOGS.md` -> `ROADMAP.md` -> `INTERACTION_PROTOCOL.md`.
 - Added phase close invariant: clean working tree is mandatory for governance close.
+
+## 2026-02-12 — DEV_MAP execution started (protocol refactor baseline)
+- Started structural refactor of `INTERACTION_PROTOCOL.md` by DEV_MAP scope: Modules/Mode/Phase/Stage/Step/Command Contracts.
+- Normalized restart semantics: ACTIVE chat => Phase 1 (EXPORT-only), NEW chat => Phase 2 (IMPORT) for `ssn rstrt`; NEW chat `cld rstrt` => IMPORT + env sync.
+- Added mandatory Phase Alignment Gate model (phase context, allowed set, conflict resolution).
+- Added Index Sync Hardening to Safety Check sequence (`git status -sb` -> staging -> `git diff --cached --stat` -> key diff).
+- Added contract-bound EXPORT completion verification rules (contract ↔ state semantic consistency).

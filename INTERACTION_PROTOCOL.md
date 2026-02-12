@@ -7,33 +7,7 @@
 
 ---
 
-## Базовый режим работы
-
-Работа ведётся ТОЛЬКО циклами:
-
-Context Sync
-→ Action Block (1–3 команды)
-→ Safety Check (git diff --cached)
-→ Verification
-→ Governance (DEV_LOGS / ROADMAP)
-
-После каждого блока — СТОП и ожидание вывода пользователя.
-
----
-
-## Правила команд
-
-- Команды выводятся ТОЛЬКО в bash-блоках
-- Никакого поясняющего текста между командами
-- Никаких команд «вслепую»
-- Один дефект → один фикс → один run → один commit
-- Перед коммитом обязательно:
-  - git diff --stat
-  - ключевой git diff по затронутым файлам
-
----
-
-## Жёсткие границы
+## M0 — Hard Constraints
 
 - contracts-first
 - observability-first
@@ -42,191 +16,178 @@ Context Sync
 - NO execution-path impact
 - NO self-modification
 - NO inline-редактирования
-- NO apply_patch / applypatch / apply-patch
+- NO enforcement/automation
 
 Разрешено:
-- devkit/patch.sh
-- git apply --index (только при починке DevKit)
+- policy-level governance updates
+- read-only verification/synchronization
+- canonical DevKit patcher `devkit/patch.sh`
 
 ---
 
-## DevKit Governance
+## M1 — Execution Cycle (Normal)
 
-- Central DevKit: RADRILONIUMA-PROJECT
-- Каноничный патчер: devkit/patch.sh
-- DevKit обязателен для всей экосистемы
+Работа ведётся циклами:
+
+Context Sync
+→ Action Block (1-3 команды)
+→ Safety Check
+→ Verification
+→ Governance (по необходимости)
+
+После каждого блока: STOP и ожидание сигнала пользователя.
+
+### Safety Check (mandatory sequence)
+1) `git status -sb`
+2) если есть `??` или unstaged изменения, явно stage нужные файлы
+3) `git diff --cached --stat`
+4) ключевой `git diff --cached <file>` по затронутым артефактам
+
+No commit allowed without visible staged diff.
 
 ---
 
-## Cold Restart / Recovery
+## M2 — Output Modes
 
-### Phase 1 (EXPORT) — Canonical Export Procedure (contract-bound)
+### Mode N (Normal)
+Обычный режим взаимодействия по M1.
 
-Назначение:
-- Зафиксировать свежий derived snapshot ТЕКУЩЕГО контекста сессии.
-- Completion EXPORT определяется контрактно: contract↔state семантическая согласованность (не наличие файлов).
+### Mode R (Recovery)
+Строгий формат ответа (ровно 2 строки):
+1) `MODE:R | PHASE:<...> | STAGE:<...> | STEP:<...>`
+2) `ACTION:<single deterministic action or STOP reason>`
 
-Артефакты (обязательные в Phase 1 EXPORT):
-- WORKFLOW_SNAPSHOT_STATE.md  (per WORKFLOW_SNAPSHOT_CONTRACT.md)
-- SYSTEM_STATE.md            (per SYSTEM_STATE_CONTRACT.md)
+### Deterministic mode switching
+Переход в Mode R обязателен, если:
+- обнаружен протокольный конфликт (два взаимоисключающих шага),
+- отсутствуют обязательные артефакты для текущего шага,
+- невозможно однозначно определить допустимую фазу после restart.
 
-Жёсткие правила:
-- derivation-only (facts-only state)
-- NO runtime logic / NO execution-path impact
-- EXPORT обязан обновлять timestamp и сессионно-релевантные факты
-- EXPORT не должен фиксировать неверную семантику рестарта в NEW_CHAT_INIT_MESSAGE
+Возврат в Mode N:
+- после устранения причины и явного подтверждения пользователя.
 
-Минимум полей для refresh:
-1) WORKFLOW_SNAPSHOT_STATE.md
-   - Identity.timestamp (UTC now)
-   - repo, branch
-   - phase pointer (Phase X.Y + status)
-   - Git status: точный вывод `git status -sb` на момент EXPORT
-   - Recent commits window (короткий derived список)
-   - NEW_CHAT_INIT_MESSAGE (семантика обязана быть корректной):
-       - ACTIVE chat: Proceed with Phase 1 (EXPORT-only). IMPORT forbidden.
-       - NEW chat:    Proceed with Phase 2 (IMPORT).
-2) SYSTEM_STATE.md
-   - Identity.timestamp (UTC now)
-   - host/substrate/os/kernel/shell/git/python (facts-only)
-   - workspace_root и repo_paths (facts-only)
+---
 
-Критерии завершения EXPORT (mandatory):
-- оба state-файла обновлены в одном EXPORT-окне (timestamps refreshed)
-- WORKFLOW_SNAPSHOT_STATE Git status соответствует текущему репо на момент EXPORT
-- NEW_CHAT_INIT_MESSAGE согласован с ACTIVE vs NEW chat семантикой
+## M3 — Restart Protocols
 
-### Session Restart (ssn rstrt)
-**Clarification — restart semantics (deterministic):**
-- **ACTIVE chat:** both `ssn rstrt` and `cld rstrt` trigger **Phase 1 (EXPORT) only** (snapshot refresh). **IMPORT is forbidden** because context is not lost.
-- **NEW chat:** `ssn rstrt` starts **Phase 2 (IMPORT)** (Phase 1 EXPORT is assumed completed in the previous session).
-- **NEW chat:** `cld rstrt` starts **Phase 2 (IMPORT)** plus **environment sync / minimal recovery**.
+### 3.1 Canonical Phase Mapping (deterministic)
 
-Используется при новом чате без сброса среды.
+ACTIVE chat:
+- `ssn rstrt` => Phase 1 (EXPORT-only)
+- `cld rstrt` => Phase 1 (EXPORT-only)
 
-Сигнал пользователя:
-ssn rstrt
+NEW chat:
+- `ssn rstrt` => Phase 2 (IMPORT)
+- `cld rstrt` => Phase 2 (IMPORT) + environment sync / minimal recovery
 
-Действия ассистента:
-- переобъявить текущую Phase
-- выполнить read-only Context Sync (pwd, git status -sb)
-- выполнить Phase 1 (EXPORT) по Canonical Export Procedure (contract-bound)
-- продолжить обычные циклы
+### 3.2 Phase 1 (EXPORT) — Contract-bound completion
 
-Никакого environment recovery.
+Обязательные state-артефакты:
+- `WORKFLOW_SNAPSHOT_STATE.md` (per `WORKFLOW_SNAPSHOT_CONTRACT.md`)
+- `SYSTEM_STATE.md` (per `SYSTEM_STATE_CONTRACT.md`)
 
-### Cold Restart (cld rstrt)
-Используется после перезагрузки машины/WSL/терминала.
+EXPORT считается завершённым только если:
+1) оба state-файла обновлены в одном export-окне,
+2) timestamp-метки обновлены,
+3) state-содержимое семантически согласовано с CONTRACT,
+4) `WORKFLOW_SNAPSHOT_STATE.md` содержит актуальный `git status -sb`,
+5) `NEW_CHAT_INIT_MESSAGE` соответствует ACTIVE/NEW semantics.
 
-Сигнал пользователя:
-cld rstrt
+File presence alone is NOT a completion criterion.
 
-Действия ассистента:
-- переобъявить текущую Phase
-- выполнить Context + Environment Sync (pwd, git status -sb)
-- при необходимости минимальные recovery-действия
-- продолжить обычные циклы
+### 3.3 Phase 2 (IMPORT)
 
-SS-layer (System State) for cld rstrt (mandatory):
-- CONTRACT: SYSTEM_STATE_CONTRACT.md
-- STATE: SYSTEM_STATE.md (facts-only, derived)
-- Phase 1 (EXPORT) must refresh SYSTEM_STATE.md alongside WORKFLOW_SNAPSHOT_STATE.md
-- Phase 2 (IMPORT) must verify SYSTEM_STATE.md and perform environment sync / minimal recovery based on facts only
+Минимальные read-only шаги:
+- прочитать `WORKFLOW_SNAPSHOT_STATE.md`
+- `pwd`
+- `git status -sb`
+- `git log -n 12 --oneline`
+- переобъявить phase/stage из snapshot и пройти Phase Alignment Gate (M4)
 
-После перезапуска / нового чата работа продолжается
-ТОЛЬКО после сигнала пользователя:
+Для `ssn rstrt`: environment recovery запрещён.
+Для `cld rstrt`: допускается минимальный facts-only environment sync.
 
-вернулся, продолжаем Phase X.Y
+---
+
+## M4 — Phase Alignment Gate (Fix C/3)
+
+### 4.1 Phase Context object (required)
+
+Перед переходом к execution фиксируется контекст:
+- `repo`
+- `branch`
+- `restart_signal` (`ssn rstrt` | `cld rstrt`)
+- `chat_state` (`ACTIVE` | `NEW`)
+- `declared_phase` (из snapshot/roadmap)
+- `declared_stage`
+- `constraints` (hard)
+
+### 4.2 Allowed phase-set after restart
+
+Допустимы только:
+- ровно `declared_phase` из snapshot,
+- либо его ближайший governance-parent stage, если phase неактивна,
+- переходы в execution-фазы запрещены при активном Governance Review Stage.
+
+### 4.3 Snapshot alignment rule
+
+Если `declared_phase` в snapshot отсутствует в `ROADMAP.md`, переход блокируется до governance-sync.
+
+### 4.4 Conflict resolution rule
+
+При конфликте `ROADMAP` / `DEV_LOGS` / `INTERACTION_PROTOCOL` / snapshot:
+1) перейти в Mode R,
+2) зафиксировать конфликт как facts-only,
+3) выполнить governance update order,
+4) повторить Phase Alignment Gate.
+
+---
+
+## M5 — Governance Rules
+
+### 5.1 Canonical update order (mandatory)
+
+При изменении протокола порядок обязателен:
+`DEV_LOGS.md` -> `ROADMAP.md` -> `INTERACTION_PROTOCOL.md` -> commit + push
+
+### 5.2 Phase close invariant
+
+Перед governance close рабочее дерево должно быть clean.
+Dirty working tree блокирует закрытие фазы.
+
+### 5.3 New chat handoff gate
+
+Перед генерацией промпта нового чата обязательно:
+- проверить governance consistency,
+- подтвердить push,
+- подтвердить актуальность `DEV_LOGS.md` и `ROADMAP.md`.
+
+Без этого handoff запрещён.
 
 ---
 
 ## Governance Review Stage (mandatory)
 
-После завершения фаз в ROADMAP следующий шаг разработки ОБЯЗАТЕЛЕН
+После завершения фаз в ROADMAP следующий шаг разработки обязателен
 и не является execution-фазой.
 
 Governance Review Stage включает:
-- обзор ROADMAP и DEV_LOGS
-- картографирование фаз, этапов и зависимостей
-- обновление и синхронизацию протоколов
-- обзор тестов, окружений и состояния репозиториев
-- сводное состояние всей экосистемы
+- обзор ROADMAP и DEV_LOGS,
+- картографирование фаз/этапов/зависимостей,
+- синхронизацию протокольных слоёв,
+- обзор тестов/окружений/состояния репозиториев,
+- сводное экосистемное состояние (ESS).
 
 Запрещено начинать новую execution-фазу
 до завершения Governance Review Stage.
 
 ---
-## Governance Rules
 
-### Завершение фаз
-Завершённая фаза обязана быть отражена в:
-- DEV_LOGS.md
-- ROADMAP.md
+## DevKit Governance Status
 
-### Обновление протокола
-При изменении INTERACTION_PROTOCOL.md порядок ОБЯЗАТЕЛЕН:
-
-DEV_LOGS
-→ ROADMAP
-→ INTERACTION_PROTOCOL.md
-→ commit + push
-
-Без Governance:
-- протокол невалиден
-- переходы фаз запрещены
-- промпты для нового чата запрещены
-
----
-
-## Переход в новый чат
-
-Перед генерацией промпта ассистент обязан:
-- проверить Governance
-- подтвердить push
-- подтвердить DEV_LOGS / ROADMAP
-
----
-
-## Статус
-Каноничный протокол взаимодействия RADRILONIUMA DevKit.
-
----
-
-## Governance Extensions (Phase 4.C)
-
-В Phase 4.C введены следующие каноничные расширения протокола:
-
-### System State Snapshot (SS)
-- SYSTEM_STATE_CONTRACT.md — contract (policy-only)
-- SYSTEM_STATE.md — derived system/environment facts (observability-only)
-- Used by cld rstrt export/import to preserve/restore environment context
-
-### Workflow Snapshot Architecture
-- Каноничная split-архитектура snapshot:
-  - WORKFLOW_SNAPSHOT_CONTRACT.md — контракт
-  - WORKFLOW_SNAPSHOT_STATE.md — состояние
-- Contract и State разделены и обновляются независимо.
-- WORKFLOW_SNAPSHOT.md более не используется.
-
-### Session Restart (ssn rstrt) уточнение
-- При старте НОВОГО чата с сигналом `ssn rstrt`:
-  - ассистент автоматически начинает с Phase 2 (IMPORT),
-  - Phase 1 (EXPORT) считается выполненной в предыдущей сессии.
-
-### Governance Versioning
-- Все governance-изменения ОБЯЗАНЫ:
-  - фиксироваться commit’ом
-  - иметь semantic governance tag (mandatory)
-- DevKit является единственным version authority.
-
-### Minimum Traceability Guarantee
-Гарантируется минимальная трассируемость через:
-- Git history
-- Governance tags
-- Subtree commit linkage
-
-Дополнительные метаданные не требуются.
-
-### Phase Close Invariant
-- Перед закрытием фазы рабочее дерево ДОЛЖНО быть clean.
-- Dirty working tree блокирует governance close.
+- Central DevKit: RADRILONIUMA-PROJECT
+- Canonical patcher: `devkit/patch.sh`
+- Snapshot split architecture is mandatory:
+  - `WORKFLOW_SNAPSHOT_CONTRACT.md` / `WORKFLOW_SNAPSHOT_STATE.md`
+  - `SYSTEM_STATE_CONTRACT.md` / `SYSTEM_STATE.md`
+- `WORKFLOW_SNAPSHOT.md` is deprecated and non-canonical.

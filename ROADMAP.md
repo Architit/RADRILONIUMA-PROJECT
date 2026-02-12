@@ -95,6 +95,11 @@ Governance focus:
 - Зафиксирован формат Ecosystem Status Dashboard.
 - Policy-only, observability-first, derivation-only.
 
+## Phase 5.B — Ecosystem Coverage Expansion [HOLD]
+- Цель: закрыть матрицу покрытия governance-артефактов по репозиториям (SoT/LAM/downstream).
+- Верификация: только facts-only ESS/ASR наблюдаемость, без rollout execution.
+- Prerequisite: завершить Governance Review Stage и синхронизацию протокольной структуры (DEV_MAP baseline).
+- Статус HOLD до явного governance-решения на переход к execution.
 
 ---
 **Current Development Stage:**
