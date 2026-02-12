@@ -9,6 +9,7 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - ARCHITECTURAL_SESSION_RECORD = ASSNRCRD = ASR
 
 ## Sessions
+- 2026-02-12 — Phase 5.A Execution Kickoff (Repo Rollout Analysis)
 - 2026-02-12 — Phase 5 planning / Governance Review / multi-level protocol model
 - 2026-02-12 — Phase 5.A Rollout Analysis Conclusion
 - 2026-02-12 — ESS Audit: SSN RSTRT Protocol Presence & Drift

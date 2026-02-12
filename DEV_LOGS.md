@@ -90,3 +90,12 @@ DevKit patcher UX hardening.
 - Added mandatory Phase Alignment Gate model (phase context, allowed set, conflict resolution).
 - Added Index Sync Hardening to Safety Check sequence (`git status -sb` -> staging -> `git diff --cached --stat` -> key diff).
 - Added contract-bound EXPORT completion verification rules (contract ↔ state semantic consistency).
+
+## 2026-02-12 — Phase 5.A execution activated
+- Governance decision recorded: transition from planning/review to Phase 5.A execution context.
+- Protocol scale moved to `+1` for execution-forward work in rollout analysis scope.
+- Current execution remains policy-only and facts-only per `REPO_ROLLOUT_ANALYSIS_CONTRACT.md`.
+- Baseline ecosystem facts captured:
+  - `RADRILONIUMA-PROJECT`: governance artifacts present.
+  - `LAM`: snapshot/SS artifacts missing.
+  - `Roaudter-agent`: governance artifact set missing.
