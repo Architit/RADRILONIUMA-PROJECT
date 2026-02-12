@@ -12,3 +12,4 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - 2026-02-12 — Phase 5 planning / Governance Review / multi-level protocol model
 - 2026-02-12 — Phase 5.A Rollout Analysis Conclusion
 - 2026-02-12 — ESS Audit: SSN RSTRT Protocol Presence & Drift
+- 2026-02-12 — Strict Mode: ESS Local Clone Verification & Windows Ref Sanitization (AASR)
