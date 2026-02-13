@@ -32,6 +32,13 @@ source_of_truth: RADRILONIUMA-PROJECT
 - atlas_mode: deep-research-lifecycle-reflection
 - map_reset_mode: non-destructive baseline regeneration
 
+## Map Pack
+- os_dev_map: `OS_DEV_MAP.md`
+- roadmap_map: `ROADMAP_MAP.md`
+- task_map: `TASK_MAP.md`
+- ui_operator_sync: COMPLETE
+- ui_operator_sync_asr: `gov/asr/sessions/2026-02-13__ASR__phase6a-map-pack-ui-operator-full-sync.md`
+
 ## Security Protocols
 - all_paths_rollout_state: BASELINE_ACTIVE
 - lifecycle_protocol_set:
