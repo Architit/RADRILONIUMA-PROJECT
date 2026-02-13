@@ -32,3 +32,4 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - 2026-02-13 | phasez-lam-zprep-closure-sync | gov/asr/sessions/2026-02-13__ASR__phasez-lam-zprep-closure-sync.md
 - 2026-02-13 | phasez-lam-interaction-protocol-template-alignment-sync | gov/asr/sessions/2026-02-13__ASR__phasez-lam-interaction-protocol-template-alignment-sync.md
 - 2026-02-13 | phasez-lam-zpost-selection-sweep-sync | gov/asr/sessions/2026-02-13__ASR__phasez-lam-zpost-selection-sweep-sync.md
+- 2026-02-13 | phasez-lam-gov-subtree-coverage-sync | gov/asr/sessions/2026-02-13__ASR__phasez-lam-gov-subtree-coverage-sync.md
