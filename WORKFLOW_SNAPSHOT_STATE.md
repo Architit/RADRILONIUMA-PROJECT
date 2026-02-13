@@ -3,7 +3,7 @@
 ## Identity
 repo: RADRILONIUMA-PROJECT
 branch: main
-timestamp: 2026-02-13T08:27:39Z
+timestamp: 2026-02-13T08:29:17Z
 
 ## Current pointer
 phase: Phase 6 Selection Gate
@@ -27,12 +27,12 @@ constraints:
 - Phase 5.A - Repo Rollout Analysis [DONE]
 
 ## Recent commits
+- 14bcbcf governance: open phase6 selection gate
 - 008edaa governance: close phase5b completion gate and mark done
 - bbe7bac governance: record phase5b post-closure stability checkpoint
 - 8fd987b governance: close phase5b local hygiene wave 12of12
 - b53353d governance: record phase5b wave checkpoint and hygiene gate
 - 191ae5d governance: run recurring protocol drift-gate v1 checkpoint
-- 9a14a85 governance: close recovery checkpoint and refresh protocol maps
 
 ## Git status
 ## main...origin/main
@@ -99,3 +99,6 @@ cld rstrt NEW
 - 2026-02-13 08:27 UTC — phase6-selection-gate-open
 - checkpoint_result: transition moved to PHASE_SELECTION_GATE_ACTIVE
 - gate_asr: gov/asr/sessions/2026-02-13__ASR__phase6-selection-gate-open.md
+- 2026-02-13 08:29 UTC — phase6-ecosystem-session-record
+- checkpoint_result: ESR checkpoint captured; ecosystem baseline remains aligned
+- gate_asr: gov/asr/sessions/2026-02-13__ASR__phase6-ecosystem-session-record.md

@@ -163,6 +163,7 @@ SoT.
 - [x] 2026-02-13 — governance: post-closure stability checkpoint executed (`phase5b-post-closure-stability-checkpoint`); tracked repositories remain synchronized (16/16).
 - [x] 2026-02-13 — governance: Phase 5.B completion gate closed (`phase5b-completion-gate-closure`); phase marked DONE and ready for next phase selection.
 - [x] 2026-02-13 — governance: Phase 6 selection gate opened (`phase6-selection-gate-open`); transition switched to next-phase objective declaration.
+- [x] 2026-02-13 — governance: ESR checkpoint captured for active Phase 6 selection gate (`phase6-ecosystem-session-record`); alignment baseline reaffirmed.
 
 ## Phase 6 — Next-Phase Selection Gate [ACTIVE]
 - Goal: declare canonical Phase 6 objective and DoD in ROADMAP before any execution wave.

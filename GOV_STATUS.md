@@ -1,13 +1,13 @@
 # Governance Status Dashboard
 
-timestamp_utc: 2026-02-13T08:27:39Z
+timestamp_utc: 2026-02-13T08:29:17Z
 scope: RADRILONIUMA ecosystem
 source_of_truth: RADRILONIUMA-PROJECT
 
 ## Protocol Baseline
 - protocol_version: v1.0.0
 - protocol_sync_commit: 7eadfe9
-- sot_head_commit: 008edaa
+- sot_head_commit: 14bcbcf
 - governance_tag: gov-radr-protocol-v1.0.0
 
 ## Drift Gate Summary (Wave-2)
@@ -15,7 +15,7 @@ source_of_truth: RADRILONIUMA-PROJECT
 - aligned: 16
 - drift: 0
 - blocked: 0
-- latest_asr: `gov/asr/sessions/2026-02-13__ASR__phase6-selection-gate-open.md`
+- latest_asr: `gov/asr/sessions/2026-02-13__ASR__phase6-ecosystem-session-record.md`
 
 ## Phase Gate
 - phase_5b_status: DONE
