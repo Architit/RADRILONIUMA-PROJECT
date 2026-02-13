@@ -27,12 +27,12 @@ constraints:
 - Phase 5.A - Repo Rollout Analysis [DONE]
 
 ## Recent commits
+- d37c3da governance(security): activate phase6a all-paths rollout baseline
 - 480aaee governance(security): expand key protocols to all ecosystem paths
 - 98954d6 governance: run phase6 ESSR heartbeat cycle4 green
 - 089298a governance(review): align snapshot phase verification to phase6
 - ccee2c5 governance: run global ecosystem subtree sync lifeflow
 - bff930d governance: run phase6 ESSR heartbeat cycle2 green
-- 64d9360 governance: run phase6 ESSR heartbeat cycle1 green
 
 ## Git status
 ## main...origin/main
@@ -126,3 +126,6 @@ cld rstrt NEW
 - 2026-02-13 09:24 UTC — phase6a-security-protocols-all-paths-rollout-baseline
 - checkpoint_result: security key lifecycle protocols expanded to all ecosystem identity/path classes
 - gate_asr: gov/asr/sessions/2026-02-13__ASR__phase6a-security-protocols-all-paths-rollout-baseline.md
+- 2026-02-13 09:24 UTC — phase6a-multidisk-cab-lifeflow-baseline
+- checkpoint_result: local multidisk C+A+B lifeflow baseline activated without repo-A dependency
+- gate_asr: gov/asr/sessions/2026-02-13__ASR__phase6a-multidisk-cab-lifeflow-baseline.md

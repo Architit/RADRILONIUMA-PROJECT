@@ -7,7 +7,7 @@ source_of_truth: RADRILONIUMA-PROJECT
 ## Protocol Baseline
 - protocol_version: v1.0.0
 - protocol_sync_commit: 7eadfe9
-- sot_head_commit: 480aaee
+- sot_head_commit: d37c3da
 - governance_tag: gov-radr-protocol-v1.0.0
 
 ## Drift Gate Summary (Wave-2)
@@ -15,7 +15,7 @@ source_of_truth: RADRILONIUMA-PROJECT
 - aligned: 16
 - drift: 0
 - blocked: 0
-- latest_asr: `gov/asr/sessions/2026-02-13__ASR__phase6a-security-protocols-all-paths-rollout-baseline.md`
+- latest_asr: `gov/asr/sessions/2026-02-13__ASR__phase6a-multidisk-cab-lifeflow-baseline.md`
 
 ## Phase Gate
 - phase_5b_status: DONE
@@ -39,6 +39,14 @@ source_of_truth: RADRILONIUMA-PROJECT
   - `INTERNAL_KEY_PROTOCOL_2_ROTATION.md`
   - `INTERNAL_KEY_PROTOCOL_3_SYNC_4_VERIFY.md`
   - `INTERNAL_KEY_ECOSYSTEM_COVERAGE_MATRIX.md`
+
+## Multidisk Lifeflow
+- cab_mounts_observed:
+  - `A:\\ -> /mnt/a`
+  - `B:\\ -> /mnt/b`
+  - `C:\\ -> /mnt/c`
+- cab_protocol: `ECOSYSTEM_LIFEFLOW_MULTIDISK_PROTOCOL_CAB.md`
+- cab_state: BASELINE_ACTIVE
 
 ## Local Hygiene Snapshot
 - tracked_repos: 16

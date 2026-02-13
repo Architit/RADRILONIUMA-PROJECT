@@ -172,6 +172,7 @@ SoT.
 - [x] 2026-02-13 — governance: recurring ESSR heartbeat cycle 4 executed (`phase6-essr-heartbeat-cycle4-green`); heartbeat GREEN with 16/16 synchronized repositories.
 - [x] 2026-02-13 — governance: Phase 6.A GENESIS atlas deep research activated (`phase6a-genesis-atlas-v2-deep-research`); map reset interpreted as non-destructive v2 baseline creation.
 - [x] 2026-02-13 — governance: Phase 6.A security protocols all-paths rollout baseline activated (`phase6a-security-protocols-all-paths-rollout-baseline`) for ecosystem-wide key lifecycle controls.
+- [x] 2026-02-13 — governance: multidisk CAB lifeflow baseline activated (`phase6a-multidisk-cab-lifeflow-baseline`) for local `C+A+B` process expansion without repo-A dependency.
 
 ## Phase 6 — Next-Phase Selection Gate [ACTIVE]
 - Goal: declare canonical Phase 6 objective and DoD in ROADMAP before any execution wave.
@@ -189,6 +190,7 @@ SoT.
   - `INTERNAL_KEY_PROTOCOL_2_ROTATION.md`
   - `INTERNAL_KEY_PROTOCOL_3_SYNC_4_VERIFY.md`
   - `INTERNAL_KEY_ECOSYSTEM_COVERAGE_MATRIX.md`
+  - `ECOSYSTEM_LIFEFLOW_MULTIDISK_PROTOCOL_CAB.md`
 
 ## Recurring Governance Tasks
 - [ ] Protocol Drift Gate v1 (recurring): run ASR matrix check at each protocol-version update and before every cross-repo governance wave.
