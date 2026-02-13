@@ -185,6 +185,7 @@ SoT.
 - [x] 2026-02-13 — governance: executed Phase 6.Z `restart` checkpoint for governance resync (`phase6z-restart-stage-governance-resync-checkpoint`); latest ASR/state pointers updated.
 - [x] 2026-02-13 — governance: executed Phase 6.Z `reboot` checkpoint for facts-only context re-entry (`phase6z-reboot-stage-facts-context-reentry-checkpoint`); lifecycle stage pointers advanced.
 - [x] 2026-02-13 — governance: executed Phase 6.Z `resync` checkpoint for protocol/version/date/status alignment (`phase6z-resync-stage-protocol-version-date-status-checkpoint`); lifecycle pointers and ASR index updated.
+- [x] 2026-02-13 — governance: executed Phase 6.Z `rebirth` checkpoint for baseline regeneration (`phase6z-rebirth-stage-baseline-regeneration-checkpoint`); lifecycle pointers and latest ASR updated.
 
 ## Phase 6 — Next-Phase Selection Gate [ACTIVE]
 - Goal: declare canonical Phase 6 objective and DoD in ROADMAP before any execution wave.

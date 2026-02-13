@@ -3,7 +3,7 @@
 ## Identity
 repo: RADRILONIUMA-PROJECT
 branch: main
-timestamp: 2026-02-13T11:04:22Z
+timestamp: 2026-02-13T11:05:31Z
 
 ## Current pointer
 phase: Phase 6.Z Arch Core Lifecycle Chain
@@ -162,3 +162,6 @@ cld rstrt NEW
 - 2026-02-13 11:04 UTC — phase6z-resync-stage-protocol-version-date-status-checkpoint
 - checkpoint_result: Phase 6.Z `resync` stage checkpoint captured; protocol/version/date/status pointers aligned and lifecycle current stage moved to `resync`
 - gate_asr: gov/asr/sessions/2026-02-13__ASR__phase6z-resync-stage-protocol-version-date-status-checkpoint.md
+- 2026-02-13 11:05 UTC — phase6z-rebirth-stage-baseline-regeneration-checkpoint
+- checkpoint_result: Phase 6.Z `rebirth` stage checkpoint captured; lifecycle current stage moved to `rebirth` with regenerated governance baseline pointers
+- gate_asr: gov/asr/sessions/2026-02-13__ASR__phase6z-rebirth-stage-baseline-regeneration-checkpoint.md
