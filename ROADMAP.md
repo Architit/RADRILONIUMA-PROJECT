@@ -182,6 +182,7 @@ SoT.
 - [x] 2026-02-13 — governance: activated Phase 7.0 SUNBIRTHLIGHTPULSEBIT contract (`PHASE70_SUNBIRTHLIGHTPULSEBIT_PROTOCOL.md`) and bound into interaction protocol (M11); birth gate locked until phase completion.
 - [x] 2026-02-13 — governance: activated Phase 6.Z arch core lifecycle contract (`PHASE6Z_ARCH_CORE_LIFECYCLE_PROTOCOL.md`) and bound into interaction protocol (M12).
 - [x] 2026-02-13 — governance: executed Phase 6.Z `record` checkpoint for maps/logs/protocols (`phase6z-record-stage-maps-logs-protocols-checkpoint`); evidence linked in ASR index.
+- [x] 2026-02-13 — governance: executed Phase 6.Z `restart` checkpoint for governance resync (`phase6z-restart-stage-governance-resync-checkpoint`); latest ASR/state pointers updated.
 
 ## Phase 6 — Next-Phase Selection Gate [ACTIVE]
 - Goal: declare canonical Phase 6 objective and DoD in ROADMAP before any execution wave.

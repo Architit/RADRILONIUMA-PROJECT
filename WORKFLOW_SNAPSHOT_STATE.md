@@ -3,7 +3,7 @@
 ## Identity
 repo: RADRILONIUMA-PROJECT
 branch: main
-timestamp: 2026-02-13T10:58:52Z
+timestamp: 2026-02-13T11:01:46Z
 
 ## Current pointer
 phase: Phase 6.Z Arch Core Lifecycle Chain
@@ -153,3 +153,6 @@ cld rstrt NEW
 - 2026-02-13 10:58 UTC — phase6z-record-stage-maps-logs-protocols-checkpoint
 - checkpoint_result: Phase 6.Z `record` stage checkpoint captured for map/log/protocol artifacts; references aligned in governance status and ASR index
 - gate_asr: gov/asr/sessions/2026-02-13__ASR__phase6z-record-stage-maps-logs-protocols-checkpoint.md
+- 2026-02-13 11:01 UTC — phase6z-restart-stage-governance-resync-checkpoint
+- checkpoint_result: Phase 6.Z `restart` stage checkpoint captured; lifecycle current stage moved to `restart` and latest ASR pointer updated
+- gate_asr: gov/asr/sessions/2026-02-13__ASR__phase6z-restart-stage-governance-resync-checkpoint.md

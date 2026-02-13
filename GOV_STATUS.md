@@ -1,6 +1,6 @@
 # Governance Status Dashboard
 
-timestamp_utc: 2026-02-13T10:58:52Z
+timestamp_utc: 2026-02-13T11:01:46Z
 scope: RADRILONIUMA ecosystem
 source_of_truth: RADRILONIUMA-PROJECT
 
@@ -15,7 +15,7 @@ source_of_truth: RADRILONIUMA-PROJECT
 - aligned: 16
 - drift: 0
 - blocked: 0
-- latest_asr: `gov/asr/sessions/2026-02-13__ASR__phase6z-record-stage-maps-logs-protocols-checkpoint.md`
+- latest_asr: `gov/asr/sessions/2026-02-13__ASR__phase6z-restart-stage-governance-resync-checkpoint.md`
 
 ## Phase Gate
 - phase_5b_status: DONE
@@ -113,8 +113,9 @@ source_of_truth: RADRILONIUMA-PROJECT
 - phase6z_contract: `PHASE6Z_ARCH_CORE_LIFECYCLE_PROTOCOL.md`
 - phase6z_state: ACTIVE
 - lifecycle_chain_state: RUNNING
-- lifecycle_chain_current_stage: record
+- lifecycle_chain_current_stage: restart
 - record_checkpoint_asr: `gov/asr/sessions/2026-02-13__ASR__phase6z-record-stage-maps-logs-protocols-checkpoint.md`
+- restart_checkpoint_asr: `gov/asr/sessions/2026-02-13__ASR__phase6z-restart-stage-governance-resync-checkpoint.md`
 - lifecycle_chain:
   - record
   - restart
