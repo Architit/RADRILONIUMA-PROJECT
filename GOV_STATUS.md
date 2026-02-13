@@ -1,6 +1,6 @@
 # Governance Status Dashboard
 
-timestamp_utc: 2026-02-13T11:19:46Z
+timestamp_utc: 2026-02-13T11:21:00Z
 scope: RADRILONIUMA ecosystem
 source_of_truth: RADRILONIUMA-PROJECT
 
@@ -15,7 +15,7 @@ source_of_truth: RADRILONIUMA-PROJECT
 - aligned: 16
 - drift: 0
 - blocked: 0
-- latest_asr: `gov/asr/sessions/2026-02-13__ASR__phase70-cycle5-pulse-alignment-checkpoint.md`
+- latest_asr: `gov/asr/sessions/2026-02-13__ASR__phase70-cycle6-pulse-alignment-checkpoint.md`
 
 ## Phase Gate
 - phase_5b_status: DONE
@@ -108,12 +108,13 @@ source_of_truth: RADRILONIUMA-PROJECT
 - phase70_state: ACTIVE
 - birth_gate_state: CLOSED
 - birth_gate_open_condition: only after full Phase 7.0 completion
-- phase70_execution_stage: CYCLE5_PULSE_ALIGNMENT
+- phase70_execution_stage: CYCLE6_PULSE_ALIGNMENT
 - phase70_cycle1_asr: `gov/asr/sessions/2026-02-13__ASR__phase70-cycle1-pulse-alignment-checkpoint.md`
 - phase70_cycle2_asr: `gov/asr/sessions/2026-02-13__ASR__phase70-cycle2-pulse-alignment-checkpoint.md`
 - phase70_cycle3_asr: `gov/asr/sessions/2026-02-13__ASR__phase70-cycle3-pulse-alignment-checkpoint.md`
 - phase70_cycle4_asr: `gov/asr/sessions/2026-02-13__ASR__phase70-cycle4-pulse-alignment-checkpoint.md`
 - phase70_cycle5_asr: `gov/asr/sessions/2026-02-13__ASR__phase70-cycle5-pulse-alignment-checkpoint.md`
+- phase70_cycle6_asr: `gov/asr/sessions/2026-02-13__ASR__phase70-cycle6-pulse-alignment-checkpoint.md`
 
 ## Phase 6.Z Lifecycle Chain
 - phase6z_contract: `PHASE6Z_ARCH_CORE_LIFECYCLE_PROTOCOL.md`
