@@ -3,7 +3,7 @@
 ## Identity
 repo: RADRILONIUMA-PROJECT
 branch: main
-timestamp: 2026-02-13T07:57:20Z
+timestamp: 2026-02-13T08:05:00Z
 
 ## Current pointer
 phase: Phase 5.B Execution - Ecosystem Coverage Expansion
@@ -78,3 +78,6 @@ cld rstrt NEW
 - core_gate_reentry: ALIGNED
 - blocked_repo_status: UNBLOCKED (protocol layer)
 - phase4_asr: gov/asr/sessions/2026-02-13__ASR__core-remediation-phase4-drift-reentry.md
+- 2026-02-13 08:05 UTC — full-drift-gate-v2
+- full_gate_result: ALIGNED (SoT + non-SoT matrix)
+- gate_asr: gov/asr/sessions/2026-02-13__ASR__full-drift-gate-v2.md
