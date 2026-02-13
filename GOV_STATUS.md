@@ -1,6 +1,6 @@
 # Governance Status Dashboard
 
-timestamp_utc: 2026-02-13T11:35:09Z
+timestamp_utc: 2026-02-13T11:38:14Z
 scope: RADRILONIUMA ecosystem
 source_of_truth: RADRILONIUMA-PROJECT
 
@@ -15,12 +15,12 @@ source_of_truth: RADRILONIUMA-PROJECT
 - aligned: 16
 - drift: 0
 - blocked: 0
-- latest_asr: `gov/asr/sessions/2026-02-13__ASR__phase70-protocol-bounded-cycle-closure-policy-update.md`
+- latest_asr: `gov/asr/sessions/2026-02-13__ASR__phase70-cycle8-closure-decision-blocked.md`
 
 ## Phase Gate
 - phase_5b_status: DONE
 - completion_gate: PASSED
-- transition_state: PHASE70_SUNBIRTHLIGHTPULSEBIT_ACTIVE
+- transition_state: PHASE70_SUNBIRTHLIGHTPULSEBIT_BLOCKED
 
 ## Heartbeat
 - essr_heartbeat_status: GREEN
@@ -105,10 +105,12 @@ source_of_truth: RADRILONIUMA-PROJECT
 
 ## Phase 7.0 Birth Gate
 - phase70_contract: `PHASE70_SUNBIRTHLIGHTPULSEBIT_PROTOCOL.md`
-- phase70_state: ACTIVE
+- phase70_state: BLOCKED
+- phase70_status: BLOCKED
+- compliance_gate: BLOCKED
 - birth_gate_state: CLOSED
 - birth_gate_open_condition: only after full Phase 7.0 completion
-- phase70_execution_stage: CYCLE7_PULSE_ALIGNMENT
+- phase70_execution_stage: CYCLE8_CLOSURE_DECISION
 - phase70_cycle_window: 1..8
 - phase70_mandatory_closure_checkpoint: CYCLE8
 - phase70_cycle8_decision_rule: COMPLETE_OR_BLOCKED_REQUIRED
@@ -119,6 +121,12 @@ source_of_truth: RADRILONIUMA-PROJECT
 - phase70_cycle5_asr: `gov/asr/sessions/2026-02-13__ASR__phase70-cycle5-pulse-alignment-checkpoint.md`
 - phase70_cycle6_asr: `gov/asr/sessions/2026-02-13__ASR__phase70-cycle6-pulse-alignment-checkpoint.md`
 - phase70_cycle7_asr: `gov/asr/sessions/2026-02-13__ASR__phase70-cycle7-pulse-alignment-checkpoint.md`
+- phase70_cycle8_asr: `gov/asr/sessions/2026-02-13__ASR__phase70-cycle8-closure-decision-blocked.md`
+- phase70_blocked_missing_criteria:
+  - blackhole_state != STABLE
+  - residual_tails confirmation missing
+  - phase70_status COMPLETE criteria not satisfied
+- phase70_blocker_asr: `gov/asr/sessions/2026-02-13__ASR__phase70-cycle8-closure-decision-blocked.md`
 
 ## Phase 6.Z Lifecycle Chain
 - phase6z_contract: `PHASE6Z_ARCH_CORE_LIFECYCLE_PROTOCOL.md`

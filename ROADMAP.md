@@ -107,7 +107,7 @@ Governance focus:
 ---
 **Current Development Stage:**
 Phase 7.0 Execution — SUNBIRTHLIGHTPULSEBIT
-(post-Phase 6.Z closure transition gate stage)
+(cycle-8 closure decision: BLOCKED, remediation required)
 
 - [x] 2026-02-13 — governance: postreview sync with LAM completed; LAM R6 readiness captured (READY=0, BLOCKED=14), RADR stage remains Phase 5.B execution
 
@@ -199,6 +199,7 @@ SoT.
 - [x] 2026-02-13 — governance: executed Phase 7.0 cycle-6 pulse alignment checkpoint (`phase70-cycle6-pulse-alignment-checkpoint`); birth gate remains `CLOSED`.
 - [x] 2026-02-13 — governance: executed Phase 7.0 cycle-7 pulse alignment checkpoint (`phase70-cycle7-pulse-alignment-checkpoint`); birth gate remains `CLOSED`.
 - [x] 2026-02-13 — governance: hardened Phase 7.0 protocol with bounded execution window `cycle-1..cycle-8` and mandatory closure decision at `cycle-8` (`phase70-protocol-bounded-cycle-closure-policy-update`).
+- [x] 2026-02-13 — governance: executed Phase 7.0 cycle-8 mandatory closure decision (`phase70-cycle8-closure-decision-blocked`) => `BLOCKED`; birth gate stays `CLOSED`, remediation plan required.
 
 ## Phase 6 — Next-Phase Selection Gate [ACTIVE]
 - Goal: declare canonical Phase 6 objective and DoD in ROADMAP before any execution wave.
@@ -258,7 +259,7 @@ SoT.
   - residual tails = 0 unresolved,
   - transition gate unlocked.
 
-## Phase 7.0 — SUNBIRTHLIGHTPULSEBIT [ACTIVE]
+## Phase 7.0 — SUNBIRTHLIGHTPULSEBIT [BLOCKED]
 - Goal: execute pulse-alignment cycle and control new-version birth gate opening.
 - Canonical contract: `PHASE70_SUNBIRTHLIGHTPULSEBIT_PROTOCOL.md`.
 - Signature: `p 7 0/|\\<<<...+++ { SUNBIRTHLIGHTPULSEBIT }`.
