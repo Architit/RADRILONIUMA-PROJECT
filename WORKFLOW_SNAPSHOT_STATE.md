@@ -3,7 +3,7 @@
 ## Identity
 repo: RADRILONIUMA-PROJECT
 branch: main
-timestamp: 2026-02-13T08:11:55Z
+timestamp: 2026-02-13T08:13:56Z
 
 ## Current pointer
 phase: Phase 5.B Execution - Ecosystem Coverage Expansion
@@ -27,12 +27,12 @@ constraints:
 - Phase 5.A - Repo Rollout Analysis [DONE]
 
 ## Recent commits
+- 191ae5d governance: run recurring protocol drift-gate v1 checkpoint
 - 9a14a85 governance: close recovery checkpoint and refresh protocol maps
 - 8552838 governance(asr): record recovery activation and ecosystem session
 - 4183a49 governance: execute full drift gate v2
 - 796748b governance(core): complete phase4 drift re-entry and unblock risk
 - cc41396 governance(core): record phase3 reseed on clean clone
-- 32d6fed governance(core): record phase2 reclone DNS blocker
 
 ## Git status
 ## main...origin/main
@@ -84,3 +84,6 @@ cld rstrt NEW
 - 2026-02-13 08:11 UTC — recurring-protocol-drift-gate-v1-checkpoint
 - checkpoint_result: ecosystem branch/artifact matrix ALIGNED for 16 tracked repositories
 - gate_asr: gov/asr/sessions/2026-02-13__ASR__protocol-drift-gate-v1-recurring-checkpoint.md
+- 2026-02-13 08:13 UTC — phase5b-wave-checkpoint-local-hygiene
+- checkpoint_result: protocol/branch sync ALIGNED; local hygiene attention opened (12/16 repos with untracked local artifacts)
+- gate_asr: gov/asr/sessions/2026-02-13__ASR__phase5b-wave-checkpoint-local-hygiene.md
