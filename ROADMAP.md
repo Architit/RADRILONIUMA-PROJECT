@@ -152,6 +152,7 @@ SoT.
 - [x] 2026-02-13 — governance: Protocol Drift Gate v1 Wave-2 executed (`protocol-drift-gate-v1-wave2`) for non-SoT repositories; all ALIGNED except structural BLOCKED state retained for `repos/windows-migrated-b-core/CORE`.
 - [x] 2026-02-13 — governance: CORE remediation Phase-1 evidence captured (`core-fsck-phase1`) and attached to SoT evidence artifact.
 - [x] 2026-02-13 — governance: `GOV_STATUS.md` dashboard published (protocol baseline, drift summary, blocked-risk pointers).
+- [ ] 2026-02-13 — CORE remediation Phase-2 reclone execution BLOCKED by DNS (`core-remediation-phase2-network-blocked`); retry required after network recovery.
 
 ## Recurring Governance Tasks
 - [ ] Protocol Drift Gate v1 (recurring): run ASR matrix check at each protocol-version update and before every cross-repo governance wave.
