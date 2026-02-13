@@ -9,6 +9,7 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - ARCHITECTURAL_SESSION_RECORD = ASSNRCRD = ASR
 
 ## Sessions
+- 2026-02-13 — Protocol Sync Matrix v1.0.0
 - 2026-02-13 — Ecosystem Compliance Matrix and CORE Risk Block
 - 2026-02-13 — Ecosystem Session Record
 - 2026-02-13 — ASR Recovery Protocol Activation (AASR)
@@ -45,3 +46,4 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - 2026-02-13 | asr-recovery-protocol-activation | gov/asr/sessions/2026-02-13__AASR__asr-recovery-protocol-activation.md
 - 2026-02-13 | ecosystem-session-record | gov/asr/sessions/2026-02-13__ASR__ecosystem-session-record.md
 - 2026-02-13 | ecosystem-compliance-matrix-and-risk | gov/asr/sessions/2026-02-13__ASR__ecosystem-compliance-matrix-and-risk.md
+- 2026-02-13 | protocol-sync-matrix-v100 | gov/asr/sessions/2026-02-13__ASR__protocol-sync-matrix-v100.md

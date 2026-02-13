@@ -1,5 +1,13 @@
 # RADRILONIUMA — Interaction Protocol
 
+## Protocol Sync Header
+
+- protocol_source: RADRILONIUMA-PROJECT
+- protocol_version: v1.0.0
+- last_sync_commit: 7eadfe9
+
+---
+
 ## Назначение
 Каноничный протокол взаимодействия при разработке и сопровождении
 центрального DevKit проекта RADRILONIUMA.
