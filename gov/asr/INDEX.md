@@ -9,6 +9,7 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - ARCHITECTURAL_SESSION_RECORD = ASSNRCRD = ASR
 
 ## Sessions
+- 2026-02-13 — Post-Phase70 Canonical Selection Activation
 - 2026-02-13 — Post-Phase70 Next-Phase Gate Open
 - 2026-02-13 — Phase 7.0 Closure COMPLETE COMPLIANT Birth Gate OPEN
 - 2026-02-13 — Phase 7.0 Remediation Blackhole STABLE Residual Tails 0
@@ -151,3 +152,4 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - 2026-02-13 | phase70-remediation-blackhole-stable-residual-tail-zero | gov/asr/sessions/2026-02-13__ASR__phase70-remediation-blackhole-stable-residual-tail-zero.md
 - 2026-02-13 | phase70-closure-complete-compliant-birth-gate-open | gov/asr/sessions/2026-02-13__ASR__phase70-closure-complete-compliant-birth-gate-open.md
 - 2026-02-13 | post-phase70-next-phase-gate-open | gov/asr/sessions/2026-02-13__ASR__post-phase70-next-phase-gate-open.md
+- 2026-02-13 | post-phase70-canonical-selection-activation | gov/asr/sessions/2026-02-13__ASR__post-phase70-canonical-selection-activation.md
