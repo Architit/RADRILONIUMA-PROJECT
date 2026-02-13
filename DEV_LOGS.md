@@ -205,3 +205,4 @@ acknowledged as DONE.
 2026-02-13 09:24 UTC — Governance: published data security protocol pack v1 (`gov/asr/sessions/2026-02-13__ASR__phase6a-data-security-protocol-pack-v1.md`) including migration/retention/public-share/failsafe documents.
 2026-02-13 09:50 UTC — Governance: completed map-pack sync (`OS_DEV_MAP.md`, `ROADMAP_MAP.md`, `TASK_MAP.md`) and mirrored UI OPERATOR full sync (`phase6a-map-pack-ui-operator-full-sync`).
 2026-02-13 10:02 UTC — Governance: published literal symbolic chronology map `ECOSYSTEM_KINGDOM_CHRONOLOGY_MAP.md` (каждое слово и символ preserved).
+2026-02-13 10:12 UTC — Governance: updated pre-transition policy with mandatory version pre-gate reset contract (`VERSION_GATE_RESET_PROTOCOL.md`): full ecosystem revision, map/log/chronolog reset-pack, encrypted archive in previous space, compliance gate before next subphase.

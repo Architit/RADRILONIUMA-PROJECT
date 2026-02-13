@@ -80,3 +80,12 @@ source_of_truth: RADRILONIUMA-PROJECT
 - retention_policy: `DATA_RETENTION_AND_SECURE_ERASURE_POLICY.md`
 - public_share_gate: `PUBLIC_SHARE_PROTOCOL.md`
 - failsafe_concept: `ECOSYSTEM_FAILSAFE_CONCEPT_V1.md`
+
+## Version Transition Pre-Gate
+- pre_gate_contract: `VERSION_GATE_RESET_PROTOCOL.md`
+- pre_gate_state: READY (mandatory before next version gate)
+- mandatory_requirements:
+  - full_ecosystem_revision
+  - map_log_chronolog_reset_pack
+  - encrypted_archive_previous_space
+  - compliance_gate_before_next_subphase

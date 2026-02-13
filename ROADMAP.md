@@ -176,6 +176,7 @@ SoT.
 - [x] 2026-02-13 — governance: data security protocol pack v1 published (`phase6a-data-security-protocol-pack-v1`) [migration+retention+public-share+failsafe].
 - [x] 2026-02-13 — governance: map-pack wave completed (`OS_DEV_MAP.md`, `ROADMAP_MAP.md`, `TASK_MAP.md`) and UI OPERATOR full sync mirrored (`phase6a-map-pack-ui-operator-full-sync`).
 - [x] 2026-02-13 — governance: literal symbolic lifecycle chronolog map published (`ECOSYSTEM_KINGDOM_CHRONOLOGY_MAP.md`) with verbatim capture rule ("каждое слово и символ").
+- [x] 2026-02-13 — governance: mandatory new-version pre-gate reset contract published (`VERSION_GATE_RESET_PROTOCOL.md`) and bound into interaction protocol (M8).
 
 ## Phase 6 — Next-Phase Selection Gate [ACTIVE]
 - Goal: declare canonical Phase 6 objective and DoD in ROADMAP before any execution wave.
@@ -194,6 +195,18 @@ SoT.
   - `INTERNAL_KEY_PROTOCOL_3_SYNC_4_VERIFY.md`
   - `INTERNAL_KEY_ECOSYSTEM_COVERAGE_MATRIX.md`
   - `ECOSYSTEM_LIFEFLOW_MULTIDISK_PROTOCOL_CAB.md`
+
+## Phase 6.B — Version Transition Pre-Gate Reset [READY]
+- Goal: enforce mandatory full-revision + reset + encrypted-archive contract before any new version gate.
+- Canonical contract: `VERSION_GATE_RESET_PROTOCOL.md`.
+- Entry criteria:
+  - Drift Gate v1 refreshed,
+  - ESSR/ESR heartbeat refreshed,
+  - maps/logs/chronologs reset-pack prepared and archived with encryption/integrity evidence.
+- Exit criterion:
+  - compliance gate = `COMPLIANT`,
+  - ASR evidence linked,
+  - next-version gate may open.
 
 ## Recurring Governance Tasks
 - [ ] Protocol Drift Gate v1 (recurring): run ASR matrix check at each protocol-version update and before every cross-repo governance wave.

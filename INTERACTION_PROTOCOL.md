@@ -253,6 +253,25 @@ No runtime logic, no enforcement automation.
 
 ---
 
+## M8 — New Version Gate Reset Contract (mandatory)
+
+Before any transition to a new protocol/version phase:
+
+1) Start a dedicated pre-gate phase/subphase for full ecosystem revision.
+2) Run full revision across maps/logs/chronologs and all tracked repositories.
+3) Prepare reset pack (baseline regeneration, non-destructive).
+4) Archive previous-space artifacts and require encrypted-at-rest storage + integrity manifest.
+5) Mark internal protocol compliance gate (`COMPLIANT` or `BLOCKED`).
+6) Open next subphase only after compliance is `COMPLIANT`.
+
+Canonical contract artifact:
+- `VERSION_GATE_RESET_PROTOCOL.md`
+
+Hard rule:
+- New version gate is FORBIDDEN if any pre-gate requirement is missing.
+
+---
+
 ## Governance Review Stage (mandatory)
 
 После завершения фаз в ROADMAP следующий шаг разработки обязателен

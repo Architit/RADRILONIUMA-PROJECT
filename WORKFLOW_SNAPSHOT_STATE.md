@@ -3,7 +3,7 @@
 ## Identity
 repo: RADRILONIUMA-PROJECT
 branch: main
-timestamp: 2026-02-13T09:50:25Z
+timestamp: 2026-02-13T10:12:25Z
 
 ## Current pointer
 phase: Phase 6.A GENESIS Atlas v2 Formation
@@ -135,3 +135,6 @@ cld rstrt NEW
 - 2026-02-13 09:50 UTC — phase6a-map-pack-ui-operator-full-sync
 - checkpoint_result: SoT map-pack completed (`OS_DEV_MAP.md`, `ROADMAP_MAP.md`, `TASK_MAP.md`) and mirrored to `Operator_Agent`
 - gate_asr: gov/asr/sessions/2026-02-13__ASR__phase6a-map-pack-ui-operator-full-sync.md
+- 2026-02-13 10:12 UTC — phase6b-version-pre-gate-reset-contract-activation
+- checkpoint_result: mandatory pre-transition reset contract activated (`VERSION_GATE_RESET_PROTOCOL.md`) and bound to interaction protocol M8
+- gate_asr: gov/asr/sessions/2026-02-13__ASR__phase6b-version-pre-gate-reset-contract-activation.md
