@@ -175,6 +175,7 @@ SoT.
 - [x] 2026-02-13 — governance: multidisk CAB lifeflow baseline activated (`phase6a-multidisk-cab-lifeflow-baseline`) for local `C+A+B` process expansion without repo-A dependency.
 - [x] 2026-02-13 — governance: data security protocol pack v1 published (`phase6a-data-security-protocol-pack-v1`) [migration+retention+public-share+failsafe].
 - [x] 2026-02-13 — governance: map-pack wave completed (`OS_DEV_MAP.md`, `ROADMAP_MAP.md`, `TASK_MAP.md`) and UI OPERATOR full sync mirrored (`phase6a-map-pack-ui-operator-full-sync`).
+- [x] 2026-02-13 — governance: literal symbolic lifecycle chronolog map published (`ECOSYSTEM_KINGDOM_CHRONOLOGY_MAP.md`) with verbatim capture rule ("каждое слово и символ").
 
 ## Phase 6 — Next-Phase Selection Gate [ACTIVE]
 - Goal: declare canonical Phase 6 objective and DoD in ROADMAP before any execution wave.
