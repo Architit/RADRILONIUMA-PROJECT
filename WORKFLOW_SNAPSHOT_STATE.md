@@ -3,7 +3,7 @@
 ## Identity
 repo: RADRILONIUMA-PROJECT
 branch: main
-timestamp: 2026-02-13T11:06:39Z
+timestamp: 2026-02-13T11:08:01Z
 
 ## Current pointer
 phase: Phase 6.Z Arch Core Lifecycle Chain
@@ -168,3 +168,6 @@ cld rstrt NEW
 - 2026-02-13 11:06 UTC — phase6z-repulse-stage-drift-tail-rejection-checkpoint
 - checkpoint_result: Phase 6.Z `repulse` stage checkpoint captured; lifecycle current stage moved to `repulse` with unresolved drift tails rejected by policy
 - gate_asr: gov/asr/sessions/2026-02-13__ASR__phase6z-repulse-stage-drift-tail-rejection-checkpoint.md
+- 2026-02-13 11:08 UTC — phase6z-rebit-stage-deterministic-corrections-checkpoint
+- checkpoint_result: Phase 6.Z `rebit` stage checkpoint captured; lifecycle current stage moved to `rebit` with minimal deterministic correction increments
+- gate_asr: gov/asr/sessions/2026-02-13__ASR__phase6z-rebit-stage-deterministic-corrections-checkpoint.md

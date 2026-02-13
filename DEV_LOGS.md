@@ -216,3 +216,4 @@ acknowledged as DONE.
 2026-02-13 11:04 UTC — Governance: executed Phase 6.Z `resync` checkpoint for protocol/version/date/status alignment; ASR created (`phase6z-resync-stage-protocol-version-date-status-checkpoint`) and linked as latest lifecycle evidence.
 2026-02-13 11:05 UTC — Governance: executed Phase 6.Z `rebirth` checkpoint for baseline regeneration; ASR created (`phase6z-rebirth-stage-baseline-regeneration-checkpoint`) and linked as latest lifecycle evidence.
 2026-02-13 11:06 UTC — Governance: executed Phase 6.Z `repulse` checkpoint for unresolved drift-tail rejection; ASR created (`phase6z-repulse-stage-drift-tail-rejection-checkpoint`) and linked as latest lifecycle evidence.
+2026-02-13 11:08 UTC — Governance: executed Phase 6.Z `rebit` checkpoint for minimal deterministic corrections; ASR created (`phase6z-rebit-stage-deterministic-corrections-checkpoint`) and linked as latest lifecycle evidence.
