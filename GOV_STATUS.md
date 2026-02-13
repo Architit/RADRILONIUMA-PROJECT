@@ -1,13 +1,13 @@
 # Governance Status Dashboard
 
-timestamp_utc: 2026-02-13T08:05:00Z
+timestamp_utc: 2026-02-13T08:09:18Z
 scope: RADRILONIUMA ecosystem
 source_of_truth: RADRILONIUMA-PROJECT
 
 ## Protocol Baseline
 - protocol_version: v1.0.0
 - protocol_sync_commit: 7eadfe9
-- sot_head_commit: 796748b
+- sot_head_commit: 8552838
 - governance_tag: gov-radr-protocol-v1.0.0
 
 ## Drift Gate Summary (Wave-2)

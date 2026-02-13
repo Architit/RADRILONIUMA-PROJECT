@@ -3,7 +3,7 @@
 ## Identity
 repo: RADRILONIUMA-PROJECT
 branch: main
-timestamp: 2026-02-13T08:05:00Z
+timestamp: 2026-02-13T08:09:18Z
 
 ## Current pointer
 phase: Phase 5.B Execution - Ecosystem Coverage Expansion
@@ -27,17 +27,15 @@ constraints:
 - Phase 5.A - Repo Rollout Analysis [DONE]
 
 ## Recent commits
-- 9a53b2c governance(asr): record z.runtime exec w1 t2 sync for LAM
-- 1e7b999 governance(asr): record z.runtime exec w1 t1 sync for LAM
-- dfe8f4f governance(asr): record z.runtime exec wave open sync for LAM
-- a04b47a governance(asr): record z.runtime start decision sync for LAM
-- 11cffa8 governance(asr): record z.runtime t1 t2 t3 sync for LAM
-- 33cc47f governance(asr): record z.runtime prep risk ops sync for LAM
+- 8552838 governance(asr): record recovery activation and ecosystem session
+- 4183a49 governance: execute full drift gate v2
+- 796748b governance(core): complete phase4 drift re-entry and unblock risk
+- cc41396 governance(core): record phase3 reseed on clean clone
+- 32d6fed governance(core): record phase2 reclone DNS blocker
+- 7f7395d governance: capture CORE fsck evidence and publish GOV_STATUS dashboard
 
 ## Git status
-## main...origin/main [ahead 10]
- M SYSTEM_STATE.md
- M WORKFLOW_SNAPSHOT_STATE.md
+## main...origin/main
 
 ## References
 - INTERACTION_PROTOCOL.md
@@ -81,3 +79,5 @@ cld rstrt NEW
 - 2026-02-13 08:05 UTC — full-drift-gate-v2
 - full_gate_result: ALIGNED (SoT + non-SoT matrix)
 - gate_asr: gov/asr/sessions/2026-02-13__ASR__full-drift-gate-v2.md
+- 2026-02-13 08:09 UTC — recovery-export checkpoint
+- checkpoint_result: SoT and Roaudter branches synced with origin after recovery ASR push wave

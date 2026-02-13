@@ -185,3 +185,4 @@ acknowledged as DONE.
 2026-02-13 07:56 UTC — Governance: CORE remediation Phase-3 reseed completed in clean clone (`701fc05`), with push pending due to transient DNS blocker; ASR: `gov/asr/sessions/2026-02-13__ASR__core-remediation-phase3-reseed.md`.
 2026-02-13 07:55 UTC — Governance: CORE remediation Phase-4 drift gate re-entry passed (`core-remediation-phase4-drift-reentry`), clean clone status ALIGNED and protocol-layer BLOCKED state removed.
 2026-02-13 08:05 UTC — Governance: executed Full Drift Gate v2 (`gov/asr/sessions/2026-02-13__ASR__full-drift-gate-v2.md`) against SoT `796748b`; all tracked repos ALIGNED, with migrated source clone retained as risk-note path only.
+2026-02-13 08:09 UTC — Governance: recovery checkpoint closed after ASR push wave completion; `RADRILONIUMA-PROJECT/main` advanced to `8552838` and `Roaudter-agent/master` advanced to `d02b424`, both synced with origin.

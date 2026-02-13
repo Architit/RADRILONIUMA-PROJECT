@@ -152,7 +152,7 @@ SoT.
 - [x] 2026-02-13 — governance: Protocol Drift Gate v1 Wave-2 executed (`protocol-drift-gate-v1-wave2`) for non-SoT repositories; all ALIGNED except structural BLOCKED state retained for `repos/windows-migrated-b-core/CORE`.
 - [x] 2026-02-13 — governance: CORE remediation Phase-1 evidence captured (`core-fsck-phase1`) and attached to SoT evidence artifact.
 - [x] 2026-02-13 — governance: `GOV_STATUS.md` dashboard published (protocol baseline, drift summary, blocked-risk pointers).
-- [ ] 2026-02-13 — CORE remediation Phase-2 reclone execution BLOCKED by DNS (`core-remediation-phase2-network-blocked`); retry required after network recovery.
+- [x] 2026-02-13 — CORE remediation Phase-2 reclone execution BLOCKED by DNS (`core-remediation-phase2-network-blocked`) captured as historical incident; recovery retry completed after network restoration.
 - [x] 2026-02-13 — CORE remediation Phase-2 reclone execution completed after DNS recovery.
 - [x] 2026-02-13 — CORE remediation Phase-3 reseed completed in clean clone (`core-remediation-phase3-reseed`, commit `701fc05`) and pushed to `LAM_CORE/main`.
 - [x] 2026-02-13 — CORE remediation Phase-4 drift gate re-entry passed (`core-remediation-phase4-drift-reentry`); CORE protocol-layer BLOCKED state removed.
