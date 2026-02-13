@@ -106,8 +106,8 @@ Governance focus:
 
 ---
 **Current Development Stage:**
-Phase 6.Z Execution — Arch Core Lifecycle Chain
-(facts-only lifecycle command chain stage)
+Phase 7.0 Execution — SUNBIRTHLIGHTPULSEBIT
+(post-Phase 6.Z closure transition gate stage)
 
 - [x] 2026-02-13 — governance: postreview sync with LAM completed; LAM R6 readiness captured (READY=0, BLOCKED=14), RADR stage remains Phase 5.B execution
 
@@ -190,6 +190,7 @@ SoT.
 - [x] 2026-02-13 — governance: executed Phase 6.Z `rebit` checkpoint for minimal deterministic corrections (`phase6z-rebit-stage-deterministic-corrections-checkpoint`); lifecycle stage pointers advanced.
 - [x] 2026-02-13 — governance: executed Phase 6.Z `remove` checkpoint for obsolete artifact pruning (`phase6z-remove-stage-obsolete-artifact-pruning-checkpoint`); lifecycle stage pointers advanced.
 - [x] 2026-02-13 — governance: executed Phase 6.Z `review` checkpoint (`phase6z-review-stage-closure-evidence-checkpoint`); lifecycle chain marked COMPLETE with compliance gate `COMPLIANT`.
+- [x] 2026-02-13 — governance: opened next-phase transition gate to Phase 7.0 execution after Phase 6.Z closure (`phase70-execution-gate-open-post-phase6z-closure`).
 
 ## Phase 6 — Next-Phase Selection Gate [ACTIVE]
 - Goal: declare canonical Phase 6 objective and DoD in ROADMAP before any execution wave.
@@ -249,7 +250,7 @@ SoT.
   - residual tails = 0 unresolved,
   - transition gate unlocked.
 
-## Phase 7.0 — SUNBIRTHLIGHTPULSEBIT [LOCKED]
+## Phase 7.0 — SUNBIRTHLIGHTPULSEBIT [ACTIVE]
 - Goal: execute pulse-alignment cycle and control new-version birth gate opening.
 - Canonical contract: `PHASE70_SUNBIRTHLIGHTPULSEBIT_PROTOCOL.md`.
 - Signature: `p 7 0/|\\<<<...+++ { SUNBIRTHLIGHTPULSEBIT }`.
@@ -262,7 +263,7 @@ SoT.
   - residual tails = 0,
   - then and only then birth gate can be opened.
 
-## Phase 6.Z — Arch Core Lifecycle Chain [ACTIVE]
+## Phase 6.Z — Arch Core Lifecycle Chain [DONE]
 - Goal: run deterministic lifecycle chain for arch/system/ecosystem core.
 - Canonical contract: `PHASE6Z_ARCH_CORE_LIFECYCLE_PROTOCOL.md`.
 - Command chain:
