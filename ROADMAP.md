@@ -106,8 +106,8 @@ Governance focus:
 
 ---
 **Current Development Stage:**
-Phase 6.A Execution — GENESIS Atlas v2
-(facts-only deep research and map regeneration stage)
+Phase 6.C Execution — Full Isolation + Autonomous Deep Revision
+(facts-only isolation governance and deep revision stage)
 
 - [x] 2026-02-13 — governance: postreview sync with LAM completed; LAM R6 readiness captured (READY=0, BLOCKED=14), RADR stage remains Phase 5.B execution
 
@@ -177,6 +177,7 @@ SoT.
 - [x] 2026-02-13 — governance: map-pack wave completed (`OS_DEV_MAP.md`, `ROADMAP_MAP.md`, `TASK_MAP.md`) and UI OPERATOR full sync mirrored (`phase6a-map-pack-ui-operator-full-sync`).
 - [x] 2026-02-13 — governance: literal symbolic lifecycle chronolog map published (`ECOSYSTEM_KINGDOM_CHRONOLOGY_MAP.md`) with verbatim capture rule ("каждое слово и символ").
 - [x] 2026-02-13 — governance: mandatory new-version pre-gate reset contract published (`VERSION_GATE_RESET_PROTOCOL.md`) and bound into interaction protocol (M8).
+- [x] 2026-02-13 — governance: activated Phase 6.C isolation/autonomy/deep-revision contract (`PHASE6C_ISOLATION_AUTONOMY_REVISION_PROTOCOL.md`) and bound into interaction protocol (M9).
 
 ## Phase 6 — Next-Phase Selection Gate [ACTIVE]
 - Goal: declare canonical Phase 6 objective and DoD in ROADMAP before any execution wave.
@@ -207,6 +208,20 @@ SoT.
   - compliance gate = `COMPLIANT`,
   - ASR evidence linked,
   - next-version gate may open.
+
+## Phase 6.C — Full Isolation + Autonomous Deep Revision [ACTIVE]
+- Goal: full isolation of internal ecosystems/spaces/environments and autonomous deep revision cycle.
+- Canonical contract: `PHASE6C_ISOLATION_AUTONOMY_REVISION_PROTOCOL.md`.
+- Mandatory cycle:
+  - isolation activation,
+  - autonomous mode activation,
+  - deep detailed revision (past/present/future),
+  - repeated zeroization+creation loop for previous phase baseline regeneration.
+- Exit criterion:
+  - isolation/autonomy active,
+  - revision complete,
+  - compliance gate = `COMPLIANT`,
+  - only then transition to next subphase.
 
 ## Recurring Governance Tasks
 - [ ] Protocol Drift Gate v1 (recurring): run ASR matrix check at each protocol-version update and before every cross-repo governance wave.

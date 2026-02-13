@@ -1,13 +1,13 @@
 # Governance Status Dashboard
 
-timestamp_utc: 2026-02-13T09:24:25Z
+timestamp_utc: 2026-02-13T10:21:35Z
 scope: RADRILONIUMA ecosystem
 source_of_truth: RADRILONIUMA-PROJECT
 
 ## Protocol Baseline
 - protocol_version: v1.0.0
 - protocol_sync_commit: 7eadfe9
-- sot_head_commit: d37c3da
+- sot_head_commit: e9735a0
 - governance_tag: gov-radr-protocol-v1.0.0
 
 ## Drift Gate Summary (Wave-2)
@@ -15,12 +15,12 @@ source_of_truth: RADRILONIUMA-PROJECT
 - aligned: 16
 - drift: 0
 - blocked: 0
-- latest_asr: `gov/asr/sessions/2026-02-13__ASR__phase6a-data-security-protocol-pack-v1.md`
+- latest_asr: `gov/asr/sessions/2026-02-13__ASR__phase6c-isolation-autonomy-deep-revision-activation.md`
 
 ## Phase Gate
 - phase_5b_status: DONE
 - completion_gate: PASSED
-- transition_state: PHASE6A_GENESIS_ATLAS_ACTIVE
+- transition_state: PHASE6C_ISOLATION_AUTONOMY_ACTIVE
 
 ## Heartbeat
 - essr_heartbeat_status: GREEN
@@ -89,3 +89,10 @@ source_of_truth: RADRILONIUMA-PROJECT
   - map_log_chronolog_reset_pack
   - encrypted_archive_previous_space
   - compliance_gate_before_next_subphase
+
+## Phase 6.C Isolation Mode
+- phase6c_contract: `PHASE6C_ISOLATION_AUTONOMY_REVISION_PROTOCOL.md`
+- isolation_status: ACTIVE
+- autonomy_status: ACTIVE
+- deep_revision_status: ACTIVE
+- cycle_rule: repeat zeroization+creation of previous phase baseline only after full past/present/future analysis

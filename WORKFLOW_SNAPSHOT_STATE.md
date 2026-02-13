@@ -3,11 +3,11 @@
 ## Identity
 repo: RADRILONIUMA-PROJECT
 branch: main
-timestamp: 2026-02-13T10:12:25Z
+timestamp: 2026-02-13T10:21:35Z
 
 ## Current pointer
-phase: Phase 6.A GENESIS Atlas v2 Formation
-stage: deep research lifecycle reflection and map regeneration
+phase: Phase 6.C Full Isolation + Autonomous Deep Revision
+stage: isolation activation and deep revision cycle
 protocol_scale: 0
 protocol_semantic_en: neutral
 goal:
@@ -138,3 +138,6 @@ cld rstrt NEW
 - 2026-02-13 10:12 UTC — phase6b-version-pre-gate-reset-contract-activation
 - checkpoint_result: mandatory pre-transition reset contract activated (`VERSION_GATE_RESET_PROTOCOL.md`) and bound to interaction protocol M8
 - gate_asr: gov/asr/sessions/2026-02-13__ASR__phase6b-version-pre-gate-reset-contract-activation.md
+- 2026-02-13 10:21 UTC — phase6c-isolation-autonomy-deep-revision-activation
+- checkpoint_result: Phase 6.C isolation/autonomy/deep-revision contract activated (`PHASE6C_ISOLATION_AUTONOMY_REVISION_PROTOCOL.md`) and bound to interaction protocol M9
+- gate_asr: gov/asr/sessions/2026-02-13__ASR__phase6c-isolation-autonomy-deep-revision-activation.md

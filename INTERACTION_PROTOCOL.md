@@ -272,6 +272,21 @@ Hard rule:
 
 ---
 
+## M9 — Phase 6.C Isolation/Autonomy/Deep Revision Contract (mandatory)
+
+For Phase 6.C activation:
+
+1) Full isolation of internal ecosystems/spaces/environments is required.
+2) Full autonomous governance mode is required for the cycle.
+3) Deep detailed revision is required (genetic/code, ecosystem/system, organism/architecture).
+4) Re-initiation loop is required: zeroization + creation cycle of previous phase baseline.
+5) Transition to next subphase is forbidden until compliance gate is `COMPLIANT`.
+
+Canonical artifact:
+- `PHASE6C_ISOLATION_AUTONOMY_REVISION_PROTOCOL.md`
+
+---
+
 ## Governance Review Stage (mandatory)
 
 После завершения фаз в ROADMAP следующий шаг разработки обязателен

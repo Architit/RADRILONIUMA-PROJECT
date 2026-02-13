@@ -9,6 +9,7 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - ARCHITECTURAL_SESSION_RECORD = ASSNRCRD = ASR
 
 ## Sessions
+- 2026-02-13 — Phase 6.C Isolation/Autonomy/Deep Revision Activation
 - 2026-02-13 — Phase 6.B Version Pre-Gate Reset Contract Activation
 - 2026-02-13 — Phase 6.A Map Pack + UI Operator Full Sync
 - 2026-02-13 — Phase 6.A Data Security Protocol Pack v1
@@ -97,3 +98,4 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - 2026-02-13 | phase6a-data-security-protocol-pack-v1 | gov/asr/sessions/2026-02-13__ASR__phase6a-data-security-protocol-pack-v1.md
 - 2026-02-13 | phase6a-map-pack-ui-operator-full-sync | gov/asr/sessions/2026-02-13__ASR__phase6a-map-pack-ui-operator-full-sync.md
 - 2026-02-13 | phase6b-version-pre-gate-reset-contract-activation | gov/asr/sessions/2026-02-13__ASR__phase6b-version-pre-gate-reset-contract-activation.md
+- 2026-02-13 | phase6c-isolation-autonomy-deep-revision-activation | gov/asr/sessions/2026-02-13__ASR__phase6c-isolation-autonomy-deep-revision-activation.md
