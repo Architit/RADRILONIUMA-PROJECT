@@ -170,3 +170,7 @@ next target set to F1 cost-aware contract draft.
 2026-02-13 02:56 UTC — Governance: synced LAM follow-up F1 cost-aware contract
 (`5eec53d`, `gov-lam-p4-followup-f1-cost-aware-v1.0.0`); next target
 acknowledged: F2 quality-aware contract draft.
+2026-02-13 03:20 UTC — Governance: synced LAM follow-up F4 + stop-point closure
+(`8ca6fc6`, `202dc08`; tags `gov-lam-p4-followup-f4-provider-metrics-v1.0.0`,
+`gov-lam-ssn-rstrt-export-followup-f1f4-closure-v1.0.0`); follow-up wave F1-F4
+acknowledged as DONE.

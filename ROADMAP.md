@@ -142,3 +142,6 @@ SoT.
 
 - [x] 2026-02-13 — governance: sync LAM follow-up F1 cost-aware contract
 (`5eec53d`, `gov-lam-p4-followup-f1-cost-aware-v1.0.0`) acknowledged in SoT.
+
+- [x] 2026-02-13 — governance: sync LAM follow-up F4 + stop-point closure
+(`8ca6fc6`, `202dc08`) acknowledged in SoT.
