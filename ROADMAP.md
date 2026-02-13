@@ -130,3 +130,5 @@ Phase 5.B Execution — Ecosystem Coverage Expansion
 - [x] 2026-02-13 — governance: sync LAM `ssn rstrt(EXPORT)` pre-P4.1 (`44cbd81`) acknowledged in SoT.
 
 - [x] 2026-02-13 — governance: sync LAM P4.T1 inventory baseline (`de7ec83`, `gov-lam-p41-inventory-v1.0.0`) acknowledged in SoT.
+
+- [x] 2026-02-13 — governance: sync LAM P4.T2 policy profile draft (`19e82fe`, `gov-lam-p42-policy-draft-v1.0.0`) acknowledged in SoT.

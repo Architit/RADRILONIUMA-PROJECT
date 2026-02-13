@@ -159,3 +159,5 @@ mirrors/snapshot aligned.
 ready for IMPORT.
 2026-02-13 02:33 UTC — Governance: synced LAM P4.T1 inventory baseline (`de7ec83`, `gov-lam-p41-inventory-v1.0.0`); entrypoints/provider-chain/health-fallback
 mapping acknowledged, `Next target` moved to P4.T2.
+2026-02-13 02:37 UTC — Governance: synced LAM P4.T2 policy profile draft (`19e82fe`, `gov-lam-p42-policy-draft-v1.0.0`); deterministic `ci/smoke` semantics and
+strict/fallback boundaries acknowledged, `Next target` moved to P4.T3.
