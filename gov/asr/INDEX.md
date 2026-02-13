@@ -9,6 +9,7 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - ARCHITECTURAL_SESSION_RECORD = ASSNRCRD = ASR
 
 ## Sessions
+- 2026-02-13 — Phase 6.A Data Security Protocol Pack v1
 - 2026-02-13 — Phase 6.A Multidisk CAB Lifeflow Baseline
 - 2026-02-13 — Phase 6.A Security Protocols All-Paths Rollout Baseline
 - 2026-02-13 — Phase 6.A GENESIS Atlas v2 Deep Research
@@ -91,3 +92,4 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - 2026-02-13 | phase6a-genesis-atlas-v2-deep-research | gov/asr/sessions/2026-02-13__ASR__phase6a-genesis-atlas-v2-deep-research.md
 - 2026-02-13 | phase6a-security-protocols-all-paths-rollout-baseline | gov/asr/sessions/2026-02-13__ASR__phase6a-security-protocols-all-paths-rollout-baseline.md
 - 2026-02-13 | phase6a-multidisk-cab-lifeflow-baseline | gov/asr/sessions/2026-02-13__ASR__phase6a-multidisk-cab-lifeflow-baseline.md
+- 2026-02-13 | phase6a-data-security-protocol-pack-v1 | gov/asr/sessions/2026-02-13__ASR__phase6a-data-security-protocol-pack-v1.md

@@ -15,7 +15,7 @@ source_of_truth: RADRILONIUMA-PROJECT
 - aligned: 16
 - drift: 0
 - blocked: 0
-- latest_asr: `gov/asr/sessions/2026-02-13__ASR__phase6a-multidisk-cab-lifeflow-baseline.md`
+- latest_asr: `gov/asr/sessions/2026-02-13__ASR__phase6a-data-security-protocol-pack-v1.md`
 
 ## Phase Gate
 - phase_5b_status: DONE
@@ -66,3 +66,10 @@ source_of_truth: RADRILONIUMA-PROJECT
 ## Operational Notes
 - Drift Gate v1 is mandatory and recurring for every protocol-version update and pre-wave sync.
 - Non-SoT repos are protocol/date aligned at this snapshot; blocked count is zero for protocol governance layer.
+
+## Data Security Pack
+- pack_version: v1
+- migration_runbook: `DATA_MIGRATION_A_DRIVE_RUNBOOK.md`
+- retention_policy: `DATA_RETENTION_AND_SECURE_ERASURE_POLICY.md`
+- public_share_gate: `PUBLIC_SHARE_PROTOCOL.md`
+- failsafe_concept: `ECOSYSTEM_FAILSAFE_CONCEPT_V1.md`

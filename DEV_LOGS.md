@@ -202,3 +202,4 @@ acknowledged as DONE.
 2026-02-13 09:07 UTC — Governance: started Phase 6.A GENESIS atlas deep research (`gov/asr/sessions/2026-02-13__ASR__phase6a-genesis-atlas-v2-deep-research.md`) and published `GENESIS_ECOSYSTEM_ATLAS_V2.md` as non-destructive map reset baseline.
 2026-02-13 09:24 UTC — Governance: activated Phase 6.A all-paths security protocols rollout baseline (`gov/asr/sessions/2026-02-13__ASR__phase6a-security-protocols-all-paths-rollout-baseline.md`) for ecosystem-wide key lifecycle coverage.
 2026-02-13 09:24 UTC — Governance: activated multidisk CAB lifeflow baseline (`gov/asr/sessions/2026-02-13__ASR__phase6a-multidisk-cab-lifeflow-baseline.md`) with observed mounts `A:/B:/C:` and zero-trust all-paths model.
+2026-02-13 09:24 UTC — Governance: published data security protocol pack v1 (`gov/asr/sessions/2026-02-13__ASR__phase6a-data-security-protocol-pack-v1.md`) including migration/retention/public-share/failsafe documents.

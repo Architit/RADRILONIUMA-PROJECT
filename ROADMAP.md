@@ -173,6 +173,7 @@ SoT.
 - [x] 2026-02-13 — governance: Phase 6.A GENESIS atlas deep research activated (`phase6a-genesis-atlas-v2-deep-research`); map reset interpreted as non-destructive v2 baseline creation.
 - [x] 2026-02-13 — governance: Phase 6.A security protocols all-paths rollout baseline activated (`phase6a-security-protocols-all-paths-rollout-baseline`) for ecosystem-wide key lifecycle controls.
 - [x] 2026-02-13 — governance: multidisk CAB lifeflow baseline activated (`phase6a-multidisk-cab-lifeflow-baseline`) for local `C+A+B` process expansion without repo-A dependency.
+- [x] 2026-02-13 — governance: data security protocol pack v1 published (`phase6a-data-security-protocol-pack-v1`) [migration+retention+public-share+failsafe].
 
 ## Phase 6 — Next-Phase Selection Gate [ACTIVE]
 - Goal: declare canonical Phase 6 objective and DoD in ROADMAP before any execution wave.
