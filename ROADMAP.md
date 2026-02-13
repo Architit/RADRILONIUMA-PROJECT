@@ -110,4 +110,5 @@ Phase 5.B Execution — Ecosystem Coverage Expansion
 (facts-only coverage expansion in policy layer; no runtime rollout)
 
 - [x] 2026-02-13 — governance: postreview sync with LAM completed; LAM R6 readiness captured (READY=0, BLOCKED=14), RADR stage remains Phase 5.B execution
-support
+
+- [x] 2026-02-13 — governance: host-role contract synced with LAM (builder online vendoring / runner offline --no-index --find-links)

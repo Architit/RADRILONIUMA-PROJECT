@@ -133,3 +133,7 @@ DevKit patcher UX hardening.
 - Coverage expansion batch completed in local workspace; next gate is artifact/governance presence audit across new clones.
 2026-02-13 00:21 UTC — Governance: postreview sync with LAM completed; acknowledged LAM P2.4/R6 readiness audit (READY=0, BLOCKED=14: missing .venv runner + smoke template).
 Next coordination target: support LAM Wave R6.1 execution.
+2026-02-13 00:52 UTC — Governance: host-role contract synchronized with LAM runtime-proof policies.
+Builder host: internet allowed for dependency vendoring (wheelhouse).
+Runner host: internet denied; installs must be --no-index --find-links.
+LAM refs acknowledged: gov-lam-runtime-proof-hostsplit-v1.0.0, gov-lam-devmap-p24-r61-rootcause-v1.0.0.
