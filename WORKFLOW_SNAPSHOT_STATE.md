@@ -44,7 +44,7 @@ constraints:
 
 ## Verification
 - latest local context read: `pwd`, `git status -sb`, `git log -n 12 --oneline`
-- phase label aligned to ROADMAP canonical naming (`Phase 5.B`)
+- phase label aligned to ROADMAP canonical naming (`Phase 6 Selection Gate`)
 - export prepared for `cld rstrt` import in a NEW chat
 
 ## New Chat Init
