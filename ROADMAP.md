@@ -200,6 +200,7 @@ SoT.
 - [x] 2026-02-13 — governance: executed Phase 7.0 cycle-7 pulse alignment checkpoint (`phase70-cycle7-pulse-alignment-checkpoint`); birth gate remains `CLOSED`.
 - [x] 2026-02-13 — governance: hardened Phase 7.0 protocol with bounded execution window `cycle-1..cycle-8` and mandatory closure decision at `cycle-8` (`phase70-protocol-bounded-cycle-closure-policy-update`).
 - [x] 2026-02-13 — governance: executed Phase 7.0 cycle-8 mandatory closure decision (`phase70-cycle8-closure-decision-blocked`) => `BLOCKED`; birth gate stays `CLOSED`, remediation plan required.
+- [x] 2026-02-13 — governance: activated `atplt md` until `phase70_status = COMPLETE` (`phase70-atplt-md-activation-until-complete`) across maps/protocol/status artifacts.
 
 ## Phase 6 — Next-Phase Selection Gate [ACTIVE]
 - Goal: declare canonical Phase 6 objective and DoD in ROADMAP before any execution wave.

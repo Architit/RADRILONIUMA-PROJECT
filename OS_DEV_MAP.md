@@ -1,8 +1,8 @@
 # OS DEV MAP
 
-timestamp_utc: 2026-02-13T09:24:25Z
+timestamp_utc: 2026-02-13T11:42:20Z
 scope: local device execution substrate
-mode: atplt (autopilot)
+mode: atplt md (autopilot mode)
 
 ## Substrate
 - host: Windows + WSL2
@@ -22,3 +22,9 @@ mode: atplt (autopilot)
 - observability-first
 - derivation-only
 - no runtime logic changes by governance map updates
+
+## ATPLT MD Control
+- atplt_md_state: ACTIVE
+- activation_scope: Phase 7.0 governance execution
+- deactivation_condition: `phase70_status = COMPLETE`
+- status_source: `GOV_STATUS.md`

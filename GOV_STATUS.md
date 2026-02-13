@@ -1,6 +1,6 @@
 # Governance Status Dashboard
 
-timestamp_utc: 2026-02-13T11:38:14Z
+timestamp_utc: 2026-02-13T11:42:20Z
 scope: RADRILONIUMA ecosystem
 source_of_truth: RADRILONIUMA-PROJECT
 
@@ -15,7 +15,7 @@ source_of_truth: RADRILONIUMA-PROJECT
 - aligned: 16
 - drift: 0
 - blocked: 0
-- latest_asr: `gov/asr/sessions/2026-02-13__ASR__phase70-cycle8-closure-decision-blocked.md`
+- latest_asr: `gov/asr/sessions/2026-02-13__ASR__phase70-atplt-md-activation-until-complete.md`
 
 ## Phase Gate
 - phase_5b_status: DONE
@@ -31,6 +31,13 @@ source_of_truth: RADRILONIUMA-PROJECT
 - genesis_atlas_v2: `GENESIS_ECOSYSTEM_ATLAS_V2.md`
 - atlas_mode: deep-research-lifecycle-reflection
 - map_reset_mode: non-destructive baseline regeneration
+
+## ATPLT MD
+- atplt_md_state: ACTIVE
+- atplt_md_scope: Phase 7.0 governance execution
+- atplt_md_run_until: `phase70_status = COMPLETE`
+- atplt_md_stop_condition: `phase70_status = COMPLETE`
+- atplt_md_policy_asr: `gov/asr/sessions/2026-02-13__ASR__phase70-atplt-md-activation-until-complete.md`
 
 ## Map Pack
 - os_dev_map: `OS_DEV_MAP.md`

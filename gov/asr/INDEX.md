@@ -9,6 +9,7 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - ARCHITECTURAL_SESSION_RECORD = ASSNRCRD = ASR
 
 ## Sessions
+- 2026-02-13 — Phase 7.0 ATPLT MD Activation Until COMPLETE
 - 2026-02-13 — Phase 7.0 Cycle 8 Closure Decision BLOCKED
 - 2026-02-13 — Phase 7.0 Protocol Bounded Cycle Closure Policy Update
 - 2026-02-13 — Phase 7.0 Cycle 7 Pulse Alignment Checkpoint
@@ -143,3 +144,4 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - 2026-02-13 | phase70-cycle7-pulse-alignment-checkpoint | gov/asr/sessions/2026-02-13__ASR__phase70-cycle7-pulse-alignment-checkpoint.md
 - 2026-02-13 | phase70-protocol-bounded-cycle-closure-policy-update | gov/asr/sessions/2026-02-13__ASR__phase70-protocol-bounded-cycle-closure-policy-update.md
 - 2026-02-13 | phase70-cycle8-closure-decision-blocked | gov/asr/sessions/2026-02-13__ASR__phase70-cycle8-closure-decision-blocked.md
+- 2026-02-13 | phase70-atplt-md-activation-until-complete | gov/asr/sessions/2026-02-13__ASR__phase70-atplt-md-activation-until-complete.md
