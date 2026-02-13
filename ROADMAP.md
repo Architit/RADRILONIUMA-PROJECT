@@ -106,8 +106,8 @@ Governance focus:
 
 ---
 **Current Development Stage:**
-Phase 7.0 Closure — COMPLETE
-(exit criteria satisfied, birth gate opened)
+Post-Phase 7.0 Next-Phase Gate — ACTIVE
+(transition gate opened after complete phase closure)
 
 - [x] 2026-02-13 — governance: postreview sync with LAM completed; LAM R6 readiness captured (READY=0, BLOCKED=14), RADR stage remains Phase 5.B execution
 
@@ -202,6 +202,7 @@ SoT.
 - [x] 2026-02-13 — governance: executed Phase 7.0 cycle-8 mandatory closure decision (`phase70-cycle8-closure-decision-blocked`) => `BLOCKED`; birth gate stays `CLOSED`, remediation plan required.
 - [x] 2026-02-13 — governance: activated `atplt md` until `phase70_status = COMPLETE` (`phase70-atplt-md-activation-until-complete`) across maps/protocol/status artifacts.
 - [x] 2026-02-13 — governance: completed Phase 7.0 remediation (`phase70-remediation-blackhole-stable-residual-tail-zero`) and closure (`phase70-closure-complete-compliant-birth-gate-open`); birth gate opened.
+- [x] 2026-02-13 — governance: opened next phase transition gate after Phase 7.0 completion (`post-phase70-next-phase-gate-open`).
 
 ## Phase 6 — Next-Phase Selection Gate [ACTIVE]
 - Goal: declare canonical Phase 6 objective and DoD in ROADMAP before any execution wave.
