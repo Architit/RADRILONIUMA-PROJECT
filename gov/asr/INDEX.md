@@ -37,3 +37,4 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - 2026-02-13 | phasez-lam-zruntime-t1t2t3-sync | gov/asr/sessions/2026-02-13__ASR__phasez-lam-zruntime-t1t2t3-sync.md
 - 2026-02-13 | phasez-lam-zruntime-start-decision-sync | gov/asr/sessions/2026-02-13__ASR__phasez-lam-zruntime-start-decision-sync.md
 - 2026-02-13 | phasez-lam-zruntime-exec-wave-open-sync | gov/asr/sessions/2026-02-13__ASR__phasez-lam-zruntime-exec-wave-open-sync.md
+- 2026-02-13 | phasez-lam-zruntime-exec-w1-t1-sync | gov/asr/sessions/2026-02-13__ASR__phasez-lam-zruntime-exec-w1-t1-sync.md
