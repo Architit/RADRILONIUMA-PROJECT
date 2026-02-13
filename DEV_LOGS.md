@@ -179,3 +179,5 @@ acknowledged as DONE.
 2026-02-13 07:24 UTC — governance: protocol sync header rolled out (source=RADRILONIUMA-PROJECT version=v1.0.0 commit=7eadfe9) [protocol-sync-header-v1]
 2026-02-13 07:45 UTC — Governance: executed Protocol Drift Gate v1 (`gov/asr/sessions/2026-02-13__ASR__protocol-drift-gate-v1.md`), matrix status ALIGNED for protocol header/date checks; `repos/windows-migrated-b-core/CORE` remains BLOCKED with remediation checklist (fsck -> clean reclone reseed -> governance restore).
 2026-02-13 07:50 UTC — Governance: executed Protocol Drift Gate v1 Wave-2 for non-SoT repos (`gov/asr/sessions/2026-02-13__ASR__protocol-drift-gate-v1-wave2.md`); ALIGNED on protocol/date matrix, with `repos/windows-migrated-b-core/CORE` kept BLOCKED by structural integrity risk.
+2026-02-13 07:47 UTC — Governance: captured CORE remediation Phase-1 evidence (`gov/asr/sessions/2026-02-13__EVIDENCE__core-fsck-phase1.txt`) with fsck object-integrity failures and missing blob set.
+2026-02-13 07:47 UTC — Governance: published dashboard `GOV_STATUS.md` (protocol baseline + Wave-2 drift summary + blocked-risk pointers).

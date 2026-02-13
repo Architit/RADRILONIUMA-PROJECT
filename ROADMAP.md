@@ -150,6 +150,8 @@ SoT.
 - [x] 2026-02-13 — governance: protocol sync header aligned to RADRILONIUMA-PROJECT/v1.0.0@7eadfe9 [protocol-sync-header-v1]
 - [x] 2026-02-13 — governance: Protocol Drift Gate v1 executed and recorded (`protocol-drift-gate-v1`), matrix ALIGNED for protocol/date checks.
 - [x] 2026-02-13 — governance: Protocol Drift Gate v1 Wave-2 executed (`protocol-drift-gate-v1-wave2`) for non-SoT repositories; all ALIGNED except structural BLOCKED state retained for `repos/windows-migrated-b-core/CORE`.
+- [x] 2026-02-13 — governance: CORE remediation Phase-1 evidence captured (`core-fsck-phase1`) and attached to SoT evidence artifact.
+- [x] 2026-02-13 — governance: `GOV_STATUS.md` dashboard published (protocol baseline, drift summary, blocked-risk pointers).
 
 ## Recurring Governance Tasks
 - [ ] Protocol Drift Gate v1 (recurring): run ASR matrix check at each protocol-version update and before every cross-repo governance wave.
