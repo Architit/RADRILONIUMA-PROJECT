@@ -149,6 +149,7 @@ SoT.
 - [x] 2026-02-13 — governance: canonical protocol version `v1.0.0` declared in SoT (`gov-radr-protocol-v1.0.0`) for ecosystem protocol sync header rollout.
 - [x] 2026-02-13 — governance: protocol sync header aligned to RADRILONIUMA-PROJECT/v1.0.0@7eadfe9 [protocol-sync-header-v1]
 - [x] 2026-02-13 — governance: Protocol Drift Gate v1 executed and recorded (`protocol-drift-gate-v1`), matrix ALIGNED for protocol/date checks.
+- [x] 2026-02-13 — governance: Protocol Drift Gate v1 Wave-2 executed (`protocol-drift-gate-v1-wave2`) for non-SoT repositories; all ALIGNED except structural BLOCKED state retained for `repos/windows-migrated-b-core/CORE`.
 
 ## Recurring Governance Tasks
 - [ ] Protocol Drift Gate v1 (recurring): run ASR matrix check at each protocol-version update and before every cross-repo governance wave.
@@ -160,3 +161,4 @@ SoT.
   - perform clean reclone from canonical remote into fresh path
   - reseed governance artifacts (`DEV_LOGS.md`, `ROADMAP.md`, `INTERACTION_PROTOCOL.md`, `WORKFLOW_SNAPSHOT_STATE.md`)
   - re-enter protocol drift gate only after repository passes object integrity checks
+  - detailed execution plan: `CORE_REMEDIATION_PLAN.md`

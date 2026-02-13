@@ -3,7 +3,7 @@
 ## Identity
 repo: RADRILONIUMA-PROJECT
 branch: main
-timestamp: 2026-02-13T07:45:00Z
+timestamp: 2026-02-13T07:50:00Z
 
 ## Current pointer
 phase: Phase 5.B Execution - Ecosystem Coverage Expansion
@@ -62,3 +62,6 @@ cld rstrt NEW
 - 2026-02-13 07:45 UTC — protocol-drift-gate-v1
 - drift_gate_result: ALIGNED (ecosystem matrix)
 - blocked_repo: repos/windows-migrated-b-core/CORE
+- 2026-02-13 07:50 UTC — protocol-drift-gate-v1-wave2
+- drift_gate_result_wave2: ALIGNED (non-SoT matrix), BLOCKED kept for CORE integrity defect
+- remediation_plan: CORE_REMEDIATION_PLAN.md
