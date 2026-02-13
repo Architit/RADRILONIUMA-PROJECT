@@ -121,3 +121,6 @@ Phase 5.B Execution — Ecosystem Coverage Expansion
 - [x] 2026-02-13 — governance: synced LAM R6.5 host-split success (DONE=14, PENDING=1)
 
 - [x] 2026-02-13 — governance: synced LAM SoT-row policy closure (`RADRILONIUMA-PROJECT` runtime row => `EXEMPT`), runtime summary DONE=14, EXEMPT=1, PENDING=0
+
+- [x] 2026-02-13 — governance: synced LAM P3.2 unified test entrypoint completion (`gov-lam-p32-unified-entrypoint-v1.0.0`)
+- [x] 2026-02-13 — governance: synced LAM P3.3 update-order protocol hardening (`gov-lam-p33-governance-order-v1.0.0`)
