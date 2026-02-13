@@ -180,6 +180,37 @@ Dirty working tree блокирует закрытие фазы.
 
 ---
 
+## M6 — Protocol Drift Gate (mandatory)
+
+### 6.1 Trigger points
+
+Protocol Drift Gate MUST run:
+- после каждого обновления `protocol_version`,
+- перед каждой межрепозиторной governance-wave,
+- перед handoff в новый чат для протокольных задач.
+
+### 6.2 Gate checks (facts-only)
+
+Для каждого репозитория проверяются:
+- `protocol_version` в `INTERACTION_PROTOCOL.md`,
+- `last_sync_commit` в `INTERACTION_PROTOCOL.md`,
+- последняя дата в `ROADMAP.md`,
+- последняя дата в `DEV_LOGS.md`.
+
+### 6.3 Gate status
+
+- `ALIGNED`: все 4 проверки консистентны и совпадают с SoT-каноном.
+- `DRIFT`: найдено хотя бы одно несовпадение.
+- `BLOCKED`: репозиторий структурно непригоден к проверке/синхронизации (например, object corruption).
+
+### 6.4 Required artifacts
+
+- ASR с матрицей gate-результатов обязателен в `gov/asr/sessions/`.
+- `gov/asr/INDEX.md` должен содержать ссылку на новый gate-session.
+- Для `DRIFT`/`BLOCKED` обязателен facts-only remediation checklist в `ROADMAP.md`.
+
+---
+
 ## Governance Review Stage (mandatory)
 
 После завершения фаз в ROADMAP следующий шаг разработки обязателен

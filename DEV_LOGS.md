@@ -177,3 +177,4 @@ acknowledged as DONE.
 2026-02-13 07:09 UTC — Governance: published ecosystem compliance matrix ASR (`gov/asr/sessions/2026-02-13__ASR__ecosystem-compliance-matrix-and-risk.md`) and isolated HIGH risk for `repos/windows-migrated-b-core/CORE` (dirty=28559, no-commit branch state).
 2026-02-13 07:20 UTC — Governance: declared canonical protocol version `v1.0.0` in SoT and prepared governance tag `gov-radr-protocol-v1.0.0` for ecosystem sync headers.
 2026-02-13 07:24 UTC — governance: protocol sync header rolled out (source=RADRILONIUMA-PROJECT version=v1.0.0 commit=7eadfe9) [protocol-sync-header-v1]
+2026-02-13 07:45 UTC — Governance: executed Protocol Drift Gate v1 (`gov/asr/sessions/2026-02-13__ASR__protocol-drift-gate-v1.md`), matrix status ALIGNED for protocol header/date checks; `repos/windows-migrated-b-core/CORE` remains BLOCKED with remediation checklist (fsck -> clean reclone reseed -> governance restore).
