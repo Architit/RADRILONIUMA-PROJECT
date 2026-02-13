@@ -9,6 +9,9 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - ARCHITECTURAL_SESSION_RECORD = ASSNRCRD = ASR
 
 ## Sessions
+- 2026-02-13 — Ecosystem Compliance Matrix and CORE Risk Block
+- 2026-02-13 — Ecosystem Session Record
+- 2026-02-13 — ASR Recovery Protocol Activation (AASR)
 - 2026-02-12 — Phase 5.B Batch Clone Verification (12 repositories from origin)
 - 2026-02-13 — Phase 5.B LAM P3.x Governance Hardening Sync
 - 2026-02-12 — Phase 5.A Wave 2 Verification Complete (Roaudter-agent = DONE)
@@ -39,3 +42,6 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - 2026-02-13 | phasez-lam-zruntime-exec-wave-open-sync | gov/asr/sessions/2026-02-13__ASR__phasez-lam-zruntime-exec-wave-open-sync.md
 - 2026-02-13 | phasez-lam-zruntime-exec-w1-t1-sync | gov/asr/sessions/2026-02-13__ASR__phasez-lam-zruntime-exec-w1-t1-sync.md
 - 2026-02-13 | phasez-lam-zruntime-exec-w1-t2-sync | gov/asr/sessions/2026-02-13__ASR__phasez-lam-zruntime-exec-w1-t2-sync.md
+- 2026-02-13 | asr-recovery-protocol-activation | gov/asr/sessions/2026-02-13__AASR__asr-recovery-protocol-activation.md
+- 2026-02-13 | ecosystem-session-record | gov/asr/sessions/2026-02-13__ASR__ecosystem-session-record.md
+- 2026-02-13 | ecosystem-compliance-matrix-and-risk | gov/asr/sessions/2026-02-13__ASR__ecosystem-compliance-matrix-and-risk.md

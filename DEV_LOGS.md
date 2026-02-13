@@ -174,3 +174,4 @@ acknowledged: F2 quality-aware contract draft.
 (`8ca6fc6`, `202dc08`; tags `gov-lam-p4-followup-f4-provider-metrics-v1.0.0`,
 `gov-lam-ssn-rstrt-export-followup-f1f4-closure-v1.0.0`); follow-up wave F1-F4
 acknowledged as DONE.
+2026-02-13 07:09 UTC — Governance: published ecosystem compliance matrix ASR (`gov/asr/sessions/2026-02-13__ASR__ecosystem-compliance-matrix-and-risk.md`) and isolated HIGH risk for `repos/windows-migrated-b-core/CORE` (dirty=28559, no-commit branch state).
