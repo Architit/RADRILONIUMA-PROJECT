@@ -1,6 +1,6 @@
 # Governance Status Dashboard
 
-timestamp_utc: 2026-02-13T11:08:01Z
+timestamp_utc: 2026-02-13T11:08:59Z
 scope: RADRILONIUMA ecosystem
 source_of_truth: RADRILONIUMA-PROJECT
 
@@ -15,7 +15,7 @@ source_of_truth: RADRILONIUMA-PROJECT
 - aligned: 16
 - drift: 0
 - blocked: 0
-- latest_asr: `gov/asr/sessions/2026-02-13__ASR__phase6z-rebit-stage-deterministic-corrections-checkpoint.md`
+- latest_asr: `gov/asr/sessions/2026-02-13__ASR__phase6z-remove-stage-obsolete-artifact-pruning-checkpoint.md`
 
 ## Phase Gate
 - phase_5b_status: DONE
@@ -113,7 +113,7 @@ source_of_truth: RADRILONIUMA-PROJECT
 - phase6z_contract: `PHASE6Z_ARCH_CORE_LIFECYCLE_PROTOCOL.md`
 - phase6z_state: ACTIVE
 - lifecycle_chain_state: RUNNING
-- lifecycle_chain_current_stage: rebit
+- lifecycle_chain_current_stage: remove
 - record_checkpoint_asr: `gov/asr/sessions/2026-02-13__ASR__phase6z-record-stage-maps-logs-protocols-checkpoint.md`
 - restart_checkpoint_asr: `gov/asr/sessions/2026-02-13__ASR__phase6z-restart-stage-governance-resync-checkpoint.md`
 - reboot_checkpoint_asr: `gov/asr/sessions/2026-02-13__ASR__phase6z-reboot-stage-facts-context-reentry-checkpoint.md`
@@ -121,6 +121,7 @@ source_of_truth: RADRILONIUMA-PROJECT
 - rebirth_checkpoint_asr: `gov/asr/sessions/2026-02-13__ASR__phase6z-rebirth-stage-baseline-regeneration-checkpoint.md`
 - repulse_checkpoint_asr: `gov/asr/sessions/2026-02-13__ASR__phase6z-repulse-stage-drift-tail-rejection-checkpoint.md`
 - rebit_checkpoint_asr: `gov/asr/sessions/2026-02-13__ASR__phase6z-rebit-stage-deterministic-corrections-checkpoint.md`
+- remove_checkpoint_asr: `gov/asr/sessions/2026-02-13__ASR__phase6z-remove-stage-obsolete-artifact-pruning-checkpoint.md`
 - lifecycle_chain:
   - record
   - restart

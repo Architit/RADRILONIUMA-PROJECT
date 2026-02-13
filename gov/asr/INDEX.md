@@ -9,6 +9,7 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - ARCHITECTURAL_SESSION_RECORD = ASSNRCRD = ASR
 
 ## Sessions
+- 2026-02-13 — Phase 6.Z Remove Stage (Obsolete Artifact Pruning Checkpoint)
 - 2026-02-13 — Phase 6.Z Rebit Stage (Deterministic Corrections Checkpoint)
 - 2026-02-13 — Phase 6.Z Repulse Stage (Drift-Tail Rejection Checkpoint)
 - 2026-02-13 — Phase 6.Z Rebirth Stage (Baseline Regeneration Checkpoint)
@@ -119,3 +120,4 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - 2026-02-13 | phase6z-rebirth-stage-baseline-regeneration-checkpoint | gov/asr/sessions/2026-02-13__ASR__phase6z-rebirth-stage-baseline-regeneration-checkpoint.md
 - 2026-02-13 | phase6z-repulse-stage-drift-tail-rejection-checkpoint | gov/asr/sessions/2026-02-13__ASR__phase6z-repulse-stage-drift-tail-rejection-checkpoint.md
 - 2026-02-13 | phase6z-rebit-stage-deterministic-corrections-checkpoint | gov/asr/sessions/2026-02-13__ASR__phase6z-rebit-stage-deterministic-corrections-checkpoint.md
+- 2026-02-13 | phase6z-remove-stage-obsolete-artifact-pruning-checkpoint | gov/asr/sessions/2026-02-13__ASR__phase6z-remove-stage-obsolete-artifact-pruning-checkpoint.md

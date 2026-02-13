@@ -3,7 +3,7 @@
 ## Identity
 repo: RADRILONIUMA-PROJECT
 branch: main
-timestamp: 2026-02-13T11:08:01Z
+timestamp: 2026-02-13T11:08:59Z
 
 ## Current pointer
 phase: Phase 6.Z Arch Core Lifecycle Chain
@@ -171,3 +171,6 @@ cld rstrt NEW
 - 2026-02-13 11:08 UTC — phase6z-rebit-stage-deterministic-corrections-checkpoint
 - checkpoint_result: Phase 6.Z `rebit` stage checkpoint captured; lifecycle current stage moved to `rebit` with minimal deterministic correction increments
 - gate_asr: gov/asr/sessions/2026-02-13__ASR__phase6z-rebit-stage-deterministic-corrections-checkpoint.md
+- 2026-02-13 11:08 UTC — phase6z-remove-stage-obsolete-artifact-pruning-checkpoint
+- checkpoint_result: Phase 6.Z `remove` stage checkpoint captured; lifecycle current stage moved to `remove` with policy-pruned obsolete/non-canonical artifacts
+- gate_asr: gov/asr/sessions/2026-02-13__ASR__phase6z-remove-stage-obsolete-artifact-pruning-checkpoint.md
