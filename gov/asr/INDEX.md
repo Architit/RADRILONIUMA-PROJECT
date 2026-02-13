@@ -9,6 +9,7 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - ARCHITECTURAL_SESSION_RECORD = ASSNRCRD = ASR
 
 ## Sessions
+- 2026-02-13 — Phase 7.0 Cycle 5 Pulse Alignment Checkpoint
 - 2026-02-13 — Phase 7.0 Cycle 4 Pulse Alignment Checkpoint
 - 2026-02-13 — Phase 7.0 Cycle 3 Pulse Alignment Checkpoint
 - 2026-02-13 — Phase 7.0 Cycle 2 Pulse Alignment Checkpoint
@@ -133,3 +134,4 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - 2026-02-13 | phase70-cycle2-pulse-alignment-checkpoint | gov/asr/sessions/2026-02-13__ASR__phase70-cycle2-pulse-alignment-checkpoint.md
 - 2026-02-13 | phase70-cycle3-pulse-alignment-checkpoint | gov/asr/sessions/2026-02-13__ASR__phase70-cycle3-pulse-alignment-checkpoint.md
 - 2026-02-13 | phase70-cycle4-pulse-alignment-checkpoint | gov/asr/sessions/2026-02-13__ASR__phase70-cycle4-pulse-alignment-checkpoint.md
+- 2026-02-13 | phase70-cycle5-pulse-alignment-checkpoint | gov/asr/sessions/2026-02-13__ASR__phase70-cycle5-pulse-alignment-checkpoint.md
