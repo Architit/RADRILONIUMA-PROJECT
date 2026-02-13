@@ -15,7 +15,7 @@
 - WORKFLOW_SNAPSHOT_STATE.md
 
 ## Captured Facts
-- Phase 5 runtime-facing gate decision wave is CLOSED in LAM ().
+- Phase 5 runtime-facing gate decision wave is CLOSED in LAM (RG1/RG2/RG3 = DONE).
 - Next target in LAM is post-runtime-facing gate decision selection.
 - Interaction protocol update template is active:
   - INTERACTION_PROTOCOL_UPDATE_TEMPLATE.md
