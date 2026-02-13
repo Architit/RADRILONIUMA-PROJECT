@@ -9,6 +9,7 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - ARCHITECTURAL_SESSION_RECORD = ASSNRCRD = ASR
 
 ## Sessions
+- 2026-02-13 — Phase 7.0 SUNBIRTHLIGHTPULSEBIT Activation
 - 2026-02-13 — Phase 6.D Blackhole Protocol Activation
 - 2026-02-13 — Phase 6.C Isolation/Autonomy/Deep Revision Activation
 - 2026-02-13 — Phase 6.B Version Pre-Gate Reset Contract Activation
@@ -101,3 +102,4 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - 2026-02-13 | phase6b-version-pre-gate-reset-contract-activation | gov/asr/sessions/2026-02-13__ASR__phase6b-version-pre-gate-reset-contract-activation.md
 - 2026-02-13 | phase6c-isolation-autonomy-deep-revision-activation | gov/asr/sessions/2026-02-13__ASR__phase6c-isolation-autonomy-deep-revision-activation.md
 - 2026-02-13 | phase6d-blackhole-protocol-activation | gov/asr/sessions/2026-02-13__ASR__phase6d-blackhole-protocol-activation.md
+- 2026-02-13 | phase70-sunbirthlightpulsebit-activation | gov/asr/sessions/2026-02-13__ASR__phase70-sunbirthlightpulsebit-activation.md

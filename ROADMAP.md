@@ -106,8 +106,8 @@ Governance focus:
 
 ---
 **Current Development Stage:**
-Phase 6.D Execution — Blackhole Protocol Activation
-(facts-only containment governance and sink-reconciliation stage)
+Phase 7.0 Execution — SUNBIRTHLIGHTPULSEBIT
+(facts-only pulse alignment and birth-gate lock stage)
 
 - [x] 2026-02-13 — governance: postreview sync with LAM completed; LAM R6 readiness captured (READY=0, BLOCKED=14), RADR stage remains Phase 5.B execution
 
@@ -179,6 +179,7 @@ SoT.
 - [x] 2026-02-13 — governance: mandatory new-version pre-gate reset contract published (`VERSION_GATE_RESET_PROTOCOL.md`) and bound into interaction protocol (M8).
 - [x] 2026-02-13 — governance: activated Phase 6.C isolation/autonomy/deep-revision contract (`PHASE6C_ISOLATION_AUTONOMY_REVISION_PROTOCOL.md`) and bound into interaction protocol (M9).
 - [x] 2026-02-13 — governance: activated Phase 6.D blackhole contract (`PHASE6D_BLACKHOLE_PROTOCOL.md`) and bound into interaction protocol (M10).
+- [x] 2026-02-13 — governance: activated Phase 7.0 SUNBIRTHLIGHTPULSEBIT contract (`PHASE70_SUNBIRTHLIGHTPULSEBIT_PROTOCOL.md`) and bound into interaction protocol (M11); birth gate locked until phase completion.
 
 ## Phase 6 — Next-Phase Selection Gate [ACTIVE]
 - Goal: declare canonical Phase 6 objective and DoD in ROADMAP before any execution wave.
@@ -237,6 +238,19 @@ SoT.
   - blackhole state = `STABLE`,
   - residual tails = 0 unresolved,
   - transition gate unlocked.
+
+## Phase 7.0 — SUNBIRTHLIGHTPULSEBIT [ACTIVE]
+- Goal: execute pulse-alignment cycle and control new-version birth gate opening.
+- Canonical contract: `PHASE70_SUNBIRTHLIGHTPULSEBIT_PROTOCOL.md`.
+- Signature: `p 7 0/|\\<<<...+++ { SUNBIRTHLIGHTPULSEBIT }`.
+- Hard rule:
+  - new version birth gate stays `CLOSED` until this phase is completed.
+- Exit criterion:
+  - phase70_status = `COMPLETE`,
+  - compliance gate = `COMPLIANT`,
+  - blackhole state = `STABLE`,
+  - residual tails = 0,
+  - then and only then birth gate can be opened.
 
 ## Recurring Governance Tasks
 - [ ] Protocol Drift Gate v1 (recurring): run ASR matrix check at each protocol-version update and before every cross-repo governance wave.

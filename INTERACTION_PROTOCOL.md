@@ -301,6 +301,22 @@ Canonical artifact:
 
 ---
 
+## M11 — Phase 7.0 SUNBIRTHLIGHTPULSEBIT Contract (mandatory)
+
+For Phase 7.0 activation:
+
+1) Activate SUNBIRTHLIGHTPULSEBIT cycle.
+2) Keep `new version birth gate` strictly `CLOSED` during the phase.
+3) Permit gate opening only after full Phase 7.0 completion criteria are met.
+
+Canonical artifact:
+- `PHASE70_SUNBIRTHLIGHTPULSEBIT_PROTOCOL.md`
+
+Hard rule:
+- Birth gate opening before Phase 7.0 completion is FORBIDDEN.
+
+---
+
 ## Governance Review Stage (mandatory)
 
 После завершения фаз в ROADMAP следующий шаг разработки обязателен

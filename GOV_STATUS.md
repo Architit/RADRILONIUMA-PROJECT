@@ -1,13 +1,13 @@
 # Governance Status Dashboard
 
-timestamp_utc: 2026-02-13T10:35:09Z
+timestamp_utc: 2026-02-13T10:40:28Z
 scope: RADRILONIUMA ecosystem
 source_of_truth: RADRILONIUMA-PROJECT
 
 ## Protocol Baseline
 - protocol_version: v1.0.0
 - protocol_sync_commit: 7eadfe9
-- sot_head_commit: 9be9afb
+- sot_head_commit: 0b0fa4e
 - governance_tag: gov-radr-protocol-v1.0.0
 
 ## Drift Gate Summary (Wave-2)
@@ -15,12 +15,12 @@ source_of_truth: RADRILONIUMA-PROJECT
 - aligned: 16
 - drift: 0
 - blocked: 0
-- latest_asr: `gov/asr/sessions/2026-02-13__ASR__phase6d-blackhole-protocol-activation.md`
+- latest_asr: `gov/asr/sessions/2026-02-13__ASR__phase70-sunbirthlightpulsebit-activation.md`
 
 ## Phase Gate
 - phase_5b_status: DONE
 - completion_gate: PASSED
-- transition_state: PHASE6D_BLACKHOLE_ACTIVE
+- transition_state: PHASE70_SUNBIRTHLIGHTPULSEBIT_ACTIVE
 
 ## Heartbeat
 - essr_heartbeat_status: GREEN
@@ -102,3 +102,9 @@ source_of_truth: RADRILONIUMA-PROJECT
 - blackhole_state: ACTIVE
 - sink_reconciliation_state: SINKING
 - phase_vector: `{ -=0=+=1=-=1=0=+ }`
+
+## Phase 7.0 Birth Gate
+- phase70_contract: `PHASE70_SUNBIRTHLIGHTPULSEBIT_PROTOCOL.md`
+- phase70_state: ACTIVE
+- birth_gate_state: CLOSED
+- birth_gate_open_condition: only after full Phase 7.0 completion
