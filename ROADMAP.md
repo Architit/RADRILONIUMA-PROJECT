@@ -157,9 +157,11 @@ SoT.
 - [x] 2026-02-13 — CORE remediation Phase-3 reseed completed in clean clone (`core-remediation-phase3-reseed`, commit `701fc05`) and pushed to `LAM_CORE/main`.
 - [x] 2026-02-13 — CORE remediation Phase-4 drift gate re-entry passed (`core-remediation-phase4-drift-reentry`); CORE protocol-layer BLOCKED state removed.
 - [x] 2026-02-13 — governance: Full Drift Gate v2 executed (`full-drift-gate-v2`) against SoT `796748b`; ecosystem protocol/date matrix remains ALIGNED.
+- [x] 2026-02-13 — governance: recurring Protocol Drift Gate v1 checkpoint executed (`protocol-drift-gate-v1-recurring-checkpoint`); ecosystem branch/artifact matrix remains ALIGNED.
 
 ## Recurring Governance Tasks
 - [ ] Protocol Drift Gate v1 (recurring): run ASR matrix check at each protocol-version update and before every cross-repo governance wave.
+  last_run: 2026-02-13 08:11 UTC (`protocol-drift-gate-v1-recurring-checkpoint`)
 
 ## Blocked Risk Register
 - [x] `repos/windows-migrated-b-core/CORE` — UNBLOCKED (protocol layer)

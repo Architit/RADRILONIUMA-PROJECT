@@ -3,7 +3,7 @@
 ## Identity
 repo: RADRILONIUMA-PROJECT
 branch: main
-timestamp: 2026-02-13T08:09:18Z
+timestamp: 2026-02-13T08:11:55Z
 
 ## Current pointer
 phase: Phase 5.B Execution - Ecosystem Coverage Expansion
@@ -27,12 +27,12 @@ constraints:
 - Phase 5.A - Repo Rollout Analysis [DONE]
 
 ## Recent commits
+- 9a14a85 governance: close recovery checkpoint and refresh protocol maps
 - 8552838 governance(asr): record recovery activation and ecosystem session
 - 4183a49 governance: execute full drift gate v2
 - 796748b governance(core): complete phase4 drift re-entry and unblock risk
 - cc41396 governance(core): record phase3 reseed on clean clone
 - 32d6fed governance(core): record phase2 reclone DNS blocker
-- 7f7395d governance: capture CORE fsck evidence and publish GOV_STATUS dashboard
 
 ## Git status
 ## main...origin/main
@@ -81,3 +81,6 @@ cld rstrt NEW
 - gate_asr: gov/asr/sessions/2026-02-13__ASR__full-drift-gate-v2.md
 - 2026-02-13 08:09 UTC — recovery-export checkpoint
 - checkpoint_result: SoT and Roaudter branches synced with origin after recovery ASR push wave
+- 2026-02-13 08:11 UTC — recurring-protocol-drift-gate-v1-checkpoint
+- checkpoint_result: ecosystem branch/artifact matrix ALIGNED for 16 tracked repositories
+- gate_asr: gov/asr/sessions/2026-02-13__ASR__protocol-drift-gate-v1-recurring-checkpoint.md

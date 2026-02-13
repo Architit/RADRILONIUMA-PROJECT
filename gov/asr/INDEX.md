@@ -9,6 +9,7 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - ARCHITECTURAL_SESSION_RECORD = ASSNRCRD = ASR
 
 ## Sessions
+- 2026-02-13 — Protocol Drift Gate v1 Recurring Checkpoint
 - 2026-02-13 — Full Drift Gate v2
 - 2026-02-13 — CORE Remediation Phase 4 Drift Re-entry
 - 2026-02-13 — CORE Remediation Phase 3 Reseed
@@ -59,3 +60,4 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - 2026-02-13 | core-remediation-phase3-reseed | gov/asr/sessions/2026-02-13__ASR__core-remediation-phase3-reseed.md
 - 2026-02-13 | core-remediation-phase4-drift-reentry | gov/asr/sessions/2026-02-13__ASR__core-remediation-phase4-drift-reentry.md
 - 2026-02-13 | full-drift-gate-v2 | gov/asr/sessions/2026-02-13__ASR__full-drift-gate-v2.md
+- 2026-02-13 | protocol-drift-gate-v1-recurring-checkpoint | gov/asr/sessions/2026-02-13__ASR__protocol-drift-gate-v1-recurring-checkpoint.md
