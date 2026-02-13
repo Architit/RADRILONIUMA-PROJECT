@@ -155,3 +155,5 @@ check.sh --profile ci`.
 INTERACTION_PROTOCOL.md -> WORKFLOW_SNAPSHOT_STATE.md` acknowledged.
 2026-02-13 02:25 UTC — Governance: synced LAM P4 activation package (`e9be941`, `gov-lam-p40-activation-v1.0.0`) — Phase 4 marked ACTIVE, DoD + T1-T3 queue fixed,
 mirrors/snapshot aligned.
+2026-02-13 02:28 UTC — Governance: synced LAM ssn rstrt(EXPORT) before P4.1 (`44cbd81`) with `NEW_CHAT_INIT_MESSAGE`; restart contract state is deterministic and
+ready for IMPORT.
