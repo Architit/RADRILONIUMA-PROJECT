@@ -106,8 +106,8 @@ Governance focus:
 
 ---
 **Current Development Stage:**
-Phase 7.0 Execution — SUNBIRTHLIGHTPULSEBIT
-(facts-only pulse alignment and birth-gate lock stage)
+Phase 6.Z Execution — Arch Core Lifecycle Chain
+(facts-only lifecycle command chain stage)
 
 - [x] 2026-02-13 — governance: postreview sync with LAM completed; LAM R6 readiness captured (READY=0, BLOCKED=14), RADR stage remains Phase 5.B execution
 
@@ -180,6 +180,7 @@ SoT.
 - [x] 2026-02-13 — governance: activated Phase 6.C isolation/autonomy/deep-revision contract (`PHASE6C_ISOLATION_AUTONOMY_REVISION_PROTOCOL.md`) and bound into interaction protocol (M9).
 - [x] 2026-02-13 — governance: activated Phase 6.D blackhole contract (`PHASE6D_BLACKHOLE_PROTOCOL.md`) and bound into interaction protocol (M10).
 - [x] 2026-02-13 — governance: activated Phase 7.0 SUNBIRTHLIGHTPULSEBIT contract (`PHASE70_SUNBIRTHLIGHTPULSEBIT_PROTOCOL.md`) and bound into interaction protocol (M11); birth gate locked until phase completion.
+- [x] 2026-02-13 — governance: activated Phase 6.Z arch core lifecycle contract (`PHASE6Z_ARCH_CORE_LIFECYCLE_PROTOCOL.md`) and bound into interaction protocol (M12).
 
 ## Phase 6 — Next-Phase Selection Gate [ACTIVE]
 - Goal: declare canonical Phase 6 objective and DoD in ROADMAP before any execution wave.
@@ -251,6 +252,16 @@ SoT.
   - blackhole state = `STABLE`,
   - residual tails = 0,
   - then and only then birth gate can be opened.
+
+## Phase 6.Z — Arch Core Lifecycle Chain [ACTIVE]
+- Goal: run deterministic lifecycle chain for arch/system/ecosystem core.
+- Canonical contract: `PHASE6Z_ARCH_CORE_LIFECYCLE_PROTOCOL.md`.
+- Command chain:
+  - `record -> restart -> reboot -> resync -> rebirth -> repulse -> rebit -> remove -> review`
+- Exit criterion:
+  - all chain stages completed,
+  - compliance gate = `COMPLIANT`,
+  - review evidence linked in ASR/index/maps/logs.
 
 ## Recurring Governance Tasks
 - [ ] Protocol Drift Gate v1 (recurring): run ASR matrix check at each protocol-version update and before every cross-repo governance wave.

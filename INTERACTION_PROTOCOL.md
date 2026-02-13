@@ -317,6 +317,20 @@ Hard rule:
 
 ---
 
+## M12 — Phase 6.Z Arch Core Lifecycle Contract (mandatory)
+
+For Phase 6.Z activation:
+
+1) Execute lifecycle command chain in strict order:
+   `record -> restart -> reboot -> resync -> rebirth -> repulse -> rebit -> remove -> review`.
+2) Block forward transition on any incomplete stage.
+3) Permit phase closure only with `COMPLIANT` status and evidence-linked review.
+
+Canonical artifact:
+- `PHASE6Z_ARCH_CORE_LIFECYCLE_PROTOCOL.md`
+
+---
+
 ## Governance Review Stage (mandatory)
 
 После завершения фаз в ROADMAP следующий шаг разработки обязателен

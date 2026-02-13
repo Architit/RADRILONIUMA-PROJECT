@@ -209,3 +209,4 @@ acknowledged as DONE.
 2026-02-13 10:21 UTC — Governance: activated Phase 6.C full isolation/autonomous deep revision contract (`PHASE6C_ISOLATION_AUTONOMY_REVISION_PROTOCOL.md`) with repeat zeroization+creation rule after complete past/present/future analysis.
 2026-02-13 10:35 UTC — Governance: activated Phase 6.D blackhole protocol (`PHASE6D_BLACKHOLE_PROTOCOL.md`) with explicit phase signature and sink-reconciliation gate (`ACTIVE -> SINKING -> STABLE`).
 2026-02-13 10:40 UTC — Governance: activated Phase 7.0 SUNBIRTHLIGHTPULSEBIT (`PHASE70_SUNBIRTHLIGHTPULSEBIT_PROTOCOL.md`); `new version birth gate` locked to `CLOSED` until phase completion.
+2026-02-13 10:47 UTC — Governance: activated Phase 6.Z arch core lifecycle chain (`PHASE6Z_ARCH_CORE_LIFECYCLE_PROTOCOL.md`) with mandatory sequence `record -> restart -> reboot -> resync -> rebirth -> repulse -> rebit -> remove -> review`.
