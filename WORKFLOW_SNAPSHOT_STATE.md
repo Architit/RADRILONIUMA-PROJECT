@@ -3,11 +3,11 @@
 ## Identity
 repo: RADRILONIUMA-PROJECT
 branch: main
-timestamp: 2026-02-13T10:21:35Z
+timestamp: 2026-02-13T10:35:09Z
 
 ## Current pointer
-phase: Phase 6.C Full Isolation + Autonomous Deep Revision
-stage: isolation activation and deep revision cycle
+phase: Phase 6.D Blackhole Protocol Activation
+stage: containment sink activation and residual reconciliation
 protocol_scale: 0
 protocol_semantic_en: neutral
 goal:
@@ -141,3 +141,6 @@ cld rstrt NEW
 - 2026-02-13 10:21 UTC — phase6c-isolation-autonomy-deep-revision-activation
 - checkpoint_result: Phase 6.C isolation/autonomy/deep-revision contract activated (`PHASE6C_ISOLATION_AUTONOMY_REVISION_PROTOCOL.md`) and bound to interaction protocol M9
 - gate_asr: gov/asr/sessions/2026-02-13__ASR__phase6c-isolation-autonomy-deep-revision-activation.md
+- 2026-02-13 10:35 UTC — phase6d-blackhole-protocol-activation
+- checkpoint_result: Phase 6.D blackhole contract activated (`PHASE6D_BLACKHOLE_PROTOCOL.md`) and bound to interaction protocol M10
+- gate_asr: gov/asr/sessions/2026-02-13__ASR__phase6d-blackhole-protocol-activation.md

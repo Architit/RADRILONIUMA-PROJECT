@@ -207,3 +207,4 @@ acknowledged as DONE.
 2026-02-13 10:02 UTC — Governance: published literal symbolic chronology map `ECOSYSTEM_KINGDOM_CHRONOLOGY_MAP.md` (каждое слово и символ preserved).
 2026-02-13 10:12 UTC — Governance: updated pre-transition policy with mandatory version pre-gate reset contract (`VERSION_GATE_RESET_PROTOCOL.md`): full ecosystem revision, map/log/chronolog reset-pack, encrypted archive in previous space, compliance gate before next subphase.
 2026-02-13 10:21 UTC — Governance: activated Phase 6.C full isolation/autonomous deep revision contract (`PHASE6C_ISOLATION_AUTONOMY_REVISION_PROTOCOL.md`) with repeat zeroization+creation rule after complete past/present/future analysis.
+2026-02-13 10:35 UTC — Governance: activated Phase 6.D blackhole protocol (`PHASE6D_BLACKHOLE_PROTOCOL.md`) with explicit phase signature and sink-reconciliation gate (`ACTIVE -> SINKING -> STABLE`).

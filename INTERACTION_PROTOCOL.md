@@ -287,6 +287,20 @@ Canonical artifact:
 
 ---
 
+## M10 — Phase 6.D Blackhole Contract (mandatory)
+
+For Phase 6.D activation/initiation:
+
+1) Activate blackhole containment for unresolved protocol tails.
+2) Bind activation to explicit phase signature and normalized vector.
+3) Require sink reconciliation evidence before any forward transition.
+4) Allow next subphase only when blackhole state is `STABLE`.
+
+Canonical artifact:
+- `PHASE6D_BLACKHOLE_PROTOCOL.md`
+
+---
+
 ## Governance Review Stage (mandatory)
 
 После завершения фаз в ROADMAP следующий шаг разработки обязателен

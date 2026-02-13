@@ -106,8 +106,8 @@ Governance focus:
 
 ---
 **Current Development Stage:**
-Phase 6.C Execution — Full Isolation + Autonomous Deep Revision
-(facts-only isolation governance and deep revision stage)
+Phase 6.D Execution — Blackhole Protocol Activation
+(facts-only containment governance and sink-reconciliation stage)
 
 - [x] 2026-02-13 — governance: postreview sync with LAM completed; LAM R6 readiness captured (READY=0, BLOCKED=14), RADR stage remains Phase 5.B execution
 
@@ -178,6 +178,7 @@ SoT.
 - [x] 2026-02-13 — governance: literal symbolic lifecycle chronolog map published (`ECOSYSTEM_KINGDOM_CHRONOLOGY_MAP.md`) with verbatim capture rule ("каждое слово и символ").
 - [x] 2026-02-13 — governance: mandatory new-version pre-gate reset contract published (`VERSION_GATE_RESET_PROTOCOL.md`) and bound into interaction protocol (M8).
 - [x] 2026-02-13 — governance: activated Phase 6.C isolation/autonomy/deep-revision contract (`PHASE6C_ISOLATION_AUTONOMY_REVISION_PROTOCOL.md`) and bound into interaction protocol (M9).
+- [x] 2026-02-13 — governance: activated Phase 6.D blackhole contract (`PHASE6D_BLACKHOLE_PROTOCOL.md`) and bound into interaction protocol (M10).
 
 ## Phase 6 — Next-Phase Selection Gate [ACTIVE]
 - Goal: declare canonical Phase 6 objective and DoD in ROADMAP before any execution wave.
@@ -222,6 +223,20 @@ SoT.
   - revision complete,
   - compliance gate = `COMPLIANT`,
   - only then transition to next subphase.
+
+## Phase 6.D — Protocol Blackhole Activation [ACTIVE]
+- Goal: activate blackhole containment and reconcile unresolved residual tails.
+- Canonical contract: `PHASE6D_BLACKHOLE_PROTOCOL.md`.
+- Signature: `p 6 d\\=\\4\\в\\=...<<<...}` + normalized vector `{ -=0=+=1=-=1=0=+ }`.
+- Mandatory cycle:
+  - activate containment sink,
+  - validate drift/heartbeat/compliance dependencies,
+  - reconcile sink residuals to evidence artifacts,
+  - permit next transition only at `STABLE`.
+- Exit criterion:
+  - blackhole state = `STABLE`,
+  - residual tails = 0 unresolved,
+  - transition gate unlocked.
 
 ## Recurring Governance Tasks
 - [ ] Protocol Drift Gate v1 (recurring): run ASR matrix check at each protocol-version update and before every cross-repo governance wave.

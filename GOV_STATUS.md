@@ -1,13 +1,13 @@
 # Governance Status Dashboard
 
-timestamp_utc: 2026-02-13T10:21:35Z
+timestamp_utc: 2026-02-13T10:35:09Z
 scope: RADRILONIUMA ecosystem
 source_of_truth: RADRILONIUMA-PROJECT
 
 ## Protocol Baseline
 - protocol_version: v1.0.0
 - protocol_sync_commit: 7eadfe9
-- sot_head_commit: e9735a0
+- sot_head_commit: 9be9afb
 - governance_tag: gov-radr-protocol-v1.0.0
 
 ## Drift Gate Summary (Wave-2)
@@ -15,12 +15,12 @@ source_of_truth: RADRILONIUMA-PROJECT
 - aligned: 16
 - drift: 0
 - blocked: 0
-- latest_asr: `gov/asr/sessions/2026-02-13__ASR__phase6c-isolation-autonomy-deep-revision-activation.md`
+- latest_asr: `gov/asr/sessions/2026-02-13__ASR__phase6d-blackhole-protocol-activation.md`
 
 ## Phase Gate
 - phase_5b_status: DONE
 - completion_gate: PASSED
-- transition_state: PHASE6C_ISOLATION_AUTONOMY_ACTIVE
+- transition_state: PHASE6D_BLACKHOLE_ACTIVE
 
 ## Heartbeat
 - essr_heartbeat_status: GREEN
@@ -96,3 +96,9 @@ source_of_truth: RADRILONIUMA-PROJECT
 - autonomy_status: ACTIVE
 - deep_revision_status: ACTIVE
 - cycle_rule: repeat zeroization+creation of previous phase baseline only after full past/present/future analysis
+
+## Phase 6.D Blackhole Mode
+- phase6d_contract: `PHASE6D_BLACKHOLE_PROTOCOL.md`
+- blackhole_state: ACTIVE
+- sink_reconciliation_state: SINKING
+- phase_vector: `{ -=0=+=1=-=1=0=+ }`
