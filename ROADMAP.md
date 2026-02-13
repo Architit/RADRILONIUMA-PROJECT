@@ -112,3 +112,5 @@ Phase 5.B Execution — Ecosystem Coverage Expansion
 - [x] 2026-02-13 — governance: postreview sync with LAM completed; LAM R6 readiness captured (READY=0, BLOCKED=14), RADR stage remains Phase 5.B execution
 
 - [x] 2026-02-13 — governance: host-role contract synced with LAM (builder online vendoring / runner offline --no-index --find-links)
+
+- [x] 2026-02-13 — governance: synced LAM R6.1 host-split success (DONE=4, PENDING=11) and prepared transition to R6.2

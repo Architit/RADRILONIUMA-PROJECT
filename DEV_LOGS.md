@@ -137,3 +137,10 @@ Next coordination target: support LAM Wave R6.1 execution.
 Builder host: internet allowed for dependency vendoring (wheelhouse).
 Runner host: internet denied; installs must be --no-index --find-links.
 LAM refs acknowledged: gov-lam-runtime-proof-hostsplit-v1.0.0, gov-lam-devmap-p24-r61-rootcause-v1.0.0.
+2026-02-13 01:06 UTC — Governance: synced LAM P2.4 R6.1 host-split success.
+LAM runtime summary updated to DONE=4, PENDING=11.
+Validated repos:
+- Roaudter-agent (rev bd16495, exit_code=0)
+- LAM-Codex_Agent (rev 3e15737, exit_code=0)
+- LAM_Comunication_Agent (rev c3a7285, exit_code=0)
+LAM refs acknowledged: gov-lam-devmap-p24-r61-success-v1.0.0.
