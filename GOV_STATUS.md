@@ -105,7 +105,7 @@ source_of_truth: RADRILONIUMA-PROJECT
 
 ## Phase 7.0 Birth Gate
 - phase70_contract: `PHASE70_SUNBIRTHLIGHTPULSEBIT_PROTOCOL.md`
-- phase70_state: ACTIVE
+- phase70_state: LOCKED
 - birth_gate_state: CLOSED
 - birth_gate_open_condition: only after full Phase 7.0 completion
 

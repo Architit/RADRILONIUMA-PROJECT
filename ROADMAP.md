@@ -240,7 +240,7 @@ SoT.
   - residual tails = 0 unresolved,
   - transition gate unlocked.
 
-## Phase 7.0 — SUNBIRTHLIGHTPULSEBIT [ACTIVE]
+## Phase 7.0 — SUNBIRTHLIGHTPULSEBIT [LOCKED]
 - Goal: execute pulse-alignment cycle and control new-version birth gate opening.
 - Canonical contract: `PHASE70_SUNBIRTHLIGHTPULSEBIT_PROTOCOL.md`.
 - Signature: `p 7 0/|\\<<<...+++ { SUNBIRTHLIGHTPULSEBIT }`.
