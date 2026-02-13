@@ -189,6 +189,7 @@ SoT.
 - [x] 2026-02-13 — governance: executed Phase 6.Z `repulse` checkpoint for unresolved drift-tail rejection (`phase6z-repulse-stage-drift-tail-rejection-checkpoint`); lifecycle stage pointers advanced.
 - [x] 2026-02-13 — governance: executed Phase 6.Z `rebit` checkpoint for minimal deterministic corrections (`phase6z-rebit-stage-deterministic-corrections-checkpoint`); lifecycle stage pointers advanced.
 - [x] 2026-02-13 — governance: executed Phase 6.Z `remove` checkpoint for obsolete artifact pruning (`phase6z-remove-stage-obsolete-artifact-pruning-checkpoint`); lifecycle stage pointers advanced.
+- [x] 2026-02-13 — governance: executed Phase 6.Z `review` checkpoint (`phase6z-review-stage-closure-evidence-checkpoint`); lifecycle chain marked COMPLETE with compliance gate `COMPLIANT`.
 
 ## Phase 6 — Next-Phase Selection Gate [ACTIVE]
 - Goal: declare canonical Phase 6 objective and DoD in ROADMAP before any execution wave.
