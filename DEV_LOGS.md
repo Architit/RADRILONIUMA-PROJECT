@@ -193,3 +193,4 @@ acknowledged as DONE.
 2026-02-13 08:26 UTC — Governance: closed Phase 5.B completion gate (`gov/asr/sessions/2026-02-13__ASR__phase5b-completion-gate-closure.md`); phase status moved to DONE and transition set to next-phase selection.
 2026-02-13 08:27 UTC — Governance: opened Phase 6 selection gate (`gov/asr/sessions/2026-02-13__ASR__phase6-selection-gate-open.md`); transition state set to `PHASE_SELECTION_GATE_ACTIVE`.
 2026-02-13 08:29 UTC — Governance: recorded ESR checkpoint for active selection gate (`gov/asr/sessions/2026-02-13__ASR__phase6-ecosystem-session-record.md`); ecosystem baseline remains aligned.
+2026-02-13 08:33 UTC — Governance: updated `INTERACTION_PROTOCOL.md` with ESSR/ESR sync-heal recovery heartbeat module (`gov/asr/sessions/2026-02-13__ASR__phase6-interaction-protocol-essr-heartbeat-update.md`).

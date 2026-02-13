@@ -9,6 +9,7 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - ARCHITECTURAL_SESSION_RECORD = ASSNRCRD = ASR
 
 ## Sessions
+- 2026-02-13 — Phase 6 Interaction Protocol ESSR Heartbeat Update
 - 2026-02-13 — Phase 6 Ecosystem Session Record (ESR)
 - 2026-02-13 — Phase 6 Selection Gate Open
 - 2026-02-13 — Phase 5.B Completion Gate Closure
@@ -73,3 +74,4 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - 2026-02-13 | phase5b-completion-gate-closure | gov/asr/sessions/2026-02-13__ASR__phase5b-completion-gate-closure.md
 - 2026-02-13 | phase6-selection-gate-open | gov/asr/sessions/2026-02-13__ASR__phase6-selection-gate-open.md
 - 2026-02-13 | phase6-ecosystem-session-record | gov/asr/sessions/2026-02-13__ASR__phase6-ecosystem-session-record.md
+- 2026-02-13 | phase6-interaction-protocol-essr-heartbeat-update | gov/asr/sessions/2026-02-13__ASR__phase6-interaction-protocol-essr-heartbeat-update.md

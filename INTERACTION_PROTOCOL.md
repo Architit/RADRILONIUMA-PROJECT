@@ -211,6 +211,48 @@ Protocol Drift Gate MUST run:
 
 ---
 
+## M7 — ESSR/ESR Sync-Heal Recovery Heartbeat (mandatory)
+
+### 7.1 Terminology
+
+- `ESR` = Ecosystem Session Record.
+- `ESSR` = Ecosystem Sync Session Record (alias for ESR-sync context).
+
+Оба сигнала считаются валидными и ведут к единому heartbeat-контракту.
+
+### 7.2 Trigger points
+
+Heartbeat MUST be evaluated:
+- после открытия selection gate новой фазы,
+- после каждого recovery-пакета, где были rebase/push incidents,
+- после пакетной sync-wave в экосистеме,
+- по явному сигналу пользователя (`ESR`, `ESSR`, `heartbeat`, `heal recovery`).
+
+### 7.3 Required artifacts
+
+- новый ASR/ESR session в `gov/asr/sessions/`,
+- ссылка в `gov/asr/INDEX.md`,
+- отражение статуса в `GOV_STATUS.md` и `WORKFLOW_SNAPSHOT_STATE.md`,
+- запись события в `DEV_LOGS.md`.
+
+### 7.4 Heartbeat statuses
+
+- `GREEN`: ecosystem sync aligned; blocked=0; no unresolved recovery tails.
+- `YELLOW`: protocol aligned but есть recovery tails (DNS/rebase/push pending).
+- `RED`: protocol drift/block detected, required artifacts missing, or gate conflict.
+
+### 7.5 Heal/Recovery loop (facts-only)
+
+При `YELLOW`/`RED`:
+1) зафиксировать причину в ASR,
+2) выполнить минимальный deterministic heal step (sync/rebase/push or map update),
+3) переоценить heartbeat,
+4) закрыть loop только после перехода в `GREEN`.
+
+No runtime logic, no enforcement automation.
+
+---
+
 ## Governance Review Stage (mandatory)
 
 После завершения фаз в ROADMAP следующий шаг разработки обязателен

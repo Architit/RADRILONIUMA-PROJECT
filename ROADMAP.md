@@ -164,15 +164,19 @@ SoT.
 - [x] 2026-02-13 — governance: Phase 5.B completion gate closed (`phase5b-completion-gate-closure`); phase marked DONE and ready for next phase selection.
 - [x] 2026-02-13 — governance: Phase 6 selection gate opened (`phase6-selection-gate-open`); transition switched to next-phase objective declaration.
 - [x] 2026-02-13 — governance: ESR checkpoint captured for active Phase 6 selection gate (`phase6-ecosystem-session-record`); alignment baseline reaffirmed.
+- [x] 2026-02-13 — governance: interaction protocol heartbeat module applied (`phase6-interaction-protocol-essr-heartbeat-update`) for ESSR/ESR sync-heal recovery lifecycle.
 
 ## Phase 6 — Next-Phase Selection Gate [ACTIVE]
 - Goal: declare canonical Phase 6 objective and DoD in ROADMAP before any execution wave.
 - Constraints: contracts-first, observability-first, derivation-only, no runtime logic.
 - Exit criterion: Phase 6 objective explicitly selected and recorded in SoT maps.
+- Operational heartbeat: ESSR/ESR sync-heal recovery heartbeat loop is mandatory while selection gate is active.
 
 ## Recurring Governance Tasks
 - [ ] Protocol Drift Gate v1 (recurring): run ASR matrix check at each protocol-version update and before every cross-repo governance wave.
   last_run: 2026-02-13 08:11 UTC (`protocol-drift-gate-v1-recurring-checkpoint`)
+- [ ] ESSR/ESR heartbeat (recurring): record sync-heal recovery heartbeat state while Phase 6 selection gate remains active.
+  last_run: 2026-02-13 08:33 UTC (`phase6-interaction-protocol-essr-heartbeat-update`)
 - [x] Local hygiene normalization wave (non-SoT): reduce untracked local artifacts while preserving governance contracts.
   opened: 2026-02-13 08:13 UTC (`phase5b-wave-checkpoint-local-hygiene`)
   closed: 2026-02-13 08:22 UTC (`phase5b-local-hygiene-wave-closure`)
