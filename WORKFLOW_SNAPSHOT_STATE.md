@@ -3,16 +3,16 @@
 ## Identity
 repo: RADRILONIUMA-PROJECT
 branch: main
-timestamp: 2026-02-13T02:42:52Z
+timestamp: 2026-02-13T02:50:21Z
 
 ## Current pointer
 phase: Phase 5b - Governance Sync
-stage: post-review sync with LAM ssn-rstrt stop-point after P4 closure
+stage: post-review sync with LAM P4 follow-up backlog contract
 protocol_scale: 0
 protocol_semantic_en: neutral
 goal:
-- keep SoT aligned with latest LAM restart-governance state
-- preserve deterministic restart/import semantics
+- keep SoT aligned with latest LAM follow-up governance state
+- preserve derivation-only/policy-only synchronization
 constraints:
 - contracts-first
 - observability-first
@@ -21,6 +21,6 @@ constraints:
 - NO execution-path impact
 
 ## Verification
-- LAM reference commit: 0e52448
-- LAM reference tag: gov-lam-ssn-rstrt-export-p43-closure-v1.0.0
-- LAM state acknowledged: stop-point fixed after P4.1/P4.2/P4.3 closure
+- LAM reference commit: 09f5f3b
+- LAM reference tag: gov-lam-p4-followup-backlog-v1.0.0
+- LAM state acknowledged: follow-up wave F1-F4 fixed; next target F1

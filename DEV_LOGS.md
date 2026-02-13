@@ -165,3 +165,5 @@ strict/fallback boundaries acknowledged, `Next target` moved to P4.T3.
 acknowledged, next target set to post-P4.3 task selection.
 2026-02-13 02:42 UTC — Governance: synced LAM `ssn rstrt(EXPORT)` stop-point after P4.1/P4.2/P4.3 closure (`0e52448`, `gov-lam-ssn-rstrt-export-p43-closure-v1.0.0`);
 restart/import pointer fixed for post-P4.3 task selection.
+2026-02-13 02:50 UTC — Governance: synced LAM P4 follow-up backlog contract (`09f5f3b`, `gov-lam-p4-followup-backlog-v1.0.0`); follow-up wave F1-F4 acknowledged,
+next target set to F1 cost-aware contract draft.

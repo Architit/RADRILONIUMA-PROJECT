@@ -137,3 +137,5 @@ Phase 5.B Execution — Ecosystem Coverage Expansion
 
 - [x] 2026-02-13 — governance: sync LAM `ssn rstrt(EXPORT)` stop-point post-P4 closure (`0e52448`, `gov-lam-ssn-rstrt-export-p43-closure-v1.0.0`) acknowledged in
 SoT.
+
+- [x] 2026-02-13 — governance: sync LAM P4 follow-up backlog contract (`09f5f3b`, `gov-lam-p4-followup-backlog-v1.0.0`) acknowledged in SoT.
