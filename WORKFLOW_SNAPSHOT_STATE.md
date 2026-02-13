@@ -3,19 +3,19 @@
 ## Identity
 repo: RADRILONIUMA-PROJECT
 branch: main
-timestamp: 2026-02-13T01:06:06Z
+timestamp: 2026-02-13T01:27:37Z
 
 ## Current pointer
 phase: Phase 5.B — Ecosystem Coverage Expansion — ACTIVE
 stage: Phase 5.B Execution — Ecosystem Coverage Expansion
-step: postreview sync with LAM R6.1 host-split success
+step: postreview sync with LAM R6.5 host-split success
 protocol_scale: +1
 protocol_scale_reason: User-directed governance execution context remains active for ecosystem coverage/support.
 protocol_semantic_en: positive
 goal:
 - Maintain governance coherence between RADRILONIUMA and LAM
 - Keep Phase 5.B facts synchronized
-- Support LAM transition from R6.1 to R6.2
+- Support final LAM SoT runtime row handling
 constraints:
 - contracts-first
 - observability-first
@@ -32,6 +32,7 @@ constraints:
 - Development Stage: Phase 5.B Execution — Ecosystem Coverage Expansion
 
 ## Recent commits
+- dde7294 governance(phase5b): sync LAM R6.1 host-split success state
 - c038796 governance(phase5b): sync host-role contract with LAM runtime-proof policy
 - b227070 governance(phase5b): fix literal notes formatting in snapshot
 - b0ae691 governance(phase5b): record postreview sync with LAM R6 readiness
@@ -43,10 +44,9 @@ constraints:
 - e25cde4 gov(asr): record wave1 LAM artifact seeding progress
 - 2f84415 gov(asr): define phase-5a adoption queue and rollout wave order
 - 41b77d6 governance(phase5a): activate execution and add rollout kickoff ASR
-- 146dac2 ssn rstrt(EXPORT): refresh workflow/system state after import verification
 
 ## Git status
-## main...origin/main [ahead 1]
+## main...origin/main [ahead 2]
 
 ## References (normative docs)
 - INTERACTION_PROTOCOL.md
@@ -59,8 +59,8 @@ constraints:
 - gov/asr/INDEX.md
 
 ## Notes
-- LAM reference acknowledged: gov-lam-devmap-p24-r61-success-v1.0.0
-- LAM runtime summary: DONE=4, PENDING=11
+- LAM reference acknowledged: gov-lam-devmap-p24-r65-success-v1.0.0
+- LAM runtime summary: DONE=14, PENDING=1
 - Handoff gate status: READY
 
 ## New Chat Init

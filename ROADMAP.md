@@ -114,3 +114,8 @@ Phase 5.B Execution — Ecosystem Coverage Expansion
 - [x] 2026-02-13 — governance: host-role contract synced with LAM (builder online vendoring / runner offline --no-index --find-links)
 
 - [x] 2026-02-13 — governance: synced LAM R6.1 host-split success (DONE=4, PENDING=11) and prepared transition to R6.2
+
+- [x] 2026-02-13 — governance: synced LAM R6.2 host-split success (DONE=7, PENDING=8)
+- [x] 2026-02-13 — governance: synced LAM R6.3 host-split success (DONE=10, PENDING=5)
+- [x] 2026-02-13 — governance: synced LAM R6.4 host-split success (DONE=13, PENDING=2)
+- [x] 2026-02-13 — governance: synced LAM R6.5 host-split success (DONE=14, PENDING=1)
