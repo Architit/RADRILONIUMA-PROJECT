@@ -8,7 +8,7 @@ timestamp: 2026-02-13T01:27:37Z
 ## Current pointer
 phase: Phase 5.B — Ecosystem Coverage Expansion — ACTIVE
 stage: Phase 5.B Execution — Ecosystem Coverage Expansion
-step: postreview sync with LAM R6.5 host-split success
+step: postreview sync with LAM SoT-row EXEMPT policy closure
 protocol_scale: +1
 protocol_scale_reason: User-directed governance execution context remains active for ecosystem coverage/support.
 protocol_semantic_en: positive
@@ -60,7 +60,7 @@ constraints:
 
 ## Notes
 - LAM reference acknowledged: gov-lam-devmap-p24-r65-success-v1.0.0
-- LAM runtime summary: DONE=14, PENDING=1
+- LAM runtime summary: DONE=14, EXEMPT=1, PENDING=0
 - Handoff gate status: READY
 
 ## New Chat Init
@@ -81,3 +81,4 @@ Constraints:
 
 If NEW chat and governance handoff gate is satisfied: Proceed with Phase 2 (IMPORT).
 If handoff gate is not satisfied: return to active chat and complete governance handoff first.
+- LAM policy reference acknowledged: gov-lam-devmap-p24-sot-exempt-v1.0.0

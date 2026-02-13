@@ -148,3 +148,4 @@ LAM refs acknowledged: gov-lam-devmap-p24-r61-success-v1.0.0.
 2026-02-13 01:12 UTC — Governance: synced LAM P2.4 R6.3 host-split success (LAM_DATA_Src, LAM_Test_Agent, Operator_Agent); runtime summary now DONE=10, PENDING=5.
 2026-02-13 01:16 UTC — Governance: synced LAM P2.4 R6.4 host-split success (System-, TRIANIUMA_DATA_BASE, Trianiuma); runtime summary now DONE=13, PENDING=2.
 2026-02-13 01:22 UTC — Governance: synced LAM P2.4 R6.5 host-split success (Trianiuma_MEM_CORE, rev b8eff8f6, exit_code=0); runtime summary now DONE=14, PENDING=1.
+2026-02-13 01:38 UTC — Governance: synced LAM SoT-row policy closure (): runtime summary updated to DONE=14, EXEMPT=1, PENDING=0.
