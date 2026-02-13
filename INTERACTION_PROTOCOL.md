@@ -332,6 +332,19 @@ Canonical artifact:
 
 ---
 
+## M13 — Post-Phase70 Canonical Selection Contract (mandatory)
+
+After Phase 7.0 closure:
+
+1) Activate canonical next-phase selection.
+2) Declare selected phase with explicit goal and DoD.
+3) Bind selected phase contract before execution activation.
+
+Canonical artifact:
+- `PHASE80_NEW_VERSION_BIRTH_ORCHESTRATION_PROTOCOL.md`
+
+---
+
 ## Governance Review Stage (mandatory)
 
 После завершения фаз в ROADMAP следующий шаг разработки обязателен

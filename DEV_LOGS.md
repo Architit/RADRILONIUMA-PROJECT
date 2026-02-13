@@ -234,3 +234,4 @@ acknowledged as DONE.
 2026-02-13 11:45 UTC — Governance: closed Phase 7.0 with `phase70_status=COMPLETE`, `compliance_gate=COMPLIANT`; birth gate switched to `OPEN` via ASR `phase70-closure-complete-compliant-birth-gate-open`.
 2026-02-13 11:47 UTC — Governance: opened post-Phase 7.0 next-phase transition gate; transition moved to `POST_PHASE70_NEXT_PHASE_GATE_ACTIVE` via ASR `post-phase70-next-phase-gate-open`.
 2026-02-13 11:49 UTC — Governance: activated post-Phase 7.0 canonical next-phase selection; transition moved to `POST_PHASE70_CANONICAL_SELECTION_ACTIVE` via ASR `post-phase70-canonical-selection-activation`.
+2026-02-13 11:51 UTC — Governance: finalized canonical selection as `PHASE80_NEW_VERSION_BIRTH_ORCHESTRATION`; goal+DoD declared and contract bound (`PHASE80_NEW_VERSION_BIRTH_ORCHESTRATION_PROTOCOL.md`) via ASR `post-phase70-canonical-selection-decision-phase80`.

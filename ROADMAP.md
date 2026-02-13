@@ -106,8 +106,8 @@ Governance focus:
 
 ---
 **Current Development Stage:**
-Post-Phase 7.0 Canonical Selection — ACTIVE
-(next phase selection gate running after complete phase closure)
+Phase 8.0 Selection — DECLARED
+(canonical next phase selected with goal + DoD)
 
 - [x] 2026-02-13 — governance: postreview sync with LAM completed; LAM R6 readiness captured (READY=0, BLOCKED=14), RADR stage remains Phase 5.B execution
 
@@ -204,6 +204,7 @@ SoT.
 - [x] 2026-02-13 — governance: completed Phase 7.0 remediation (`phase70-remediation-blackhole-stable-residual-tail-zero`) and closure (`phase70-closure-complete-compliant-birth-gate-open`); birth gate opened.
 - [x] 2026-02-13 — governance: opened next phase transition gate after Phase 7.0 completion (`post-phase70-next-phase-gate-open`).
 - [x] 2026-02-13 — governance: activated post-Phase 7.0 canonical next-phase selection (`post-phase70-canonical-selection-activation`).
+- [x] 2026-02-13 — governance: declared canonical next phase as Phase 8.0 (`post-phase70-canonical-selection-decision-phase80`) with explicit goal and DoD.
 
 ## Phase 6 — Next-Phase Selection Gate [ACTIVE]
 - Goal: declare canonical Phase 6 objective and DoD in ROADMAP before any execution wave.
@@ -278,6 +279,15 @@ SoT.
   - blackhole state = `STABLE`,
   - residual tails = 0,
   - then and only then birth gate can be opened.
+
+## Phase 8.0 — New Version Birth Orchestration [SELECTED]
+- Goal: orchestrate controlled new-version birth after Phase 7.0 compliant closure.
+- Canonical contract: `PHASE80_NEW_VERSION_BIRTH_ORCHESTRATION_PROTOCOL.md`.
+- DoD:
+  - version_birth_readiness = `READY`,
+  - compliance_gate = `COMPLIANT`,
+  - ASR/index/maps/logs synchronized,
+  - release launch gate = `OPEN`.
 
 ## Phase 6.Z — Arch Core Lifecycle Chain [DONE]
 - Goal: run deterministic lifecycle chain for arch/system/ecosystem core.

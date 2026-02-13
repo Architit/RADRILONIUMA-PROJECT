@@ -1,6 +1,6 @@
 # Governance Status Dashboard
 
-timestamp_utc: 2026-02-13T11:49:46Z
+timestamp_utc: 2026-02-13T11:51:34Z
 scope: RADRILONIUMA ecosystem
 source_of_truth: RADRILONIUMA-PROJECT
 
@@ -15,12 +15,12 @@ source_of_truth: RADRILONIUMA-PROJECT
 - aligned: 16
 - drift: 0
 - blocked: 0
-- latest_asr: `gov/asr/sessions/2026-02-13__ASR__post-phase70-canonical-selection-activation.md`
+- latest_asr: `gov/asr/sessions/2026-02-13__ASR__post-phase70-canonical-selection-decision-phase80.md`
 
 ## Phase Gate
 - phase_5b_status: DONE
 - completion_gate: PASSED
-- transition_state: POST_PHASE70_CANONICAL_SELECTION_ACTIVE
+- transition_state: PHASE80_NEW_VERSION_BIRTH_ORCHESTRATION_SELECTED
 
 ## Heartbeat
 - essr_heartbeat_status: GREEN
@@ -136,11 +136,14 @@ source_of_truth: RADRILONIUMA-PROJECT
 
 ## Post-Phase70 Transition Gate
 - next_phase_gate_state: OPEN
-- next_phase_gate_transition: POST_PHASE70_CANONICAL_SELECTION_ACTIVE
+- next_phase_gate_transition: PHASE80_NEW_VERSION_BIRTH_ORCHESTRATION_SELECTED
 - trigger_condition: `phase70_status = COMPLETE`
 - gate_open_asr: `gov/asr/sessions/2026-02-13__ASR__post-phase70-next-phase-gate-open.md`
-- canonical_selection_state: ACTIVE
-- canonical_selection_asr: `gov/asr/sessions/2026-02-13__ASR__post-phase70-canonical-selection-activation.md`
+- canonical_selection_state: DONE
+- canonical_selection_asr: `gov/asr/sessions/2026-02-13__ASR__post-phase70-canonical-selection-decision-phase80.md`
+- selected_next_phase: PHASE80_NEW_VERSION_BIRTH_ORCHESTRATION
+- selected_next_phase_status: SELECTED
+- selected_next_phase_contract: `PHASE80_NEW_VERSION_BIRTH_ORCHESTRATION_PROTOCOL.md`
 
 ## Phase 6.Z Lifecycle Chain
 - phase6z_contract: `PHASE6Z_ARCH_CORE_LIFECYCLE_PROTOCOL.md`

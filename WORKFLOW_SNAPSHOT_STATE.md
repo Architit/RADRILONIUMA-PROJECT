@@ -3,11 +3,11 @@
 ## Identity
 repo: RADRILONIUMA-PROJECT
 branch: main
-timestamp: 2026-02-13T11:49:46Z
+timestamp: 2026-02-13T11:51:34Z
 
 ## Current pointer
-phase: Post-Phase 7.0 Canonical Selection
-stage: canonical next-phase selection gate active
+phase: Phase 8.0 Selection Declared
+stage: canonical next-phase selected with goal and DoD
 protocol_scale: 0
 protocol_semantic_en: neutral
 goal:
@@ -222,3 +222,6 @@ cld rstrt NEW
 - 2026-02-13 11:49 UTC — post-phase70-canonical-selection-activation
 - checkpoint_result: post-Phase 7.0 canonical next-phase selection activated; state moved to `POST_PHASE70_CANONICAL_SELECTION_ACTIVE`
 - gate_asr: gov/asr/sessions/2026-02-13__ASR__post-phase70-canonical-selection-activation.md
+- 2026-02-13 11:51 UTC — post-phase70-canonical-selection-decision-phase80
+- checkpoint_result: canonical selection finalized as `PHASE80_NEW_VERSION_BIRTH_ORCHESTRATION`; goal and DoD declared, contract bound
+- gate_asr: gov/asr/sessions/2026-02-13__ASR__post-phase70-canonical-selection-decision-phase80.md
