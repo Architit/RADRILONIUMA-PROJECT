@@ -9,6 +9,7 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - ARCHITECTURAL_SESSION_RECORD = ASSNRCRD = ASR
 
 ## Sessions
+- 2026-02-13 — Phase 6.Z Reboot Stage (Facts-Context Re-entry Checkpoint)
 - 2026-02-13 — Phase 6.Z Restart Stage (Governance Resync Checkpoint)
 - 2026-02-13 — Phase 6.Z Record Stage (Maps/Logs/Protocols Checkpoint)
 - 2026-02-13 — Phase 6.Z Arch Core Lifecycle Activation
@@ -109,3 +110,4 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - 2026-02-13 | phase6z-arch-core-lifecycle-activation | gov/asr/sessions/2026-02-13__ASR__phase6z-arch-core-lifecycle-activation.md
 - 2026-02-13 | phase6z-record-stage-maps-logs-protocols-checkpoint | gov/asr/sessions/2026-02-13__ASR__phase6z-record-stage-maps-logs-protocols-checkpoint.md
 - 2026-02-13 | phase6z-restart-stage-governance-resync-checkpoint | gov/asr/sessions/2026-02-13__ASR__phase6z-restart-stage-governance-resync-checkpoint.md
+- 2026-02-13 | phase6z-reboot-stage-facts-context-reentry-checkpoint | gov/asr/sessions/2026-02-13__ASR__phase6z-reboot-stage-facts-context-reentry-checkpoint.md

@@ -212,3 +212,4 @@ acknowledged as DONE.
 2026-02-13 10:47 UTC — Governance: activated Phase 6.Z arch core lifecycle chain (`PHASE6Z_ARCH_CORE_LIFECYCLE_PROTOCOL.md`) with mandatory sequence `record -> restart -> reboot -> resync -> rebirth -> repulse -> rebit -> remove -> review`.
 2026-02-13 10:58 UTC — Governance: executed Phase 6.Z `record` checkpoint for `maps/logs/protocols`; ASR created (`phase6z-record-stage-maps-logs-protocols-checkpoint`) and linked into status/index artifacts.
 2026-02-13 11:01 UTC — Governance: executed Phase 6.Z `restart` checkpoint for governance resync; ASR created (`phase6z-restart-stage-governance-resync-checkpoint`) and linked as latest lifecycle evidence.
+2026-02-13 11:03 UTC — Governance: executed Phase 6.Z `reboot` checkpoint for facts-only context re-entry; ASR created (`phase6z-reboot-stage-facts-context-reentry-checkpoint`) and linked as latest lifecycle evidence.
