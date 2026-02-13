@@ -1,13 +1,13 @@
 # Governance Status Dashboard
 
-timestamp_utc: 2026-02-13T08:49:43Z
+timestamp_utc: 2026-02-13T09:01:35Z
 scope: RADRILONIUMA ecosystem
 source_of_truth: RADRILONIUMA-PROJECT
 
 ## Protocol Baseline
 - protocol_version: v1.0.0
 - protocol_sync_commit: 7eadfe9
-- sot_head_commit: ccee2c5
+- sot_head_commit: 089298a
 - governance_tag: gov-radr-protocol-v1.0.0
 
 ## Drift Gate Summary (Wave-2)
@@ -15,7 +15,7 @@ source_of_truth: RADRILONIUMA-PROJECT
 - aligned: 16
 - drift: 0
 - blocked: 0
-- latest_asr: `gov/asr/sessions/2026-02-13__ASR__phase6-essr-heartbeat-cycle3-green.md`
+- latest_asr: `gov/asr/sessions/2026-02-13__ASR__phase6-essr-heartbeat-cycle4-green.md`
 
 ## Phase Gate
 - phase_5b_status: DONE
@@ -24,8 +24,8 @@ source_of_truth: RADRILONIUMA-PROJECT
 
 ## Heartbeat
 - essr_heartbeat_status: GREEN
-- essr_last_update: 2026-02-13 08:49 UTC
-- essr_last_asr: `gov/asr/sessions/2026-02-13__ASR__phase6-essr-heartbeat-cycle3-green.md`
+- essr_last_update: 2026-02-13 09:01 UTC
+- essr_last_asr: `gov/asr/sessions/2026-02-13__ASR__phase6-essr-heartbeat-cycle4-green.md`
 
 ## Local Hygiene Snapshot
 - tracked_repos: 16

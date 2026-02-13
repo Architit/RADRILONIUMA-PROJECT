@@ -169,6 +169,7 @@ SoT.
 - [x] 2026-02-13 — governance: recurring ESSR heartbeat cycle 2 executed (`phase6-essr-heartbeat-cycle2-green`); heartbeat GREEN with 16/16 synchronized repositories.
 - [x] 2026-02-13 — governance: global ecosystem subtree sync lifeflow checkpoint executed (`phase6-global-ecosystem-subtree-sync-lifeflow`); protocol matrix ALIGNED 16/16, drift=0.
 - [x] 2026-02-13 — governance: recurring ESSR heartbeat cycle 3 executed (`phase6-essr-heartbeat-cycle3-green`); heartbeat GREEN with 16/16 synchronized repositories.
+- [x] 2026-02-13 — governance: recurring ESSR heartbeat cycle 4 executed (`phase6-essr-heartbeat-cycle4-green`); heartbeat GREEN with 16/16 synchronized repositories.
 
 ## Phase 6 — Next-Phase Selection Gate [ACTIVE]
 - Goal: declare canonical Phase 6 objective and DoD in ROADMAP before any execution wave.
@@ -180,7 +181,7 @@ SoT.
 - [ ] Protocol Drift Gate v1 (recurring): run ASR matrix check at each protocol-version update and before every cross-repo governance wave.
   last_run: 2026-02-13 08:11 UTC (`protocol-drift-gate-v1-recurring-checkpoint`)
 - [ ] ESSR/ESR heartbeat (recurring): record sync-heal recovery heartbeat state while Phase 6 selection gate remains active.
-  last_run: 2026-02-13 08:49 UTC (`phase6-essr-heartbeat-cycle3-green`)
+  last_run: 2026-02-13 09:01 UTC (`phase6-essr-heartbeat-cycle4-green`)
 - [x] Local hygiene normalization wave (non-SoT): reduce untracked local artifacts while preserving governance contracts.
   opened: 2026-02-13 08:13 UTC (`phase5b-wave-checkpoint-local-hygiene`)
   closed: 2026-02-13 08:22 UTC (`phase5b-local-hygiene-wave-closure`)
