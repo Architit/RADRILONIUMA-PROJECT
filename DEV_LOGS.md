@@ -157,3 +157,5 @@ INTERACTION_PROTOCOL.md -> WORKFLOW_SNAPSHOT_STATE.md` acknowledged.
 mirrors/snapshot aligned.
 2026-02-13 02:28 UTC — Governance: synced LAM ssn rstrt(EXPORT) before P4.1 (`44cbd81`) with `NEW_CHAT_INIT_MESSAGE`; restart contract state is deterministic and
 ready for IMPORT.
+2026-02-13 02:33 UTC — Governance: synced LAM P4.T1 inventory baseline (`de7ec83`, `gov-lam-p41-inventory-v1.0.0`); entrypoints/provider-chain/health-fallback
+mapping acknowledged, `Next target` moved to P4.T2.

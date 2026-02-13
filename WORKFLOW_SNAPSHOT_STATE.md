@@ -3,16 +3,16 @@
 ## Identity
 repo: RADRILONIUMA-PROJECT
 branch: main
-timestamp: 2026-02-13T02:28:44Z
+timestamp: 2026-02-13T02:33:42Z
 
 ## Current pointer
 phase: Phase 5b - Governance Sync
-stage: post-review sync with LAM ssn rstrt(EXPORT) pre-P4.1
+stage: post-review sync with LAM P4.T1 inventory baseline
 protocol_scale: 0
 protocol_semantic_en: neutral
 goal:
-- keep SoT aligned with latest LAM restart-governance state
-- preserve deterministic restart/import semantics
+- keep SoT aligned with latest LAM P4 governance state
+- preserve derivation-only/policy-only synchronization
 constraints:
 - contracts-first
 - observability-first
@@ -21,6 +21,6 @@ constraints:
 - NO execution-path impact
 
 ## Verification
-- LAM reference commit: 44cbd81
-- LAM reference tag: gov-lam-p40-activation-v1.0.0
-- LAM snapshot state includes NEW_CHAT_INIT_MESSAGE and Phase 4 pointer
+- LAM reference commit: de7ec83
+- LAM reference tag: gov-lam-p41-inventory-v1.0.0
+- LAM state acknowledged: P4.T1 completed, next target P4.T2
