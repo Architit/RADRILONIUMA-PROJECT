@@ -9,6 +9,7 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - ARCHITECTURAL_SESSION_RECORD = ASSNRCRD = ASR
 
 ## Sessions
+- 2026-02-13 — Phase 7.0 Cycle 1 Pulse Alignment Checkpoint
 - 2026-02-13 — Phase 7.0 Execution Gate Open (Post-Phase6Z Closure)
 - 2026-02-13 — Phase 6.Z Review Stage (Closure Evidence Checkpoint)
 - 2026-02-13 — Phase 6.Z Remove Stage (Obsolete Artifact Pruning Checkpoint)
@@ -125,3 +126,4 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - 2026-02-13 | phase6z-remove-stage-obsolete-artifact-pruning-checkpoint | gov/asr/sessions/2026-02-13__ASR__phase6z-remove-stage-obsolete-artifact-pruning-checkpoint.md
 - 2026-02-13 | phase6z-review-stage-closure-evidence-checkpoint | gov/asr/sessions/2026-02-13__ASR__phase6z-review-stage-closure-evidence-checkpoint.md
 - 2026-02-13 | phase70-execution-gate-open-post-phase6z-closure | gov/asr/sessions/2026-02-13__ASR__phase70-execution-gate-open-post-phase6z-closure.md
+- 2026-02-13 | phase70-cycle1-pulse-alignment-checkpoint | gov/asr/sessions/2026-02-13__ASR__phase70-cycle1-pulse-alignment-checkpoint.md

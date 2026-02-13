@@ -1,6 +1,6 @@
 # Governance Status Dashboard
 
-timestamp_utc: 2026-02-13T11:12:01Z
+timestamp_utc: 2026-02-13T11:14:14Z
 scope: RADRILONIUMA ecosystem
 source_of_truth: RADRILONIUMA-PROJECT
 
@@ -15,7 +15,7 @@ source_of_truth: RADRILONIUMA-PROJECT
 - aligned: 16
 - drift: 0
 - blocked: 0
-- latest_asr: `gov/asr/sessions/2026-02-13__ASR__phase70-execution-gate-open-post-phase6z-closure.md`
+- latest_asr: `gov/asr/sessions/2026-02-13__ASR__phase70-cycle1-pulse-alignment-checkpoint.md`
 
 ## Phase Gate
 - phase_5b_status: DONE
@@ -108,6 +108,8 @@ source_of_truth: RADRILONIUMA-PROJECT
 - phase70_state: ACTIVE
 - birth_gate_state: CLOSED
 - birth_gate_open_condition: only after full Phase 7.0 completion
+- phase70_execution_stage: CYCLE1_PULSE_ALIGNMENT
+- phase70_cycle1_asr: `gov/asr/sessions/2026-02-13__ASR__phase70-cycle1-pulse-alignment-checkpoint.md`
 
 ## Phase 6.Z Lifecycle Chain
 - phase6z_contract: `PHASE6Z_ARCH_CORE_LIFECYCLE_PROTOCOL.md`
