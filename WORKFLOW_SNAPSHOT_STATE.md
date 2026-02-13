@@ -3,7 +3,7 @@
 ## Identity
 repo: RADRILONIUMA-PROJECT
 branch: main
-timestamp: 2026-02-13T08:40:21Z
+timestamp: 2026-02-13T08:44:27Z
 
 ## Current pointer
 phase: Phase 6 Selection Gate
@@ -27,12 +27,12 @@ constraints:
 - Phase 5.A - Repo Rollout Analysis [DONE]
 
 ## Recent commits
+- bff930d governance: run phase6 ESSR heartbeat cycle2 green
 - 64d9360 governance: run phase6 ESSR heartbeat cycle1 green
 - d5e5584 governance(protocol): add ESSR sync-heal recovery heartbeat module
 - 14bcbcf governance: open phase6 selection gate
 - 008edaa governance: close phase5b completion gate and mark done
 - bbe7bac governance: record phase5b post-closure stability checkpoint
-- 8fd987b governance: close phase5b local hygiene wave 12of12
 
 ## Git status
 ## main...origin/main
@@ -111,3 +111,6 @@ cld rstrt NEW
 - 2026-02-13 08:40 UTC — phase6-essr-heartbeat-cycle2-green
 - checkpoint_result: recurring heartbeat cycle 2 GREEN; ecosystem sync 16/16 aligned
 - gate_asr: gov/asr/sessions/2026-02-13__ASR__phase6-essr-heartbeat-cycle2-green.md
+- 2026-02-13 08:44 UTC — phase6-global-ecosystem-subtree-sync-lifeflow
+- checkpoint_result: global subtree sync ALIGNED 16/16; drift=0; heartbeat GREEN
+- gate_asr: gov/asr/sessions/2026-02-13__ASR__phase6-global-ecosystem-subtree-sync-lifeflow.md
