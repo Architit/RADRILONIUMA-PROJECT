@@ -9,6 +9,7 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - ARCHITECTURAL_SESSION_RECORD = ASSNRCRD = ASR
 
 ## Sessions
+- 2026-02-13 — Phase 5.B Completion Gate Closure
 - 2026-02-13 — Phase 5.B Post-Closure Stability Checkpoint
 - 2026-02-13 — Phase 5.B Local Hygiene Wave Closure
 - 2026-02-13 — Phase 5.B Wave Checkpoint (Local Hygiene)
@@ -67,3 +68,4 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - 2026-02-13 | phase5b-wave-checkpoint-local-hygiene | gov/asr/sessions/2026-02-13__ASR__phase5b-wave-checkpoint-local-hygiene.md
 - 2026-02-13 | phase5b-local-hygiene-wave-closure | gov/asr/sessions/2026-02-13__ASR__phase5b-local-hygiene-wave-closure.md
 - 2026-02-13 | phase5b-post-closure-stability-checkpoint | gov/asr/sessions/2026-02-13__ASR__phase5b-post-closure-stability-checkpoint.md
+- 2026-02-13 | phase5b-completion-gate-closure | gov/asr/sessions/2026-02-13__ASR__phase5b-completion-gate-closure.md

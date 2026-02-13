@@ -98,7 +98,7 @@ Governance focus:
 - Active objective: produce facts-only rollout matrix with DoD/dependencies per repo.
 - Completion: SoT/LAM/Roaudter adoption waves verified and synced (2026-02-12).
 
-## Phase 5.B — Ecosystem Coverage Expansion [ACTIVE]
+## Phase 5.B — Ecosystem Coverage Expansion [DONE]
 - Цель: закрыть матрицу покрытия governance-артефактов по репозиториям (SoT/LAM/downstream).
 - Верификация: только facts-only ESS/ASR наблюдаемость, без rollout execution.
 - Prerequisite: завершить Governance Review Stage и синхронизацию протокольной структуры (DEV_MAP baseline).
@@ -106,8 +106,8 @@ Governance focus:
 
 ---
 **Current Development Stage:**
-Phase 5.B Execution — Ecosystem Coverage Expansion
-(facts-only coverage expansion in policy layer; no runtime rollout)
+Phase 5.B Completion Gate — CLOSED
+(facts-only governance layer; phase objectives met and closure recorded)
 
 - [x] 2026-02-13 — governance: postreview sync with LAM completed; LAM R6 readiness captured (READY=0, BLOCKED=14), RADR stage remains Phase 5.B execution
 
@@ -161,6 +161,7 @@ SoT.
 - [x] 2026-02-13 — governance: Phase 5.B wave checkpoint executed (`phase5b-wave-checkpoint-local-hygiene`); protocol/branch sync ALIGNED, local hygiene attention opened for non-SoT repos.
 - [x] 2026-02-13 — governance: local hygiene normalization wave closed (`phase5b-local-hygiene-wave-closure`); non-SoT repositories synchronized (12/12).
 - [x] 2026-02-13 — governance: post-closure stability checkpoint executed (`phase5b-post-closure-stability-checkpoint`); tracked repositories remain synchronized (16/16).
+- [x] 2026-02-13 — governance: Phase 5.B completion gate closed (`phase5b-completion-gate-closure`); phase marked DONE and ready for next phase selection.
 
 ## Recurring Governance Tasks
 - [ ] Protocol Drift Gate v1 (recurring): run ASR matrix check at each protocol-version update and before every cross-repo governance wave.
