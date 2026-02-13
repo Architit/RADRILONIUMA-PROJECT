@@ -183,3 +183,4 @@ acknowledged as DONE.
 2026-02-13 07:47 UTC — Governance: published dashboard `GOV_STATUS.md` (protocol baseline + Wave-2 drift summary + blocked-risk pointers).
 2026-02-13 07:58 UTC — Governance: CORE remediation Phase-2 reclone attempt blocked by DNS (`Could not resolve host: github.com`), recorded in `gov/asr/sessions/2026-02-13__ASR__core-remediation-phase2-network-blocked.md`.
 2026-02-13 07:56 UTC — Governance: CORE remediation Phase-3 reseed completed in clean clone (`701fc05`), with push pending due to transient DNS blocker; ASR: `gov/asr/sessions/2026-02-13__ASR__core-remediation-phase3-reseed.md`.
+2026-02-13 07:55 UTC — Governance: CORE remediation Phase-4 drift gate re-entry passed (`core-remediation-phase4-drift-reentry`), clean clone status ALIGNED and protocol-layer BLOCKED state removed.

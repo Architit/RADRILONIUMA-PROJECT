@@ -1,30 +1,30 @@
 # Governance Status Dashboard
 
-timestamp_utc: 2026-02-13T07:47:44Z
+timestamp_utc: 2026-02-13T07:55:58Z
 scope: RADRILONIUMA ecosystem
 source_of_truth: RADRILONIUMA-PROJECT
 
 ## Protocol Baseline
 - protocol_version: v1.0.0
 - protocol_sync_commit: 7eadfe9
-- sot_head_commit: ebc7bb3
+- sot_head_commit: cc41396
 - governance_tag: gov-radr-protocol-v1.0.0
 
 ## Drift Gate Summary (Wave-2)
 - total_non_sot_repos: 16
-- aligned: 15
+- aligned: 16
 - drift: 0
-- blocked: 1
-- latest_asr: `gov/asr/sessions/2026-02-13__ASR__protocol-drift-gate-v1-wave2.md`
+- blocked: 0
+- latest_asr: `gov/asr/sessions/2026-02-13__ASR__core-remediation-phase4-drift-reentry.md`
 
 ## Blocked Risk
 - repo: `repos/windows-migrated-b-core/CORE`
-- status: BLOCKED
-- phase: CORE remediation plan (Phase 1 evidence captured; Phase 2 unblock achieved; Phase 3 reseed complete in clean clone, push pending DNS)
+- status: UNBLOCKED (protocol layer)
+- phase: remediation completed through Phase 4 drift re-entry
 - evidence: `gov/asr/sessions/2026-02-13__EVIDENCE__core-fsck-phase1.txt`
 - plan: `CORE_REMEDIATION_PLAN.md`
-- latest_blocker: `gov/asr/sessions/2026-02-13__ASR__core-remediation-phase3-reseed.md`
+- closure_asr: `gov/asr/sessions/2026-02-13__ASR__core-remediation-phase4-drift-reentry.md`
 
 ## Operational Notes
 - Drift Gate v1 is mandatory and recurring for every protocol-version update and pre-wave sync.
-- Non-SoT repos are protocol/date aligned at this snapshot.
+- Non-SoT repos are protocol/date aligned at this snapshot; blocked count is zero for protocol governance layer.
