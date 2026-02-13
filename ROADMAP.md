@@ -106,8 +106,8 @@ Governance focus:
 
 ---
 **Current Development Stage:**
-Phase 5.B Completion Gate — CLOSED
-(facts-only governance layer; phase objectives met and closure recorded)
+Phase 6 Selection Gate — ACTIVE
+(facts-only transition stage; selecting canonical next-phase objective)
 
 - [x] 2026-02-13 — governance: postreview sync with LAM completed; LAM R6 readiness captured (READY=0, BLOCKED=14), RADR stage remains Phase 5.B execution
 
@@ -162,6 +162,12 @@ SoT.
 - [x] 2026-02-13 — governance: local hygiene normalization wave closed (`phase5b-local-hygiene-wave-closure`); non-SoT repositories synchronized (12/12).
 - [x] 2026-02-13 — governance: post-closure stability checkpoint executed (`phase5b-post-closure-stability-checkpoint`); tracked repositories remain synchronized (16/16).
 - [x] 2026-02-13 — governance: Phase 5.B completion gate closed (`phase5b-completion-gate-closure`); phase marked DONE and ready for next phase selection.
+- [x] 2026-02-13 — governance: Phase 6 selection gate opened (`phase6-selection-gate-open`); transition switched to next-phase objective declaration.
+
+## Phase 6 — Next-Phase Selection Gate [ACTIVE]
+- Goal: declare canonical Phase 6 objective and DoD in ROADMAP before any execution wave.
+- Constraints: contracts-first, observability-first, derivation-only, no runtime logic.
+- Exit criterion: Phase 6 objective explicitly selected and recorded in SoT maps.
 
 ## Recurring Governance Tasks
 - [ ] Protocol Drift Gate v1 (recurring): run ASR matrix check at each protocol-version update and before every cross-repo governance wave.

@@ -191,3 +191,4 @@ acknowledged as DONE.
 2026-02-13 08:22 UTC — Governance: closed local hygiene normalization wave (`gov/asr/sessions/2026-02-13__ASR__phase5b-local-hygiene-wave-closure.md`); non-SoT repositories synchronized (12/12), including CORE/TRIANIUMA_DATA_BASE rebase-first closures.
 2026-02-13 08:24 UTC — Governance: executed post-closure stability checkpoint (`gov/asr/sessions/2026-02-13__ASR__phase5b-post-closure-stability-checkpoint.md`); 16/16 tracked repositories synchronized with origin.
 2026-02-13 08:26 UTC — Governance: closed Phase 5.B completion gate (`gov/asr/sessions/2026-02-13__ASR__phase5b-completion-gate-closure.md`); phase status moved to DONE and transition set to next-phase selection.
+2026-02-13 08:27 UTC — Governance: opened Phase 6 selection gate (`gov/asr/sessions/2026-02-13__ASR__phase6-selection-gate-open.md`); transition state set to `PHASE_SELECTION_GATE_ACTIVE`.
