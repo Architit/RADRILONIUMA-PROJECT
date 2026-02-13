@@ -308,6 +308,7 @@ For Phase 7.0 activation:
 1) Activate SUNBIRTHLIGHTPULSEBIT cycle.
 2) Keep `new version birth gate` strictly `CLOSED` during the phase.
 3) Permit gate opening only after full Phase 7.0 completion criteria are met.
+4) Enforce bounded execution window `cycle-1..cycle-8`; at `cycle-8` publish mandatory closure decision (`COMPLETE` or `BLOCKED`).
 
 Canonical artifact:
 - `PHASE70_SUNBIRTHLIGHTPULSEBIT_PROTOCOL.md`

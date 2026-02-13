@@ -3,7 +3,7 @@
 ## Identity
 repo: RADRILONIUMA-PROJECT
 branch: main
-timestamp: 2026-02-13T11:22:09Z
+timestamp: 2026-02-13T11:35:09Z
 
 ## Current pointer
 phase: Phase 7.0 SUNBIRTHLIGHTPULSEBIT
@@ -201,3 +201,6 @@ cld rstrt NEW
 - 2026-02-13 11:22 UTC — phase70-cycle7-pulse-alignment-checkpoint
 - checkpoint_result: Phase 7.0 cycle-7 pulse alignment checkpoint recorded; phase remains ACTIVE and birth gate remains CLOSED
 - gate_asr: gov/asr/sessions/2026-02-13__ASR__phase70-cycle7-pulse-alignment-checkpoint.md
+- 2026-02-13 11:35 UTC — phase70-protocol-bounded-cycle-closure-policy-update
+- checkpoint_result: Phase 7.0 protocol updated with bounded execution window `cycle-1..cycle-8` and mandatory closure decision at `cycle-8` (`COMPLETE` or `BLOCKED`)
+- gate_asr: gov/asr/sessions/2026-02-13__ASR__phase70-protocol-bounded-cycle-closure-policy-update.md
