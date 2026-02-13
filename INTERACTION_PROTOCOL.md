@@ -5,6 +5,12 @@
 центрального DevKit проекта RADRILONIUMA.
 Протокол обязателен для человека и ассистента.
 
+## Protocol Version
+
+- protocol_source: RADRILONIUMA-PROJECT
+- protocol_version: v1.0.0
+- governance_tag: gov-radr-protocol-v1.0.0
+
 ---
 
 ## M0 — Hard Constraints

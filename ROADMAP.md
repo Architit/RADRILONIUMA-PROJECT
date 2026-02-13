@@ -146,3 +146,4 @@ SoT.
 - [x] 2026-02-13 — governance: sync LAM follow-up F4 + stop-point closure
 (`8ca6fc6`, `202dc08`) acknowledged in SoT.
 - [x] 2026-02-13 — governance: ecosystem compliance matrix ASR published (`ecosystem-compliance-matrix-and-risk`); `windows-migrated-b-core/CORE` recorded as HIGH risk and isolated from clean commit-wave closure.
+- [x] 2026-02-13 — governance: canonical protocol version `v1.0.0` declared in SoT (`gov-radr-protocol-v1.0.0`) for ecosystem protocol sync header rollout.
