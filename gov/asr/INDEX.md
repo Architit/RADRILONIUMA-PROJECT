@@ -21,3 +21,4 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - 2026-02-12 — Phase 5.A Rollout Analysis Conclusion
 - 2026-02-12 — ESS Audit: SSN RSTRT Protocol Presence & Drift
 - 2026-02-12 — Strict Mode: ESS Local Clone Verification & Windows Ref Sanitization (AASR)
+- 2026-02-13 | phase5b-lam-p4-closure-sync | gov/asr/sessions/2026-02-13__ASR__phase5b-lam-p4-closure-sync.md
