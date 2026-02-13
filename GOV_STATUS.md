@@ -1,13 +1,13 @@
 # Governance Status Dashboard
 
-timestamp_utc: 2026-02-13T09:07:21Z
+timestamp_utc: 2026-02-13T09:24:25Z
 scope: RADRILONIUMA ecosystem
 source_of_truth: RADRILONIUMA-PROJECT
 
 ## Protocol Baseline
 - protocol_version: v1.0.0
 - protocol_sync_commit: 7eadfe9
-- sot_head_commit: 98954d6
+- sot_head_commit: 480aaee
 - governance_tag: gov-radr-protocol-v1.0.0
 
 ## Drift Gate Summary (Wave-2)
@@ -15,7 +15,7 @@ source_of_truth: RADRILONIUMA-PROJECT
 - aligned: 16
 - drift: 0
 - blocked: 0
-- latest_asr: `gov/asr/sessions/2026-02-13__ASR__phase6a-genesis-atlas-v2-deep-research.md`
+- latest_asr: `gov/asr/sessions/2026-02-13__ASR__phase6a-security-protocols-all-paths-rollout-baseline.md`
 
 ## Phase Gate
 - phase_5b_status: DONE
@@ -31,6 +31,14 @@ source_of_truth: RADRILONIUMA-PROJECT
 - genesis_atlas_v2: `GENESIS_ECOSYSTEM_ATLAS_V2.md`
 - atlas_mode: deep-research-lifecycle-reflection
 - map_reset_mode: non-destructive baseline regeneration
+
+## Security Protocols
+- all_paths_rollout_state: BASELINE_ACTIVE
+- lifecycle_protocol_set:
+  - `INTERNAL_KEY_PROTOCOL_1_ZEROIZATION.md`
+  - `INTERNAL_KEY_PROTOCOL_2_ROTATION.md`
+  - `INTERNAL_KEY_PROTOCOL_3_SYNC_4_VERIFY.md`
+  - `INTERNAL_KEY_ECOSYSTEM_COVERAGE_MATRIX.md`
 
 ## Local Hygiene Snapshot
 - tracked_repos: 16
