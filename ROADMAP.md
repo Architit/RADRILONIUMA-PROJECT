@@ -160,6 +160,7 @@ SoT.
 - [x] 2026-02-13 — governance: recurring Protocol Drift Gate v1 checkpoint executed (`protocol-drift-gate-v1-recurring-checkpoint`); ecosystem branch/artifact matrix remains ALIGNED.
 - [x] 2026-02-13 — governance: Phase 5.B wave checkpoint executed (`phase5b-wave-checkpoint-local-hygiene`); protocol/branch sync ALIGNED, local hygiene attention opened for non-SoT repos.
 - [x] 2026-02-13 — governance: local hygiene normalization wave closed (`phase5b-local-hygiene-wave-closure`); non-SoT repositories synchronized (12/12).
+- [x] 2026-02-13 — governance: post-closure stability checkpoint executed (`phase5b-post-closure-stability-checkpoint`); tracked repositories remain synchronized (16/16).
 
 ## Recurring Governance Tasks
 - [ ] Protocol Drift Gate v1 (recurring): run ASR matrix check at each protocol-version update and before every cross-repo governance wave.
