@@ -29,3 +29,4 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 13__ASR__phase5b-lam-followup-f1-closure.md
 - 2026-02-13 | phase5b-lam-p5-prep-closure-sync | gov/asr/sessions/2026-02-13__ASR__phase5b-lam-p5-prep-closure-sync.md
 - 2026-02-13 | phase5b-lam-p5-exec-gate-closure-sync | gov/asr/sessions/2026-02-13__ASR__phase5b-lam-p5-exec-gate-closure-sync.md
+- 2026-02-13 | phase5b-lam-rdmp-dvmp-logs-task-sync | gov/asr/sessions/2026-02-13__ASR__phase5b-lam-rdmp-dvmp-logs-task-sync.md
