@@ -153,3 +153,5 @@ LAM refs acknowledged: gov-lam-devmap-p24-r61-success-v1.0.0.
 check.sh --profile ci`.
 2026-02-13 02:12 UTC — Governance: synced LAM P3.3 update-order protocol hardening (tag `gov-lam-p33-governance-order-v1.0.0`): mandatory order `DEV_LOGS.md -> ROADMAP.md ->
 INTERACTION_PROTOCOL.md -> WORKFLOW_SNAPSHOT_STATE.md` acknowledged.
+2026-02-13 02:25 UTC — Governance: synced LAM P4 activation package (`e9be941`, `gov-lam-p40-activation-v1.0.0`) — Phase 4 marked ACTIVE, DoD + T1-T3 queue fixed,
+mirrors/snapshot aligned.

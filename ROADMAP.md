@@ -124,3 +124,5 @@ Phase 5.B Execution — Ecosystem Coverage Expansion
 
 - [x] 2026-02-13 — governance: synced LAM P3.2 unified test entrypoint completion (`gov-lam-p32-unified-entrypoint-v1.0.0`)
 - [x] 2026-02-13 — governance: synced LAM P3.3 update-order protocol hardening (`gov-lam-p33-governance-order-v1.0.0`)
+
+- [x] 2026-02-13 — governance: sync LAM P4 activation package (`e9be941`, `gov-lam-p40-activation-v1.0.0`) acknowledged in SoT.
