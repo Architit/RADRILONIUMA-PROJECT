@@ -2,7 +2,7 @@
 
 mode: lifeflowstream
 security_model: zero trust
-scope: local internal systems only
+scope: local internal systems, all ecosystem paths
 
 ## Purpose
 - Synchronize key state across internal gateways/channels/flows.
@@ -19,13 +19,14 @@ scope: local internal systems only
 3. Gateway/channel alignment:
 - ensure gateway ACLs reference only active key versions.
 - ensure inter-channel trust maps are version-consistent.
+- require alignment for every identity/path class pair (not admin-only).
 
 4. Drift detection:
 - flag mismatched versions, unknown key IDs, unsigned policy.
 
 ## 4) Verification
 1. Positive tests:
-- authorized identity succeeds on allowed channels/flows.
+- each authorized identity class succeeds on its allowed channels/flows.
 
 2. Negative tests:
 - revoked key denied.
@@ -35,6 +36,10 @@ scope: local internal systems only
 
 3. MFA checks (admin paths):
 - privileged operations require MFA-confirmed actor.
+
+3b. Non-admin path checks:
+- developer/operator/service/m2m/scheduler paths must pass independent authz checks.
+- no hidden bypass via service channels or internal relay flows.
 
 4. Audit closure:
 - record test matrix and final status (`GREEN`/`YELLOW`/`RED`).
@@ -46,4 +51,6 @@ scope: local internal systems only
 - `FLOW_POLICY`: flow-level allowlist enforcement.
 - `KEY_VERSION`: node key version equals manifest.
 - `MFA_ADMIN`: admin path guarded by MFA.
+- `ALL_PATHS_COVERED`: every identity/path class pair has tested allow/deny cases.
+- `NO_SHADOW_GATE`: no undocumented gateway/channel/flow accepts credentials.
 - `LOG_INTEGRITY`: audit logs immutable and complete.
