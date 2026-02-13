@@ -20,10 +20,10 @@ source_of_truth: RADRILONIUMA-PROJECT
 ## Blocked Risk
 - repo: `repos/windows-migrated-b-core/CORE`
 - status: BLOCKED
-- phase: CORE remediation plan (Phase 1 evidence captured; Phase 2 reclone blocked by DNS)
+- phase: CORE remediation plan (Phase 1 evidence captured; Phase 2 unblock achieved; Phase 3 reseed complete in clean clone, push pending DNS)
 - evidence: `gov/asr/sessions/2026-02-13__EVIDENCE__core-fsck-phase1.txt`
 - plan: `CORE_REMEDIATION_PLAN.md`
-- latest_blocker: `gov/asr/sessions/2026-02-13__ASR__core-remediation-phase2-network-blocked.md`
+- latest_blocker: `gov/asr/sessions/2026-02-13__ASR__core-remediation-phase3-reseed.md`
 
 ## Operational Notes
 - Drift Gate v1 is mandatory and recurring for every protocol-version update and pre-wave sync.

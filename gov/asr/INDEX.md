@@ -9,6 +9,7 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - ARCHITECTURAL_SESSION_RECORD = ASSNRCRD = ASR
 
 ## Sessions
+- 2026-02-13 — CORE Remediation Phase 3 Reseed
 - 2026-02-13 — CORE Remediation Phase 2 Network Blocked
 - 2026-02-13 — Protocol Drift Gate v1 Wave 2
 - 2026-02-13 — Protocol Drift Gate v1
@@ -53,3 +54,4 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - 2026-02-13 | protocol-drift-gate-v1 | gov/asr/sessions/2026-02-13__ASR__protocol-drift-gate-v1.md
 - 2026-02-13 | protocol-drift-gate-v1-wave2 | gov/asr/sessions/2026-02-13__ASR__protocol-drift-gate-v1-wave2.md
 - 2026-02-13 | core-remediation-phase2-network-blocked | gov/asr/sessions/2026-02-13__ASR__core-remediation-phase2-network-blocked.md
+- 2026-02-13 | core-remediation-phase3-reseed | gov/asr/sessions/2026-02-13__ASR__core-remediation-phase3-reseed.md

@@ -153,6 +153,7 @@ SoT.
 - [x] 2026-02-13 — governance: CORE remediation Phase-1 evidence captured (`core-fsck-phase1`) and attached to SoT evidence artifact.
 - [x] 2026-02-13 — governance: `GOV_STATUS.md` dashboard published (protocol baseline, drift summary, blocked-risk pointers).
 - [ ] 2026-02-13 — CORE remediation Phase-2 reclone execution BLOCKED by DNS (`core-remediation-phase2-network-blocked`); retry required after network recovery.
+- [x] 2026-02-13 — CORE remediation Phase-3 reseed completed in clean clone (`core-remediation-phase3-reseed`, commit `701fc05`); push pending transient DNS recovery.
 
 ## Recurring Governance Tasks
 - [ ] Protocol Drift Gate v1 (recurring): run ASR matrix check at each protocol-version update and before every cross-repo governance wave.
