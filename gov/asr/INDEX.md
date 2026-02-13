@@ -9,6 +9,7 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - ARCHITECTURAL_SESSION_RECORD = ASSNRCRD = ASR
 
 ## Sessions
+- 2026-02-13 — Phase 5.B Local Hygiene Wave Closure
 - 2026-02-13 — Phase 5.B Wave Checkpoint (Local Hygiene)
 - 2026-02-13 — Protocol Drift Gate v1 Recurring Checkpoint
 - 2026-02-13 — Full Drift Gate v2
@@ -63,3 +64,4 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - 2026-02-13 | full-drift-gate-v2 | gov/asr/sessions/2026-02-13__ASR__full-drift-gate-v2.md
 - 2026-02-13 | protocol-drift-gate-v1-recurring-checkpoint | gov/asr/sessions/2026-02-13__ASR__protocol-drift-gate-v1-recurring-checkpoint.md
 - 2026-02-13 | phase5b-wave-checkpoint-local-hygiene | gov/asr/sessions/2026-02-13__ASR__phase5b-wave-checkpoint-local-hygiene.md
+- 2026-02-13 | phase5b-local-hygiene-wave-closure | gov/asr/sessions/2026-02-13__ASR__phase5b-local-hygiene-wave-closure.md
