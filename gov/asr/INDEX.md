@@ -9,6 +9,7 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - ARCHITECTURAL_SESSION_RECORD = ASSNRCRD = ASR
 
 ## Sessions
+- 2026-02-13 — Phase 6.A GENESIS Atlas v2 Deep Research
 - 2026-02-13 — Phase 6 ESSR Heartbeat Cycle 4 (GREEN)
 - 2026-02-13 — Phase 6 ESSR Heartbeat Cycle 3 (GREEN)
 - 2026-02-13 — Phase 6 Global Ecosystem Subtree Sync Lifeflow
@@ -85,3 +86,4 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - 2026-02-13 | phase6-global-ecosystem-subtree-sync-lifeflow | gov/asr/sessions/2026-02-13__ASR__phase6-global-ecosystem-subtree-sync-lifeflow.md
 - 2026-02-13 | phase6-essr-heartbeat-cycle3-green | gov/asr/sessions/2026-02-13__ASR__phase6-essr-heartbeat-cycle3-green.md
 - 2026-02-13 | phase6-essr-heartbeat-cycle4-green | gov/asr/sessions/2026-02-13__ASR__phase6-essr-heartbeat-cycle4-green.md
+- 2026-02-13 | phase6a-genesis-atlas-v2-deep-research | gov/asr/sessions/2026-02-13__ASR__phase6a-genesis-atlas-v2-deep-research.md

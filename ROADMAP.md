@@ -106,8 +106,8 @@ Governance focus:
 
 ---
 **Current Development Stage:**
-Phase 6 Selection Gate — ACTIVE
-(facts-only transition stage; selecting canonical next-phase objective)
+Phase 6.A Execution — GENESIS Atlas v2
+(facts-only deep research and map regeneration stage)
 
 - [x] 2026-02-13 — governance: postreview sync with LAM completed; LAM R6 readiness captured (READY=0, BLOCKED=14), RADR stage remains Phase 5.B execution
 
@@ -170,12 +170,19 @@ SoT.
 - [x] 2026-02-13 — governance: global ecosystem subtree sync lifeflow checkpoint executed (`phase6-global-ecosystem-subtree-sync-lifeflow`); protocol matrix ALIGNED 16/16, drift=0.
 - [x] 2026-02-13 — governance: recurring ESSR heartbeat cycle 3 executed (`phase6-essr-heartbeat-cycle3-green`); heartbeat GREEN with 16/16 synchronized repositories.
 - [x] 2026-02-13 — governance: recurring ESSR heartbeat cycle 4 executed (`phase6-essr-heartbeat-cycle4-green`); heartbeat GREEN with 16/16 synchronized repositories.
+- [x] 2026-02-13 — governance: Phase 6.A GENESIS atlas deep research activated (`phase6a-genesis-atlas-v2-deep-research`); map reset interpreted as non-destructive v2 baseline creation.
 
 ## Phase 6 — Next-Phase Selection Gate [ACTIVE]
 - Goal: declare canonical Phase 6 objective and DoD in ROADMAP before any execution wave.
 - Constraints: contracts-first, observability-first, derivation-only, no runtime logic.
 - Exit criterion: Phase 6 objective explicitly selected and recorded in SoT maps.
 - Operational heartbeat: ESSR/ESR sync-heal recovery heartbeat loop is mandatory while selection gate is active.
+
+## Phase 6.A — GENESIS Atlas v2 Formation [ACTIVE]
+- Goal: produce unified `task/step/phase/subphase/subtree/ecosystem` atlas v2 with lifecycle reflection.
+- Key artifact: `GENESIS_ECOSYSTEM_ATLAS_V2.md`.
+- CORE reflection scope: compare migrated source clone vs canonical clean recovery path.
+- Exit criterion: atlas v2 reviewed and accepted as canonical map baseline for next execution phase.
 
 ## Recurring Governance Tasks
 - [ ] Protocol Drift Gate v1 (recurring): run ASR matrix check at each protocol-version update and before every cross-repo governance wave.

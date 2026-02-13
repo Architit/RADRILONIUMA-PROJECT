@@ -3,11 +3,11 @@
 ## Identity
 repo: RADRILONIUMA-PROJECT
 branch: main
-timestamp: 2026-02-13T09:01:35Z
+timestamp: 2026-02-13T09:07:21Z
 
 ## Current pointer
-phase: Phase 6 Selection Gate
-stage: next-phase objective selection active with ESSR heartbeat
+phase: Phase 6.A GENESIS Atlas v2 Formation
+stage: deep research lifecycle reflection and map regeneration
 protocol_scale: 0
 protocol_semantic_en: neutral
 goal:
@@ -27,12 +27,12 @@ constraints:
 - Phase 5.A - Repo Rollout Analysis [DONE]
 
 ## Recent commits
+- 98954d6 governance: run phase6 ESSR heartbeat cycle4 green
 - 089298a governance(review): align snapshot phase verification to phase6
 - ccee2c5 governance: run global ecosystem subtree sync lifeflow
 - bff930d governance: run phase6 ESSR heartbeat cycle2 green
 - 64d9360 governance: run phase6 ESSR heartbeat cycle1 green
 - d5e5584 governance(protocol): add ESSR sync-heal recovery heartbeat module
-- 14bcbcf governance: open phase6 selection gate
 
 ## Git status
 ## main...origin/main
@@ -120,3 +120,6 @@ cld rstrt NEW
 - 2026-02-13 09:01 UTC — phase6-essr-heartbeat-cycle4-green
 - checkpoint_result: recurring heartbeat cycle 4 GREEN; ecosystem sync 16/16 aligned
 - gate_asr: gov/asr/sessions/2026-02-13__ASR__phase6-essr-heartbeat-cycle4-green.md
+- 2026-02-13 09:07 UTC — phase6a-genesis-atlas-v2-deep-research
+- checkpoint_result: GENESIS atlas v2 created; map reset executed as non-destructive baseline regeneration
+- gate_asr: gov/asr/sessions/2026-02-13__ASR__phase6a-genesis-atlas-v2-deep-research.md
