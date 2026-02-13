@@ -163,3 +163,5 @@ mapping acknowledged, `Next target` moved to P4.T2.
 strict/fallback boundaries acknowledged, `Next target` moved to P4.T3.
 2026-02-13 02:41 UTC — Governance: synced LAM P4.T3 operator evidence blocks (`8a95e9e`, `gov-lam-p43-operator-blocks-v1.0.0`); P4 queue closure (T1/T2/T3 DONE)
 acknowledged, next target set to post-P4.3 task selection.
+2026-02-13 02:42 UTC — Governance: synced LAM `ssn rstrt(EXPORT)` stop-point after P4.1/P4.2/P4.3 closure (`0e52448`, `gov-lam-ssn-rstrt-export-p43-closure-v1.0.0`);
+restart/import pointer fixed for post-P4.3 task selection.
