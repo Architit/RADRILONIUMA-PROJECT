@@ -264,3 +264,6 @@ mode: post-atplt md normalization + ecosystem anti-deadloop guard + eassr realti
 - t87: s11 lam post-review-gate prep wave (`P4_PHASE43_PRG_N1_POST_REVIEW_PACKAGE_CONSOLIDATION_CONTRACT.md`, `P4_PHASE43_PRG_N2_GATE_BOUNDARY_RECONFIRMATION_CONTRACT.md`, `P4_PHASE43_PRG_N3_POST_REVIEW_GATE_RECOMMENDATION_DRAFT_CONTRACT.md`)
 - t87_status: DONE
 - t87_result: PHASE43_POST_REVIEW_GATE_PREP_READY
+- t88: s12 lam post-review gate decision (`P4_PHASE43_POST_REVIEW_GATE_DECISION_CONTRACT.md`)
+- t88_status: DONE
+- t88_result: PHASE43_POST_REVIEW_GATE_DECISION_OPEN
