@@ -228,3 +228,6 @@ mode: post-atplt md normalization + ecosystem anti-deadloop guard + eassr realti
 - t75: network recovery push-wave for all ahead repositories (manual operator-assisted publish cycle)
 - t75_status: DONE
 - t75_result: MANUAL_OPERATOR_PUSH_WAVE_COMPLETED
+- t76: s1 cross-repo phase checkpoint sync for Trianiuma + LAM mirror states (`ROADMAP.md`, `DEV_LOGS.md`, `WORKFLOW_SNAPSHOT_STATE.md`, `SYSTEM_STATE.md`, `TASK_LIST.md`)
+- t76_status: DONE
+- t76_result: MIRROR_STATES_SYNCED_TO_SOT_POINTERS
