@@ -348,3 +348,5 @@ acknowledged as DONE.
 2026-02-16 07:56 UTC — governance: workflow optimization protocol sync (`workflow-optimization-protocol-sync-v2`) — enforced `M46`, manual intervention fallback, and `ONE_BLOCK_PER_OPERATOR_TURN` across repository protocol surfaces.
 2026-02-16 08:09 UTC — Governance: executed ecosystem protocol compliance audit (`workflow-optimization-ecosystem-compliance-audit-v1`); verified 16/16 repositories contain `M46` final publish rule, manual intervention fallback chain, and `ONE_BLOCK_PER_OPERATOR_TURN` invariant in `INTERACTION_PROTOCOL.md`.
 2026-02-16 08:09 UTC — Governance: normalized post-DNS recovery state (`workflow-optimization-post-dns-recovery-normalization-v1`); `t75` marked `DONE`, `m46_current_cycle_push_evidence_state` set to `RECORDED_OPERATOR_MANUAL_SUCCESS`, autopilot released to `ACTIVE`, cycle block reason cleared (`NONE`).
+2026-02-16 08:14 UTC — Governance: resolved TASK_MAP semantic ambiguity `t7 ACTIVE` vs `t67 DONE` (`task-map-t7-t67-semantic-resolution-v1`); `t67`
+scope fixed as session-only completion, `t7` preserved as long-running active-by-design flow.

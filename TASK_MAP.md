@@ -1,6 +1,6 @@
 # TASK MAP
 
-timestamp_utc: 2026-02-16T08:09:25Z
+timestamp_utc: 2026-02-16T08:14:35Z
 scope: ecosystem governance execution queue
 mode: post-atplt md normalization + ecosystem anti-deadloop guard + eassr realtime reboot matrix + phase80 strategic lock
 
@@ -141,6 +141,8 @@ mode: post-atplt md normalization + ecosystem anti-deadloop guard + eassr realti
 - t65: DONE
 - t66: DONE
 - t67: DONE
+- t67_scope: SESSION_ONLY_NOT_GLOBAL_EXECUTION_STOP
+- t7_continuation_mode: LONG_RUNNING_ACTIVE_BY_DESIGN
 
 ## Next Queue
 - Phase 8.0 birth orchestration readiness checkpoints
