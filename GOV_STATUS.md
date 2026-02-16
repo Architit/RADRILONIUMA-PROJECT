@@ -27,6 +27,13 @@ source_of_truth: RADRILONIUMA-PROJECT
 - essr_last_update: 2026-02-16 02:54 UTC
 - essr_last_asr: `gov/asr/sessions/2026-02-16__ASR__atplt-strict-arckhangel-guarddog-recovery-wave-cycle21.md`
 
+## Canonical Heartbeat Pointer (S2)
+- canonical_heartbeat_pointer_state: ENFORCED
+- canonical_heartbeat_utc: 2026-02-16 02:54 UTC
+- canonical_heartbeat_asr: `gov/asr/sessions/2026-02-16__ASR__atplt-strict-arckhangel-guarddog-recovery-wave-cycle21.md`
+- canonical_pointer_scope: heartbeat + deadloop watchdog + eassr realtime tuple
+- canonical_pointer_sync_mode: SINGLE_SOURCE_OF_TRUTH
+
 ## ESS / EASS Session-State Sync
 - sync_scope: internal_ss + external_ss
 - sync_state: SYNCHRONIZED
@@ -287,6 +294,8 @@ source_of_truth: RADRILONIUMA-PROJECT
 - last_reboot_mode: reboot_neutral
 - last_reboot_utc: 2026-02-16 01:36 UTC
 - last_reboot_asr: `gov/asr/sessions/2026-02-16__ASR__phase33717731-r2-drift-heartbeat-refresh-complete.md`
+- canonical_heartbeat_pointer_state: ENFORCED
+- canonical_heartbeat_pointer_asr: `gov/asr/sessions/2026-02-16__ASR__atplt-strict-arckhangel-guarddog-recovery-wave-cycle21.md`
 
 ## Codex CLI Message Circulation Compatibility
 - compatibility_contract_state: ACTIVE

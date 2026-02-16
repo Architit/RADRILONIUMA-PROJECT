@@ -231,3 +231,6 @@ mode: post-atplt md normalization + ecosystem anti-deadloop guard + eassr realti
 - t76: s1 cross-repo phase checkpoint sync for Trianiuma + LAM mirror states (`ROADMAP.md`, `DEV_LOGS.md`, `WORKFLOW_SNAPSHOT_STATE.md`, `SYSTEM_STATE.md`, `TASK_LIST.md`)
 - t76_status: DONE
 - t76_result: MIRROR_STATES_SYNCED_TO_SOT_POINTERS
+- t77: s2 heartbeat/pulse single-pointer normalization across SoT + mirrors (`GOV_STATUS.md`, `WORKFLOW_SNAPSHOT_STATE.md`, `LAM/WORKFLOW_SNAPSHOT_STATE.md`, `Trianiuma/WORKFLOW_SNAPSHOT_STATE.md`)
+- t77_status: DONE
+- t77_result: CANONICAL_HEARTBEAT_POINTER_ENFORCED

@@ -525,3 +525,7 @@ cld rstrt NEW
 - 2026-02-16 09:41 UTC — session-completion-decision-complete-t67
 - checkpoint_result: session closure decision completed with explicit token `COMPLETE`
 - gate_asr: gov/asr/sessions/2026-02-16__ASR__session-completion-decision-complete-t67.md
+- 2026-02-16 22:31 UTC — s2-canonical-heartbeat-pointer-normalization-v1
+- checkpoint_result: single canonical heartbeat pointer enforced and synchronized across SoT + mirrors
+- canonical_heartbeat_utc: 2026-02-16 02:54 UTC
+- canonical_heartbeat_asr: gov/asr/sessions/2026-02-16__ASR__atplt-strict-arckhangel-guarddog-recovery-wave-cycle21.md
