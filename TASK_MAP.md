@@ -243,3 +243,6 @@ mode: post-atplt md normalization + ecosystem anti-deadloop guard + eassr realti
 - t80: s4 lam phase4.3 adaptation proposal wave closure (`P4_PHASE43_A1_ADAPTATION_PROPOSAL_SCHEMA_CONTRACT.md`, `P4_PHASE43_A2_ADAPTATION_EVALUATION_MATRIX_CONTRACT.md`, `P4_PHASE43_A3_ADAPTATION_REVIEW_DECISION_RECORD_CONTRACT.md`)
 - t80_status: DONE
 - t80_result: PHASE43_A1_A2_A3_CONTRACT_WAVE_COMPLETE
+- t81: s5 lam post-a1a2a3 transition gate preparation (`P4_PHASE43_POST_A1A2A3_TRANSITION_GATE_CONTRACT.md`, `LAM/ROADMAP.md`, `LAM/DEV_LOGS.md`, `LAM/WORKFLOW_SNAPSHOT_STATE.md`)
+- t81_status: DONE
+- t81_result: PHASE43_NEXT_WAVE_A4_A5_A6_DECLARED
