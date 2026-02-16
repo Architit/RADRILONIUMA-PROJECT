@@ -267,3 +267,6 @@ mode: post-atplt md normalization + ecosystem anti-deadloop guard + eassr realti
 - t88: s12 lam post-review gate decision (`P4_PHASE43_POST_REVIEW_GATE_DECISION_CONTRACT.md`)
 - t88_status: DONE
 - t88_result: PHASE43_POST_REVIEW_GATE_DECISION_OPEN
+- t89: s13 lam post-review gate execution and pointer update (`P4_PHASE43_POST_REVIEW_GATE_EXECUTION_CONTRACT.md`, `P4_PHASE43_POST_REVIEW_EXECUTION_POINTER_UPDATE_CONTRACT.md`)
+- t89_status: DONE
+- t89_result: PHASE43_POST_REVIEW_GATE_EXECUTION_COMPLETE
