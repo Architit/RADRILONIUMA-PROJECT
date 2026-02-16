@@ -645,19 +645,19 @@ source_of_truth: RADRILONIUMA-PROJECT
 - m45_drift_checkpoint_state: ACTIVE
 - m45_close_gate_rule: COMPLETE_OR_BLOCKED_WITH_REASON
 - m45_t70_detect_contain_state: DONE
-- m45_incident_detected: TRUE
-- m45_drift_count: 227
-- m45_containment_state: BLOCKED_PENDING_ESSRCRD_RECOVERY
-- m45_recovery_actions: CONTAINMENT_MAINTAINED__NO_DESTRUCTIVE_AUTORESET
+- m45_incident_detected: FALSE
+- m45_drift_count: 0
+- m45_containment_state: CLEARED
+- m45_recovery_actions: POST_STABILIZATION_RERUN_AFTER_COMMIT_8616C33
 - m45_t71_recover_verify_state: DONE
-- m45_verification_tuple: modified=13;untracked=214;total=227
-- m45_verification_result: FAIL_DRIFT_NONZERO
-- m45_current_recovery_phase: CLOSE_GATE_DECISION
+- m45_verification_tuple: modified=0;untracked=0;total=0
+- m45_verification_result: PASS_DRIFT_ZERO
+- m45_current_recovery_phase: CLOSE_COMPLETE
 - m45_t72_close_gate_state: DONE
-- m45_close_gate_decision: BLOCKED
-- m45_close_gate_block_reason: DRIFT_NONZERO_227
-- m45_unblock_required_action: REDUCE_DRIFT_TO_ZERO_AND_RERUN_T71_T72
-- m45_latest_ref: `essrcrd-recovery-governance-activation-v1`
+- m45_close_gate_decision: COMPLETE
+- m45_close_gate_block_reason: NONE
+- m45_unblock_required_action: NONE
+- m45_latest_ref: `essrcrd-t74-post-stabilization-rerun-complete-v1`
 
 ## Global Final Publish Step (M46)
 - m46_state: ACTIVE

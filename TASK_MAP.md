@@ -221,3 +221,5 @@ mode: post-atplt md normalization + ecosystem anti-deadloop guard + eassr realti
 - t72_status: DONE
 - t73: global final publish-step enforcement (`git push origin main` as mandatory last step for any flow)
 - t73_status: DONE
+- t74: essrcrd post-stabilization rerun (`t71+t72`) after drift reset to zero
+- t74_status: DONE
