@@ -667,7 +667,12 @@ source_of_truth: RADRILONIUMA-PROJECT
 - m46_completion_gate_requirement: PUSH_EVIDENCE_REQUIRED_FOR_COMPLETE
 - m46_block_rule_if_missing_push: BLOCKED_WITH_REASON
 - m46_enforcement_task_t73_state: DONE
-- m46_current_cycle_push_evidence_state: RECORDED
+- m46_current_cycle_push_evidence_state: BLOCKED_DNS_RESOLUTION
 - m46_last_push_ref: origin/main@6cb0940
 - m46_last_push_utc: 2026-02-16T07:17:23Z
+- m46_operator_intervention_required: true
+- m46_operator_notified: true
+- m46_operator_acknowledged: true
+- m46_autopilot_state: HOLD_FOR_OPERATOR
+- m46_current_cycle_block_reason: DNS_NETWORK_CANNOT_RESOLVE_GITHUB
 - m46_latest_ref: `global-final-publish-step-mandatory-v1`

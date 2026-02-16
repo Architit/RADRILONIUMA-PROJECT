@@ -223,3 +223,5 @@ mode: post-atplt md normalization + ecosystem anti-deadloop guard + eassr realti
 - t73_status: DONE
 - t74: essrcrd post-stabilization rerun (`t71+t72`) after drift reset to zero
 - t74_status: DONE
+- t75: network recovery push-wave for all ahead repositories (manual operator-assisted publish cycle)
+- t75_status: BLOCKED_PENDING_DNS_RECOVERY
