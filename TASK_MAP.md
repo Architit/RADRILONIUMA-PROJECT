@@ -237,3 +237,6 @@ mode: post-atplt md normalization + ecosystem anti-deadloop guard + eassr realti
 - t78: s3 lam phase4 pre-4.3 review findings closure (`R1..R5`) with addenda contract and gate-open confirmation (`P4_PRE43_REVIEW_FINDINGS_ADDENDA_CONTRACT.md`, `LAM/ROADMAP.md`, `LAM/DEV_LOGS.md`)
 - t78_status: DONE
 - t78_result: LAM_PHASE43_ENTRY_GATE_OPEN_CONTRACT_ONLY
+- t79: s3 follow-up lam phase4.3 adaptation proposals start gate activation (`P4_PHASE43_ADAPTATION_PROPOSALS_START_GATE_CONTRACT.md`, `LAM/ROADMAP.md`, `LAM/DEV_LOGS.md`, `LAM/WORKFLOW_SNAPSHOT_STATE.md`)
+- t79_status: DONE
+- t79_result: PHASE43_ADAPTATION_PROPOSALS_GATE_ACTIVE
