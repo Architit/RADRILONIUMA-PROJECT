@@ -300,3 +300,6 @@ mode: post-atplt md normalization + ecosystem anti-deadloop guard + eassr realti
 - t99: s23 lam closure-prep wave (`P4_PHASE43_CP_N1_CLOSURE_PACKAGE_CONSOLIDATION_CONTRACT.md`, `P4_PHASE43_CP_N2_CLOSURE_BOUNDARY_REVALIDATION_CONTRACT.md`, `P4_PHASE43_CP_N3_CLOSURE_GATE_RECOMMENDATION_DRAFT_CONTRACT.md`)
 - t99_status: DONE
 - t99_result: PHASE43_CLOSURE_PREP_READY
+- t100: s24 lam closure-gate decision (`P4_PHASE43_CLOSURE_GATE_DECISION_CONTRACT.md`)
+- t100_status: DONE
+- t100_result: PHASE43_CLOSURE_GATE_DECISION_OPEN
