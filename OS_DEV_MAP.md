@@ -1,8 +1,8 @@
 # OS DEV MAP
 
-timestamp_utc: 2026-02-13T11:42:20Z
+timestamp_utc: 2026-02-16T00:19:57Z
 scope: local device execution substrate
-mode: atplt md (autopilot mode)
+mode: post-atplt md stabilization
 
 ## Substrate
 - host: Windows + WSL2
@@ -24,7 +24,12 @@ mode: atplt md (autopilot mode)
 - no runtime logic changes by governance map updates
 
 ## ATPLT MD Control
-- atplt_md_state: ACTIVE
+- atplt_md_state: INACTIVE
 - activation_scope: Phase 7.0 governance execution
 - deactivation_condition: `phase70_status = COMPLETE`
+- deactivation_status: MET
 - status_source: `GOV_STATUS.md`
+- startup_review_protocol: `ESS_MAP_SYNC_REVIEW_OS_ATPLT_MD_STARTUP_PROTOCOL.md`
+- startup_review_latest_asr: `gov/asr/sessions/2026-02-16__ASR__ess-map-sync-review-os-atplt-md-startup-protocol.md`
+- startup_decision_state: DENY_STARTUP (no new activation contract)
+- continuation_wave_state: COMPLETE

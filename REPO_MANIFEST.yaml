@@ -1,0 +1,213 @@
+manifest_version: 1
+generated_utc: 2026-02-16T02:29:04Z
+scan_root: /home/architit/work
+repo_count: 16
+repositories:
+  - repo_name: Archivator_Agent
+    repo_path: /home/architit/work/Archivator_Agent
+    origin: https://github.com/Architit/Archivator_Agent.git
+    default_branch: main
+    current_branch: main
+    head_commit: 730b1e857ce6
+    head_commit_date_utc: 2026-02-13T09:16:28+01:00
+    head_commit_count: 9
+    latest_tag: LICENSE
+    license_file: false
+    has_gitmodules: 0
+    submodule_count: 0
+    subtree_hint_count: 0
+  - repo_name: CORE
+    repo_path: /home/architit/work/CORE
+    origin: https://github.com/RADRILONIUMA/LAM_CORE.git
+    default_branch: main
+    current_branch: main
+    head_commit: 195e730b8aaf
+    head_commit_date_utc: 2026-02-13T09:19:47+01:00
+    head_commit_count: 6
+    latest_tag: LICENSE
+    license_file: false
+    has_gitmodules: 0
+    submodule_count: 0
+    subtree_hint_count: 0
+  - repo_name: CORE_RECLONE_CLEAN
+    repo_path: /home/architit/work/CORE_RECLONE_CLEAN
+    origin: https://github.com/RADRILONIUMA/LAM_CORE.git
+    default_branch: main
+    current_branch: main
+    head_commit: 701fc056bf29
+    head_commit_date_utc: 2026-02-13T08:54:01+01:00
+    head_commit_count: 5
+    latest_tag: LICENSE
+    license_file: false
+    has_gitmodules: 0
+    submodule_count: 0
+    subtree_hint_count: 0
+  - repo_name: J.A.R.V.I.S
+    repo_path: /home/architit/work/J.A.R.V.I.S
+    origin: https://github.com/Architit/jarvis.git
+    default_branch: main
+    current_branch: main
+    head_commit: f598ebeeb0bc
+    head_commit_date_utc: 2026-02-13T09:16:40+01:00
+    head_commit_count: 21
+    latest_tag: none
+    license_file: false
+    has_gitmodules: 0
+    submodule_count: 0
+    subtree_hint_count: 0
+  - repo_name: LAM
+    repo_path: /home/architit/work/LAM
+    origin: https://github.com/Architit/LAM.git
+    default_branch: main
+    current_branch: phase2/observability
+    head_commit: a8e7c38ee950
+    head_commit_date_utc: 2026-02-13T08:27:54+01:00
+    head_commit_count: 467
+    latest_tag: gov-lam-z-prep-closure-v1.0.0
+    license_file: LICENSE
+    has_gitmodules: true
+    submodule_count: 4
+    subtree_hint_count: 1
+  - repo_name: LAM-Codex_Agent
+    repo_path: /home/architit/work/LAM-Codex_Agent
+    origin: https://github.com/Architit/LAM-Codex_Agent.git
+    default_branch: main
+    current_branch: main
+    head_commit: 472aa107b279
+    head_commit_date_utc: 2026-02-13T09:16:40+01:00
+    head_commit_count: 35
+    latest_tag: LICENSE
+    license_file: false
+    has_gitmodules: 0
+    submodule_count: 0
+    subtree_hint_count: 0
+  - repo_name: LAM_Comunication_Agent
+    repo_path: /home/architit/work/LAM_Comunication_Agent
+    origin: https://github.com/Architit/LAM_Communication_Agent.git
+    default_branch: main
+    current_branch: main
+    head_commit: 804a79218d91
+    head_commit_date_utc: 2026-02-13T09:16:40+01:00
+    head_commit_count: 21
+    latest_tag: LICENSE
+    license_file: false
+    has_gitmodules: 0
+    submodule_count: 0
+    subtree_hint_count: 0
+  - repo_name: LAM_DATA_Src
+    repo_path: /home/architit/work/LAM_DATA_Src
+    origin: https://github.com/Architit/LAM_DATA_Src.git
+    default_branch: main
+    current_branch: main
+    head_commit: 0b9aa6b40efa
+    head_commit_date_utc: 2026-02-13T09:16:40+01:00
+    head_commit_count: 13
+    latest_tag: none
+    license_file: false
+    has_gitmodules: 0
+    submodule_count: 0
+    subtree_hint_count: 0
+  - repo_name: LAM_Test_Agent
+    repo_path: /home/architit/work/LAM_Test_Agent
+    origin: https://github.com/Architit/LAM_Test_Agent.git
+    default_branch: main
+    current_branch: main
+    head_commit: a4b5d5337ddb
+    head_commit_date_utc: 2026-02-13T09:16:40+01:00
+    head_commit_count: 34
+    latest_tag: none
+    license_file: true
+    has_gitmodules: 2
+    submodule_count: 0
+    subtree_hint_count: 0
+  - repo_name: Operator_Agent
+    repo_path: /home/architit/work/Operator_Agent
+    origin: https://github.com/Architit/Operator_Agent.git
+    default_branch: main
+    current_branch: main
+    head_commit: 3d18780a7b8f
+    head_commit_date_utc: 2026-02-13T10:52:19+01:00
+    head_commit_count: 8
+    latest_tag: LICENSE
+    license_file: false
+    has_gitmodules: 0
+    submodule_count: 0
+    subtree_hint_count: 0
+  - repo_name: RADRILONIUMA-PROJECT
+    repo_path: /home/architit/work/RADRILONIUMA-PROJECT
+    origin: https://github.com/Architit/RADRILONIUMA-PROJECT.git
+    default_branch: main
+    current_branch: main
+    head_commit: b87e28c0501a
+    head_commit_date_utc: 2026-02-13T12:53:32+01:00
+    head_commit_count: 178
+    latest_tag: gov-radr-protocol-v1.0.0
+    license_file: LICENSE
+    has_gitmodules: false
+    submodule_count: 0
+    subtree_hint_count: 4
+  - repo_name: Roaudter-agent
+    repo_path: /home/architit/work/Roaudter-agent
+    origin: https://github.com/Architit/Roaudter-agent.git
+    default_branch: master
+    current_branch: master
+    head_commit: d02b4246b11b
+    head_commit_date_utc: 2026-02-13T09:07:43+01:00
+    head_commit_count: 38
+    latest_tag: LICENSE
+    license_file: false
+    has_gitmodules: 0
+    submodule_count: 0
+    subtree_hint_count: 0
+  - repo_name: System-
+    repo_path: /home/architit/work/System-
+    origin: https://github.com/Architit/System-.git
+    default_branch: main
+    current_branch: main
+    head_commit: e7b6ab7e602b
+    head_commit_date_utc: 2026-02-13T09:16:41+01:00
+    head_commit_count: 10
+    latest_tag: LICENSE
+    license_file: false
+    has_gitmodules: 0
+    submodule_count: 0
+    subtree_hint_count: 0
+  - repo_name: TRIANIUMA_DATA_BASE
+    repo_path: /home/architit/work/TRIANIUMA_DATA_BASE
+    origin: https://github.com/Architit/TRIANIUMA_DATA_BASE.git
+    default_branch: main
+    current_branch: main
+    head_commit: 0b9aa6b40efa
+    head_commit_date_utc: 2026-02-13T09:16:40+01:00
+    head_commit_count: 13
+    latest_tag: none
+    license_file: false
+    has_gitmodules: 0
+    submodule_count: 0
+    subtree_hint_count: 0
+  - repo_name: Trianiuma
+    repo_path: /home/architit/work/Trianiuma
+    origin: https://github.com/Architit/Trianiuma.git
+    default_branch: main
+    current_branch: main
+    head_commit: f8612b43337c
+    head_commit_date_utc: 2026-02-13T09:16:41+01:00
+    head_commit_count: 15
+    latest_tag: LICENSE
+    license_file: false
+    has_gitmodules: 0
+    submodule_count: 0
+    subtree_hint_count: 0
+  - repo_name: Trianiuma_MEM_CORE
+    repo_path: /home/architit/work/Trianiuma_MEM_CORE
+    origin: https://github.com/Architit/Trianiuma_MEM_CORE.git
+    default_branch: main
+    current_branch: main
+    head_commit: 101ae0f17dc5
+    head_commit_date_utc: 2026-02-13T09:16:41+01:00
+    head_commit_count: 8
+    latest_tag: LICENSE
+    license_file: false
+    has_gitmodules: 0
+    submodule_count: 0
+    subtree_hint_count: 0

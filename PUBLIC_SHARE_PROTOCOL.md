@@ -1,26 +1,47 @@
 # PUBLIC SHARE PROTOCOL
 
+policy_version: v2.0.0
 mode: lifeflowstream
 security_model: zero trust
 scope: outbound/public publication
+effective_utc: 2026-02-16T05:42:10Z
 
 ## Goal
-- Prevent leakage of secrets/PII/internal-only data in public shares.
+- Prevent leakage of secrets, PII, and internal-only materials in any outbound share.
+- Enforce deterministic publication gates with auditable decisions.
 
 ## Classification Gate
-- Allow: public docs, sanitized metrics, non-sensitive artifacts.
-- Deny: secrets, keys, tokens, credentials, raw PII, internal auth material.
+- `ALLOW_CLASS`:
+  - public documentation,
+  - sanitized metrics,
+  - explicitly approved non-sensitive artifacts.
+- `DENY_CLASS`:
+  - secrets, keys, tokens, credentials,
+  - raw PII and identity linkage artifacts,
+  - internal auth/governance control materials.
 
 ## Mandatory Checks Before Share
-1. Secret scan (tokens/passwords/keys patterns).
-2. PII scan (emails, IDs, phone, payment identifiers).
-3. Ownership check and publication approval.
-4. Hash and version stamp of shared package.
+1. Secret scan (key/token/password signature patterns).
+2. PII scan (email/phone/ID/payment and related patterns).
+3. Ownership and publication approval check.
+4. Artifact integrity stamp (hash + version).
+5. Evidence pointer registration (ASR/index for high-impact publication).
 
-## Release Decision
-- GREEN: all checks pass -> publish.
-- YELLOW: uncertain findings -> manual security review.
-- RED: sensitive leak risk -> block publication.
+## Decision States
+- `GREEN_ALLOW_PUBLISH`: all checks passed.
+- `YELLOW_MANUAL_SECURITY_REVIEW`: uncertain findings, publication paused.
+- `RED_BLOCK_PUBLISH`: sensitive leak risk or mandatory check failure.
 
-## Audit
-- Keep share manifest with approver IDs and timestamp.
+## Block Conditions
+- missing owner approval,
+- unresolved secret/PII findings,
+- missing integrity stamp,
+- policy conflict not yet resolved.
+
+## Audit Requirements
+- Maintain publication manifest with:
+  - package identity and hash,
+  - approver IDs/roles,
+  - decision state,
+  - UTC timestamp,
+  - evidence/ASR pointer.

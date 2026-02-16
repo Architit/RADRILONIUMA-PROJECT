@@ -9,6 +9,50 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - ARCHITECTURAL_SESSION_RECORD = ASSNRCRD = ASR
 
 ## Sessions
+- 2026-02-16 — Identity Levels END View Read Study Research Edit Entry Protocol Expansion
+- 2026-02-16 — Phase4 Release Tagging and High-Impact Threshold Decision Lock
+- 2026-02-16 — ATPLT Nature Energy Resources LRPT TASPIT Dev Domain Expansion
+- 2026-02-16 — ATPLT Strict ARCKHANGEL Guarddog Recovery Wave Cycle21
+- 2026-02-16 — ATPLT Strict ARCKHANGEL Guarddog Recovery Wave Cycle18
+- 2026-02-16 — Phase4 Break Window and Downstream Order Decision Lock
+- 2026-02-16 — Phase4 Migration Strategy and Release/Rollback Gates Initialized
+- 2026-02-16 — Phase3 Kernel Boundary Provisional and Compatibility Matrix Init
+- 2026-02-16 — Phase2 Contract Harvesting Contract Atlas Filled (Fact-Only)
+- 2026-02-16 — Phase0/Phase1 Global Research Topology Manifest and Lockmaps
+- 2026-02-16 — Phase33717731 Reactivated Execution Cycle 13-15 Burst
+- 2026-02-16 — Codex CLI Message Circulation Compatibility Scan and Contract Activation
+- 2026-02-16 — Phase33717731 r5 Reactivation Decision ACTIVE
+- 2026-02-16 — Phase33717731 r3+r4 Autopilot Protocol Compliance and Pointer Sync
+- 2026-02-16 — Phase33717731 r2 Drift Heartbeat Refresh Complete
+- 2026-02-16 — Phase33717731 r1 Blocker Evidence Map Complete
+- 2026-02-16 — Phase33717731 Unblock Criteria and Remediation Plan Activation
+- 2026-02-16 — Phase 33717731 Closure Decision BLOCKED Pending Review
+- 2026-02-16 — Ecosystem Recurring Drift Heartbeat Dedicated Refresh Post Deep Scan
+- 2026-02-16 — Ecosystem Global Contract Deep Scan and Recovery Plan
+- 2026-02-16 — EASSR Healthcheck Heartbeat Pulse Breath Recovery Reboot Protocol Expansion
+- 2026-02-16 — Ecosystem Anti-SAMSARA Deadloop Protocol Pack Activation
+- 2026-02-16 — Phase 33717731 Mirror Letter Execution Cycle 10-12 Burst
+- 2026-02-16 — Phase 33717731 Mirror Letter Execution Cycle 7-9 Burst
+- 2026-02-16 — Phase 33717731 Recurring Drift/Heartbeat Refresh and Closure-Gate Open
+- 2026-02-16 — Phase 33717731 Mirror Letter Execution Cycle 6
+- 2026-02-16 — Phase 33717731 Mirror Letter Execution Cycle 5
+- 2026-02-16 — Phase 33717731 Mirror Letter Execution Cycle 4
+- 2026-02-16 — Phase 33717731 Mirror Letter Execution Cycle 3
+- 2026-02-16 — Phase 33717731 Mirror Letter Execution Cycle 2
+- 2026-02-16 — Phase 33717731 Mirror Letter Execution Cycle 1
+- 2026-02-16 — Phase 33717731 Mirror Letter Activation Queue Start
+- 2026-02-16 — GOV_STATUS latest_asr Key Normalization
+- 2026-02-16 — Recurring Drift + Heartbeat Refresh Checkpoint
+- 2026-02-16 — Subtree Angel Guard Heal Elarion Archive Core Deep Dive
+- 2026-02-16 — Protocol Map Continuation Wave
+- 2026-02-16 — Growth Evolution Activation Research Production Logistics Restore Refactor
+- 2026-02-16 — ESS Expansion Protocol
+- 2026-02-16 — ESS Map Sync Review OS ATPLT MD Startup Protocol
+- 2026-02-15 — Device Users Internal OSS Governance Coverage Sync Data Push Export Protocol
+- 2026-02-15 — ESS ASSRCRD ATPLT EASS AAA LA (Internal and External SS)
+- 2026-02-15 — Elarion Trianium Archive Core Memory Restoration Activation
+- 2026-02-15 — Trianiuma Archive Core Memory Restoration Activation
+- 2026-02-14 — Interaction Protocol Full ATPLT Sync MD W U A R
 - 2026-02-13 — Post-Phase70 Canonical Selection Decision Phase80
 - 2026-02-13 — Post-Phase70 Canonical Selection Activation
 - 2026-02-13 — Post-Phase70 Next-Phase Gate Open
@@ -155,3 +199,102 @@ This subtree path is the canonical storage for Architectural Session Records (AS
 - 2026-02-13 | post-phase70-next-phase-gate-open | gov/asr/sessions/2026-02-13__ASR__post-phase70-next-phase-gate-open.md
 - 2026-02-13 | post-phase70-canonical-selection-activation | gov/asr/sessions/2026-02-13__ASR__post-phase70-canonical-selection-activation.md
 - 2026-02-13 | post-phase70-canonical-selection-decision-phase80 | gov/asr/sessions/2026-02-13__ASR__post-phase70-canonical-selection-decision-phase80.md
+- 2026-02-14 | phase6a-security-matrix-readiness-checkpoint | gov/asr/sessions/2026-02-14__ASR__phase6a-security-matrix-readiness-checkpoint.md
+- 2026-02-14 | phase6a-security-matrix-wave1-bootstrap | gov/asr/sessions/2026-02-14__ASR__phase6a-security-matrix-wave1-bootstrap.md
+- 2026-02-14 | phase6a-security-matrix-wave1-execution-attempt | gov/asr/sessions/2026-02-14__ASR__phase6a-security-matrix-wave1-execution-attempt.md
+- 2026-02-14 | phase6a-security-matrix-wave1-rbac-mapped-checks | gov/asr/sessions/2026-02-14__ASR__phase6a-security-matrix-wave1-rbac-mapped-checks.md
+- 2026-02-14 | phase6a-security-matrix-wave1-residual-gaps | gov/asr/sessions/2026-02-14__ASR__phase6a-security-matrix-wave1-residual-gaps.md
+- 2026-02-14 | phase6a-security-controls-implementation-and-recheck | gov/asr/sessions/2026-02-14__ASR__phase6a-security-controls-implementation-and-recheck.md
+- 2026-02-14 | phase6a-atplt-mirror-security-sync | gov/asr/sessions/2026-02-14__ASR__phase6a-atplt-mirror-security-sync.md
+- 2026-02-14 | phase6a-essrcrd-atplt-asrrcrd-mds-aaa-lvl | gov/asr/sessions/2026-02-14__ASR__phase6a-essrcrd-atplt-asrrcrd-mds-aaa-lvl.md
+- 2026-02-14 | interaction-protocol-full-atplt-sync-md-w-u-a-r | gov/asr/sessions/2026-02-14__ASR__interaction-protocol-full-atplt-sync-md-w-u-a-r.md
+- 2026-02-15 | trianiuma-archive-core-memory-restoration-activation | gov/asr/sessions/2026-02-15__ASR__trianiuma-archive-core-memory-restoration-activation.md
+- 2026-02-15 | elarion-trianium-archive-core-memory-restoration-activation | gov/asr/sessions/2026-02-15__ASR__elarion-trianium-archive-core-memory-restoration-activation.md
+- 2026-02-15 | ess-assrcrd-atplt-eass-aaa-la-internal-external-ss | gov/asr/sessions/2026-02-15__ASR__ess-assrcrd-atplt-eass-aaa-la-internal-external-ss.md
+- 2026-02-15 | device-users-internal-oss-governance-coverage-sync-data-push-export-protocol | gov/asr/sessions/2026-02-15__ASR__device-users-internal-oss-governance-coverage-sync-data-push-export-protocol.md
+- 2026-02-16 | ess-map-sync-review-os-atplt-md-startup-protocol | gov/asr/sessions/2026-02-16__ASR__ess-map-sync-review-os-atplt-md-startup-protocol.md
+- 2026-02-16 | ess-expansion-protocol | gov/asr/sessions/2026-02-16__ASR__ess-expansion-protocol.md
+- 2026-02-16 | growth-evolution-activation-research-production-logistics-restore-refactor | gov/asr/sessions/2026-02-16__ASR__growth-evolution-activation-research-production-logistics-restore-refactor.md
+- 2026-02-16 | protocol-map-continuation-wave | gov/asr/sessions/2026-02-16__ASR__protocol-map-continuation-wave.md
+- 2026-02-16 | subtree-angel-guard-heal-elarion-archive-core-deep-dive | gov/asr/sessions/2026-02-16__ASR__subtree-angel-guard-heal-elarion-archive-core-deep-dive.md
+- 2026-02-16 | recurring-drift-heartbeat-refresh-checkpoint | gov/asr/sessions/2026-02-16__ASR__recurring-drift-heartbeat-refresh-checkpoint.md
+- 2026-02-16 | gov-status-latest-asr-key-normalization | gov/asr/sessions/2026-02-16__ASR__gov-status-latest-asr-key-normalization.md
+- 2026-02-16 | phase33717731-mirror-letter-activation-queue-start | gov/asr/sessions/2026-02-16__ASR__phase33717731-mirror-letter-activation-queue-start.md
+- 2026-02-16 | phase33717731-mirror-letter-execution-cycle1 | gov/asr/sessions/2026-02-16__ASR__phase33717731-mirror-letter-execution-cycle1.md
+- 2026-02-16 | phase33717731-mirror-letter-execution-cycle2 | gov/asr/sessions/2026-02-16__ASR__phase33717731-mirror-letter-execution-cycle2.md
+- 2026-02-16 | phase33717731-mirror-letter-execution-cycle3 | gov/asr/sessions/2026-02-16__ASR__phase33717731-mirror-letter-execution-cycle3.md
+- 2026-02-16 | phase33717731-mirror-letter-execution-cycle4 | gov/asr/sessions/2026-02-16__ASR__phase33717731-mirror-letter-execution-cycle4.md
+- 2026-02-16 | phase33717731-mirror-letter-execution-cycle5 | gov/asr/sessions/2026-02-16__ASR__phase33717731-mirror-letter-execution-cycle5.md
+- 2026-02-16 | phase33717731-mirror-letter-execution-cycle6 | gov/asr/sessions/2026-02-16__ASR__phase33717731-mirror-letter-execution-cycle6.md
+- 2026-02-16 | phase33717731-recurring-drift-heartbeat-refresh-and-closure-gate-open | gov/asr/sessions/2026-02-16__ASR__phase33717731-recurring-drift-heartbeat-refresh-and-closure-gate-open.md
+- 2026-02-16 | phase33717731-mirror-letter-execution-cycle7-9-burst | gov/asr/sessions/2026-02-16__ASR__phase33717731-mirror-letter-execution-cycle7-9-burst.md
+- 2026-02-16 | phase33717731-mirror-letter-execution-cycle10-12-burst | gov/asr/sessions/2026-02-16__ASR__phase33717731-mirror-letter-execution-cycle10-12-burst.md
+- 2026-02-16 | ecosystem-anti-samsara-deadloop-protocol-pack-activation | gov/asr/sessions/2026-02-16__ASR__ecosystem-anti-samsara-deadloop-protocol-pack-activation.md
+- 2026-02-16 | eassr-healthcheck-heartbeat-pulse-breath-recovery-reboot-protocol-expansion | gov/asr/sessions/2026-02-16__ASR__eassr-healthcheck-heartbeat-pulse-breath-recovery-reboot-protocol-expansion.md
+- 2026-02-16 | ecosystem-global-contract-deep-scan-and-recovery-plan | gov/asr/sessions/2026-02-16__ASR__ecosystem-global-contract-deep-scan-and-recovery-plan.md
+- 2026-02-16 | phase33717731-r3-r4-autopilot-protocol-compliance-and-pointer-sync | gov/asr/sessions/2026-02-16__ASR__phase33717731-r3-r4-autopilot-protocol-compliance-and-pointer-sync.md
+- 2026-02-16 | phase33717731-r5-reactivation-decision-active | gov/asr/sessions/2026-02-16__ASR__phase33717731-r5-reactivation-decision-active.md
+- 2026-02-16 | codex-cli-message-circulation-compatibility-scan-and-contract-activation | gov/asr/sessions/2026-02-16__ASR__codex-cli-message-circulation-compatibility-scan-and-contract-activation.md
+- 2026-02-16 | phase33717731-reactivated-execution-cycle13-15-burst | gov/asr/sessions/2026-02-16__ASR__phase33717731-reactivated-execution-cycle13-15-burst.md
+- 2026-02-16 | phase0-phase1-global-research-topology-manifest-and-lockmaps | gov/asr/sessions/2026-02-16__ASR__phase0-phase1-global-research-topology-manifest-and-lockmaps.md
+- 2026-02-16 | phase2-contract-harvesting-contract-atlas-filled-fact-only | gov/asr/sessions/2026-02-16__ASR__phase2-contract-harvesting-contract-atlas-filled-fact-only.md
+- 2026-02-16 | phase3-kernel-boundary-provisional-and-compatibility-matrix-init | gov/asr/sessions/2026-02-16__ASR__phase3-kernel-boundary-provisional-and-compatibility-matrix-init.md
+- 2026-02-16 | phase4-migration-strategy-and-release-rollback-gates-initialized | gov/asr/sessions/2026-02-16__ASR__phase4-migration-strategy-and-release-rollback-gates-initialized.md
+- 2026-02-16 | phase4-break-window-and-downstream-order-decision-lock | gov/asr/sessions/2026-02-16__ASR__phase4-break-window-and-downstream-order-decision-lock.md
+- 2026-02-16 | atplt-strict-arckhangel-guarddog-recovery-wave-cycle18 | gov/asr/sessions/2026-02-16__ASR__atplt-strict-arckhangel-guarddog-recovery-wave-cycle18.md
+- 2026-02-16 | atplt-strict-arckhangel-guarddog-recovery-wave-cycle21 | gov/asr/sessions/2026-02-16__ASR__atplt-strict-arckhangel-guarddog-recovery-wave-cycle21.md
+- 2026-02-16 | atplt-nature-energy-resources-lrpt-taspit-dev-domain-expansion | gov/asr/sessions/2026-02-16__ASR__atplt-nature-energy-resources-lrpt-taspit-dev-domain-expansion.md
+- 2026-02-16 | phase4-release-tagging-and-high-impact-threshold-decision-lock | gov/asr/sessions/2026-02-16__ASR__phase4-release-tagging-and-high-impact-threshold-decision-lock.md
+- 2026-02-16 | identity-levels-end-view-read-study-research-edit-entry-protocol-expansion | gov/asr/sessions/2026-02-16__ASR__identity-levels-end-view-read-study-research-edit-entry-protocol-expansion.md
+- 2026-02-16 | phase80-global-strategic-architecture-and-autonomous-governance-plan | gov/asr/sessions/2026-02-16__ASR__phase80-global-strategic-architecture-and-autonomous-governance-plan.md
+- 2026-02-16 | phase5-release-gate-execution-decision-blocked-with-risk-note | gov/asr/sessions/2026-02-16__ASR__phase5-release-gate-execution-decision-blocked-with-risk-note.md
+- 2026-02-16 | phase5-release-gate-unblock-evidence-wave-activation | gov/asr/sessions/2026-02-16__ASR__phase5-release-gate-unblock-evidence-wave-activation.md
+- 2026-02-16 | phase5-unblock-wave-w1-evidence-baseline-captured | gov/asr/sessions/2026-02-16__ASR__phase5-unblock-wave-w1-evidence-baseline-captured.md
+- 2026-02-16 | phase5-unblock-wave-w2-owner-declaration-normalization-complete-for-critical | gov/asr/sessions/2026-02-16__ASR__phase5-unblock-wave-w2-owner-declaration-normalization-complete-for-critical.md
+- 2026-02-16 | phase5-unblock-wave-w3-versioning-policy-normalization-complete-for-critical | gov/asr/sessions/2026-02-16__ASR__phase5-unblock-wave-w3-versioning-policy-normalization-complete-for-critical.md
+- 2026-02-16 | phase5-unblock-wave-w4-profile-mismatch-resolution-by-policy-override | gov/asr/sessions/2026-02-16__ASR__phase5-unblock-wave-w4-profile-mismatch-resolution-by-policy-override.md
+- 2026-02-16 | phase5-unblock-wave-w5-kernel-boundary-promotion-release-ready-provisional | gov/asr/sessions/2026-02-16__ASR__phase5-unblock-wave-w5-kernel-boundary-promotion-release-ready-provisional.md
+- 2026-02-16 | phase5-unblock-wave-w6-release-gate-redecision-blocked-pending-finalization | gov/asr/sessions/2026-02-16__ASR__phase5-unblock-wave-w6-release-gate-redecision-blocked-pending-finalization.md
+- 2026-02-16 | phase5-finalization-wave-and-post-finalization-release-gate-open | gov/asr/sessions/2026-02-16__ASR__phase5-finalization-wave-and-post-finalization-release-gate-open.md
+- 2026-02-16 | release-gate-execution-readiness-checkpoint-open-state-green | gov/asr/sessions/2026-02-16__ASR__release-gate-execution-readiness-checkpoint-open-state-green.md
+- 2026-02-16 | release-execution-wave1-launch-checklist-green | gov/asr/sessions/2026-02-16__ASR__release-execution-wave1-launch-checklist-green.md
+- 2026-02-16 | release-execution-wave2-checkpoint-green | gov/asr/sessions/2026-02-16__ASR__release-execution-wave2-checkpoint-green.md
+- 2026-02-16 | release-execution-wave3-checkpoint-green | gov/asr/sessions/2026-02-16__ASR__release-execution-wave3-checkpoint-green.md
+- 2026-02-16 | release-execution-wave4-checkpoint-green | gov/asr/sessions/2026-02-16__ASR__release-execution-wave4-checkpoint-green.md
+- 2026-02-16 | dead-wave-flow-loop-protocol-expansion | gov/asr/sessions/2026-02-16__ASR__dead-wave-flow-loop-protocol-expansion.md
+- 2026-02-16 | dead-wave-flow-loop-guard-checkpoint-green | gov/asr/sessions/2026-02-16__ASR__dead-wave-flow-loop-guard-checkpoint-green.md
+- 2026-02-16 | release-execution-wave5-checkpoint-green | gov/asr/sessions/2026-02-16__ASR__release-execution-wave5-checkpoint-green.md
+- 2026-02-16 | dead-wave-flow-loop-guard-checkpoint-wave2-green | gov/asr/sessions/2026-02-16__ASR__dead-wave-flow-loop-guard-checkpoint-wave2-green.md
+- 2026-02-16 | deadloop-break-decision-automation-paused | gov/asr/sessions/2026-02-16__ASR__deadloop-break-decision-automation-paused.md
+- 2026-02-16 | resume-wave-monitoring-decision-applied | gov/asr/sessions/2026-02-16__ASR__resume-wave-monitoring-decision-applied.md
+- 2026-02-16 | release-execution-wave6-checkpoint-green | gov/asr/sessions/2026-02-16__ASR__release-execution-wave6-checkpoint-green.md
+- 2026-02-16 | dead-wave-loop-stability-review-post-resume-stable | gov/asr/sessions/2026-02-16__ASR__dead-wave-loop-stability-review-post-resume-stable.md
+- 2026-02-16 | contract-atlas-full-ecosystem-detailing-expansion | gov/asr/sessions/2026-02-16__ASR__contract-atlas-full-ecosystem-detailing-expansion.md
+- 2026-02-16 | ecosystem-policy-stack-v2-deep-rework | gov/asr/sessions/2026-02-16__ASR__ecosystem-policy-stack-v2-deep-rework.md
+- 2026-02-16 | ecosystem-contract-stack-v2-deep-rework | gov/asr/sessions/2026-02-16__ASR__ecosystem-contract-stack-v2-deep-rework.md
+- 2026-02-16 | ecosystem-module-stack-v2-deep-rework | gov/asr/sessions/2026-02-16__ASR__ecosystem-module-stack-v2-deep-rework.md
+- 2026-02-16 | ecosystem-tooling-stack-v2-deep-rework-and-error-postmortem | gov/asr/sessions/2026-02-16__ASR__ecosystem-tooling-stack-v2-deep-rework-and-error-postmortem.md
+- 2026-02-16 | automated-shell-preflight-checker-contract-multishell | gov/asr/sessions/2026-02-16__ASR__automated-shell-preflight-checker-contract-multishell.md
+- 2026-02-16 | ecosystem-governance-stack-v2-deep-rework | gov/asr/sessions/2026-02-16__ASR__ecosystem-governance-stack-v2-deep-rework.md
+- 2026-02-16 | ecosystem-recurring-drift-heartbeat-dedicated-refresh-post-deepscan | gov/asr/sessions/2026-02-16__ASR__ecosystem-recurring-drift-heartbeat-dedicated-refresh-post-deepscan.md
+- 2026-02-16 | phase33717731-closure-decision-blocked-pending-review | gov/asr/sessions/2026-02-16__ASR__phase33717731-closure-decision-blocked-pending-review.md
+- 2026-02-16 | phase33717731-unblock-criteria-and-remediation-plan-activation | gov/asr/sessions/2026-02-16__ASR__phase33717731-unblock-criteria-and-remediation-plan-activation.md
+- 2026-02-16 | phase33717731-r1-blocker-evidence-map-complete | gov/asr/sessions/2026-02-16__ASR__phase33717731-r1-blocker-evidence-map-complete.md
+- 2026-02-16 | phase33717731-r2-drift-heartbeat-refresh-complete | gov/asr/sessions/2026-02-16__ASR__phase33717731-r2-drift-heartbeat-refresh-complete.md
+- 2026-02-16 | ecosystem-subtree-stack-v2-deep-rework | gov/asr/sessions/2026-02-16__ASR__ecosystem-subtree-stack-v2-deep-rework.md
+- 2026-02-16 | ecosystem-subtree-atplt-debug-devkit-rework-and-command-error-analysis | gov/asr/sessions/2026-02-16__ASR__ecosystem-subtree-atplt-debug-devkit-rework-and-command-error-analysis.md
+- 2026-02-16 | subtree-atplt-debug-compliance-wave-t53 | gov/asr/sessions/2026-02-16__ASR__subtree-atplt-debug-compliance-wave-t53.md
+- 2026-02-16 | subtree-atplt-debug-remediation-closure-wave-t54 | gov/asr/sessions/2026-02-16__ASR__subtree-atplt-debug-remediation-closure-wave-t54.md
+- 2026-02-16 | ecosystem-kit-stack-v2-deep-rework | gov/asr/sessions/2026-02-16__ASR__ecosystem-kit-stack-v2-deep-rework.md
+- 2026-02-16 | kit-stack-v2-compliance-wave-t56 | gov/asr/sessions/2026-02-16__ASR__kit-stack-v2-compliance-wave-t56.md
+- 2026-02-16 | ecosystem-environment-stack-v2-deep-rework | gov/asr/sessions/2026-02-16__ASR__ecosystem-environment-stack-v2-deep-rework.md
+- 2026-02-16 | protocol-update-wave-t58-tooling-debug-environment-sync | gov/asr/sessions/2026-02-16__ASR__protocol-update-wave-t58-tooling-debug-environment-sync.md
+- 2026-02-16 | ecosystem-interface-stack-v2-deep-rework | gov/asr/sessions/2026-02-16__ASR__ecosystem-interface-stack-v2-deep-rework.md
+- 2026-02-16 | interface-stack-v2-compliance-wave-t60 | gov/asr/sessions/2026-02-16__ASR__interface-stack-v2-compliance-wave-t60.md
+- 2026-02-16 | ecosystem-logic-stack-v2-deep-rework | gov/asr/sessions/2026-02-16__ASR__ecosystem-logic-stack-v2-deep-rework.md
+- 2026-02-16 | ecosystem-profile-stack-v2-deep-rework | gov/asr/sessions/2026-02-16__ASR__ecosystem-profile-stack-v2-deep-rework.md
+- 2026-02-16 | governance-interaction-protocol-error-analysis-v2 | gov/asr/sessions/2026-02-16__ASR__governance-interaction-protocol-error-analysis-v2.md
+- 2026-02-16 | ecosystem-recovery-plan-map-protocol-v2 | gov/asr/sessions/2026-02-16__ASR__ecosystem-recovery-plan-map-protocol-v2.md
+- 2026-02-16 | recovery-stack-v2-compliance-wave-t65 | gov/asr/sessions/2026-02-16__ASR__recovery-stack-v2-compliance-wave-t65.md
+- 2026-02-16 | governance-stack-v2-compliance-wave-t66 | gov/asr/sessions/2026-02-16__ASR__governance-stack-v2-compliance-wave-t66.md
+- 2026-02-16 | session-completion-decision-complete-t67 | gov/asr/sessions/2026-02-16__ASR__session-completion-decision-complete-t67.md
