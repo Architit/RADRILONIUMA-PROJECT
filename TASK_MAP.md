@@ -255,3 +255,6 @@ mode: post-atplt md normalization + ecosystem anti-deadloop guard + eassr realti
 - t84: s8 lam phase43 next-gate review prep wave (`P4_PHASE43_N1_REVIEW_PACKAGE_ASSEMBLY_CONTRACT.md`, `P4_PHASE43_N2_BOUNDARY_REVALIDATION_CHECKLIST_CONTRACT.md`, `P4_PHASE43_N3_CONTROLLED_GATE_OPEN_RECOMMENDATION_DRAFT_CONTRACT.md`)
 - t84_status: DONE
 - t84_result: PHASE43_NEXT_GATE_REVIEW_PREP_READY
+- t85: s9 lam controlled gate review decision (`P4_PHASE43_CONTROLLED_GATE_REVIEW_DECISION_CONTRACT.md`)
+- t85_status: DONE
+- t85_result: PHASE43_CONTROLLED_GATE_DECISION_OPEN_REVIEW
