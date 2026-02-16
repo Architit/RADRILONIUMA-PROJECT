@@ -303,3 +303,6 @@ mode: post-atplt md normalization + ecosystem anti-deadloop guard + eassr realti
 - t100: s24 lam closure-gate decision (`P4_PHASE43_CLOSURE_GATE_DECISION_CONTRACT.md`)
 - t100_status: DONE
 - t100_result: PHASE43_CLOSURE_GATE_DECISION_OPEN
+- t101: s25 lam closure-gate execution and pointer update (`P4_PHASE43_CLOSURE_GATE_EXECUTION_CONTRACT.md`, `P4_PHASE43_CLOSURE_GATE_EXECUTION_POINTER_UPDATE_CONTRACT.md`)
+- t101_status: DONE
+- t101_result: PHASE43_CLOSURE_GATE_EXECUTION_COMPLETE
