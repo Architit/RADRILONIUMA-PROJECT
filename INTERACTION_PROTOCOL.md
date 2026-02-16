@@ -1045,3 +1045,24 @@ Execution hard-rule (mandatory):
 
 Правило закрытия:
 - без `operator_notified = true` и `operator_acknowledged = true` закрытие `COMPLETE` недопустимо.
+
+---
+
+## M47 — Phase43 Deadloop Break Protocol (mandatory)
+
+Для цепочек governance-only в `P4_PHASE43_*` обязателен anti-deadloop разрыв, если наблюдается прогресс только по нумерации задач без engineering-дельты.
+
+Trigger:
+1) `consecutive_governance_only_steps >= 3` в одной цепочке.
+2) В окне шагов нет non-doc code/test изменений.
+
+Mandatory `1+2+3+` flow:
+1) `BREAK`: зафиксировать `HOLD_BY_DEADLOOP_BREAK_PROTOCOL` для следующего gate-step.
+2) `MAP_EXECUTION_WAVE_1`: обновить map-surface (`DEV_MAP.md`, `ROADMAP.md`) с конкретными engineering deliverables.
+3) `CODE_TEST_DELTA_GATE`: минимум 1 non-doc code change + 1 test change и проверка.
+
+Resume rule:
+- Возврат к `S*` gate разрешен только после `MAP_EXECUTION_WAVE_1 = DONE` и `CODE_TEST_DELTA_GATE = PASS`.
+
+Canonical contract:
+- `P4_PHASE43_DEADLOOP_BREAK_PROTOCOL_CONTRACT.md` (LAM)
