@@ -234,3 +234,6 @@ mode: post-atplt md normalization + ecosystem anti-deadloop guard + eassr realti
 - t77: s2 heartbeat/pulse single-pointer normalization across SoT + mirrors (`GOV_STATUS.md`, `WORKFLOW_SNAPSHOT_STATE.md`, `LAM/WORKFLOW_SNAPSHOT_STATE.md`, `Trianiuma/WORKFLOW_SNAPSHOT_STATE.md`)
 - t77_status: DONE
 - t77_result: CANONICAL_HEARTBEAT_POINTER_ENFORCED
+- t78: s3 lam phase4 pre-4.3 review findings closure (`R1..R5`) with addenda contract and gate-open confirmation (`P4_PRE43_REVIEW_FINDINGS_ADDENDA_CONTRACT.md`, `LAM/ROADMAP.md`, `LAM/DEV_LOGS.md`)
+- t78_status: DONE
+- t78_result: LAM_PHASE43_ENTRY_GATE_OPEN_CONTRACT_ONLY
