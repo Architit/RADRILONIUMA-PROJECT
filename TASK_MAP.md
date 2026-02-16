@@ -249,3 +249,6 @@ mode: post-atplt md normalization + ecosystem anti-deadloop guard + eassr realti
 - t82: s6 lam phase4.3 continuation wave closure (`P4_PHASE43_A4_PROPOSAL_EVIDENCE_CONSOLIDATION_CONTRACT.md`, `P4_PHASE43_A5_PROPOSAL_RISK_STRATIFICATION_CONTRACT.md`, `P4_PHASE43_A6_NEXT_GATE_RECOMMENDATION_CONTRACT.md`)
 - t82_status: DONE
 - t82_result: PHASE43_A4_A5_A6_CONTRACT_WAVE_COMPLETE
+- t83: s7 lam post-a6 decision checkpoint and next-phase pointer declaration (`P4_PHASE43_POST_A6_DECISION_CHECKPOINT_CONTRACT.md`, `P4_PHASE43_NEXT_PHASE_POINTER_DECLARATION_CONTRACT.md`)
+- t83_status: DONE
+- t83_result: PHASE43_NEXT_PHASE_POINTER_DECLARED
