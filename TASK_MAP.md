@@ -276,3 +276,6 @@ mode: post-atplt md normalization + ecosystem anti-deadloop guard + eassr realti
 - t91: s15 lam next-controlled-gate decision (`P4_PHASE43_NEXT_CONTROLLED_GATE_DECISION_CONTRACT.md`)
 - t91_status: DONE
 - t91_result: PHASE43_NEXT_CONTROLLED_GATE_DECISION_OPEN
+- t92: s16 lam next-controlled-gate execution and pointer update (`P4_PHASE43_NEXT_CONTROLLED_GATE_EXECUTION_CONTRACT.md`, `P4_PHASE43_NEXT_CONTROLLED_GATE_EXECUTION_POINTER_UPDATE_CONTRACT.md`)
+- t92_status: DONE
+- t92_result: PHASE43_NEXT_CONTROLLED_GATE_EXECUTION_COMPLETE
