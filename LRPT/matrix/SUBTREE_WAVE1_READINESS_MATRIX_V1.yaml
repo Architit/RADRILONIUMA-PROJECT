@@ -31,4 +31,4 @@ execution:
 open_review:
   contract: "LRPT/contract/SUBTREE_WAVE1_OPEN_REVIEW_CONTRACT_V1.md"
   checklist: "LRPT/matrix/SUBTREE_WAVE1_OPEN_CHECKLIST_V1.yaml"
-  state: "DECISION_PACKAGE_PREPARED"
+  state: "EVIDENCE_LEDGER_ACTIVE"

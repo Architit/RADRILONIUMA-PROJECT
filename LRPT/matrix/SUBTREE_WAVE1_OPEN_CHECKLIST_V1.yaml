@@ -12,6 +12,8 @@ criteria:
     state: "PASS"
   - id: "open_decision_package_prepared"
     state: "PASS"
+  - id: "target_evidence_ledger_active"
+    state: "PASS"
 review:
   state: "HOLD"
-  decision: "DECISION_PACKAGE_PREPARED_WAIT_FOR_TARGET_EVIDENCE"
+  decision: "EVIDENCE_LEDGER_ACTIVE_WAIT_FOR_TARGET_PASS"
