@@ -1,0 +1,12 @@
+version: "1"
+id: "eassr_autopulse_v1"
+title: "EASSR Host Timer Declarative Spec"
+phase: "8.3"
+intent: "Define host-level scheduling (cron/systemd) for aess_autostart.sh without executing it"
+preconditions:
+  - "LRPT/system/AESS_TIMER_RUNBOOK_V1.md exists"
+  - "scripts/aess_autostart.sh is verified in non-destructive mode"
+verification:
+  - "cat LRPT/system/AESS_TIMER_RUNBOOK_V1.md"
+observability:
+  - "Review host-level cron/systemd logs manually"

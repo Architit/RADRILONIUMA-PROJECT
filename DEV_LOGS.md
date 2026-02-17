@@ -386,4 +386,5 @@ scope fixed as session-only completion, `t7` preserved as long-running active-by
 2026-02-17 04:15 UTC — Governance: materialized ATPLT dev domain expansion pack within LRPT architecture (`atplt-dev-domain-expansion-materialization-v1`).
 2026-02-17 04:30 UTC — Governance: executed global artifact migration into LRPT domains (`lrpt-global-artifact-migration-v1`); 57 root contracts, maps, and protocols routed to semantic homes.
 2026-02-17 05:00 UTC — Governance: initialized EASSR Autopilot Resonance bootstrap, defined TSPT incoming/outbound slots for guards, and validated aess_autostart.sh (`eassr-bootstrap-tspt-routing-v1`).
+2026-02-17 05:40 UTC — Governance: executed Phase 8.3 EASSR Autopilot Resonance (`eassr-autopulse-v1`); formalized resonance contract, task spec, and host timer runbook for non-runtime scheduling.
 2026-02-17 05:20 UTC — Governance: initialized semantic gateway routing bootstrap (`gateway-routing-bootstrap-v1`); published `LRPT/flow/TASK_SPEC_GATEWAY_ROUTING_V1.yaml` and `LRPT/contract/GATEWAY_IO_ROUTING_CONTRACT_V1.md`, executed `scripts/gateway_io.sh verify` with `github:ok` and env warnings for OneDrive/Google roots.
