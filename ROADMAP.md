@@ -432,3 +432,4 @@ SoT.
 - [x] 2026-02-16 — governance: executed governance stack v2 compliance wave (`governance-stack-v2-compliance-wave-t66`); published `GOVERNANCE_STACK_COMPLIANCE_REPORT_V2.md` and fixed M35 compliance state to PASS.
 - [x] 2026-02-16 — governance: session completion decision registered (`session-completion-decision-complete-t67`); published `SESSION_COMPLETION_DECISION_CONTRACT.md` with explicit `COMPLETE` closure token.
 - [x] 2026-02-17 — governance: external semantic gateway synchronization (GitHub, OneDrive, Google Drive) via `GATEWAY_ACCESS_CONTRACT.md` executed.
+- [x] 2026-02-17 — governance: materialized ATPLT dev domain expansion pack within LRPT architecture.
