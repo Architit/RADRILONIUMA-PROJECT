@@ -1,11 +1,13 @@
 version: "1"
 status: "ACTIVE"
-updated_utc: "2026-02-17T00:00:00Z"
-weights: []
-# Example entry schema:
-# - id: "signal_corrupt_patch_line_113"
-#   pattern: "corrupt patch at line 113"
-#   severity: "high"
-#   action: "reject_and_rebuild_patch"
-#   source: "governance_postmortem"
-#   active: true
+updated_utc: "2026-02-17T03:55:00Z"
+weights:
+  - id: "signal_corrupt_patch_line_113"
+    pattern: "corrupt patch at line 113"
+    severity: "high"
+    action: "reject_and_rebuild_patch"
+    source: "governance_postmortem"
+    precondition_binding:
+      - "A.E.G.I.S. checksum gate"
+      - "Council debate revise loop"
+    active: true

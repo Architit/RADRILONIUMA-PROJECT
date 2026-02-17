@@ -400,4 +400,5 @@ scope fixed as session-only completion, `t7` preserved as long-running active-by
 2026-02-17 09:00 UTC — Governance: executed Phase 9.2 VAVIMA-Nexus bootstrap; published decomposition core contract, intent matrix, and bootstrap task spec for deterministic multi-agent dispatch.
 2026-02-17 09:20 UTC — Governance: executed Phase 14.1 Chrono-Resonance bootstrap; published time-sync protocol, chrono sync matrix, and bootstrap task spec for unified Effective UTC reconciliation.
 2026-02-17 09:40 UTC — Governance: executed Phase 13.2 Subtree Mycelial Expansion bootstrap; published subtree strategy protocol, rollout matrix, and bootstrap task spec for staged cross-repository propagation.
+2026-02-17 10:00 UTC — Governance: executed Phase 12.1 Learning Signal Feedback; published feedback-loop protocol, activated first synaptic signal (`corrupt patch at line 113`), and bootstrap task spec for precondition-bound generation.
 2026-02-17 03:21 UTC — Sequential phase 0-4 expansion completed: initialized pytest surface (`pytest.ini` + `scripts/test_entrypoint.sh`), added governance/preflight test suites, and validated baseline (`6 passed`).

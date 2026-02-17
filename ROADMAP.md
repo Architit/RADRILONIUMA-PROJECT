@@ -449,6 +449,7 @@ SoT.
 - [x] 2026-02-17 — governance: executed Phase 9.2 VAVIMA-Nexus bootstrap; published decomposition core contract, intent matrix, and bootstrap task spec.
 - [x] 2026-02-17 — governance: executed Phase 14.1 Chrono-Resonance bootstrap; published time-sync protocol, chrono sync matrix, and bootstrap task spec.
 - [x] 2026-02-17 — governance: executed Phase 13.2 Subtree Mycelial Expansion bootstrap; published subtree strategy protocol, rollout matrix, and bootstrap task spec.
+- [x] 2026-02-17 — governance: executed Phase 12.1 Learning Signal Feedback; published feedback-loop protocol, activated first synaptic signal, and bootstrap task spec.
 
 ## 2026-02-17 Sequential Expansion Wave
 

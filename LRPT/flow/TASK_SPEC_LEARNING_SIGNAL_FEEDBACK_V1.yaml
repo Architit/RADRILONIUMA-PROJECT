@@ -1,0 +1,14 @@
+version: "1"
+id: "learning_signal_feedback_v1"
+title: "Learning Signal Feedback Bootstrap"
+phase: "12.1"
+intent: "Activate first normalized synaptic signal and formalize feedback loop"
+preconditions:
+  - "Phase 12.0 synaptic plasticity is active"
+  - "Phase 13.1 A.E.G.I.S. deployment is active"
+  - "Phase 11.1 council debate is active"
+verification:
+  - "cat LRPT/protocol/LEARNING_SIGNAL_FEEDBACK_LOOP_V1.md"
+  - "cat LRPT/journal/SYNAPTIC_WEIGHTS_V1.yaml"
+observability:
+  - "Signal activation events are logged in governance artifacts"
