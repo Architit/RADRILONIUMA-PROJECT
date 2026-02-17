@@ -1,0 +1,12 @@
+version: "1"
+id: "eassr_bootstrap_v1"
+title: "EASSR Autopilot Resonance Bootstrap"
+phase: "8.1"
+intent: "Initialize EASSR loop structure and strict TSPT agent routing without runtime execution"
+preconditions:
+  - "LRPT structural domains are materialized"
+  - "aess_autostart.sh is structurally valid and non-destructive"
+verification:
+  - "bash scripts/aess_autostart.sh --dry-run"
+observability:
+  - "dry-run logs confirm no execution-path impact"

@@ -434,3 +434,4 @@ SoT.
 - [x] 2026-02-17 — governance: external semantic gateway synchronization (GitHub, OneDrive, Google Drive) via `GATEWAY_ACCESS_CONTRACT.md` executed.
 - [x] 2026-02-17 — governance: materialized ATPLT dev domain expansion pack within LRPT architecture.
 - [x] 2026-02-17 — governance: completed global artifact migration into LRPT semantic domains.
+- [x] 2026-02-17 — governance: executed Phase 8.1 EASSR bootstrap, created TSPT agent slots, and locked TASK_SPEC without runtime execution.
