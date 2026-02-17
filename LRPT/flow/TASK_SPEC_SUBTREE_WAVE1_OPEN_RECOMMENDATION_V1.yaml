@@ -1,0 +1,13 @@
+version: "1"
+id: "subtree_wave1_open_recommendation_v1"
+title: "Subtree Wave-1 Open Recommendation"
+phase: "13.11"
+intent: "Issue formal OPEN recommendation while preserving operator-confirmed gate transition"
+preconditions:
+  - "Phase 13.10 evidence ledger activation is complete"
+  - "Open checklist decision package is active"
+verification:
+  - "cat LRPT/contract/SUBTREE_WAVE1_OPEN_RECOMMENDATION_CONTRACT_V1.md"
+  - "cat LRPT/matrix/SUBTREE_WAVE1_OPEN_CHECKLIST_V1.yaml"
+observability:
+  - "Open recommendation state is reflected in readiness matrix and governance logs"

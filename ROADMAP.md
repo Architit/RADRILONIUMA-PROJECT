@@ -462,6 +462,7 @@ SoT.
 - [x] 2026-02-17 — governance: executed Phase 13.8 Subtree Wave-1 open-review bootstrap; published open-review contract, checklist, task spec, and set open-review state to HOLD pending target evidence completion.
 - [x] 2026-02-17 — governance: executed Phase 13.9 Subtree Wave-1 open-decision package bootstrap; published decision package contract, target apply command pack, task spec, and set open-review state to DECISION_PACKAGE_PREPARED.
 - [x] 2026-02-17 — governance: executed Phase 13.10 Subtree Wave-1 evidence-ledger activation; published target evidence ledger, activation task spec, and set open-review state to EVIDENCE_LEDGER_ACTIVE (HOLD).
+- [x] 2026-02-17 — governance: executed Phase 13.11 Subtree Wave-1 open recommendation; published open-recommendation contract, task spec, and set open-review state to OPEN_RECOMMENDED_PENDING_CONFIRMATION.
 
 ## 2026-02-17 Sequential Expansion Wave
 

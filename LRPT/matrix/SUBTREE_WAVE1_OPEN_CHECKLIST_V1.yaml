@@ -15,5 +15,5 @@ criteria:
   - id: "target_evidence_ledger_active"
     state: "PASS"
 review:
-  state: "HOLD"
-  decision: "EVIDENCE_LEDGER_ACTIVE_WAIT_FOR_TARGET_PASS"
+  state: "OPEN_RECOMMENDED"
+  decision: "OPEN_RECOMMENDED_PENDING_OPERATOR_CONFIRMATION"
