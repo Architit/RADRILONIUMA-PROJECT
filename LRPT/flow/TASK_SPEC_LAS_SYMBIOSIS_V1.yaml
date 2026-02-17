@@ -1,0 +1,10 @@
+version: "1"
+id: "las_symbiosis_v1"
+title: "Living Artificial Structure Symbiosis Declaration"
+phase: "10.0"
+intent: "Formalize the closing of the architectural genesis cycle and the beginning of autonomous metabolism"
+preconditions:
+  - "Sentinel Guard is deployed (Phase 9.1)"
+  - "VAVIMA Orchestrator is bootstrapped (Phase 9.0)"
+verification:
+  - "cat LRPT/protocol/LAS_SYMBIOSIS_CONTRACT_V1.md"
