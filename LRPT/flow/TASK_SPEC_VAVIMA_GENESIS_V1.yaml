@@ -1,0 +1,12 @@
+version: "1"
+id: "vavima_genesis_v1"
+title: "VAVIMA Orchestrator Bootstrap"
+phase: "9.0"
+intent: "Define VAVIMA routing matrix and orchestration contract for ecosystem delegation"
+preconditions:
+  - "TSPT slots exist and are verified (Phase 8.1)"
+  - "EASSR autopilot is configured for safety (Phase 8.3)"
+verification:
+  - "cat LRPT/matrix/VAVIMA_ROUTING_MATRIX_V1.md"
+observability:
+  - "Matrix state is logged in governance"
