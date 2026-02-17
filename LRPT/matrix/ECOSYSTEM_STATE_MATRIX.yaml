@@ -1,8 +1,8 @@
 version: "1"
 status: "ACTIVE"
-updated_utc: "2026-02-17T04:40:00Z"
+updated_utc: "2026-02-17T05:00:00Z"
 intents:
-  current: "phase14_2_intent_control_plane_bootstrap"
+  current: "phase14_3_low_latency_symbiosis_bootstrap"
   next: "phase13_2_subtree_wave1_execution"
   gate: "HOLD"
   confidence: "MEDIUM"
@@ -34,3 +34,6 @@ gates:
   sentinel_required: true
   council_required_for_critical: true
   aegis_required_for_ingress: true
+latency:
+  active_profile: "controlled_path"
+  matrix_source: "LRPT/matrix/LOW_LATENCY_RESPONSE_MATRIX_V1.yaml"

@@ -1,0 +1,14 @@
+version: "1"
+id: "low_latency_symbiosis_v1"
+title: "Low-Latency Symbiosis Bootstrap"
+phase: "14.3"
+intent: "Formalize fast/controlled/critical response profiles for governance-safe low-latency operation"
+preconditions:
+  - "Phase 14.2 intent control plane is active"
+  - "Phase 13.1 A.E.G.I.S. validation is active"
+  - "Phase 11.1 council debate is active"
+verification:
+  - "cat LRPT/protocol/LOW_LATENCY_SYMBIOSIS_PROTOCOL_V1.md"
+  - "cat LRPT/matrix/LOW_LATENCY_RESPONSE_MATRIX_V1.yaml"
+observability:
+  - "Profile decisions are recorded in governance artifacts"

@@ -1,0 +1,20 @@
+version: "1"
+status: "ACTIVE"
+updated_utc: "2026-02-17T00:00:00Z"
+profiles:
+  fast_path:
+    max_latency_seconds: 30
+    council_required: false
+    sentinel_required: true
+    aegis_required: true
+  controlled_path:
+    max_latency_seconds: 300
+    council_required: true
+    sentinel_required: true
+    aegis_required: true
+  critical_path:
+    max_latency_seconds: 900
+    council_required: true
+    sentinel_required: true
+    aegis_required: true
+    requires_council_pass_majority: true
