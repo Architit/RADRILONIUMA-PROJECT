@@ -1,0 +1,14 @@
+version: "1"
+id: "subtree_wave1_readiness_v1"
+title: "Subtree Wave-1 Readiness Bootstrap"
+phase: "13.3"
+intent: "Formalize wave-1 readiness checks prior to mycelial rollout execution"
+preconditions:
+  - "Phase 13.2 subtree strategy is active"
+  - "Phase 14.2 intent control plane is active"
+  - "Phase 14.3 low-latency profile framework is active"
+verification:
+  - "cat LRPT/protocol/SUBTREE_WAVE1_EXECUTION_READINESS_V1.md"
+  - "cat LRPT/matrix/SUBTREE_WAVE1_READINESS_MATRIX_V1.yaml"
+observability:
+  - "Readiness transitions are reflected in governance artifacts"

@@ -452,6 +452,7 @@ SoT.
 - [x] 2026-02-17 — governance: executed Phase 12.1 Learning Signal Feedback; published feedback-loop protocol, activated first synaptic signal, and bootstrap task spec.
 - [x] 2026-02-17 — governance: executed Phase 14.2 Intent Control Plane bootstrap; published intent protocol, updated ecosystem state matrix with intent gates/confidence, and bootstrap task spec.
 - [x] 2026-02-17 — governance: executed Phase 14.3 Low-Latency Symbiosis bootstrap; published low-latency protocol, response matrix, updated ecosystem state matrix latency profile, and bootstrap task spec.
+- [x] 2026-02-17 — governance: executed Phase 13.3 Subtree Wave-1 Readiness bootstrap; published readiness protocol, readiness matrix, updated ecosystem state matrix subtree gate, and bootstrap task spec.
 
 ## 2026-02-17 Sequential Expansion Wave
 
