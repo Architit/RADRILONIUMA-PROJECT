@@ -1,8 +1,8 @@
 version: "1"
 status: "ACTIVE"
-updated_utc: "2026-02-17T05:40:00Z"
+updated_utc: "2026-02-17T06:00:00Z"
 intents:
-  current: "phase14_4_gpu_enablement_bootstrap"
+  current: "phase14_5_lifesupport_telemetry_rewrite_v2"
   next: "phase13_2_subtree_wave1_execution"
   gate: "HOLD"
   confidence: "MEDIUM"
@@ -31,6 +31,9 @@ components:
   gpu:
     state: "ready"
     source: "LRPT/protocol/GPU_ACCELERATION_LIFESUPPORT_PROTOCOL_V1.md"
+  keyboard:
+    state: "guarded"
+    source: "LRPT/protocol/KEYBOARD_STABILITY_OPTIMIZATION_PROTOCOL_V2.md"
 gates:
   derivation_only: true
   no_runtime_logic: true
@@ -46,3 +49,7 @@ subtree:
 accelerators:
   gpu_matrix: "LRPT/matrix/GPU_RUNTIME_CAPABILITY_MATRIX_V1.yaml"
   gpu_gate: "OPEN"
+telemetry:
+  stack: "LRPT/protocol/LIFESUPPORT_TELEMETRY_STACK_V2.md"
+  device_matrix: "LRPT/matrix/DEVICE_TELEMETRY_RUNTIME_MATRIX_V2.yaml"
+  keyboard_gate: "GUARDED"

@@ -454,6 +454,7 @@ SoT.
 - [x] 2026-02-17 — governance: executed Phase 14.3 Low-Latency Symbiosis bootstrap; published low-latency protocol, response matrix, updated ecosystem state matrix latency profile, and bootstrap task spec.
 - [x] 2026-02-17 — governance: executed Phase 13.3 Subtree Wave-1 Readiness bootstrap; published readiness protocol, readiness matrix, updated ecosystem state matrix subtree gate, and bootstrap task spec.
 - [x] 2026-02-17 — governance: executed Phase 14.4 GPU Enablement Lifesupport bootstrap; audited device/driver stack, published GPU protocol + capability matrix, and updated ecosystem state matrix GPU gate.
+- [x] 2026-02-17 — governance: executed Phase 14.5 Global Lifesupport Telemetry Rewrite V2; published unified telemetry stack, keyboard anti-freeze protocol, device telemetry matrix, keyboard runbook, and updated ecosystem state matrix telemetry gates.
 
 ## 2026-02-17 Sequential Expansion Wave
 
@@ -462,3 +463,9 @@ SoT.
 - Added deep preflight checker tests for quote balancing, bash/powershell risk rules, and substitution warnings.
 - Added unified test runner entrypoint: `scripts/test_entrypoint.sh`.
 - Validation baseline: `6 passed`.
+
+## 2026-02-17 Sync Expansion Wave
+
+- Added DevKit wrapper contract tests for `shell_preflight.sh` and `patch.sh`.
+- Expanded test surface from 6 to 8 checks.
+- Validation baseline refreshed: `8 passed`.

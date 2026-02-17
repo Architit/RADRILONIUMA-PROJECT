@@ -1,0 +1,32 @@
+version: "2"
+status: "ACTIVE"
+updated_utc: "2026-02-17T00:00:00Z"
+platform:
+  runtime: "WSL2"
+  os: "Ubuntu 24.04.3 LTS"
+  kernel: "6.6.87.2-microsoft-standard-WSL2"
+devices:
+  keyboard:
+    provider: "hyperv_keyboard"
+    state: "GUARDED"
+    telemetry_visibility: "limited_in_wsl"
+    heartbeat_seconds: 5
+    freeze_threshold_missed_heartbeats: 3
+    on_degraded: "force_controlled_path"
+  gpu:
+    provider: "nvidia_wsl"
+    model: "GeForce RTX 4070"
+    driver_version: "591.86"
+    cuda_version: "13.1"
+    state: "READY"
+    on_degraded: "cpu_fallback"
+  gateway:
+    provider: "mcp_sentinel_aegis"
+    state: "ACTIVE"
+  host_runtime:
+    provider: "wsl2"
+    state: "ACTIVE"
+routing_policy:
+  fast_path_allowed: true
+  controlled_path_required_when_keyboard_degraded: true
+  critical_path_requires_full_telemetry_evidence: true

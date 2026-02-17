@@ -1,0 +1,15 @@
+version: "1"
+id: "lifesupport_telemetry_rewrite_v2"
+title: "Global Lifesupport + Telemetry Rewrite V2"
+phase: "14.5"
+intent: "Unify device lifesupport telemetry and enforce keyboard anti-freeze optimization policy"
+preconditions:
+  - "Phase 14.4 GPU enablement is active"
+  - "Phase 14.3 low-latency profiles are active"
+  - "Phase 14.2 intent control plane is active"
+verification:
+  - "cat LRPT/protocol/LIFESUPPORT_TELEMETRY_STACK_V2.md"
+  - "cat LRPT/protocol/KEYBOARD_STABILITY_OPTIMIZATION_PROTOCOL_V2.md"
+  - "cat LRPT/matrix/DEVICE_TELEMETRY_RUNTIME_MATRIX_V2.yaml"
+observability:
+  - "Device telemetry states are mirrored in ecosystem state matrix"
