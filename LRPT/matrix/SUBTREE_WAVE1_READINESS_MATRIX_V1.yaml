@@ -19,3 +19,7 @@ evidence:
   preflight_bash_checker_safe_for_execution: false
   preflight_powershell_checker_safe_for_execution: false
   status: "PASS_WITH_REMEDIATION"
+remediation:
+  preflight_kit: "LRPT/kit/SUBTREE_PREFLIGHT_KIT_V1.yaml"
+  distribution_protocol: "LRPT/protocol/SUBTREE_PREFLIGHT_KIT_DISTRIBUTION_PROTOCOL_V1.md"
+  rollout_state: "PREPARED"

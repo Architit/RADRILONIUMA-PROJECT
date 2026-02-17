@@ -1,0 +1,18 @@
+version: "1"
+status: "ACTIVE"
+updated_utc: "2026-02-17T00:00:00Z"
+kit_id: "subtree_preflight_kit_v1"
+files:
+  - path: "devkit/shell_preflight.sh"
+    required: true
+  - path: "devkit/shell_preflight_check.py"
+    required: true
+  - path: "devkit/preflight_baseline_commands_bash.txt"
+    required: true
+  - path: "devkit/preflight_baseline_commands_powershell.txt"
+    required: true
+verification:
+  command: "devkit/shell_preflight.sh --shell bash --file devkit/preflight_baseline_commands_bash.txt --format json"
+rollout_targets:
+  - "LAM_DATA_Src"
+  - "System-"

@@ -1,0 +1,13 @@
+version: "1"
+id: "subtree_preflight_kit_rollout_v1"
+title: "Subtree Wave-1 Preflight Kit Rollout"
+phase: "13.5"
+intent: "Remediate wave-1 infra gaps by distributing deterministic preflight kit"
+preconditions:
+  - "Phase 13.4 readiness evidence is PASS_WITH_REMEDIATION"
+  - "Wave-1 gate is HOLD"
+verification:
+  - "cat LRPT/protocol/SUBTREE_PREFLIGHT_KIT_DISTRIBUTION_PROTOCOL_V1.md"
+  - "cat LRPT/kit/SUBTREE_PREFLIGHT_KIT_V1.yaml"
+observability:
+  - "Readiness matrix transitions INFRA_GAP->PASS after kit rollout"
