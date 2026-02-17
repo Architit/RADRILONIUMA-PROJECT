@@ -1,0 +1,20 @@
+version: "1"
+id: "gateway_routing_v1"
+title: "Semantic Gateway I/O Routing Bootstrap"
+phase: "8.2"
+intent: "Enable deterministic external file gateway verification and routing contracts without runtime-side effects"
+scope:
+  - "scripts/gateway_io.sh verify"
+  - "LRPT/TSPT/incoming/* and LRPT/TSPT/outbound/* slot boundaries"
+  - "OneDrive and Google workspace path bindings via environment variables"
+preconditions:
+  - "LRPT domains and TSPT slots are materialized"
+  - "GATEWAY_ACCESS_CONTRACT is present in LRPT/contract"
+verification:
+  - "bash scripts/gateway_io.sh verify"
+observability:
+  - "gateway verify emits github/onedrive/gworkspace status lines"
+  - "no export/import command is executed in this phase"
+constraints:
+  - "derivation-only"
+  - "NO runtime logic impact"
