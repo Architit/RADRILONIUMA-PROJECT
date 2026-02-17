@@ -1,0 +1,14 @@
+version: "1"
+id: "subtree_mycelial_expansion_v1"
+title: "Subtree Mycelial Expansion Bootstrap"
+phase: "13.2"
+intent: "Formalize staged cross-repository LRPT/TSPT propagation strategy"
+preconditions:
+  - "Phase 13.0 MCP gateway bootstrap is active"
+  - "Phase 13.1 A.E.G.I.S. ingress validation is active"
+  - "Phase 14.1 chrono resonance policy is active"
+verification:
+  - "cat LRPT/protocol/SUBTREE_MYCELIAL_STRATEGY_V1.md"
+  - "cat LRPT/matrix/SUBTREE_ROLLOUT_MATRIX_V1.yaml"
+observability:
+  - "Wave checkpoints are reflected in governance artifacts"

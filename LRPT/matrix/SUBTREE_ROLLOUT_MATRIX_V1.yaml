@@ -1,0 +1,19 @@
+version: "1"
+status: "ACTIVE"
+updated_utc: "2026-02-17T00:00:00Z"
+waves:
+  - id: "wave1"
+    targets: ["LAM_DATA_Src", "System-"]
+    preflight_required: true
+    governance_check_required: true
+    rollback: "git subtree split + revert"
+  - id: "wave2"
+    targets: ["CORE", "CORE_RECLONE_CLEAN"]
+    preflight_required: true
+    governance_check_required: true
+    rollback: "git subtree split + revert"
+  - id: "wave3"
+    targets: ["Trianiuma", "Trianiuma_MEM_CORE", "TRIANIUMA_DATA_BASE"]
+    preflight_required: true
+    governance_check_required: true
+    rollback: "git subtree split + revert"
