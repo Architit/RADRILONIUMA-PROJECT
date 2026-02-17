@@ -1,0 +1,14 @@
+version: "1"
+id: "vavima_nexus_bootstrap_v1"
+title: "VAVIMA Nexus Bootstrap"
+phase: "9.2"
+intent: "Formalize intent decomposition core and deterministic routing matrix"
+preconditions:
+  - "Phase 9.0 VAVIMA routing genesis is complete"
+  - "Phase 11.1 council debate is active"
+  - "Phase 13.1 A.E.G.I.S. ingress validation is active"
+verification:
+  - "cat LRPT/core/VAVIMA_NEXUS_CORE_V1.md"
+  - "cat LRPT/matrix/VAVIMA_INTENT_DECOMPOSITION_MATRIX_V1.yaml"
+observability:
+  - "Dispatch decisions are logged in governance artifacts"

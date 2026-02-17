@@ -1,0 +1,16 @@
+version: "1"
+status: "ACTIVE"
+updated_utc: "2026-02-17T00:00:00Z"
+classes:
+  code_logic:
+    target_agent: "LAM-Codex_Agent"
+    target_slot: "LRPT/TSPT/incoming/LAM-Codex_Agent"
+  system_infra:
+    target_agent: "J.A.R.V.I.S"
+    target_slot: "LRPT/TSPT/incoming/J.A.R.V.I.S"
+  human_authorization:
+    target_agent: "Operator_Agent"
+    target_slot: "LRPT/TSPT/incoming/Operator_Agent"
+  governance_safety:
+    target_agent: "Mirashani"
+    target_slot: "LRPT/TSPT/incoming/Mirashani"
