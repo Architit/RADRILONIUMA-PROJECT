@@ -1,0 +1,13 @@
+version: "1"
+id: "subtree_wave1_remediation_v1"
+title: "Subtree Wave-1 Readiness Remediation"
+phase: "13.4"
+intent: "Resolve wave-1 preflight infrastructure gaps before opening subtree rollout gate"
+preconditions:
+  - "Phase 13.3 wave-1 readiness gate is active"
+  - "Readiness evidence report is published"
+verification:
+  - "cat LRPT/contract/SUBTREE_WAVE1_READINESS_EVIDENCE_REPORT_V1.md"
+  - "cat LRPT/matrix/SUBTREE_WAVE1_READINESS_MATRIX_V1.yaml"
+observability:
+  - "Gate status transition is reflected in governance artifacts"

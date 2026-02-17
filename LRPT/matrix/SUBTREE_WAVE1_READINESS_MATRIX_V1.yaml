@@ -1,16 +1,21 @@
 version: "1"
 status: "ACTIVE"
-updated_utc: "2026-02-17T00:00:00Z"
+updated_utc: "2026-02-17T06:20:00Z"
 wave_id: "wave1"
 targets:
   - repo: "LAM_DATA_Src"
-    preflight: "PENDING"
-    governance_integrity: "PENDING"
+    preflight: "INFRA_GAP"
+    governance_integrity: "PASS"
     rollback_defined: true
   - repo: "System-"
-    preflight: "PENDING"
-    governance_integrity: "PENDING"
+    preflight: "INFRA_GAP"
+    governance_integrity: "PASS"
     rollback_defined: true
 gate:
   status: "HOLD"
   transition_rule: "OPEN when all targets are PASS"
+evidence:
+  report: "LRPT/contract/SUBTREE_WAVE1_READINESS_EVIDENCE_REPORT_V1.md"
+  preflight_bash_checker_safe_for_execution: false
+  preflight_powershell_checker_safe_for_execution: false
+  status: "PASS_WITH_REMEDIATION"

@@ -455,6 +455,7 @@ SoT.
 - [x] 2026-02-17 — governance: executed Phase 13.3 Subtree Wave-1 Readiness bootstrap; published readiness protocol, readiness matrix, updated ecosystem state matrix subtree gate, and bootstrap task spec.
 - [x] 2026-02-17 — governance: executed Phase 14.4 GPU Enablement Lifesupport bootstrap; audited device/driver stack, published GPU protocol + capability matrix, and updated ecosystem state matrix GPU gate.
 - [x] 2026-02-17 — governance: executed Phase 14.5 Global Lifesupport Telemetry Rewrite V2; published unified telemetry stack, keyboard anti-freeze protocol, device telemetry matrix, keyboard runbook, and updated ecosystem state matrix telemetry gates.
+- [x] 2026-02-17 — governance: executed Phase 13.4 Subtree Wave-1 readiness evidence + remediation bootstrap; published evidence report, remediation task spec, and set wave-1 state to PASS_WITH_REMEDIATION (HOLD).
 
 ## 2026-02-17 Sequential Expansion Wave
 
