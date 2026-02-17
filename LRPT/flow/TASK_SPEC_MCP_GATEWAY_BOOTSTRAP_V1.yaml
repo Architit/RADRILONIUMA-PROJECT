@@ -1,0 +1,13 @@
+version: "1"
+id: "mcp_gateway_bootstrap_v1"
+title: "MCP Gateway Bootstrap"
+phase: "13.0"
+intent: "Formalize unified MCP endpoint model for safe external context routing"
+preconditions:
+  - "Gateway routing contract is active (Phase 8.2)"
+  - "Sentinel guard is active (Phase 9.1)"
+verification:
+  - "cat LRPT/protocol/MCP_GATEWAY_PROTOCOL_V1.md"
+  - "cat LRPT/matrix/MCP_ENDPOINT_MATRIX_V1.md"
+observability:
+  - "Endpoint status and policy completeness are logged in governance"
