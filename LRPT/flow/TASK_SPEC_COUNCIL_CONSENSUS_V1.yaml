@@ -1,0 +1,13 @@
+version: "1"
+id: "council_consensus_v1"
+title: "Council of Three Consensus Bootstrap"
+phase: "11.0"
+intent: "Formalize consensus-based approval before routing critical specs through VAVIMA"
+preconditions:
+  - "VAVIMA routing matrix is active (Phase 9.0)"
+  - "Sentinel Guard is active at gateway boundaries (Phase 9.1)"
+verification:
+  - "cat LRPT/protocol/COUNCIL_OF_THREE_CONSENSUS_V1.md"
+  - "cat LRPT/matrix/COUNCIL_VOTE_MATRIX_V1.md"
+observability:
+  - "Consensus verdicts are reflected in governance logs"
