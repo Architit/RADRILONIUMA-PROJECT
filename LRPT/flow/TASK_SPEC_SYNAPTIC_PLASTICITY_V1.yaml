@@ -1,0 +1,13 @@
+version: "1"
+id: "synaptic_plasticity_v1"
+title: "Synaptic Plasticity Bootstrap"
+phase: "12.0"
+intent: "Formalize static learning signals for precondition-aware generation and approval"
+preconditions:
+  - "Council debate protocol is active (Phase 11.1)"
+  - "Learning Signal Contract is present"
+verification:
+  - "cat LRPT/protocol/LEARNING_SIGNAL_CONTRACT_V1.md"
+  - "cat LRPT/journal/SYNAPTIC_WEIGHTS_V1.yaml"
+observability:
+  - "Signal updates are logged in governance artifacts"
