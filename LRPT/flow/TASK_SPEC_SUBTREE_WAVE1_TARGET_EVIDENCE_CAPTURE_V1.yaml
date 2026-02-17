@@ -1,0 +1,13 @@
+version: "1"
+id: "subtree_wave1_target_evidence_capture_v1"
+title: "Subtree Wave-1 Target Evidence Capture"
+phase: "13.7"
+intent: "Capture deterministic target-side remediation evidence for wave-1 OPEN gate transition"
+preconditions:
+  - "Phase 13.6 wave-1 execution gate is READY_FOR_TARGET_APPLY"
+  - "Preflight kit distribution protocol is active"
+verification:
+  - "cat LRPT/system/SUBTREE_WAVE1_TARGET_APPLY_RUNBOOK_V1.md"
+  - "cat LRPT/contract/SUBTREE_WAVE1_TARGET_EVIDENCE_TEMPLATE_V1.md"
+observability:
+  - "Target evidence entries are linked in readiness matrix"

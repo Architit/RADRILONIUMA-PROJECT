@@ -458,6 +458,7 @@ SoT.
 - [x] 2026-02-17 — governance: executed Phase 13.4 Subtree Wave-1 readiness evidence + remediation bootstrap; published evidence report, remediation task spec, and set wave-1 state to PASS_WITH_REMEDIATION (HOLD).
 - [x] 2026-02-17 — governance: executed Phase 13.5 Subtree Preflight Kit Rollout bootstrap; published distribution protocol, kit manifest, and rollout task spec; set wave-1 remediation state to PREPARED.
 - [x] 2026-02-17 — governance: executed Phase 13.6 Subtree Wave-1 execution gate bootstrap; published execution gate contract, target-apply task spec, and set wave-1 execution state to READY_FOR_TARGET_APPLY (HOLD).
+- [x] 2026-02-17 — governance: executed Phase 13.7 Subtree Wave-1 target evidence capture bootstrap; published target-apply runbook, target evidence template, capture task spec, and set wave-1 evidence-capture state to PREPARED.
 
 ## 2026-02-17 Sequential Expansion Wave
 
