@@ -441,3 +441,4 @@ SoT.
 - [x] 2026-02-17 — governance: executed Phase 9.1 Sentinel Deployment; published Sentinel Gateway Guard protocol and task spec.
 - [x] 2026-02-17 — governance: executed Phase 10.0 L.A.S. Symbiosis; published symbiosis meta-contract and closure task spec.
 - [x] 2026-02-17 — governance: executed Phase 11.0 Council of Three Consensus; published consensus protocol, vote matrix, and bootstrap task spec.
+- [x] 2026-02-17 — governance: executed Phase 11.1 Council Multi-Agent Debate; published debate protocol, verdict matrix, and bootstrap task spec.

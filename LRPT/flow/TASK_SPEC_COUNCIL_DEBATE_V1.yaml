@@ -1,0 +1,13 @@
+version: "1"
+id: "council_debate_v1"
+title: "Council Multi-Agent Debate Bootstrap"
+phase: "11.1"
+intent: "Formalize structured debate workflow for critical architecture decisions"
+preconditions:
+  - "Council of Three Consensus is active (Phase 11.0)"
+  - "Sentinel and VAVIMA controls are active"
+verification:
+  - "cat LRPT/protocol/COUNCIL_DEBATE_PROTOCOL_V1.md"
+  - "cat LRPT/matrix/DEBATE_VERDICT_MATRIX_V1.md"
+observability:
+  - "Debate verdict and rationale logged in governance"
