@@ -447,3 +447,12 @@ SoT.
 - [x] 2026-02-17 — governance: executed Phase 14.0 Hyper-Adaptive Observability; published observability protocol, ecosystem state matrix, and bootstrap task spec.
 - [x] 2026-02-17 — governance: executed Phase 13.1 A.E.G.I.S. deployment; published gateway inspection protocol, validation matrix, and bootstrap task spec.
 - [x] 2026-02-17 — governance: executed Phase 9.2 VAVIMA-Nexus bootstrap; published decomposition core contract, intent matrix, and bootstrap task spec.
+- [x] 2026-02-17 — governance: executed Phase 14.1 Chrono-Resonance bootstrap; published time-sync protocol, chrono sync matrix, and bootstrap task spec.
+
+## 2026-02-17 Sequential Expansion Wave
+
+- Added deterministic pytest baseline for this repository (`pytest.ini`).
+- Created governance integrity tests for required artifacts and protocol sync markers.
+- Added deep preflight checker tests for quote balancing, bash/powershell risk rules, and substitution warnings.
+- Added unified test runner entrypoint: `scripts/test_entrypoint.sh`.
+- Validation baseline: `6 passed`.

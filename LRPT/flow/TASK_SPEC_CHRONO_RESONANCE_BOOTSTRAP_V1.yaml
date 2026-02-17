@@ -1,0 +1,13 @@
+version: "1"
+id: "chrono_resonance_bootstrap_v1"
+title: "Chrono Resonance Bootstrap"
+phase: "14.1"
+intent: "Formalize cross-surface Effective UTC synchronization policy"
+preconditions:
+  - "Phase 14.0 Hyper-Adaptive Observability is active"
+  - "Phase 13.0 MCP Gateway bootstrap is active"
+verification:
+  - "cat LRPT/protocol/CHRONO_RESONANCE_PROTOCOL_V1.md"
+  - "cat LRPT/matrix/CHRONO_SYNC_MATRIX_V1.yaml"
+observability:
+  - "Clock conflicts are reflected in governance artifacts"

@@ -1,0 +1,16 @@
+version: "1"
+status: "ACTIVE"
+updated_utc: "2026-02-17T00:00:00Z"
+sources:
+  - id: "host_wsl_clock"
+    priority: 1
+    format: "iso8601_utc"
+  - id: "git_commit_clock"
+    priority: 2
+    format: "iso8601_utc"
+  - id: "gateway_event_clock"
+    priority: 3
+    format: "iso8601_utc"
+reconciliation:
+  tolerance_seconds: 120
+  on_conflict: "governance_warning_and_reconcile"
