@@ -1,0 +1,13 @@
+version: "1"
+id: "aegis_deployment_v1"
+title: "A.E.G.I.S. Gateway Inspection Bootstrap"
+phase: "13.1"
+intent: "Formalize static artifact validation matrix for gateway ingress control"
+preconditions:
+  - "Phase 13.0 MCP gateway bootstrap is active"
+  - "Phase 9.1 Sentinel deployment is active"
+verification:
+  - "cat LRPT/protocol/AEGIS_GATE_INSPECTION_PROTOCOL_V1.md"
+  - "cat LRPT/security/AEGIS_VALIDATION_MATRIX_V1.yaml"
+observability:
+  - "Reject reasons are written to sentinel reject logs"
