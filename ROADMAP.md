@@ -463,6 +463,7 @@ SoT.
 - [x] 2026-02-17 — governance: executed Phase 13.9 Subtree Wave-1 open-decision package bootstrap; published decision package contract, target apply command pack, task spec, and set open-review state to DECISION_PACKAGE_PREPARED.
 - [x] 2026-02-17 — governance: executed Phase 13.10 Subtree Wave-1 evidence-ledger activation; published target evidence ledger, activation task spec, and set open-review state to EVIDENCE_LEDGER_ACTIVE (HOLD).
 - [x] 2026-02-17 — governance: executed Phase 13.11 Subtree Wave-1 open recommendation; published open-recommendation contract, task spec, and set open-review state to OPEN_RECOMMENDED_PENDING_CONFIRMATION.
+- [x] 2026-02-17 — governance: executed Phase 13.12 corrective validation; target probe found missing preflight wrappers in wave-1 repos, evidence ledger updated, and open-review reverted to HOLD_BLOCKED_BY_INFRA_GAP.
 
 ## 2026-02-17 Sequential Expansion Wave
 

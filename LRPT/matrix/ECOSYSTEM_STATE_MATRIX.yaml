@@ -1,6 +1,6 @@
 version: "1"
 status: "ACTIVE"
-updated_utc: "2026-02-17T06:00:00Z"
+updated_utc: "2026-02-17T07:20:00Z"
 intents:
   current: "phase14_5_lifesupport_telemetry_rewrite_v2"
   next: "phase13_2_subtree_wave1_execution"
@@ -50,7 +50,7 @@ subtree:
   wave1_remediation: "PREPARED"
   wave1_execution: "READY_FOR_TARGET_APPLY"
   wave1_evidence_capture: "PREPARED"
-  wave1_open_review: "OPEN_RECOMMENDED_PENDING_CONFIRMATION"
+  wave1_open_review: "HOLD_BLOCKED_BY_INFRA_GAP"
 accelerators:
   gpu_matrix: "LRPT/matrix/GPU_RUNTIME_CAPABILITY_MATRIX_V1.yaml"
   gpu_gate: "OPEN"
