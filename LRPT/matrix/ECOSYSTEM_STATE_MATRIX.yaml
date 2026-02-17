@@ -50,6 +50,7 @@ subtree:
   wave1_remediation: "PREPARED"
   wave1_execution: "READY_FOR_TARGET_APPLY"
   wave1_evidence_capture: "PREPARED"
+  wave1_open_review: "HOLD"
 accelerators:
   gpu_matrix: "LRPT/matrix/GPU_RUNTIME_CAPABILITY_MATRIX_V1.yaml"
   gpu_gate: "OPEN"

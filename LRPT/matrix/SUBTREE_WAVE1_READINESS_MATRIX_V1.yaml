@@ -28,3 +28,7 @@ execution:
   state: "READY_FOR_TARGET_APPLY"
   runbook: "LRPT/system/SUBTREE_WAVE1_TARGET_APPLY_RUNBOOK_V1.md"
   evidence_template: "LRPT/contract/SUBTREE_WAVE1_TARGET_EVIDENCE_TEMPLATE_V1.md"
+open_review:
+  contract: "LRPT/contract/SUBTREE_WAVE1_OPEN_REVIEW_CONTRACT_V1.md"
+  checklist: "LRPT/matrix/SUBTREE_WAVE1_OPEN_CHECKLIST_V1.yaml"
+  state: "HOLD"

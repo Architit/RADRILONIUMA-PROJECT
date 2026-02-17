@@ -1,0 +1,15 @@
+version: "1"
+status: "ACTIVE"
+updated_utc: "2026-02-17T00:00:00Z"
+criteria:
+  - id: "target_preflight_pass"
+    state: "PENDING"
+  - id: "target_governance_integrity_pass"
+    state: "PASS"
+  - id: "target_evidence_blocks_complete"
+    state: "PENDING"
+  - id: "sentinel_aegis_no_block"
+    state: "PASS"
+review:
+  state: "HOLD"
+  decision: "WAIT_FOR_TARGET_EVIDENCE"

@@ -1,0 +1,13 @@
+version: "1"
+id: "subtree_wave1_open_review_v1"
+title: "Subtree Wave-1 Open Review"
+phase: "13.8"
+intent: "Finalize hold-to-open decision package for wave-1 rollout gate"
+preconditions:
+  - "Phase 13.7 target evidence capture is prepared"
+  - "Phase 13.6 execution gate is ready for target apply"
+verification:
+  - "cat LRPT/contract/SUBTREE_WAVE1_OPEN_REVIEW_CONTRACT_V1.md"
+  - "cat LRPT/matrix/SUBTREE_WAVE1_OPEN_CHECKLIST_V1.yaml"
+observability:
+  - "Open review state is reflected in readiness matrix and governance"
