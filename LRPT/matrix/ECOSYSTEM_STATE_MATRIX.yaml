@@ -1,19 +1,24 @@
 version: "1"
 status: "ACTIVE"
-updated_utc: "2026-02-17T00:00:00Z"
+updated_utc: "2026-02-17T04:40:00Z"
 intents:
-  current: "phase14_observability_bootstrap"
-  next: "phase14_low_latency_symbiosis"
+  current: "phase14_2_intent_control_plane_bootstrap"
+  next: "phase13_2_subtree_wave1_execution"
+  gate: "HOLD"
+  confidence: "MEDIUM"
 components:
   eassr:
     state: "configured"
     source: "LRPT/protocol/AUTOPILOT_RESONANCE_V1.md"
   vavima:
-    state: "bootstrapped"
-    source: "LRPT/protocol/VAVIMA_ORCHESTRATION_CONTRACT_V1.md"
+    state: "nexus_bootstrapped"
+    source: "LRPT/core/VAVIMA_NEXUS_CORE_V1.md"
   sentinel:
     state: "active"
     source: "LRPT/protocol/SENTINEL_GATEWAY_GUARD_V1.md"
+  aegis:
+    state: "active"
+    source: "LRPT/protocol/AEGIS_GATE_INSPECTION_PROTOCOL_V1.md"
   council:
     state: "debate_enabled"
     source: "LRPT/protocol/COUNCIL_DEBATE_PROTOCOL_V1.md"
@@ -21,10 +26,11 @@ components:
     state: "bootstrapped"
     source: "LRPT/protocol/MCP_GATEWAY_PROTOCOL_V1.md"
   learning_signal:
-    state: "active"
-    source: "LRPT/protocol/LEARNING_SIGNAL_CONTRACT_V1.md"
+    state: "feedback_loop_active"
+    source: "LRPT/protocol/LEARNING_SIGNAL_FEEDBACK_LOOP_V1.md"
 gates:
   derivation_only: true
   no_runtime_logic: true
   sentinel_required: true
   council_required_for_critical: true
+  aegis_required_for_ingress: true

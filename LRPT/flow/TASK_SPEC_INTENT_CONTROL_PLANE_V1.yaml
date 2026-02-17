@@ -1,0 +1,14 @@
+version: "1"
+id: "intent_control_plane_v1"
+title: "Intent Control Plane Bootstrap"
+phase: "14.2"
+intent: "Formalize machine-readable intent steering variables and transition gates"
+preconditions:
+  - "Phase 14.1 chrono resonance policy is active"
+  - "Phase 11.1 council debate is active"
+  - "Phase 13.1 A.E.G.I.S. validation is active"
+verification:
+  - "cat LRPT/protocol/INTENT_CONTROL_PLANE_PROTOCOL_V1.md"
+  - "cat LRPT/matrix/ECOSYSTEM_STATE_MATRIX.yaml"
+observability:
+  - "Intent transitions are logged in governance artifacts"
