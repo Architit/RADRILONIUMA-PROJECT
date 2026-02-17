@@ -1,0 +1,13 @@
+version: "1"
+id: "hyper_adaptive_observability_v1"
+title: "Hyper-Adaptive Observability Bootstrap"
+phase: "14.0"
+intent: "Formalize ecosystem state matrix for machine-readable governance and low-latency oversight"
+preconditions:
+  - "Phase 13.0 MCP gateway bootstrap is complete"
+  - "Phase 12.0 synaptic weights journal is active"
+verification:
+  - "cat LRPT/protocol/HYPER_ADAPTIVE_OBSERVABILITY_V1.md"
+  - "cat LRPT/matrix/ECOSYSTEM_STATE_MATRIX.yaml"
+observability:
+  - "State transitions are recorded in governance logs"

@@ -444,3 +444,4 @@ SoT.
 - [x] 2026-02-17 — governance: executed Phase 11.1 Council Multi-Agent Debate; published debate protocol, verdict matrix, and bootstrap task spec.
 - [x] 2026-02-17 — governance: executed Phase 12.0 Synaptic Plasticity; published learning signal contract, synaptic weights journal, and bootstrap task spec.
 - [x] 2026-02-17 — governance: executed Phase 13.0 MCP Gateway bootstrap; published MCP protocol, endpoint matrix, and bootstrap task spec.
+- [x] 2026-02-17 — governance: executed Phase 14.0 Hyper-Adaptive Observability; published observability protocol, ecosystem state matrix, and bootstrap task spec.

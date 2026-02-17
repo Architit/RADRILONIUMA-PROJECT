@@ -1,0 +1,30 @@
+version: "1"
+status: "ACTIVE"
+updated_utc: "2026-02-17T00:00:00Z"
+intents:
+  current: "phase14_observability_bootstrap"
+  next: "phase14_low_latency_symbiosis"
+components:
+  eassr:
+    state: "configured"
+    source: "LRPT/protocol/AUTOPILOT_RESONANCE_V1.md"
+  vavima:
+    state: "bootstrapped"
+    source: "LRPT/protocol/VAVIMA_ORCHESTRATION_CONTRACT_V1.md"
+  sentinel:
+    state: "active"
+    source: "LRPT/protocol/SENTINEL_GATEWAY_GUARD_V1.md"
+  council:
+    state: "debate_enabled"
+    source: "LRPT/protocol/COUNCIL_DEBATE_PROTOCOL_V1.md"
+  mcp_gateway:
+    state: "bootstrapped"
+    source: "LRPT/protocol/MCP_GATEWAY_PROTOCOL_V1.md"
+  learning_signal:
+    state: "active"
+    source: "LRPT/protocol/LEARNING_SIGNAL_CONTRACT_V1.md"
+gates:
+  derivation_only: true
+  no_runtime_logic: true
+  sentinel_required: true
+  council_required_for_critical: true
