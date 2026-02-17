@@ -1,8 +1,8 @@
 version: "1"
 status: "ACTIVE"
-updated_utc: "2026-02-17T05:20:00Z"
+updated_utc: "2026-02-17T05:40:00Z"
 intents:
-  current: "phase13_3_subtree_wave1_readiness_bootstrap"
+  current: "phase14_4_gpu_enablement_bootstrap"
   next: "phase13_2_subtree_wave1_execution"
   gate: "HOLD"
   confidence: "MEDIUM"
@@ -28,6 +28,9 @@ components:
   learning_signal:
     state: "feedback_loop_active"
     source: "LRPT/protocol/LEARNING_SIGNAL_FEEDBACK_LOOP_V1.md"
+  gpu:
+    state: "ready"
+    source: "LRPT/protocol/GPU_ACCELERATION_LIFESUPPORT_PROTOCOL_V1.md"
 gates:
   derivation_only: true
   no_runtime_logic: true
@@ -40,3 +43,6 @@ latency:
 subtree:
   wave1_readiness_matrix: "LRPT/matrix/SUBTREE_WAVE1_READINESS_MATRIX_V1.yaml"
   wave1_gate: "HOLD"
+accelerators:
+  gpu_matrix: "LRPT/matrix/GPU_RUNTIME_CAPABILITY_MATRIX_V1.yaml"
+  gpu_gate: "OPEN"

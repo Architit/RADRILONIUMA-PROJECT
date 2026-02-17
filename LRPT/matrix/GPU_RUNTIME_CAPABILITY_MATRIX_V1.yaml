@@ -1,0 +1,26 @@
+version: "1"
+status: "ACTIVE"
+updated_utc: "2026-02-17T00:00:00Z"
+environment:
+  platform: "WSL2"
+  os: "Ubuntu 24.04.3 LTS"
+  kernel: "6.6.87.2-microsoft-standard-WSL2"
+gpu:
+  vendor: "NVIDIA"
+  model: "GeForce RTX 4070"
+  driver_version: "591.86"
+  cuda_version: "13.1"
+  nvidia_smi_version: "590.57"
+  device_node: "/dev/dxg"
+  libcuda: "/usr/lib/wsl/lib/libcuda.so.1"
+  libnvidia_ml: "/usr/lib/wsl/lib/libnvidia-ml.so.1"
+capabilities:
+  compute_available: true
+  memory_observed_mib: 8188
+  workload_profile: "gpu_eligible_with_cpu_fallback"
+validation:
+  nvidia_smi_ok: true
+  libs_resolved: true
+  dxg_present: true
+fallback:
+  mode: "cpu_only_on_gpu_degraded"

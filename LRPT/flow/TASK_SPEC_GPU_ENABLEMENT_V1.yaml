@@ -1,0 +1,14 @@
+version: "1"
+id: "gpu_enablement_v1"
+title: "GPU Enablement Lifesupport Bootstrap"
+phase: "14.4"
+intent: "Formalize GPU capability baseline and guarded routing for accelerator workloads"
+preconditions:
+  - "Phase 14.3 low-latency symbiosis profiles are active"
+  - "Phase 13.1 A.E.G.I.S. validation is active"
+verification:
+  - "nvidia-smi"
+  - "cat LRPT/matrix/GPU_RUNTIME_CAPABILITY_MATRIX_V1.yaml"
+  - "cat LRPT/protocol/GPU_ACCELERATION_LIFESUPPORT_PROTOCOL_V1.md"
+observability:
+  - "GPU readiness state is reflected in ecosystem state matrix and governance logs"
