@@ -1,0 +1,13 @@
+version: "1"
+id: "subtree_wave1_target_apply_v1"
+title: "Subtree Wave-1 Target Apply Preparation"
+phase: "13.6"
+intent: "Prepare deterministic target-side apply sequence for wave-1 subtree rollout"
+preconditions:
+  - "Phase 13.5 preflight kit rollout is PREPARED"
+  - "Wave-1 execution gate contract is published"
+verification:
+  - "cat LRPT/contract/SUBTREE_WAVE1_EXECUTION_GATE_CONTRACT_V1.md"
+  - "cat LRPT/matrix/SUBTREE_WAVE1_READINESS_MATRIX_V1.yaml"
+observability:
+  - "Gate state transitions are reflected in ecosystem and governance artifacts"
