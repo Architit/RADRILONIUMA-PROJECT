@@ -1,0 +1,12 @@
+version: "1"
+id: "sentinel_deployment_v1"
+title: "Sentinel Gateway Guard Deployment"
+phase: "9.1"
+intent: "Define rules of engagement for Ayaearias (Guard Dog) at the ecosystem boundaries"
+preconditions:
+  - "GATEWAY_ACCESS_CONTRACT exists"
+  - "VAVIMA routing matrix is active"
+verification:
+  - "cat LRPT/protocol/SENTINEL_GATEWAY_GUARD_V1.md"
+observability:
+  - "Reject events trigger alert metrics in logs"

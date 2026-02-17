@@ -389,3 +389,4 @@ scope fixed as session-only completion, `t7` preserved as long-running active-by
 2026-02-17 05:40 UTC — Governance: executed Phase 8.3 EASSR Autopilot Resonance (`eassr-autopulse-v1`); formalized resonance contract, task spec, and host timer runbook for non-runtime scheduling.
 2026-02-17 05:20 UTC — Governance: initialized semantic gateway routing bootstrap (`gateway-routing-bootstrap-v1`); published `LRPT/flow/TASK_SPEC_GATEWAY_ROUTING_V1.yaml` and `LRPT/contract/GATEWAY_IO_ROUTING_CONTRACT_V1.md`, executed `scripts/gateway_io.sh verify` with `github:ok` and env warnings for OneDrive/Google roots.
 2026-02-17 06:00 UTC — Governance: executed Phase 9.0 VAVIMA Routing Genesis (`vavima-routing-genesis-v1`); published orchestration contract, routing matrix, and bootstrap task spec for declarative delegation into TSPT slots.
+2026-02-17 06:20 UTC — Governance: executed Phase 9.1 Sentinel Deployment; published Sentinel Gateway Guard protocol and task spec.

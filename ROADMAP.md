@@ -438,3 +438,4 @@ SoT.
 - [x] 2026-02-17 — governance: executed Phase 8.3 EASSR Autopilot Resonance; published pulse contract, task spec, and systemd/cron runbook.
 - [x] 2026-02-17 — governance: executed Phase 8.2 gateway routing bootstrap; published routing TASK_SPEC + contract and verified `scripts/gateway_io.sh` in non-destructive mode.
 - [x] 2026-02-17 — governance: executed Phase 9.0 VAVIMA Routing Genesis; published orchestration contract, routing matrix, and bootstrap task spec.
+- [x] 2026-02-17 — governance: executed Phase 9.1 Sentinel Deployment; published Sentinel Gateway Guard protocol and task spec.
