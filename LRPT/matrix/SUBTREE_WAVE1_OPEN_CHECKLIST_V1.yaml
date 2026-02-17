@@ -1,6 +1,6 @@
 version: "1"
 status: "ACTIVE"
-updated_utc: "2026-02-17T00:00:00Z"
+updated_utc: "2026-02-17T06:40:00Z"
 criteria:
   - id: "target_preflight_pass"
     state: "PENDING"
@@ -10,6 +10,8 @@ criteria:
     state: "PENDING"
   - id: "sentinel_aegis_no_block"
     state: "PASS"
+  - id: "open_decision_package_prepared"
+    state: "PASS"
 review:
   state: "HOLD"
-  decision: "WAIT_FOR_TARGET_EVIDENCE"
+  decision: "DECISION_PACKAGE_PREPARED_WAIT_FOR_TARGET_EVIDENCE"

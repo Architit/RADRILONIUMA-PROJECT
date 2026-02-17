@@ -1,0 +1,13 @@
+version: "1"
+id: "subtree_wave1_open_decision_package_v1"
+title: "Subtree Wave-1 Open Decision Package"
+phase: "13.9"
+intent: "Prepare final hold-to-open decision package and target apply command pack"
+preconditions:
+  - "Phase 13.8 open-review state is HOLD"
+  - "Phase 13.7 evidence capture package is prepared"
+verification:
+  - "cat LRPT/contract/SUBTREE_WAVE1_OPEN_DECISION_PACKAGE_V1.md"
+  - "cat LRPT/system/SUBTREE_WAVE1_TARGET_APPLY_COMMANDS_V1.md"
+observability:
+  - "Decision package state is reflected in open checklist and governance"

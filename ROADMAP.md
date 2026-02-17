@@ -460,6 +460,7 @@ SoT.
 - [x] 2026-02-17 — governance: executed Phase 13.6 Subtree Wave-1 execution gate bootstrap; published execution gate contract, target-apply task spec, and set wave-1 execution state to READY_FOR_TARGET_APPLY (HOLD).
 - [x] 2026-02-17 — governance: executed Phase 13.7 Subtree Wave-1 target evidence capture bootstrap; published target-apply runbook, target evidence template, capture task spec, and set wave-1 evidence-capture state to PREPARED.
 - [x] 2026-02-17 — governance: executed Phase 13.8 Subtree Wave-1 open-review bootstrap; published open-review contract, checklist, task spec, and set open-review state to HOLD pending target evidence completion.
+- [x] 2026-02-17 — governance: executed Phase 13.9 Subtree Wave-1 open-decision package bootstrap; published decision package contract, target apply command pack, task spec, and set open-review state to DECISION_PACKAGE_PREPARED.
 
 ## 2026-02-17 Sequential Expansion Wave
 
