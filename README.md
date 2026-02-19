@@ -38,3 +38,11 @@ Hard constraints:
 - derivation-only
 - NO runtime logic
 - NO execution-path impact
+
+## Testing
+
+Run repository validation suites with:
+
+- `scripts/test_entrypoint.sh --all`
+- `scripts/test_entrypoint.sh --governance`
+- `scripts/test_entrypoint.sh --preflight`

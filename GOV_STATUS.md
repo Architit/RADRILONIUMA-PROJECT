@@ -24,8 +24,14 @@ source_of_truth: RADRILONIUMA-PROJECT
 
 ## Heartbeat
 - essr_heartbeat_status: GREEN
-- essr_last_update: 2026-02-16 02:54 UTC
+- essr_last_update: 2026-02-19 00:15 UTC
 - essr_last_asr: `gov/asr/sessions/2026-02-16__ASR__atplt-strict-arckhangel-guarddog-recovery-wave-cycle21.md`
+
+## Gateway Status (Synchronized)
+- github_gateway: GREEN (remote: origin)
+- onedrive_gateway: GREEN (path: /mnt/c/Users/lkise/OneDrive)
+- google_drive_gateway: GREEN (path: /mnt/a)
+- sync_mode: USER_IMPERSONATION (Khalidrad)
 
 ## Canonical Heartbeat Pointer (S2)
 - canonical_heartbeat_pointer_state: ENFORCED

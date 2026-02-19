@@ -23,7 +23,8 @@ def write_text(p: Path, s: str) -> None:
 
 
 def patch_router_retry_comment() -> None:
-    p = Path("/home/architit/work/Roaudter-agent/src/roaudter_agent/router.py")
+    work_root = Path(__file__).resolve().parents[2]
+    p = (work_root / "Roaudter-agent" / "src" / "roaudter_agent" / "router.py").resolve()
     if not p.exists():
         die(f"router.py not found: {p}")
 

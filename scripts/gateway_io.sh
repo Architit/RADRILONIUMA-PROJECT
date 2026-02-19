@@ -9,9 +9,26 @@ GATEWAY_ONEDRIVE_ROOT="${GATEWAY_ONEDRIVE_ROOT:-}"
 GATEWAY_GWORKSPACE_ROOT="${GATEWAY_GWORKSPACE_ROOT:-}"
 GATEWAY_EXPORT_DIR="${GATEWAY_EXPORT_DIR:-$ROOT/.gateway/export}"
 GATEWAY_IMPORT_DIR="${GATEWAY_IMPORT_DIR:-$ROOT/.gateway/import}"
-GATEWAY_STAGE_DIR="$ROOT/.gateway/import_staging"
+GATEWAY_STAGE_DIR="${GATEWAY_STAGE_DIR:-$ROOT/.gateway/import_staging}"
 
 log() { echo "[$(date -Iseconds)] $*"; }
+
+validate_archive_paths() {
+  local archive="$1"
+  local entry
+  while IFS= read -r entry; do
+    [[ -z "$entry" ]] && continue
+    if [[ "$entry" == /* ]]; then
+      log "import:fail unsafe_path absolute entry=$entry"
+      return 1
+    fi
+    if [[ "$entry" == ".." || "$entry" == ../* || "$entry" == */.. || "$entry" == */../* ]]; then
+      log "import:fail unsafe_path traversal entry=$entry"
+      return 1
+    fi
+  done < <(tar -tzf "$archive")
+}
+
 
 verify_github() {
   if git -C "$ROOT" remote get-url "$GATEWAY_GITHUB_REMOTE" >/dev/null 2>&1; then
@@ -68,8 +85,9 @@ do_import() {
   fi
   mkdir -p "$GATEWAY_IMPORT_DIR" "$GATEWAY_STAGE_DIR"
   cp -f "$archive" "$GATEWAY_IMPORT_DIR/"
-  rm -rf "$GATEWAY_STAGE_DIR"/*
-  tar -xzf "$archive" -C "$GATEWAY_STAGE_DIR"
+  find "$GATEWAY_STAGE_DIR" -mindepth 1 -maxdepth 1 -exec rm -rf -- {} +
+  validate_archive_paths "$archive"
+  tar -xzf "$archive" -C "$GATEWAY_STAGE_DIR" --no-same-owner --no-same-permissions
   log "import:ok staged_at=$GATEWAY_STAGE_DIR archive=$(basename "$archive")"
 }
 
@@ -78,8 +96,8 @@ case "$cmd" in
   verify)
     rc=0
     verify_github || rc=1
-    verify_onedrive || true
-    verify_gworkspace || true
+    verify_onedrive || rc=1
+    verify_gworkspace || rc=1
     exit "$rc"
     ;;
   export)

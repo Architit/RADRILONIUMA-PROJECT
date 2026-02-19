@@ -1,0 +1,96 @@
+{
+  "generated_at_utc": "2026-02-18T20:29:02.983927+00:00",
+  "root": "/home/architit/work/RADRILONIUMA-PROJECT/agents",
+  "summary": {
+    "repo_count": 2,
+    "dirty_repos": 0,
+    "repos_with_tests": 2,
+    "repos_with_ci": 1,
+    "repos_with_governance_triad": 2,
+    "repos_with_submodules": 2,
+    "github_dns_resolvable": true,
+    "local_dependency_mirror_ready": false,
+    "archivator_scope_active": false,
+    "archivator_handoff_ok": true,
+    "archivator_mirrored_repo_count": 0,
+    "archivator_eligible_repo_count": 0,
+    "archivator_missing_mirrors_count": 0,
+    "archivator_stale_mirrors_count": 0,
+    "semantic_identity_scope_active": true,
+    "semantic_identity_ok": true,
+    "semantic_identity_unresolved_count": 0,
+    "semantic_identity_provisional_count": 0,
+    "semantic_identity_templated_true_name_count": 0
+  },
+  "archivator_handoff": {
+    "scope_active": false,
+    "handoff_ok": true,
+    "mirrored_repo_count": 0,
+    "eligible_repo_count": 0,
+    "missing_mirrors": [],
+    "stale_mirrors": []
+  },
+  "semantic_identity": {
+    "scope_active": true,
+    "identity_ok": true,
+    "checked_files": [
+      "/home/architit/work/RADRILONIUMA-PROJECT/agents/test-agent/memory/FRONT/SEMANTIC_IDENTITY_MAP_PHASE3_2026-02-17.tsv",
+      "/home/architit/work/RADRILONIUMA-PROJECT/agents/test-agent/memory/AVANGARD/SEMANTIC_IDENTITY_MAP_PHASE3_2026-02-17.tsv",
+      "/home/architit/work/RADRILONIUMA-PROJECT/agents/test-agent/memory/ARCHIVE/SEMANTIC_IDENTITY_MAP_PHASE3_2026-02-17.tsv",
+      "/home/architit/work/RADRILONIUMA-PROJECT/agents/test-agent/memory/GUARD_HEAL/SEMANTIC_IDENTITY_MAP_PHASE3_2026-02-17.tsv"
+    ],
+    "checked_rows": 72,
+    "unresolved_count": 0,
+    "provisional_count": 0,
+    "templated_true_name_count": 0,
+    "violations": []
+  },
+  "repos": [
+    {
+      "repo_name": "operator-agent",
+      "repo_path": "/home/architit/work/RADRILONIUMA-PROJECT/agents/operator-agent",
+      "branch": "main",
+      "dirty": false,
+      "modified_entries": 0,
+      "untracked_entries": 0,
+      "ahead": 0,
+      "behind": 0,
+      "last_commit": "ef13a7f1bb3687a2c905e505a1c4eb15361b731e",
+      "last_commit_utc": "2026-02-18T06:20:19+01:00",
+      "remotes": [
+        "origin"
+      ],
+      "submodule_count": 1,
+      "has_tests_dir": true,
+      "has_pytest_ini": false,
+      "has_dev_requirements": false,
+      "has_ci_workflows": false,
+      "has_roadmap": true,
+      "has_dev_logs": true,
+      "has_interaction_protocol": true
+    },
+    {
+      "repo_name": "test-agent",
+      "repo_path": "/home/architit/work/RADRILONIUMA-PROJECT/agents/test-agent",
+      "branch": "main",
+      "dirty": false,
+      "modified_entries": 0,
+      "untracked_entries": 0,
+      "ahead": 0,
+      "behind": 0,
+      "last_commit": "583a154da4ce06e7b55956bec930eb5bc0bc7c1e",
+      "last_commit_utc": "2026-02-18T06:18:39+01:00",
+      "remotes": [
+        "origin"
+      ],
+      "submodule_count": 3,
+      "has_tests_dir": true,
+      "has_pytest_ini": true,
+      "has_dev_requirements": true,
+      "has_ci_workflows": true,
+      "has_roadmap": true,
+      "has_dev_logs": true,
+      "has_interaction_protocol": true
+    }
+  ]
+}
