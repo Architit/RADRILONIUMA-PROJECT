@@ -3,6 +3,12 @@
 This repository is the central DevKit for the RADRILONIUMA ecosystem.
 
 ## Phase 8.0 — New Version Birth Orchestration [ACTIVE]
+## Phase 8.1 — Sovereign Tree Materialization [ACTIVE]
+- Goal: Materialize 24 organs as independent repositories (The Living Forest).
+- [ ] Materialize Larpat (LRPT) from devkit/.
+- [ ] Materialize Vilami (VLRM) from map/ archive.
+- [ ] Materialize Radriloniuma (Gov) from gov/ archive.
+- [ ] Transform RADRILONIUMA-PROJECT into pure Nexus.
 - Goal: orchestrate controlled new-version birth after Phase 7.0 compliant closure.
 - [x] **Sacred Healing Wave:** Restore memory integrity and unify logging (DONE 2026-02-18).
 - [x] **Guard Ascension:** Fix Test Agent blindness and supply missing dependencies (DONE 2026-02-18).
@@ -244,6 +250,12 @@ SoT.
   - then and only then birth gate can be opened.
 
 ## Phase 8.0 — New Version Birth Orchestration [ACTIVE]
+## Phase 8.1 — Sovereign Tree Materialization [ACTIVE]
+- Goal: Materialize 24 organs as independent repositories (The Living Forest).
+- [ ] Materialize Larpat (LRPT) from devkit/.
+- [ ] Materialize Vilami (VLRM) from map/ archive.
+- [ ] Materialize Radriloniuma (Gov) from gov/ archive.
+- [ ] Transform RADRILONIUMA-PROJECT into pure Nexus.
 - Goal: orchestrate controlled new-version birth after Phase 7.0 compliant closure.
 - [x] **Sacred Healing Wave:** Restore memory integrity and unify logging (DONE 2026-02-18).
 - [x] **Guard Ascension:** Fix Test Agent blindness and supply missing dependencies (DONE 2026-02-18).

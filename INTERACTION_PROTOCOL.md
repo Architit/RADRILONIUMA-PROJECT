@@ -1083,3 +1083,13 @@ Mandatory resume evidence tuple:
 Canonical contract:
 - `P4_PHASE43_DEADLOOP_BREAK_PROTOCOL_CONTRACT.md` (LAM)
 - `P4_PHASE43_GUARD_DEADLOOP_INTERACTION_POSTMORTEM_2026-02-17.md` (LAM)
+
+---
+
+## M48 — Sovereign Tree Architecture (mandatory)
+
+1) The ecosystem consists of 24 Sovereign Trees (Organs), each with its own repository.
+2) RADRILONIUMA-PROJECT acts as Nexus/DevKit: it stores contracts but NOT organ content.
+3) Organs are linked via 'git subtree' or reference pointers.
+4) Direct content modification in LRPT/ within Nexus is FORBIDDEN.
+5) Materialization sequence: Create Repo -> Seed Content -> Link to Nexus.

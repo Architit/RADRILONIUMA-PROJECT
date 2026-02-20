@@ -1,5 +1,11 @@
 # DEV_LOGS
 
+## 2026-02-20 — Phase 8.1 Sovereign Tree Materialization Activated
+- Architecture shift: RADRILONIUMA-PROJECT becomes Nexus/DevKit.
+- Defined 3 Sovereign Trees: Larpat (Tools), Radriloniuma (Gov), Vilami (Map).
+- Monolith cleansing completed (LRPT/ contents archived).
+- Execution plan: Materialize Larpat -> Vilami -> Radriloniuma as separate repos.
+
 ## 2026-02-10 00:00:00
 - Documented `devkit/patch.sh` as the canonical patcher for the RADRILONIUMA DevKit.
 
