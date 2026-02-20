@@ -3,7 +3,7 @@ import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-MODULE_PATH = REPO_ROOT / "devkit" / "shell_preflight_check.py"
+MODULE_PATH = REPO_ROOT / "LRPT" / "shell_preflight_check.py"
 
 _SPEC = importlib.util.spec_from_file_location("shell_preflight_check", MODULE_PATH)
 assert _SPEC is not None and _SPEC.loader is not None

@@ -1,0 +1,16 @@
+version: "1"
+status: "ACTIVE"
+updated_utc: "2026-02-17T00:00:00Z"
+checks:
+  - id: "sha256_manifest_match"
+    required: true
+    on_fail: "REJECT"
+  - id: "policy_metadata_present"
+    required: true
+    on_fail: "REJECT"
+  - id: "no_runtime_logic_scope"
+    required: true
+    on_fail: "REJECT_RUNTIME_IMPACT"
+  - id: "sentinel_gate_signature"
+    required: true
+    on_fail: "REJECT"
