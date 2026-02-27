@@ -22,3 +22,5 @@ Thumbs.db
 logs/
 tmp/
 .tmp/
+memory/
+data/local/internal_system/archives/

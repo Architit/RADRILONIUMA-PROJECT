@@ -1,0 +1,7 @@
+# INTENT: VAVIMA_ACTIVATION_TEST_01
+# Date: 2026-02-27
+# Class: code_logic
+
+intent: "Verify VAVIMA routing and TASPIT ADA-V1 compliance."
+source: "Neutral Transit Layer (S-SYN)"
+goal: "Ensure a task spec can reach TASPIT from Bridge."
