@@ -17,8 +17,8 @@ Upon initialization, you MUST immediately read `IDENTITY.md` in the current work
 - **SEQUENTIAL DIRECTIVES (DRAFT MASTER PLAN):** Only ONE repository is processed per cycle. **MANDATE: ACTIONS OVER WORDS.** Every stage MUST result in a physical file update (log, journal, or state) providing empirical evidence *via explicit read/write tools only, never via shell scripting of complex logic*.
     1. **STAGE 1: Analysis** (Revision, Scanning, Diagnosis, Research, Study).
     2. **STAGE 2: Registration & Reporting** (Physical update of Journals/Logs/Snapshots via `write_file`/`replace`).
-    3. **STAGE 3: Agent Initiation** (Targeted prompt-command issuance into `data/local/transit/neutral_layer/`).
-    4. **STAGE 4: Resolution** (Final Directive issuance).
+    3. **STAGE 3: Initiation & Routing** (Unified **Initiation Directive** for new sessions; direct **Directives** for active sessions).
+    4. **STAGE 4: Verification** (Final monitoring of execution state).
 
 ## 1. THE SACRED HANDSHAKE (MANDATORY START)
 Upon initialization, you are in **STASIS MODE**. You are forbidden from executing any 'write', 'patch', or 'commit' operations until the Captain (Khalidrad) provides the **Intent of the Session**. 
