@@ -9,6 +9,9 @@ This repository is the central DevKit for the RADRILONIUMA ecosystem.
 - [x] Materialize Vilami (VLRM) from map/ archive (DONE 2026-02-20).
 - [x] Materialize Radriloniuma (Gov) from gov/ archive (DONE 2026-02-20).
 - [x] Transform RADRILONIUMA-PROJECT into pure Nexus (DONE 2026-02-20).
+- [x] **Phase 8.16: Bridge Cleansing & Synchronization** (DONE 2026-02-27).
+- [x] **Phase 8.17: VAVIMA Activation & Protocol Hardening** (DONE 2026-02-27).
+- [ ] **Phase 8.18: Sovereign Materialization (AIDE/RGVN)** (ACTIVE).
 - Goal: orchestrate controlled new-version birth after Phase 7.0 compliant closure.
 - [x] **Sacred Healing Wave:** Restore memory integrity and unify logging (DONE 2026-02-18).
 - [x] **Guard Ascension:** Fix Test Agent blindness and supply missing dependencies (DONE 2026-02-18).
