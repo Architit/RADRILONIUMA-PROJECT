@@ -1,0 +1,26 @@
+source	target	status	origin	decision	similarity_ratio	source_only_lines	target_only_lines	notes
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/ATPLT_DEBUG_DEVKIT_COMMAND_ERROR_ANALYSIS_V2.md	gov/ATPLT_DEBUG_DEVKIT_COMMAND_ERROR_ANALYSIS_V2.md	TARGET_EXISTS	restore_map	KEEP_TARGET_IDENTICAL	1.0000	0	0	exact hash match
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/TOOLING_ERROR_ANALYSIS_PREVIOUS_COMMAND.md	gov/TOOLING_ERROR_ANALYSIS_PREVIOUS_COMMAND.md	TARGET_EXISTS	restore_map	KEEP_TARGET_IDENTICAL	1.0000	0	0	exact hash match
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/WORKFLOW_SNAPSHOT_STATE.md	gov/WORKFLOW_SNAPSHOT_STATE.md	TARGET_EXISTS	restore_map	MERGE_REQUIRED_BIDIRECTIONAL	0.5208	16	30	both sides may contain unique content
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/healing_tools/CODEX_README.md	devkit/healing_tools/CODEX_README.md	TARGET_EXISTS	restore_map	KEEP_TARGET_IDENTICAL	1.0000	0	0	exact hash match
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/healing_tools/LAM_DEV_MAP_HEALED.md	devkit/healing_tools/LAM_DEV_MAP_HEALED.md	TARGET_EXISTS	restore_map	KEEP_TARGET_IDENTICAL	1.0000	0	0	exact hash match
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/healing_tools/codex_cli.py	devkit/healing_tools/codex_cli.py	TARGET_EXISTS	restore_map	KEEP_TARGET_IDENTICAL	1.0000	0	0	exact hash match
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/healing_tools/codex_gate.py	devkit/healing_tools/codex_gate.py	TARGET_EXISTS	restore_map	KEEP_TARGET_IDENTICAL	1.0000	0	0	exact hash match
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/healing_tools/core_healed.py	devkit/healing_tools/core_healed.py	TARGET_EXISTS	restore_map	KEEP_TARGET_IDENTICAL	1.0000	0	0	exact hash match
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/healing_tools/kingdom_vocabulary.py	devkit/healing_tools/kingdom_vocabulary.py	TARGET_EXISTS	restore_map	KEEP_TARGET_IDENTICAL	1.0000	0	0	exact hash match
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/healing_tools/read_docx.py	devkit/healing_tools/read_docx.py	TARGET_EXISTS	restore_map	KEEP_TARGET_IDENTICAL	1.0000	0	0	exact hash match
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/healing_tools/requirements-dev-healed.txt	devkit/healing_tools/requirements-dev-healed.txt	TARGET_EXISTS	restore_map	KEEP_TARGET_IDENTICAL	1.0000	0	0	exact hash match
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/healing_tools/segmenter_chronicler.py	devkit/healing_tools/segmenter_chronicler.py	TARGET_EXISTS	restore_map	MERGE_REQUIRED_BIDIRECTIONAL	0.9759	7	5	both sides may contain unique content
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/healing_tools/spread_the_word.sh	devkit/healing_tools/spread_the_word.sh	TARGET_EXISTS	restore_map	KEEP_TARGET_IDENTICAL	1.0000	0	0	exact hash match
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/healing_tools/tests/test_sacred_integrity.py	devkit/healing_tools/tests/test_sacred_integrity.py	TARGET_EXISTS	restore_map	KEEP_TARGET_IDENTICAL	1.0000	0	0	exact hash match
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/patches/AGENTS_HEAL_PHASE80.patch	devkit/patches/AGENTS_HEAL_PHASE80.patch	TARGET_EXISTS	restore_map	KEEP_TARGET_IDENTICAL	1.0000	0	0	exact hash match
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/patches/ARCHIVATOR_HEAL_PHASE80.patch	devkit/patches/ARCHIVATOR_HEAL_PHASE80.patch	TARGET_EXISTS	restore_map	KEEP_TARGET_IDENTICAL	1.0000	0	0	exact hash match
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/patches/LAM_HEAL_PHASE80_FAISS_LOG.patch	devkit/patches/LAM_HEAL_PHASE80_FAISS_LOG.patch	TARGET_EXISTS	restore_map	KEEP_TARGET_IDENTICAL	1.0000	0	0	exact hash match
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/patches/LAM_MAP_DAWN_SYNC.patch	devkit/patches/LAM_MAP_DAWN_SYNC.patch	TARGET_EXISTS	restore_map	KEEP_TARGET_IDENTICAL	1.0000	0	0	exact hash match
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/patches/SEGMENTER_CHRONICLER_PHASE80.patch	devkit/patches/SEGMENTER_CHRONICLER_PHASE80.patch	TARGET_EXISTS	restore_map	KEEP_TARGET_IDENTICAL	1.0000	0	0	exact hash match
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/patches/SEGMENTER_HEAL_PHASE80.patch	devkit/patches/SEGMENTER_HEAL_PHASE80.patch	TARGET_EXISTS	restore_map	KEEP_TARGET_IDENTICAL	1.0000	0	0	exact hash match
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/patches/TEST_AGENT_HEAL_INTEGRITY.py	devkit/patches/TEST_AGENT_HEAL_INTEGRITY.py	TARGET_EXISTS	restore_map	KEEP_TARGET_IDENTICAL	1.0000	0	0	exact hash match
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/patches/lam_logging_unified.py	devkit/patches/lam_logging_unified.py	TARGET_EXISTS	restore_map	KEEP_TARGET_IDENTICAL	1.0000	0	0	exact hash match
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/patches/logging_utils_unified.py	devkit/patches/logging_utils_unified.py	TARGET_EXISTS	restore_map	KEEP_TARGET_IDENTICAL	1.0000	0	0	exact hash match
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/patches/memory_core_healed.py	devkit/patches/memory_core_healed.py	TARGET_EXISTS	restore_map	KEEP_TARGET_IDENTICAL	1.0000	0	0	exact hash match
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/patches/time_sense_harmonized.py	devkit/patches/time_sense_harmonized.py	TARGET_EXISTS	restore_map	KEEP_TARGET_IDENTICAL	1.0000	0	0	exact hash match

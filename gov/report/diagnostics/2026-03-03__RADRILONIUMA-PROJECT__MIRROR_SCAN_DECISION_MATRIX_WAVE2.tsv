@@ -1,0 +1,5 @@
+source	target	wave1_decision	wave2_final_decision	rationale
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/healing_tools/segmenter_chronicler.py	devkit/healing_tools/segmenter_chronicler.py	MERGE_REQUIRED_BIDIRECTIONAL	KEEP_TARGET	target has syntax/integrity hotfixes; source delta non-functional
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/WORKFLOW_SNAPSHOT_STATE.md	gov/WORKFLOW_SNAPSHOT_STATE.md	MERGE_REQUIRED_BIDIRECTIONAL	KEEP_TARGET	target is current nexus state; source is historical Larpat snapshot
+Archive/Quarantine/DeepArchive/LRPT_DUPLICATE_ONLY_20260303T123500Z/INTERACTION_PROTOCOL.md	gov/INTERACTION_PROTOCOL.md	MERGE_REQUIRED_BIDIRECTIONAL	KEEP_TARGET	target already includes required sections and canonical refs
+Archive/Quarantine/DeepArchive/LRPT_DUPLICATE_ONLY_20260303T123500Z/TASK_MAP.md	VLRM/map/TASK_MAP.md	MERGE_REQUIRED_BIDIRECTIONAL	KEEP_TARGET	target reflects newer task progression

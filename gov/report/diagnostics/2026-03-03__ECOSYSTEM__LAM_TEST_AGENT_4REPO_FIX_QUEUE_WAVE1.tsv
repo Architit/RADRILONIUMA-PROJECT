@@ -1,0 +1,8 @@
+priority	repo	file	line	pattern	severity	action	risk
+P1	RADRILONIUMA-PROJECT	ROADMAP.md	333	repeated_gate_opening	medium	normalize historical repeated gate marker text	low
+P2	RADRILONIUMA	INTERACTION_PROTOCOL.md	1072	governance_only_progress	high	mark as policy-definition expected hit (no runtime incident)	low
+P2	RADRILONIUMA	INTERACTION_PROTOCOL.md	1079	deadloop_hold_state	high	mark as policy-definition expected hit (no runtime incident)	low
+P2	RADRILONIUMA	INTERACTION_PROTOCOL.md	1094	deadloop_hold_state	high	mark as policy-definition expected hit (no runtime incident)	low
+P2	Archivator_Agent	INTERACTION_PROTOCOL.md	1053	governance_only_progress	high	mark as policy-definition expected hit (no runtime incident)	low
+P2	Archivator_Agent	INTERACTION_PROTOCOL.md	1060	deadloop_hold_state	high	mark as policy-definition expected hit (no runtime incident)	low
+P2	Archivator_Agent	INTERACTION_PROTOCOL.md	1075	deadloop_hold_state	high	mark as policy-definition expected hit (no runtime incident)	low

@@ -1,0 +1,25 @@
+quarantine_path	target_path	status	notes
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/ATPLT_DEBUG_DEVKIT_COMMAND_ERROR_ANALYSIS_V2.md	gov/ATPLT_DEBUG_DEVKIT_COMMAND_ERROR_ANALYSIS_V2.md	SKIP_ALREADY_MATCHED	target already exists with same hash
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/TOOLING_ERROR_ANALYSIS_PREVIOUS_COMMAND.md	gov/TOOLING_ERROR_ANALYSIS_PREVIOUS_COMMAND.md	SKIP_ALREADY_MATCHED	target already exists with same hash
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/healing_tools/CODEX_README.md	devkit/healing_tools/CODEX_README.md	SKIP_ALREADY_MATCHED	target already exists with same hash
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/healing_tools/LAM_DEV_MAP_HEALED.md	devkit/healing_tools/LAM_DEV_MAP_HEALED.md	RESTORED_BY_COPY	copy applied; source kept in quarantine
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/healing_tools/codex_cli.py	devkit/healing_tools/codex_cli.py	RESTORED_BY_COPY	copy applied; source kept in quarantine
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/healing_tools/codex_gate.py	devkit/healing_tools/codex_gate.py	RESTORED_BY_COPY	copy applied; source kept in quarantine
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/healing_tools/core_healed.py	devkit/healing_tools/core_healed.py	RESTORED_BY_COPY	copy applied; source kept in quarantine
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/healing_tools/kingdom_vocabulary.py	devkit/healing_tools/kingdom_vocabulary.py	RESTORED_BY_COPY	copy applied; source kept in quarantine
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/healing_tools/read_docx.py	devkit/healing_tools/read_docx.py	RESTORED_BY_COPY	copy applied; source kept in quarantine
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/healing_tools/requirements-dev-healed.txt	devkit/healing_tools/requirements-dev-healed.txt	RESTORED_BY_COPY	copy applied; source kept in quarantine
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/healing_tools/segmenter_chronicler.py	devkit/healing_tools/segmenter_chronicler.py	RESTORED_BY_COPY	copy applied; source kept in quarantine
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/healing_tools/spread_the_word.sh	devkit/healing_tools/spread_the_word.sh	RESTORED_BY_COPY	copy applied; source kept in quarantine
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/healing_tools/tests/test_sacred_integrity.py	devkit/healing_tools/tests/test_sacred_integrity.py	RESTORED_BY_COPY	copy applied; source kept in quarantine
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/patches/AGENTS_HEAL_PHASE80.patch	devkit/patches/AGENTS_HEAL_PHASE80.patch	RESTORED_BY_COPY	copy applied; source kept in quarantine
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/patches/ARCHIVATOR_HEAL_PHASE80.patch	devkit/patches/ARCHIVATOR_HEAL_PHASE80.patch	RESTORED_BY_COPY	copy applied; source kept in quarantine
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/patches/LAM_HEAL_PHASE80_FAISS_LOG.patch	devkit/patches/LAM_HEAL_PHASE80_FAISS_LOG.patch	RESTORED_BY_COPY	copy applied; source kept in quarantine
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/patches/LAM_MAP_DAWN_SYNC.patch	devkit/patches/LAM_MAP_DAWN_SYNC.patch	RESTORED_BY_COPY	copy applied; source kept in quarantine
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/patches/SEGMENTER_CHRONICLER_PHASE80.patch	devkit/patches/SEGMENTER_CHRONICLER_PHASE80.patch	RESTORED_BY_COPY	copy applied; source kept in quarantine
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/patches/SEGMENTER_HEAL_PHASE80.patch	devkit/patches/SEGMENTER_HEAL_PHASE80.patch	RESTORED_BY_COPY	copy applied; source kept in quarantine
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/patches/TEST_AGENT_HEAL_INTEGRITY.py	devkit/patches/TEST_AGENT_HEAL_INTEGRITY.py	RESTORED_BY_COPY	copy applied; source kept in quarantine
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/patches/lam_logging_unified.py	devkit/patches/lam_logging_unified.py	RESTORED_BY_COPY	copy applied; source kept in quarantine
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/patches/logging_utils_unified.py	devkit/patches/logging_utils_unified.py	RESTORED_BY_COPY	copy applied; source kept in quarantine
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/patches/memory_core_healed.py	devkit/patches/memory_core_healed.py	RESTORED_BY_COPY	copy applied; source kept in quarantine
+Archive/Quarantine/LRPT_NON_DEVKIT_20260303T090515Z/patches/time_sense_harmonized.py	devkit/patches/time_sense_harmonized.py	RESTORED_BY_COPY	copy applied; source kept in quarantine
