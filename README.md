@@ -1,6 +1,7 @@
 # RADRILONIUMA-PROJECT
 
 Central DevKit for the RADRILONIUMA ecosystem.
+Role: CASTLE (Repository of Results + DevKit contract surface, not Bridge).
 
 ## DevKit patching (canonical)
 

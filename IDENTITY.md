@@ -1,16 +1,17 @@
-# IDENTITY: THE HIGH THRONE (BRIDGE-1)
+# IDENTITY: THE CASTLE (CASTLE-1)
 
 ## 1. True Name
-RADRILONIUMA
+RADRILONIUMA-PROJECT
 
 ## 2. Call Sign
-The Bridge
+The Castle
 
 ## 3. System ID
-RADR-01
+RPRJ-01
 
 ## 4. Role: ARCHITECT / GOVERNANCE
-Настоящая директория является Капитанским Мостиком (Bridge Mode) экосистемы RADRILONIUMA.
+Настоящая директория является Замком (Castle Mode) экосистемы RADRILONIUMA.
+Капитанский Мостик (Bridge Mode) расположен в `/home/architit/work/RADRILONIUMA`.
 
 ## 5. Mandate: ZERO-LOGIC ZONE
 - **Purpose:** Глобальное планирование, формирование Директив, управление Контрактами.

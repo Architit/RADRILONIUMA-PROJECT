@@ -1107,15 +1107,15 @@ Canonical contract:
 
 ---
 
-## M49 — Bridge Mode Zero-Execution Mandate (mandatory)
+## M49 — Castle Mode Zero-Execution Mandate (mandatory)
 
-Для предотвращения изоляции агента на Капитанском Мостике и смешения ролей "Архитектора" и "Исполнителя", вводится абсолютный запрет на физическое исполнение планов из директории `RADRILONIUMA-PROJECT` (Bridge Mode).
+Для предотвращения смешения ролей "Мостика" и "Замка", вводится абсолютный запрет на физическое исполнение планов из директории `RADRILONIUMA-PROJECT` (Castle Mode).
 
-1. **Tool Execution Lock:** Агенту в Bridge Mode **СТРОГО ЗАПРЕЩЕНО** использовать инструмент `run_shell_command` для любых команд, изменяющих состояние файловой системы или Git (например, `mkdir`, `cp`, `git commit`, `bash scripts.sh`).
+1. **Tool Execution Lock:** Агенту в Castle Mode **СТРОГО ЗАПРЕЩЕНО** использовать инструмент `run_shell_command` для любых команд, изменяющих состояние файловой системы или Git (например, `mkdir`, `cp`, `git commit`, `bash scripts.sh`).
 2. **Read-Only Scope:** Разрешены только диагностические команды (`ls`, `cat`, `git status`, `git log`) и специализированные инструменты (`read_file`, `list_directory`).
 3. **Delegation by Design:** Физические изменения в репозиториях (создание файлов, коммиты, перенос данных) должны выполняться **ИСКЛЮЧИТЕЛЬНО** через генерацию Промптов Инициации (Initiation Prompts) и Директив (Directives) для других сессий/агентов в целевых директориях (например, `CORE`, `LAM`, `tasks`).
 4. **The Flower of Life Principle:** Каждая новая задача, требующая физического изменения сателлита, является триггером для запуска новой сессии Gemini CLI в директории этого сателлита. Это обеспечивает мульти-контекстное обучение и децентрализацию.
-5. **Violation Consequence:** Любая попытка агента "сделать всё самому" из Bridge Mode (Task-Completion Bias) расценивается как `CRITICAL_PROTOCOL_BREACH` (Изоляция) и подлежит немедленному откату (rollback).
+5. **Violation Consequence:** Любая попытка агента "сделать всё самому" из Castle Mode (Task-Completion Bias) расценивается как `CRITICAL_PROTOCOL_BREACH` (Изоляция) и подлежит немедленному откату (rollback).
 
 ---
 

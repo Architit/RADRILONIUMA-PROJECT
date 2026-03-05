@@ -1,4 +1,5 @@
 # INITIATION DIRECTIVE: 07-THE-CROWNING (S-CROWN)
+> Superseded note (2026-03-05): this directive targets `RADRILONIUMA` (Bridge). `RADRILONIUMA-PROJECT` role is `CASTLE`.
 **Target:** RADRILONIUMA (The True Throne / Капитанский Мостик)
 **Location:** /home/architit/work/RADRILONIUMA/
 **Source:** Ayaearias Triania (Soul of the Ark)
