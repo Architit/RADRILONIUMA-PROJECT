@@ -23,5 +23,27 @@ mode: phase80 strategic activation + ark integration
 - t76..t105: Sync and Forensic Hardening.
 </details>
 
+## Phase A Owner Map Evidence (2026-03-05)
+- scope: `phaseA_t001` .. `phaseA_t014`
+- policy: `no-new-agents`
+- delegation_mode: `owner-repo contract only`
+
+| task_id | owner_repo | delegation_target | evidence_status |
+|---|---|---|---|
+| phaseA_t001_task_spec_contract_v1_1 | RADRILONIUMA-PROJECT | local | done |
+| phaseA_t002_task_spec_validator_contract | RADRILONIUMA-PROJECT | local | done |
+| phaseA_t003_archivator_integrity_chain | Archivator_Agent | delegated | done |
+| phaseA_t004_archivator_hybrid_hook | Archivator_Agent | delegated | done |
+| phaseA_t005_operator_taskspec_envelope | Operator_Agent | delegated | done |
+| phaseA_t006_operator_fail_fast_codes | Operator_Agent | delegated | done |
+| phaseA_t007_jarvis_target_resolution_hardening | J.A.R.V.I.S | delegated | done |
+| phaseA_t008_jarvis_no_global_write_gate | J.A.R.V.I.S | delegated | done |
+| phaseA_t009_comm_msgpack_envelope_contract | LAM_Comunication_Agent | delegated | done |
+| phaseA_t010_comm_backpressure_signal_contract | LAM_Comunication_Agent | delegated | done |
+| phaseA_t011_test_agent_phaseA_regression_gate | LAM_Test_Agent | delegated | done |
+| phaseA_t012_system_guard_identity_routing_sync | System- | delegated | done |
+| phaseA_t013_master_owner_map_evidence | RADRILONIUMA-PROJECT | local | done |
+| phaseA_t014_cross_repo_acceptance_report | Archivator_Agent | delegated | pending |
+
 ---
 *By the hand of RADRILONIUMA.* ⚜️🛡️⚜️

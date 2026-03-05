@@ -1,0 +1,43 @@
+# Task Spec Template (v1.1)
+# Declarative only. No runtime logic in contract body.
+
+spec_version: "1.1"
+task_id: "<task_id_snake_case>"
+goal: "<single-line desired state>"
+
+constraints:
+  derivation_only: true
+  code_injection_forbidden: true
+
+source_of_truth: "LAM/Taskarid"
+
+preconditions:
+  - type: file_exists
+    path: "<relative/path/to/required/file>"
+  - type: min_version
+    component: "git"
+    version: ">=2.39"
+
+artifacts:
+  patch_path: "<relative/path/to/patch.patch>"
+  patch_sha256: "<64-lowercase-hex>"
+
+limits:
+  timeout_ms: 30000
+  max_output_tokens: 2048
+
+expected_result:
+  status: success
+  changed_files_max: 20
+
+verify:
+  - "git diff -- <touched files>"
+  - "rg -n \"patch_sha256|derivation_only\" <target files>"
+
+fail_fast:
+  enabled: true
+  on:
+    - precondition_failed
+    - integrity_mismatch
+    - schema_violation
+    - conflict_detected
